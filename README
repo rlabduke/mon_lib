@@ -1,0 +1,7 @@
+# download current Monomer Library
+
+cd $PHENIX/chem_data/monomers
+
+libtbx.clean_clutter .
+
+python $PHENIX/elbow/elbow/scripts/monomers_to_mon_lib.py
