@@ -1,0 +1,110 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+PGA      .   '2-PHOSPHOGLYCOLIC ACID              ' non-polymer        14   9 .
+#
+data_comp_PGA
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ PGA           O1     O    O         0.000
+ PGA           C1     C    C         0.000
+ PGA           O2     O    O         0.000
+ PGA           C2     C    CH2       0.000
+ PGA           H21    H    HCH2      0.000
+ PGA           H22    H    HCH2      0.000
+ PGA           O1P    O    O2        0.000
+ PGA           P      P    P         0.000
+ PGA           O2P    O    OP        0.000
+ PGA           O4P    O    OP        0.000
+ PGA           O3P    O    OP        0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ PGA      O1     n/a    C1     START
+ PGA      C1     O1     C2     .
+ PGA      O2     C1     .      .
+ PGA      C2     C1     O1P    .
+ PGA      H21    C2     .      .
+ PGA      H22    C2     .      .
+ PGA      O1P    C2     P      .
+ PGA      P      O1P    O3P    .
+ PGA      O2P    P      .      .
+ PGA      O4P    P      .      .
+ PGA      O3P    P      .      END
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ PGA      C1     O1        coval       1.250    0.020
+ PGA      O2     C1        coval       1.250    0.020
+ PGA      C2     C1        coval       1.510    0.020
+ PGA      H21    C2        coval       1.090    0.020
+ PGA      H22    C2        coval       1.090    0.020
+ PGA      O1P    C2        coval       1.410    0.020
+ PGA      P      O1P       coval       1.610    0.020
+ PGA      O2P    P         coval       1.510    0.020
+ PGA      O4P    P         coval       1.510    0.020
+ PGA      O3P    P         coval       1.510    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ PGA      O1     C1     O2      119.000    3.000
+ PGA      O1     C1     C2      120.500    3.000
+ PGA      O2     C1     C2      120.500    3.000
+ PGA      C1     C2     H21     109.470    3.000
+ PGA      C1     C2     H22     109.470    3.000
+ PGA      C1     C2     O1P     109.500    3.000
+ PGA      H21    C2     H22     107.900    3.000
+ PGA      H21    C2     O1P     109.470    3.000
+ PGA      H22    C2     O1P     109.470    3.000
+ PGA      C2     O1P    P       120.500    3.000
+ PGA      O1P    P      O2P     108.200    3.000
+ PGA      O1P    P      O4P     109.500    3.000
+ PGA      O1P    P      O3P     109.500    3.000
+ PGA      O2P    P      O4P     109.500    3.000
+ PGA      O2P    P      O3P     109.500    3.000
+ PGA      O4P    P      O3P     109.500    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ PGA      var_2    O1     C1     C2     O1P       18.601   20.000   3
+ PGA      var_3    C1     C2     O1P    P       -173.699   20.000   1
+ PGA      var_4    C2     O1P    P      O3P      -36.203   20.000   1
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ PGA      plan-1    C1        0.020
+ PGA      plan-1    C2        0.020
+ PGA      plan-1    O1        0.020
+ PGA      plan-1    O2        0.020

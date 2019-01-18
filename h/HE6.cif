@@ -1,0 +1,503 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HE6      HE6 '6,7-DICARBOXYL-1,2,3,4,5,8-HEXAMETHY' non-polymer        61  37 .
+#
+data_comp_HE6
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ HE6           O1D    O    O         0.000      0.000    0.000    0.000
+ HE6           CAD    C    C         0.000      0.465    0.834    0.814
+ HE6           O2D    O    OH1       0.000      1.231    0.284    1.768
+# HE6           H2D    H    H         0.000      1.275   -0.674    1.637
+ HE6           C2D    C    CR5       0.000     -0.224    2.137    0.864
+ HE6           C1D    C    CR5       0.000     -0.217    2.830    2.205
+ HE6           CHD    C    C1        0.000      0.822    2.625    3.284
+ HE6           HHD    H    H         0.000      0.809    1.582    3.550
+ HE6           C4A    C    CR5       0.000      1.824    3.268    4.099
+ HE6           C3A    C    CR5       0.000      2.630    2.606    5.148
+ HE6           CAA    C    C         0.000      2.594    1.148    5.525
+ HE6           O2A    O    OH1       0.000      1.782    0.220    5.002
+# HE6           H2A    H    H         0.000      1.960   -0.637    5.415
+ HE6           O1A    O    O         0.000      3.342    0.592    6.310
+ HE6           C2A    C    CR5       0.000      3.570    3.757    5.521
+ HE6           CMA    C    CH3       0.000      4.594    3.540    6.635
+ HE6           HMA3   H    H         0.000      5.574    3.679    6.253
+ HE6           HMA2   H    H         0.000      4.423    4.234    7.419
+ HE6           HMA1   H    H         0.000      4.505    2.554    7.016
+ HE6           C1A    C    CR5       0.000      3.028    4.852    4.561
+ HE6           N_A    N    NR5       0.000      1.901    4.488    3.765
+ HE6           FE     FE   FE        0.000      0.774    5.356    2.141
+ HE6           C3D    C    CR5       0.000     -1.171    2.636   -0.146
+ HE6           CMD    C    CH3       0.000     -1.624    2.150   -1.534
+ HE6           HMD3   H    H         0.000     -2.670    1.969   -1.529
+ HE6           HMD2   H    H         0.000     -1.402    2.888   -2.264
+ HE6           HMD1   H    H         0.000     -1.117    1.252   -1.785
+ HE6           C4D    C    CR5       0.000     -1.564    3.759    0.825
+ HE6           N_D    N    NR5       0.000     -0.855    3.947    2.063
+ HE6           CHC    C    C1        0.000     -2.462    4.664    0.151
+ HE6           HHC    H    H         0.000     -3.098    4.374   -0.668
+ HE6           C1C    C    CR5       0.000     -2.418    5.932    0.667
+ HE6           N_C    N    NR5       0.000     -1.268    6.352    1.404
+ HE6           C2C    C    CR5       0.000     -3.809    6.640    0.681
+ HE6           CMC    C    CH3       0.000     -5.168    6.367    0.191
+ HE6           HMC3   H    H         0.000     -5.142    6.268   -0.861
+ HE6           HMC2   H    H         0.000     -5.518    5.471    0.627
+ HE6           HMC1   H    H         0.000     -5.799    7.169    0.461
+ HE6           C3C    C    CR5       0.000     -3.341    7.864    1.254
+ HE6           CNC    C    CH3       0.000     -4.066    9.140    1.618
+ HE6           HNC3   H    H         0.000     -3.960    9.324    2.656
+ HE6           HNC2   H    H         0.000     -3.654    9.949    1.073
+ HE6           HNC1   H    H         0.000     -5.094    9.043    1.381
+ HE6           C4C    C    CR5       0.000     -1.827    7.529    1.432
+ HE6           CHB    C    C1        0.000     -0.988    8.467    2.176
+ HE6           HHB    H    H         0.000     -1.419    9.453    2.211
+ HE6           C1B    C    CR5       0.000      0.259    8.406    2.867
+ HE6           N_B    N    NR5       0.000      0.944    7.336    3.186
+ HE6           C2B    C    CR5       0.000      0.667    9.570    3.621
+ HE6           CMB    C    CH3       0.000      0.088   11.001    3.597
+ HE6           HMB3   H    H         0.000     -0.944   10.970    3.347
+ HE6           HMB2   H    H         0.000      0.199   11.453    4.552
+ HE6           HMB1   H    H         0.000      0.601   11.587    2.875
+ HE6           C3B    C    CR5       0.000      1.890    8.942    4.272
+ HE6           CNB    C    CH3       0.000      2.725    9.846    5.106
+ HE6           HNB3   H    H         0.000      3.730    9.519    5.075
+ HE6           HNB2   H    H         0.000      2.659   10.830    4.726
+ HE6           HNB1   H    H         0.000      2.373    9.824    6.103
+ HE6           C4B    C    CR5       0.000      2.044    7.497    3.833
+ HE6           CHA    C    C1        0.000      2.978    6.377    4.284
+ HE6           HHA    H    H         0.000      3.951    6.796    4.479
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ HE6      O1D    n/a    CAD    START
+ HE6      CAD    O1D    C2D    .
+ HE6      O2D    CAD    .      .
+# HE6      O2D    CAD    H2D    .
+# HE6      H2D    O2D    .      .
+ HE6      C2D    CAD    C3D    .
+ HE6      C1D    C2D    CHD    .
+ HE6      CHD    C1D    C4A    .
+ HE6      HHD    CHD    .      .
+ HE6      C4A    CHD    C3A    .
+ HE6      C3A    C4A    C2A    .
+ HE6      CAA    C3A    O1A    .
+ HE6      O2A    CAA    .      .
+# HE6      O2A    CAA    H2A    .
+# HE6      H2A    O2A    .      .
+ HE6      O1A    CAA    .      .
+ HE6      C2A    C3A    C1A    .
+ HE6      CMA    C2A    HMA1   .
+ HE6      HMA3   CMA    .      .
+ HE6      HMA2   CMA    .      .
+ HE6      HMA1   CMA    .      .
+ HE6      C1A    C2A    N_A    .
+ HE6      N_A    C1A    FE     .
+ HE6      FE     N_A    .      .
+ HE6      C3D    C2D    C4D    .
+ HE6      CMD    C3D    HMD1   .
+ HE6      HMD3   CMD    .      .
+ HE6      HMD2   CMD    .      .
+ HE6      HMD1   CMD    .      .
+ HE6      C4D    C3D    CHC    .
+ HE6      N_D    C4D    .      .
+ HE6      CHC    C4D    C1C    .
+ HE6      HHC    CHC    .      .
+ HE6      C1C    CHC    C2C    .
+ HE6      N_C    C1C    .      .
+ HE6      C2C    C1C    C3C    .
+ HE6      CMC    C2C    HMC1   .
+ HE6      HMC3   CMC    .      .
+ HE6      HMC2   CMC    .      .
+ HE6      HMC1   CMC    .      .
+ HE6      C3C    C2C    C4C    .
+ HE6      CNC    C3C    HNC1   .
+ HE6      HNC3   CNC    .      .
+ HE6      HNC2   CNC    .      .
+ HE6      HNC1   CNC    .      .
+ HE6      C4C    C3C    CHB    .
+ HE6      CHB    C4C    C1B    .
+ HE6      HHB    CHB    .      .
+ HE6      C1B    CHB    C2B    .
+ HE6      N_B    C1B    .      .
+ HE6      C2B    C1B    C3B    .
+ HE6      CMB    C2B    HMB1   .
+ HE6      HMB3   CMB    .      .
+ HE6      HMB2   CMB    .      .
+ HE6      HMB1   CMB    .      .
+ HE6      C3B    C2B    C4B    .
+ HE6      CNB    C3B    HNB1   .
+ HE6      HNB3   CNB    .      .
+ HE6      HNB2   CNB    .      .
+ HE6      HNB1   CNB    .      .
+ HE6      C4B    C3B    CHA    .
+ HE6      CHA    C4B    HHA    .
+ HE6      HHA    CHA    .      END
+ HE6      FE     N_B    .    ADD
+ HE6      FE     N_C    .    ADD
+ HE6      FE     N_D    .    ADD
+ HE6      N_A    C4A    .    ADD
+ HE6      N_B    C4B    .    ADD
+ HE6      N_C    C4C    .    ADD
+ HE6      N_D    C1D    .    ADD
+ HE6      C1A    CHA    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ HE6      FE     N_A       single      2.090    0.060
+ HE6      FE     N_B       single      2.090    0.060
+ HE6      FE     N_C       single      2.090    0.060
+ HE6      FE     N_D       single      2.090    0.060
+ HE6      N_A    C1A       single      1.337    0.020
+ HE6      N_A    C4A       single      1.337    0.020
+ HE6      N_B    C1B       single      1.337    0.020
+ HE6      N_B    C4B       double      1.337    0.020
+ HE6      N_C    C1C       single      1.337    0.020
+ HE6      N_C    C4C       single      1.337    0.020
+ HE6      N_D    C4D       single      1.337    0.020
+ HE6      N_D    C1D       double      1.337    0.020
+ HE6      C1A    CHA       double      1.483    0.020
+ HE6      C1A    C2A       single      1.490    0.020
+ HE6      CHA    C4B       single      1.483    0.020
+ HE6      HHA    CHA       single      1.077    0.020
+ HE6      CHC    C4D       double      1.483    0.020
+ HE6      C4D    C3D       single      1.490    0.020
+ HE6      C1B    CHB       double      1.483    0.020
+ HE6      C2B    C1B       single      1.490    0.020
+ HE6      CHB    C4C       single      1.483    0.020
+ HE6      HHB    CHB       single      1.077    0.020
+ HE6      C4A    CHD       double      1.483    0.020
+ HE6      C3A    C4A       single      1.490    0.020
+ HE6      C1C    CHC       single      1.483    0.020
+ HE6      C2C    C1C       double      1.490    0.020
+ HE6      HHC    CHC       single      1.077    0.020
+ HE6      C4B    C3B       single      1.490    0.020
+ HE6      CHD    C1D       single      1.483    0.020
+ HE6      C1D    C2D       single      1.490    0.020
+ HE6      HHD    CHD       single      1.077    0.020
+ HE6      C4C    C3C       double      1.490    0.020
+ HE6      CMA    C2A       single      1.506    0.020
+ HE6      C2A    C3A       double      1.490    0.020
+ HE6      HMA1   CMA       single      1.059    0.020
+ HE6      HMA2   CMA       single      1.059    0.020
+ HE6      HMA3   CMA       single      1.059    0.020
+ HE6      CAA    C3A       single      1.490    0.020
+ HE6      O1A    CAA       deloc       1.240    0.020
+ HE6      O2A    CAA       deloc       1.240    0.020
+# HE6      H2A    O2A       single      0.967    0.020
+ HE6      CMB    C2B       single      1.506    0.020
+ HE6      C3B    C2B       double      1.490    0.020
+ HE6      HMB1   CMB       single      1.059    0.020
+ HE6      HMB2   CMB       single      1.059    0.020
+ HE6      HMB3   CMB       single      1.059    0.020
+ HE6      CNB    C3B       single      1.506    0.020
+ HE6      HNB1   CNB       single      1.059    0.020
+ HE6      HNB2   CNB       single      1.059    0.020
+ HE6      HNB3   CNB       single      1.059    0.020
+ HE6      CMC    C2C       single      1.506    0.020
+ HE6      C3C    C2C       single      1.490    0.020
+ HE6      HMC1   CMC       single      1.059    0.020
+ HE6      HMC2   CMC       single      1.059    0.020
+ HE6      HMC3   CMC       single      1.059    0.020
+ HE6      CNC    C3C       single      1.506    0.020
+ HE6      HNC1   CNC       single      1.059    0.020
+ HE6      HNC2   CNC       single      1.059    0.020
+ HE6      HNC3   CNC       single      1.059    0.020
+ HE6      C3D    C2D       double      1.490    0.020
+ HE6      C2D    CAD       single      1.490    0.020
+ HE6      CMD    C3D       single      1.506    0.020
+ HE6      HMD1   CMD       single      1.059    0.020
+ HE6      HMD2   CMD       single      1.059    0.020
+ HE6      HMD3   CMD       single      1.059    0.020
+ HE6      CAD    O1D       deloc       1.240    0.020
+ HE6      O2D    CAD       deloc       1.240    0.020
+# HE6      H2D    O2D       single      0.967    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ HE6      O1D    CAD    O2D     119.000    3.000
+ HE6      O1D    CAD    C2D     120.500    3.000
+ HE6      O2D    CAD    C2D     120.000    3.000
+# HE6      CAD    O2D    H2D     109.470    3.000
+ HE6      CAD    C2D    C1D     117.000    3.000
+ HE6      CAD    C2D    C3D     117.000    3.000
+ HE6      C1D    C2D    C3D     108.000    3.000
+ HE6      C2D    C1D    CHD     117.000    3.000
+ HE6      C2D    C1D    N_D     108.000    3.000
+ HE6      CHD    C1D    N_D     108.000    3.000
+ HE6      C1D    CHD    HHD     120.000    3.000
+ HE6      C1D    CHD    C4A     120.000    3.000
+ HE6      HHD    CHD    C4A     120.000    3.000
+ HE6      CHD    C4A    C3A     117.000    3.000
+ HE6      CHD    C4A    N_A     108.000    3.000
+ HE6      C3A    C4A    N_A     108.000    3.000
+ HE6      C4A    C3A    CAA     117.000    3.000
+ HE6      C4A    C3A    C2A     108.000    3.000
+ HE6      CAA    C3A    C2A     117.000    3.000
+ HE6      C3A    CAA    O2A     120.000    3.000
+ HE6      C3A    CAA    O1A     120.500    3.000
+ HE6      O2A    CAA    O1A     119.000    3.000
+# HE6      CAA    O2A    H2A     109.470    3.000
+ HE6      C3A    C2A    CMA     126.000    3.000
+ HE6      C3A    C2A    C1A     108.000    3.000
+ HE6      CMA    C2A    C1A     126.000    3.000
+ HE6      C2A    CMA    HMA3    109.470    3.000
+ HE6      C2A    CMA    HMA2    109.470    3.000
+ HE6      C2A    CMA    HMA1    109.470    3.000
+ HE6      HMA3   CMA    HMA2    109.470    3.000
+ HE6      HMA3   CMA    HMA1    109.470    3.000
+ HE6      HMA2   CMA    HMA1    109.470    3.000
+ HE6      C2A    C1A    N_A     108.000    3.000
+ HE6      C2A    C1A    CHA     117.000    3.000
+ HE6      N_A    C1A    CHA     108.000    3.000
+ HE6      C1A    N_A    FE      126.000    3.000
+ HE6      C1A    N_A    C4A     108.000    3.000
+ HE6      FE     N_A    C4A     126.000    3.000
+ HE6      N_A    FE     N_B      90.000    9.000
+ HE6      N_A    FE     N_C     180.000    9.000
+ HE6      N_A    FE     N_D      90.000    9.000
+ HE6      N_B    FE     N_C      90.000    9.000
+ HE6      N_B    FE     N_D     180.000    9.000
+ HE6      N_C    FE     N_D      90.000    9.000
+ HE6      C2D    C3D    CMD     126.000    3.000
+ HE6      C2D    C3D    C4D     108.000    3.000
+ HE6      CMD    C3D    C4D     126.000    3.000
+ HE6      C3D    CMD    HMD3    109.470    3.000
+ HE6      C3D    CMD    HMD2    109.470    3.000
+ HE6      C3D    CMD    HMD1    109.470    3.000
+ HE6      HMD3   CMD    HMD2    109.470    3.000
+ HE6      HMD3   CMD    HMD1    109.470    3.000
+ HE6      HMD2   CMD    HMD1    109.470    3.000
+ HE6      C3D    C4D    N_D     108.000    3.000
+ HE6      C3D    C4D    CHC     117.000    3.000
+ HE6      N_D    C4D    CHC     108.000    3.000
+ HE6      C4D    N_D    FE      126.000    3.000
+ HE6      C4D    N_D    C1D     108.000    3.000
+ HE6      FE     N_D    C1D     126.000    3.000
+ HE6      C4D    CHC    HHC     120.000    3.000
+ HE6      C4D    CHC    C1C     120.000    3.000
+ HE6      HHC    CHC    C1C     120.000    3.000
+ HE6      CHC    C1C    N_C     108.000    3.000
+ HE6      CHC    C1C    C2C     117.000    3.000
+ HE6      N_C    C1C    C2C     108.000    3.000
+ HE6      C1C    N_C    FE      126.000    3.000
+ HE6      C1C    N_C    C4C     108.000    3.000
+ HE6      FE     N_C    C4C     126.000    3.000
+ HE6      C1C    C2C    CMC     126.000    3.000
+ HE6      C1C    C2C    C3C     108.000    3.000
+ HE6      CMC    C2C    C3C     126.000    3.000
+ HE6      C2C    CMC    HMC3    109.470    3.000
+ HE6      C2C    CMC    HMC2    109.470    3.000
+ HE6      C2C    CMC    HMC1    109.470    3.000
+ HE6      HMC3   CMC    HMC2    109.470    3.000
+ HE6      HMC3   CMC    HMC1    109.470    3.000
+ HE6      HMC2   CMC    HMC1    109.470    3.000
+ HE6      C2C    C3C    CNC     126.000    3.000
+ HE6      C2C    C3C    C4C     108.000    3.000
+ HE6      CNC    C3C    C4C     126.000    3.000
+ HE6      C3C    CNC    HNC3    109.470    3.000
+ HE6      C3C    CNC    HNC2    109.470    3.000
+ HE6      C3C    CNC    HNC1    109.470    3.000
+ HE6      HNC3   CNC    HNC2    109.470    3.000
+ HE6      HNC3   CNC    HNC1    109.470    3.000
+ HE6      HNC2   CNC    HNC1    109.470    3.000
+ HE6      C3C    C4C    CHB     117.000    3.000
+ HE6      C3C    C4C    N_C     108.000    3.000
+ HE6      CHB    C4C    N_C     108.000    3.000
+ HE6      C4C    CHB    HHB     120.000    3.000
+ HE6      C4C    CHB    C1B     120.000    3.000
+ HE6      HHB    CHB    C1B     120.000    3.000
+ HE6      CHB    C1B    N_B     108.000    3.000
+ HE6      CHB    C1B    C2B     117.000    3.000
+ HE6      N_B    C1B    C2B     108.000    3.000
+ HE6      C1B    N_B    FE      126.000    3.000
+ HE6      C1B    N_B    C4B     108.000    3.000
+ HE6      FE     N_B    C4B     126.000    3.000
+ HE6      C1B    C2B    CMB     126.000    3.000
+ HE6      C1B    C2B    C3B     108.000    3.000
+ HE6      CMB    C2B    C3B     126.000    3.000
+ HE6      C2B    CMB    HMB3    109.470    3.000
+ HE6      C2B    CMB    HMB2    109.470    3.000
+ HE6      C2B    CMB    HMB1    109.470    3.000
+ HE6      HMB3   CMB    HMB2    109.470    3.000
+ HE6      HMB3   CMB    HMB1    109.470    3.000
+ HE6      HMB2   CMB    HMB1    109.470    3.000
+ HE6      C2B    C3B    CNB     126.000    3.000
+ HE6      C2B    C3B    C4B     108.000    3.000
+ HE6      CNB    C3B    C4B     126.000    3.000
+ HE6      C3B    CNB    HNB3    109.470    3.000
+ HE6      C3B    CNB    HNB2    109.470    3.000
+ HE6      C3B    CNB    HNB1    109.470    3.000
+ HE6      HNB3   CNB    HNB2    109.470    3.000
+ HE6      HNB3   CNB    HNB1    109.470    3.000
+ HE6      HNB2   CNB    HNB1    109.470    3.000
+ HE6      C3B    C4B    CHA     117.000    3.000
+ HE6      C3B    C4B    N_B     108.000    3.000
+ HE6      CHA    C4B    N_B     108.000    3.000
+ HE6      C4B    CHA    HHA     120.000    3.000
+ HE6      C4B    CHA    C1A     120.000    3.000
+ HE6      HHA    CHA    C1A     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+# HE6      var_1    O1D    CAD    O2D    H2D        0.000   20.000   1
+ HE6      var_2    O1D    CAD    C2D    C3D        0.074   20.000   1
+ HE6      CONST_1  CAD    C2D    C1D    CHD        0.000    0.000   0
+ HE6      var_3    C2D    C1D    CHD    C4A      180.000   20.000   1
+ HE6      var_4    C1D    CHD    C4A    C3A      180.000   20.000   1
+ HE6      CONST_2  CHD    C4A    C3A    C2A      150.000    0.000   0
+ HE6      var_5    C4A    C3A    CAA    O1A      178.257   20.000   1
+# HE6      var_6    C3A    CAA    O2A    H2A      179.980   20.000   1
+ HE6      CONST_3  C4A    C3A    C2A    C1A        0.000    0.000   0
+ HE6      var_7    C3A    C2A    CMA    HMA1       0.175   20.000   1
+ HE6      CONST_4  C3A    C2A    C1A    N_A        0.000    0.000   0
+ HE6      var_8    C2A    C1A    CHA    C4B      180.000   20.000   1
+ HE6      CONST_5  C2A    C1A    N_A    FE       150.000    0.000   0
+ HE6      CONST_6  C1A    N_A    C4A    CHD     -150.000    0.000   0
+ HE6      var_9    C1A    N_A    FE     N_B        0.000   20.000   1
+ HE6      var_10   C4B    N_B    FE     N_A        0.000   20.000   1
+ HE6      var_11   C4C    N_C    FE     N_B        0.000   20.000   1
+ HE6      var_12   C1D    N_D    FE     N_A        0.000   20.000   1
+ HE6      CONST_7  CAD    C2D    C3D    C4D      180.000    0.000   0
+ HE6      var_13   C2D    C3D    CMD    HMD1      -0.028   20.000   1
+ HE6      CONST_8  C2D    C3D    C4D    CHC     -150.000    0.000   0
+ HE6      CONST_9  C3D    C4D    N_D    FE       150.000    0.000   0
+ HE6      CONST_10 C4D    N_D    C1D    C2D       30.000    0.000   0
+ HE6      var_14   C3D    C4D    CHC    C1C      180.000   20.000   1
+ HE6      var_15   C4D    CHC    C1C    C2C      180.000   20.000   1
+ HE6      CONST_11 CHC    C1C    N_C    FE       -30.000    0.000   0
+ HE6      CONST_12 C1C    N_C    C4C    C3C       30.000    0.000   0
+ HE6      CONST_13 CHC    C1C    C2C    C3C     -150.000    0.000   0
+ HE6      var_16   C1C    C2C    CMC    HMC1     179.357   20.000   1
+ HE6      CONST_14 C1C    C2C    C3C    C4C        0.000    0.000   0
+ HE6      var_17   C2C    C3C    CNC    HNC1      -0.020   20.000   1
+ HE6      CONST_15 C2C    C3C    C4C    CHB      180.000    0.000   0
+ HE6      var_18   C3C    C4C    CHB    C1B      180.000   20.000   1
+ HE6      var_19   C4C    CHB    C1B    C2B      180.000   20.000   1
+ HE6      CONST_16 CHB    C1B    N_B    FE        30.000    0.000   0
+ HE6      CONST_17 C1B    N_B    C4B    C3B      -30.000    0.000   0
+ HE6      CONST_18 CHB    C1B    C2B    C3B      180.000    0.000   0
+ HE6      var_20   C1B    C2B    CMB    HMB1     -90.837   20.000   1
+ HE6      CONST_19 C1B    C2B    C3B    C4B        0.000    0.000   0
+ HE6      var_21   C2B    C3B    CNB    HNB1      89.980   20.000   1
+ HE6      CONST_20 C2B    C3B    C4B    CHA     -150.000    0.000   0
+ HE6      var_22   C3B    C4B    CHA    C1A      180.000   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ HE6      chir_01  FE     N_A    N_C    N_B       cross2
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ HE6      plan-1    N_A       0.020
+ HE6      plan-1    FE        0.020
+ HE6      plan-1    C1A       0.020
+ HE6      plan-1    C4A       0.020
+ HE6      plan-1    C2A       0.020
+ HE6      plan-1    C3A       0.020
+ HE6      plan-1    CHA       0.020
+ HE6      plan-1    CHD       0.020
+ HE6      plan-1    CMA       0.020
+ HE6      plan-1    CAA       0.020
+ HE6      plan-1    HHA       0.020
+ HE6      plan-1    HHD       0.020
+ HE6      plan-2    N_B       0.020
+ HE6      plan-2    FE        0.020
+ HE6      plan-2    C1B       0.020
+ HE6      plan-2    C4B       0.020
+ HE6      plan-2    C2B       0.020
+ HE6      plan-2    C3B       0.020
+ HE6      plan-2    CHB       0.020
+ HE6      plan-2    CHA       0.020
+ HE6      plan-2    CMB       0.020
+ HE6      plan-2    CNB       0.020
+ HE6      plan-2    HHB       0.020
+ HE6      plan-2    HHA       0.020
+ HE6      plan-3    N_C       0.020
+ HE6      plan-3    FE        0.020
+ HE6      plan-3    C1C       0.020
+ HE6      plan-3    C4C       0.020
+ HE6      plan-3    C2C       0.020
+ HE6      plan-3    C3C       0.020
+ HE6      plan-3    CHC       0.020
+ HE6      plan-3    CHB       0.020
+ HE6      plan-3    CMC       0.020
+ HE6      plan-3    CNC       0.020
+ HE6      plan-3    HHC       0.020
+ HE6      plan-3    HHB       0.020
+ HE6      plan-4    N_D       0.020
+ HE6      plan-4    FE        0.020
+ HE6      plan-4    C4D       0.020
+ HE6      plan-4    C1D       0.020
+ HE6      plan-4    C2D       0.020
+ HE6      plan-4    C3D       0.020
+ HE6      plan-4    CHC       0.020
+ HE6      plan-4    CHD       0.020
+ HE6      plan-4    CAD       0.020
+ HE6      plan-4    CMD       0.020
+ HE6      plan-4    HHC       0.020
+ HE6      plan-4    HHD       0.020
+ HE6      plan-5    CHA       0.020
+ HE6      plan-5    C1A       0.020
+ HE6      plan-5    C4B       0.020
+ HE6      plan-5    HHA       0.020
+ HE6      plan-6    CHB       0.020
+ HE6      plan-6    C1B       0.020
+ HE6      plan-6    C4C       0.020
+ HE6      plan-6    HHB       0.020
+ HE6      plan-7    CHC       0.020
+ HE6      plan-7    C4D       0.020
+ HE6      plan-7    C1C       0.020
+ HE6      plan-7    HHC       0.020
+ HE6      plan-8    CHD       0.020
+ HE6      plan-8    C4A       0.020
+ HE6      plan-8    C1D       0.020
+ HE6      plan-8    HHD       0.020
+ HE6      plan-9    CAA       0.020
+ HE6      plan-9    C3A       0.020
+ HE6      plan-9    O1A       0.020
+ HE6      plan-9    O2A       0.020
+ HE6      plan-10   CAD       0.020
+ HE6      plan-10   C2D       0.020
+ HE6      plan-10   O1D       0.020
+ HE6      plan-10   O2D       0.020

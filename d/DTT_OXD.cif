@@ -1,0 +1,143 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+DTT_oxd  .   '2,3-DIHYDROXY-1,4-DITHIOBUTANE (oxd)' non-polymer        16   8 .
+#
+data_comp_DTT_oxd
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ DTT_oxd       O3     O    OH1       0.000
+ DTT_oxd       HO3    H    HOH1      0.000
+ DTT_oxd       C3     C    CH1       0.000
+ DTT_oxd       H3     H    HCH1      0.000
+ DTT_oxd       C4     C    CH2       0.000
+ DTT_oxd       H42    H    HCH2      0.000
+ DTT_oxd       H41    H    HCH2      0.000
+ DTT_oxd       S4     S    S         0.000
+ DTT_oxd       C2     C    CH1       0.000
+ DTT_oxd       H2     H    HCH1      0.000
+ DTT_oxd       O2     O    OH1       0.000
+ DTT_oxd       HO2    H    HOH1      0.000
+ DTT_oxd       C1     C    CH2       0.000
+ DTT_oxd       H12    H    HCH2      0.000
+ DTT_oxd       H11    H    HCH2      0.000
+ DTT_oxd       S1     S    S         0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ DTT_oxd  O3     n/a    C3     START
+ DTT_oxd  HO3    O3     .      .
+ DTT_oxd  C3     O3     C2     .
+ DTT_oxd  H3     C3     .      .
+ DTT_oxd  C4     C3     S4     .
+ DTT_oxd  H42    C4     .      .
+ DTT_oxd  H41    C4     .      .
+ DTT_oxd  S4     C4     .      .
+ DTT_oxd  C2     C3     C1     .
+ DTT_oxd  H2     C2     .      .
+ DTT_oxd  O2     C2     HO2    .
+ DTT_oxd  HO2    O2     .      .
+ DTT_oxd  C1     C2     S1     .
+ DTT_oxd  H12    C1     .      .
+ DTT_oxd  H11    C1     .      .
+ DTT_oxd  S1     C1     .      END
+ DTT_oxd  S1     S4     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ DTT_oxd  HO3    O3        coval       0.980    0.020
+ DTT_oxd  C3     O3        coval       1.410    0.020
+ DTT_oxd  H3     C3        coval       1.090    0.020
+ DTT_oxd  C4     C3        coval       1.524    0.020
+ DTT_oxd  H42    C4        coval       1.090    0.020
+ DTT_oxd  H41    C4        coval       1.090    0.020
+ DTT_oxd  S4     C4        coval       1.810    0.020
+ DTT_oxd  C2     C3        coval       1.524    0.020
+ DTT_oxd  H2     C2        coval       1.090    0.020
+ DTT_oxd  O2     C2        coval       1.410    0.020
+ DTT_oxd  HO2    O2        coval       0.980    0.020
+ DTT_oxd  C1     C2        coval       1.524    0.020
+ DTT_oxd  H12    C1        coval       1.090    0.020
+ DTT_oxd  H11    C1        coval       1.090    0.020
+ DTT_oxd  S1     C1        coval       1.810    0.020
+ DTT_oxd  S1     S4        coval       2.036    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ DTT_oxd  HO3    O3     C3      109.470    3.000
+ DTT_oxd  O3     C3     H3      109.470    3.000
+ DTT_oxd  O3     C3     C4      109.470    3.000
+ DTT_oxd  O3     C3     C2      109.470    3.000
+ DTT_oxd  H3     C3     C4      108.340    3.000
+ DTT_oxd  H3     C3     C2      108.340    3.000
+ DTT_oxd  C4     C3     C2      111.000    3.000
+ DTT_oxd  C3     C4     H42     109.470    3.000
+ DTT_oxd  C3     C4     H41     109.470    3.000
+ DTT_oxd  C3     C4     S4      112.500    3.000
+ DTT_oxd  H42    C4     H41     107.900    3.000
+ DTT_oxd  H42    C4     S4      109.470    3.000
+ DTT_oxd  H41    C4     S4      109.470    3.000
+ DTT_oxd  C4     S4     S1      104.200    3.000
+ DTT_oxd  C3     C2     H2      108.340    3.000
+ DTT_oxd  C3     C2     O2      109.470    3.000
+ DTT_oxd  C3     C2     C1      111.000    3.000
+ DTT_oxd  H2     C2     O2      109.470    3.000
+ DTT_oxd  H2     C2     C1      108.340    3.000
+ DTT_oxd  O2     C2     C1      109.470    3.000
+ DTT_oxd  C2     O2     HO2     109.470    3.000
+ DTT_oxd  C2     C1     H12     109.470    3.000
+ DTT_oxd  C2     C1     H11     109.470    3.000
+ DTT_oxd  C2     C1     S1      112.500    3.000
+ DTT_oxd  H12    C1     H11     107.900    3.000
+ DTT_oxd  H12    C1     S1      109.470    3.000
+ DTT_oxd  H11    C1     S1      109.470    3.000
+ DTT_oxd  C1     S1     S4      104.200    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ DTT_oxd  var_1    C3     C4     S4     S1       -30.000   20.000   3
+ DTT_oxd  var_2    O3     C3     C2     C1       180.000   20.000   3
+ DTT_oxd  var_3    C3     C2     O2     HO2        0.000   20.000   1
+ DTT_oxd  var_4    C3     C2     C1     S1       -30.000   20.000   3
+ DTT_oxd  var_5    C2     C1     S1     S4        30.000   20.000   3
+ DTT_oxd  var_6    C1     S1     S4     C4       -30.000   20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ DTT_oxd  chir_01  C2     C1     O2     C3        both
+ DTT_oxd  chir_02  C3     C2     O3     C4        both

@@ -1,0 +1,468 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+T16      T16 'BOROLOG2                            ' non-polymer        67  35 .
+#
+data_comp_T16
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.tx
+_chem_comp_atom.ty
+_chem_comp_atom.tz
+ T16           O17    O    O         0.000      0.000    0.000    0.000
+ T16           C17    C    C1        0.000      1.003    0.704   -0.001
+ T16           H17    H    H         0.000      2.000    0.297    0.003
+ T16           C16    C    CH2       0.000      0.725    2.197   -0.007
+ T16           H161   H    H         0.000      0.074    2.454    0.831
+ T16           H162   H    H         0.000      0.237    2.476   -0.943
+ T16           C15    C    CH2       0.000      2.033    2.942    0.122
+ T16           H151   H    H         0.000      2.709    2.609   -0.669
+ T16           H152   H    H         0.000      2.474    2.714    1.095
+ T16           C14    C    CH2       0.000      1.810    4.440    0.003
+ T16           H141   H    H         0.000      1.108    4.782    0.766
+ T16           H142   H    H         0.000      1.421    4.689   -0.986
+ T16           C13    C    C         0.000      3.142    5.113    0.205
+ T16           O13    O    O         0.000      4.128    4.419    0.465
+ T16           N12    N    NH1       0.000      3.095    6.456    0.044
+ T16           HN2    H    H         0.000      2.216    6.914   -0.152
+ T16           C10    C    CH1       0.000      4.312    7.233    0.155
+ T16           H10    H    H         0.000      5.111    6.787   -0.454
+ T16           C11    C    CH2       0.000      4.624    7.077    1.652
+ T16           H111   H    H         0.000      4.650    6.026    1.945
+ T16           H112   H    H         0.000      3.894    7.608    2.267
+ T16           C21    C    CR6       0.000      6.099    7.739    1.863
+ T16           C22    C    CR16      0.000      6.907    8.051    3.156
+ T16           H_22   H    H         0.000      6.384    7.723    4.046
+ T16           C23    C    CR16      0.000      8.201    8.680    3.481
+ T16           H23    H    H         0.000      8.572    8.822    4.489
+ T16           C24    C    CR16      0.000      8.876    9.063    2.352
+ T16           H24    H    H         0.000      9.819    9.590    2.436
+ T16           C25    C    CR16      0.000      8.312    8.753    1.011
+ T16           H25    H    H         0.000      8.930    9.024    0.164
+ T16           C26    C    CR16      0.000      6.959    8.095    0.676
+ T16           H26    H    H         0.000      6.647    7.902   -0.343
+ T16           C9     C    C         0.000      4.214    8.703   -0.100
+ T16           O9     O    O         0.000      3.205    9.171   -0.601
+ T16           N8     N    N         0.000      5.209    9.488    0.187
+ T16           C7C    C    CH2       0.000      5.212   10.894   -0.052
+ T16           H7C1   H    H         0.000      4.543   11.367    0.671
+ T16           H7C2   H    H         0.000      4.838   11.072   -1.062
+ T16           C7B    C    CH2       0.000      6.579   11.472    0.082
+ T16           H7B1   H    H         0.000      6.590   12.326    0.761
+ T16           H7B2   H    H         0.000      6.986   11.772   -0.886
+ T16           C7A    C    CH2       0.000      7.395   10.387    0.643
+ T16           H7A1   H    H         0.000      7.724   10.597    1.663
+ T16           H7A2   H    H         0.000      8.263   10.154    0.022
+ T16           C7     C    CH1       0.000      6.376    9.121    0.650
+ T16           H7     H    H         0.000      6.785    8.276    0.078
+ T16           C6     C    C         0.000      6.234    8.760    2.180
+ T16           O6     O    O         0.000      6.584    9.648    3.024
+ T16           N5     N    NH1       0.000      5.736    7.453    2.638
+ T16           HN5    H    H         0.000      5.520    6.820    1.881
+ T16           C4     C    CH1       0.000      5.476    6.853    4.019
+ T16           H4     H    H         0.000      6.392    6.427    4.450
+ T16           B      B    B         0.000      4.947    8.161    4.891
+ T16           O1B    O    OH1       0.000      4.832    9.624    4.344
+ T16           BHO1   H    H         0.000      4.445   10.327    4.893
+ T16           O1A    O    OH1       0.000      4.707    7.992    6.383
+ T16           AHO1   H    H         0.000      4.469    8.758    6.920
+ T16           C3     C    CH2       0.000      4.366    5.755    3.828
+ T16           H31    H    H         0.000      4.619    5.017    3.063
+ T16           H32    H    H         0.000      3.380    6.172    3.616
+ T16           C2     C    CH2       0.000      4.354    5.096    5.176
+ T16           H21    H    H         0.000      4.203    5.824    5.976
+ T16           H22    H    H         0.000      5.277    4.542    5.360
+ T16           C1     C    CH1       0.000      3.180    4.130    5.138
+ T16           H1     H    H         0.000      3.317    3.382    4.345
+ T16           BR1    BR   BR        0.000      1.402    5.072    4.934
+ T16           BR2    BR   BR        0.000      3.175    3.252    6.957
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ T16      O17    n/a    C17    START
+ T16      C17    O17    C16    .
+ T16      H17    C17    .      .
+ T16      C16    C17    C15    .
+ T16      H161   C16    .      .
+ T16      H162   C16    .      .
+ T16      C15    C16    C14    .
+ T16      H151   C15    .      .
+ T16      H152   C15    .      .
+ T16      C14    C15    C13    .
+ T16      H141   C14    .      .
+ T16      H142   C14    .      .
+ T16      C13    C14    N12    .
+ T16      O13    C13    .      .
+ T16      N12    C13    C10    .
+ T16      HN2    N12    .      .
+ T16      C10    N12    C9     .
+ T16      H10    C10    .      .
+ T16      C11    C10    C21    .
+ T16      H111   C11    .      .
+ T16      H112   C11    .      .
+ T16      C21    C11    C22    .
+ T16      C22    C21    C23    .
+ T16      H_22   C22    .      .
+ T16      C23    C22    C24    .
+ T16      H23    C23    .      .
+ T16      C24    C23    C25    .
+ T16      H24    C24    .      .
+ T16      C25    C24    C26    .
+ T16      H25    C25    .      .
+ T16      C26    C25    H26    .
+ T16      H26    C26    .      .
+ T16      C9     C10    N8     .
+ T16      O9     C9     .      .
+ T16      N8     C9     C7C    .
+ T16      C7C    N8     C7B    .
+ T16      H7C1   C7C    .      .
+ T16      H7C2   C7C    .      .
+ T16      C7B    C7C    C7A    .
+ T16      H7B1   C7B    .      .
+ T16      H7B2   C7B    .      .
+ T16      C7A    C7B    C7     .
+ T16      H7A1   C7A    .      .
+ T16      H7A2   C7A    .      .
+ T16      C7     C7A    C6     .
+ T16      H7     C7     .      .
+ T16      C6     C7     N5     .
+ T16      O6     C6     .      .
+ T16      N5     C6     C4     .
+ T16      HN5    N5     .      .
+ T16      C4     N5     C3     .
+ T16      H4     C4     .      .
+ T16      B      C4     O1A    .
+ T16      O1B    B      BHO1   .
+ T16      BHO1   O1B    .      .
+ T16      O1A    B      AHO1   .
+ T16      AHO1   O1A    .      .
+ T16      C3     C4     C2     .
+ T16      H31    C3     .      .
+ T16      H32    C3     .      .
+ T16      C2     C3     C1     .
+ T16      H21    C2     .      .
+ T16      H22    C2     .      .
+ T16      C1     C2     BR2    .
+ T16      H1     C1     .      .
+ T16      BR1    C1     .      .
+ T16      BR2    C1     .      END
+ T16      C7     N8     .    ADD
+ T16      C21    C26    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ T16      BR1    C1        single      2.015    0.020
+ T16      BR2    C1        single      2.015    0.020
+ T16      C1     C2        single      1.524    0.020
+ T16      H1     C1        single      1.099    0.020
+ T16      C2     C3        single      1.524    0.020
+ T16      H21    C2        single      1.092    0.020
+ T16      H22    C2        single      1.092    0.020
+ T16      C3     C4        single      1.524    0.020
+ T16      H31    C3        single      1.092    0.020
+ T16      H32    C3        single      1.092    0.020
+ T16      B      C4        single      1.600    0.020
+ T16      C4     N5        single      1.450    0.020
+ T16      H4     C4        single      1.099    0.020
+ T16      O1A    B         single      1.535    0.020
+ T16      O1B    B         single      1.535    0.020
+ T16      AHO1   O1A       single      0.967    0.020
+ T16      BHO1   O1B       single      0.967    0.020
+ T16      N5     C6        single      1.330    0.020
+ T16      HN5    N5        single      1.010    0.020
+ T16      O6     C6        double      1.220    0.020
+ T16      C6     C7        single      1.500    0.020
+ T16      C7     C7A       single      1.524    0.020
+ T16      C7     N8        single      1.455    0.020
+ T16      H7     C7        single      1.099    0.020
+ T16      C7A    C7B       single      1.524    0.020
+ T16      H7A1   C7A       single      1.092    0.020
+ T16      H7A2   C7A       single      1.092    0.020
+ T16      C7B    C7C       single      1.524    0.020
+ T16      H7B1   C7B       single      1.092    0.020
+ T16      H7B2   C7B       single      1.092    0.020
+ T16      C7C    N8        single      1.455    0.020
+ T16      H7C1   C7C       single      1.092    0.020
+ T16      H7C2   C7C       single      1.092    0.020
+ T16      N8     C9        single      1.330    0.020
+ T16      O9     C9        double      1.220    0.020
+ T16      C9     C10       single      1.500    0.020
+ T16      C10    N12       single      1.450    0.020
+ T16      C11    C10       single      1.524    0.020
+ T16      H10    C10       single      1.099    0.020
+ T16      N12    C13       single      1.330    0.020
+ T16      HN2    N12       single      1.010    0.020
+ T16      C21    C11       single      1.511    0.020
+ T16      H111   C11       single      1.092    0.020
+ T16      H112   C11       single      1.092    0.020
+ T16      C22    C21       double      1.390    0.020
+ T16      C21    C26       single      1.390    0.020
+ T16      C23    C22       single      1.390    0.020
+ T16      H_22   C22       single      1.083    0.020
+ T16      C24    C23       double      1.390    0.020
+ T16      H23    C23       single      1.083    0.020
+ T16      C25    C24       single      1.390    0.020
+ T16      H24    C24       single      1.083    0.020
+ T16      C26    C25       double      1.390    0.020
+ T16      H25    C25       single      1.083    0.020
+ T16      H26    C26       single      1.083    0.020
+ T16      O13    C13       double      1.220    0.020
+ T16      C13    C14       single      1.510    0.020
+ T16      C14    C15       single      1.524    0.020
+ T16      H141   C14       single      1.092    0.020
+ T16      H142   C14       single      1.092    0.020
+ T16      C15    C16       single      1.524    0.020
+ T16      H151   C15       single      1.092    0.020
+ T16      H152   C15       single      1.092    0.020
+ T16      C16    C17       single      1.510    0.020
+ T16      H161   C16       single      1.092    0.020
+ T16      H162   C16       single      1.092    0.020
+ T16      C17    O17       double      1.220    0.020
+ T16      H17    C17       single      1.077    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ T16      O17    C17    H17     123.000    3.000
+ T16      O17    C17    C16     120.500    3.000
+ T16      H17    C17    C16     120.000    3.000
+ T16      C17    C16    H161    109.470    3.000
+ T16      C17    C16    H162    109.470    3.000
+ T16      C17    C16    C15     109.470    3.000
+ T16      H161   C16    H162    107.900    3.000
+ T16      H161   C16    C15     109.470    3.000
+ T16      H162   C16    C15     109.470    3.000
+ T16      C16    C15    H151    109.470    3.000
+ T16      C16    C15    H152    109.470    3.000
+ T16      C16    C15    C14     111.000    3.000
+ T16      H151   C15    H152    107.900    3.000
+ T16      H151   C15    C14     109.470    3.000
+ T16      H152   C15    C14     109.470    3.000
+ T16      C15    C14    H141    109.470    3.000
+ T16      C15    C14    H142    109.470    3.000
+ T16      C15    C14    C13     109.470    3.000
+ T16      H141   C14    H142    107.900    3.000
+ T16      H141   C14    C13     109.470    3.000
+ T16      H142   C14    C13     109.470    3.000
+ T16      C14    C13    O13     120.500    3.000
+ T16      C14    C13    N12     116.500    3.000
+ T16      O13    C13    N12     123.000    3.000
+ T16      C13    N12    HN2     120.000    3.000
+ T16      C13    N12    C10     121.500    3.000
+ T16      HN2    N12    C10     118.500    3.000
+ T16      N12    C10    H10     108.550    3.000
+ T16      N12    C10    C11     110.000    3.000
+ T16      N12    C10    C9      111.600    3.000
+ T16      H10    C10    C11     108.340    3.000
+ T16      H10    C10    C9      108.810    3.000
+ T16      C11    C10    C9      109.470    3.000
+ T16      C10    C11    H111    109.470    3.000
+ T16      C10    C11    H112    109.470    3.000
+ T16      C10    C11    C21     109.470    3.000
+ T16      H111   C11    H112    107.900    3.000
+ T16      H111   C11    C21     109.470    3.000
+ T16      H112   C11    C21     109.470    3.000
+ T16      C11    C21    C22     120.000    3.000
+ T16      C11    C21    C26     120.000    3.000
+ T16      C22    C21    C26     120.000    3.000
+ T16      C21    C22    H_22    120.000    3.000
+ T16      C21    C22    C23     120.000    3.000
+ T16      H_22   C22    C23     120.000    3.000
+ T16      C22    C23    H23     120.000    3.000
+ T16      C22    C23    C24     120.000    3.000
+ T16      H23    C23    C24     120.000    3.000
+ T16      C23    C24    H24     120.000    3.000
+ T16      C23    C24    C25     120.000    3.000
+ T16      H24    C24    C25     120.000    3.000
+ T16      C24    C25    H25     120.000    3.000
+ T16      C24    C25    C26     120.000    3.000
+ T16      H25    C25    C26     120.000    3.000
+ T16      C25    C26    H26     120.000    3.000
+ T16      C25    C26    C21     120.000    3.000
+ T16      H26    C26    C21     120.000    3.000
+ T16      C10    C9     O9      120.500    3.000
+ T16      C10    C9     N8      116.500    3.000
+ T16      O9     C9     N8      123.000    3.000
+ T16      C9     N8     C7C     127.000    3.000
+ T16      C9     N8     C7      121.000    3.000
+ T16      C7C    N8     C7      112.000    3.000
+ T16      N8     C7C    H7C1    109.470    3.000
+ T16      N8     C7C    H7C2    109.470    3.000
+ T16      N8     C7C    C7B     105.000    3.000
+ T16      H7C1   C7C    H7C2    107.900    3.000
+ T16      H7C1   C7C    C7B     109.470    3.000
+ T16      H7C2   C7C    C7B     109.470    3.000
+ T16      C7C    C7B    H7B1    109.470    3.000
+ T16      C7C    C7B    H7B2    109.470    3.000
+ T16      C7C    C7B    C7A     111.000    3.000
+ T16      H7B1   C7B    H7B2    107.900    3.000
+ T16      H7B1   C7B    C7A     109.470    3.000
+ T16      H7B2   C7B    C7A     109.470    3.000
+ T16      C7B    C7A    H7A1    109.470    3.000
+ T16      C7B    C7A    H7A2    109.470    3.000
+ T16      C7B    C7A    C7      111.000    3.000
+ T16      H7A1   C7A    H7A2    107.900    3.000
+ T16      H7A1   C7A    C7      109.470    3.000
+ T16      H7A2   C7A    C7      109.470    3.000
+ T16      C7A    C7     H7      108.340    3.000
+ T16      C7A    C7     C6      109.470    3.000
+ T16      C7A    C7     N8      105.000    3.000
+ T16      H7     C7     C6      108.810    3.000
+ T16      H7     C7     N8      109.470    3.000
+ T16      C6     C7     N8      111.600    3.000
+ T16      C7     C6     O6      120.500    3.000
+ T16      C7     C6     N5      116.500    3.000
+ T16      O6     C6     N5      123.000    3.000
+ T16      C6     N5     HN5     120.000    3.000
+ T16      C6     N5     C4      121.500    3.000
+ T16      HN5    N5     C4      118.500    3.000
+ T16      N5     C4     H4      108.550    3.000
+ T16      N5     C4     B       109.500    3.000
+ T16      N5     C4     C3      110.000    3.000
+ T16      H4     C4     B       109.470    3.000
+ T16      H4     C4     C3      108.340    3.000
+ T16      B      C4     C3      109.470    3.000
+ T16      C4     B      O1B     120.000    3.000
+ T16      C4     B      O1A     120.000    3.000
+ T16      O1B    B      O1A     120.000    3.000
+ T16      B      O1B    BHO1    120.000    3.000
+ T16      B      O1A    AHO1    120.000    3.000
+ T16      C4     C3     H31     109.470    3.000
+ T16      C4     C3     H32     109.470    3.000
+ T16      C4     C3     C2      111.000    3.000
+ T16      H31    C3     H32     107.900    3.000
+ T16      H31    C3     C2      109.470    3.000
+ T16      H32    C3     C2      109.470    3.000
+ T16      C3     C2     H21     109.470    3.000
+ T16      C3     C2     H22     109.470    3.000
+ T16      C3     C2     C1      111.000    3.000
+ T16      H21    C2     H22     107.900    3.000
+ T16      H21    C2     C1      109.470    3.000
+ T16      H22    C2     C1      109.470    3.000
+ T16      C2     C1     H1      108.340    3.000
+ T16      C2     C1     BR1     109.500    3.000
+ T16      C2     C1     BR2     109.500    3.000
+ T16      H1     C1     BR1     109.500    3.000
+ T16      H1     C1     BR2     109.500    3.000
+ T16      BR1    C1     BR2     109.500    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ T16      var_1    O17    C17    C16    C15      175.000   20.000   1
+ T16      var_2    C17    C16    C15    C14      175.000   20.000   3
+ T16      var_3    C16    C15    C14    C13      175.000   20.000   3
+ T16      var_4    C15    C14    C13    N12      175.000   20.000   3
+ T16      CONST_1  C14    C13    N12    C10      180.000    0.000   0
+ T16      var_5    C13    N12    C10    C9       175.000   20.000   3
+ T16      var_6    N12    C10    C11    C21      175.000   20.000   3
+ T16      var_7    C10    C11    C21    C22      175.000   20.000   2
+ T16      CONST_2  C11    C21    C26    C25      180.000    0.000   0
+ T16      CONST_3  C11    C21    C22    C23      180.000    0.000   0
+ T16      CONST_4  C21    C22    C23    C24        0.000    0.000   0
+ T16      CONST_5  C22    C23    C24    C25        0.000    0.000   0
+ T16      CONST_6  C23    C24    C25    C26        0.000    0.000   0
+ T16      CONST_7  C24    C25    C26    C21        0.000    0.000   0
+ T16      var_8    N12    C10    C9     N8       110.000   20.000   3
+ T16      CONST_8  C10    C9     N8     C7C      180.000    0.000   0
+ T16      var_9    C9     N8     C7C    C7B     -120.000   20.000   1
+ T16      var_10   N8     C7C    C7B    C7A      -60.000   20.000   3
+ T16      var_11   C7C    C7B    C7A    C7        30.000   20.000   3
+ T16      var_12   C7B    C7A    C7     C6      -120.000   20.000   3
+ T16      var_13   C7A    C7     N8     C9       150.000   20.000   3
+ T16      var_14   C7A    C7     C6     N5       175.000   20.000   3
+ T16      CONST_9  C7     C6     N5     C4       180.000    0.000   0
+ T16      var_15   C6     N5     C4     C3       175.000   20.000   3
+ T16      var_16   N5     C4     B      O1A      175.000   20.000   1
+ T16      var_17   C4     B      O1B    BHO1     175.000   20.000   1
+ T16      var_18   C4     B      O1A    AHO1     175.000   20.000   1
+ T16      var_19   N5     C4     C3     C2       175.000   20.000   3
+ T16      var_20   C4     C3     C2     C1       175.000   20.000   3
+ T16      var_21   C3     C2     C1     BR2      175.000   20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ T16      chir_01  C1     BR1    BR2    C2        positiv
+ T16      chir_02  C4     C3     B      N5        positiv
+ T16      chir_03  C7     C6     C7A    N8        positiv
+ T16      chir_04  C10    C9     N12    C11       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ T16      plan-1    N5        0.020
+ T16      plan-1    C4        0.020
+ T16      plan-1    C6        0.020
+ T16      plan-1    HN5       0.020
+ T16      plan-2    C6        0.020
+ T16      plan-2    N5        0.020
+ T16      plan-2    O6        0.020
+ T16      plan-2    C7        0.020
+ T16      plan-2    HN5       0.020
+ T16      plan-3    N8        0.020
+ T16      plan-3    C7        0.020
+ T16      plan-3    C7C       0.020
+ T16      plan-3    C9        0.020
+ T16      plan-4    C9        0.020
+ T16      plan-4    N8        0.020
+ T16      plan-4    O9        0.020
+ T16      plan-4    C10       0.020
+ T16      plan-5    N12       0.020
+ T16      plan-5    C10       0.020
+ T16      plan-5    C13       0.020
+ T16      plan-5    HN2       0.020
+ T16      plan-6    C21       0.020
+ T16      plan-6    C11       0.020
+ T16      plan-6    C22       0.020
+ T16      plan-6    C26       0.020
+ T16      plan-6    C23       0.020
+ T16      plan-6    C24       0.020
+ T16      plan-6    C25       0.020
+ T16      plan-6    H_22      0.020
+ T16      plan-6    H23       0.020
+ T16      plan-6    H24       0.020
+ T16      plan-6    H25       0.020
+ T16      plan-6    H26       0.020
+ T16      plan-7    C13       0.020
+ T16      plan-7    N12       0.020
+ T16      plan-7    O13       0.020
+ T16      plan-7    C14       0.020
+ T16      plan-7    HN2       0.020
+ T16      plan-8    C17       0.020
+ T16      plan-8    C16       0.020
+ T16      plan-8    O17       0.020
+ T16      plan-8    H17       0.020

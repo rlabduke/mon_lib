@@ -1,0 +1,252 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+DIQ      DIQ '2-METHYL-DECAHYDRO-ISOQUINOLINE-3-CA' non-polymer        33  14 .
+#
+data_comp_DIQ
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ DIQ           OXT    O    OC       -0.500      0.058    0.087   -0.022
+ DIQ           C      C    C         0.000      0.975    0.943   -0.012
+ DIQ           O      O    OC       -0.500      2.185    0.611   -0.003
+ DIQ           C2     C    CH1       0.000      0.484    2.367    0.058
+ DIQ           H2     H    H         0.000     -0.609    2.350    0.173
+ DIQ           N1     N    NT        0.000      1.048    3.088    1.182
+ DIQ           CM     C    CH3       0.000      0.817    2.397    2.444
+ DIQ           HM_3   H    H         0.000      1.423    1.531    2.486
+ DIQ           HM_2   H    H         0.000      1.063    3.042    3.247
+ DIQ           HM_1   H    H         0.000     -0.203    2.121    2.511
+ DIQ           C3     C    CH2       0.000      0.811    2.969   -1.289
+ DIQ           H3_1   H    H         0.000      0.229    2.435   -2.044
+ DIQ           H3_2   H    H         0.000      1.876    2.813   -1.475
+ DIQ           C3A    C    CH1       0.000      0.500    4.430   -1.359
+ DIQ           H3A    H    H         0.000     -0.596    4.519   -1.337
+ DIQ           C4     C    CH2       0.000      0.949    4.971   -2.689
+ DIQ           H4_1   H    H         0.000      0.362    5.873   -2.872
+ DIQ           H4_2   H    H         0.000      0.695    4.215   -3.435
+ DIQ           C5     C    CH2       0.000      2.407    5.295   -2.782
+ DIQ           H5_1   H    H         0.000      2.580    5.889   -3.682
+ DIQ           H5_2   H    H         0.000      2.973    4.364   -2.847
+ DIQ           C6     C    CH2       0.000      2.853    6.073   -1.572
+ DIQ           H6_1   H    H         0.000      2.400    7.062   -1.661
+ DIQ           H6_2   H    H         0.000      3.939    6.163   -1.652
+ DIQ           C7     C    CH2       0.000      2.491    5.468   -0.230
+ DIQ           H7_1   H    H         0.000      2.766    6.176    0.554
+ DIQ           H7_2   H    H         0.000      3.062    4.546   -0.101
+ DIQ           C7A    C    CH1       0.000      1.018    5.165   -0.143
+ DIQ           H7A    H    H         0.000      0.506    6.138   -0.131
+ DIQ           C8     C    CH2       0.000      0.642    4.469    1.164
+ DIQ           H8_2   H    H         0.000     -0.442    4.532    1.282
+ DIQ           H8_1   H    H         0.000      1.127    5.003    1.984
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ DIQ      OXT    n/a    C      START
+ DIQ      C      OXT    C2     .
+ DIQ      O      C      .      .
+ DIQ      C2     C      C3     .
+ DIQ      H2     C2     .      .
+ DIQ      N1     C2     CM     .
+ DIQ      CM     N1     HM_1   .
+ DIQ      HM_3   CM     .      .
+ DIQ      HM_2   CM     .      .
+ DIQ      HM_1   CM     .      .
+ DIQ      C3     C2     C3A    .
+ DIQ      H3_1   C3     .      .
+ DIQ      H3_2   C3     .      .
+ DIQ      C3A    C3     C4     .
+ DIQ      H3A    C3A    .      .
+ DIQ      C4     C3A    C5     .
+ DIQ      H4_1   C4     .      .
+ DIQ      H4_2   C4     .      .
+ DIQ      C5     C4     C6     .
+ DIQ      H5_1   C5     .      .
+ DIQ      H5_2   C5     .      .
+ DIQ      C6     C5     C7     .
+ DIQ      H6_1   C6     .      .
+ DIQ      H6_2   C6     .      .
+ DIQ      C7     C6     C7A    .
+ DIQ      H7_1   C7     .      .
+ DIQ      H7_2   C7     .      .
+ DIQ      C7A    C7     C8     .
+ DIQ      H7A    C7A    .      .
+ DIQ      C8     C7A    H8_1   .
+ DIQ      H8_2   C8     .      .
+ DIQ      H8_1   C8     .      END
+ DIQ      N1     C8     .    ADD
+ DIQ      C3A    C7A    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ DIQ      CM     N1        single      1.469    0.020
+ DIQ      N1     C2        single      1.469    0.020
+ DIQ      N1     C8        single      1.469    0.020
+ DIQ      HM_1   CM        single      1.059    0.020
+ DIQ      HM_2   CM        single      1.059    0.020
+ DIQ      HM_3   CM        single      1.059    0.020
+ DIQ      C2     C         single      1.500    0.020
+ DIQ      C3     C2        single      1.524    0.020
+ DIQ      H2     C2        single      1.099    0.020
+ DIQ      O      C         deloc       1.250    0.020
+ DIQ      C      OXT       deloc       1.250    0.020
+ DIQ      C3A    C3        single      1.524    0.020
+ DIQ      H3_1   C3        single      1.092    0.020
+ DIQ      H3_2   C3        single      1.092    0.020
+ DIQ      C4     C3A       single      1.524    0.020
+ DIQ      C3A    C7A       single      1.524    0.020
+ DIQ      H3A    C3A       single      1.099    0.020
+ DIQ      C5     C4        single      1.524    0.020
+ DIQ      H4_1   C4        single      1.092    0.020
+ DIQ      H4_2   C4        single      1.092    0.020
+ DIQ      C6     C5        single      1.524    0.020
+ DIQ      H5_1   C5        single      1.092    0.020
+ DIQ      H5_2   C5        single      1.092    0.020
+ DIQ      C7     C6        single      1.524    0.020
+ DIQ      H6_1   C6        single      1.092    0.020
+ DIQ      H6_2   C6        single      1.092    0.020
+ DIQ      C7A    C7        single      1.524    0.020
+ DIQ      H7_1   C7        single      1.092    0.020
+ DIQ      H7_2   C7        single      1.092    0.020
+ DIQ      C8     C7A       single      1.524    0.020
+ DIQ      H7A    C7A       single      1.099    0.020
+ DIQ      H8_1   C8        single      1.092    0.020
+ DIQ      H8_2   C8        single      1.092    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ DIQ      OXT    C      O       123.000    3.000
+ DIQ      OXT    C      C2      118.500    3.000
+ DIQ      O      C      C2      118.500    3.000
+ DIQ      C      C2     H2      108.810    3.000
+ DIQ      C      C2     N1      109.500    3.000
+ DIQ      C      C2     C3      109.470    3.000
+ DIQ      H2     C2     N1      109.500    3.000
+ DIQ      H2     C2     C3      108.340    3.000
+ DIQ      N1     C2     C3      109.500    3.000
+ DIQ      C2     N1     CM      109.470    3.000
+ DIQ      C2     N1     C8      109.470    3.000
+ DIQ      CM     N1     C8      109.470    3.000
+ DIQ      N1     CM     HM_3    109.470    3.000
+ DIQ      N1     CM     HM_2    109.470    3.000
+ DIQ      N1     CM     HM_1    109.470    3.000
+ DIQ      HM_3   CM     HM_2    109.470    3.000
+ DIQ      HM_3   CM     HM_1    109.470    3.000
+ DIQ      HM_2   CM     HM_1    109.470    3.000
+ DIQ      C2     C3     H3_1    109.470    3.000
+ DIQ      C2     C3     H3_2    109.470    3.000
+ DIQ      C2     C3     C3A     111.000    3.000
+ DIQ      H3_1   C3     H3_2    107.900    3.000
+ DIQ      H3_1   C3     C3A     109.470    3.000
+ DIQ      H3_2   C3     C3A     109.470    3.000
+ DIQ      C3     C3A    H3A     108.340    3.000
+ DIQ      C3     C3A    C4      109.470    3.000
+ DIQ      C3     C3A    C7A     111.000    3.000
+ DIQ      H3A    C3A    C4      108.340    3.000
+ DIQ      H3A    C3A    C7A     108.340    3.000
+ DIQ      C4     C3A    C7A     111.000    3.000
+ DIQ      C3A    C4     H4_1    109.470    3.000
+ DIQ      C3A    C4     H4_2    109.470    3.000
+ DIQ      C3A    C4     C5      111.000    3.000
+ DIQ      H4_1   C4     H4_2    107.900    3.000
+ DIQ      H4_1   C4     C5      109.470    3.000
+ DIQ      H4_2   C4     C5      109.470    3.000
+ DIQ      C4     C5     H5_1    109.470    3.000
+ DIQ      C4     C5     H5_2    109.470    3.000
+ DIQ      C4     C5     C6      111.000    3.000
+ DIQ      H5_1   C5     H5_2    107.900    3.000
+ DIQ      H5_1   C5     C6      109.470    3.000
+ DIQ      H5_2   C5     C6      109.470    3.000
+ DIQ      C5     C6     H6_1    109.470    3.000
+ DIQ      C5     C6     H6_2    109.470    3.000
+ DIQ      C5     C6     C7      111.000    3.000
+ DIQ      H6_1   C6     H6_2    107.900    3.000
+ DIQ      H6_1   C6     C7      109.470    3.000
+ DIQ      H6_2   C6     C7      109.470    3.000
+ DIQ      C6     C7     H7_1    109.470    3.000
+ DIQ      C6     C7     H7_2    109.470    3.000
+ DIQ      C6     C7     C7A     111.000    3.000
+ DIQ      H7_1   C7     H7_2    107.900    3.000
+ DIQ      H7_1   C7     C7A     109.470    3.000
+ DIQ      H7_2   C7     C7A     109.470    3.000
+ DIQ      C7     C7A    H7A     108.340    3.000
+ DIQ      C7     C7A    C8      109.470    3.000
+ DIQ      C7     C7A    C3A     111.000    3.000
+ DIQ      H7A    C7A    C8      108.340    3.000
+ DIQ      H7A    C7A    C3A     108.340    3.000
+ DIQ      C8     C7A    C3A     111.000    3.000
+ DIQ      C7A    C8     H8_2    109.470    3.000
+ DIQ      C7A    C8     H8_1    109.470    3.000
+ DIQ      C7A    C8     N1      109.500    3.000
+ DIQ      H8_2   C8     H8_1    107.900    3.000
+ DIQ      H8_2   C8     N1      109.470    3.000
+ DIQ      H8_1   C8     N1      109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ DIQ      var_1    OXT    C      C2     C3       -90.000   20.000   3
+ DIQ      var_2    C      C2     N1     CM       -60.000   20.000   1
+ DIQ      var_3    C2     N1     C8     C7A      -60.000   20.000   1
+ DIQ      var_4    C2     N1     CM     HM_1     -48.481   20.000   1
+ DIQ      var_5    C      C2     C3     C3A      180.000   20.000   3
+ DIQ      var_6    C2     C3     C3A    C4       180.000   20.000   3
+ DIQ      var_7    C3     C3A    C7A    C7        60.000   20.000   3
+ DIQ      var_8    C3     C3A    C4     C5       -60.000   20.000   3
+ DIQ      var_9    C3A    C4     C5     C6       -60.000   20.000   3
+ DIQ      var_10   C4     C5     C6     C7        60.000   20.000   3
+ DIQ      var_11   C5     C6     C7     C7A      -60.000   20.000   3
+ DIQ      var_12   C6     C7     C7A    C8       180.000   20.000   3
+ DIQ      var_13   C7     C7A    C8     N1       -60.000   20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ DIQ      chir_01  N1     CM     C2     C8        negativ
+ DIQ      chir_02  C2     N1     C      C3        positiv
+ DIQ      chir_03  C3A    C3     C4     C7A       positiv
+ DIQ      chir_04  C7A    C3A    C7     C8        positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ DIQ      plan-1    C         0.020
+ DIQ      plan-1    C2        0.020
+ DIQ      plan-1    O         0.020
+ DIQ      plan-1    OXT       0.020

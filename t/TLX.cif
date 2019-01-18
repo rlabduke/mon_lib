@@ -1,0 +1,311 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+TLX      TLX 'N1-(2-AMINO-4-METHYLPENTYL)OCTAHYDRO' non-polymer        43  16 .
+#
+data_comp_TLX
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ TLX           'N''   N    NH2       0.000      0.000    0.000    0.000
+ TLX           'HN'1' H    H         0.000     -0.986    0.211   -0.062
+ TLX           'HN'2' H    H         0.000      0.309   -0.961    0.036
+ TLX           'C2''  C    CH1       0.000      0.972    1.077    0.038
+ TLX           'H2''  H    H         0.000      1.567    1.002    0.959
+ TLX           'C3''  C    CH2       0.000      1.885    0.944   -1.166
+ TLX           'H3'1' H    H         0.000      2.624    1.747   -1.131
+ TLX           'H3'2' H    H         0.000      1.281    1.046   -2.071
+ TLX           'C4''  C    CH1       0.000      2.595   -0.400   -1.178
+ TLX           'H4''  H    H         0.000      1.839   -1.197   -1.208
+ TLX           'CM''  C    CH3       0.000      3.459   -0.596    0.063
+ TLX           'HM'3' H    H         0.000      2.851   -0.550    0.928
+ TLX           'HM'2' H    H         0.000      3.935   -1.541    0.016
+ TLX           'HM'1' H    H         0.000      4.193    0.166    0.106
+ TLX           'C5''  C    CH3       0.000      3.488   -0.530   -2.407
+ TLX           'H5'3' H    H         0.000      2.898   -0.448   -3.283
+ TLX           'H5'2' H    H         0.000      4.215    0.240   -2.398
+ TLX           'H5'1' H    H         0.000      3.972   -1.472   -2.394
+ TLX           'C1''  C    CH2       0.000      0.291    2.439   -0.019
+ TLX           'H1'1' H    H         0.000     -0.475    2.475   -0.796
+ TLX           'H1'2' H    H         0.000      1.011    3.244   -0.183
+ TLX           N1     N    NT        0.000     -0.330    2.601    1.285
+ TLX           C2     C    CH2       0.000     -1.552    1.720    1.365
+ TLX           H2_1   H    H         0.000     -1.255    0.704    1.099
+ TLX           H2_2   H    H         0.000     -2.281    2.087    0.639
+ TLX           C3     C    CH2       0.000     -2.178    1.721    2.766
+ TLX           H3_1   H    H         0.000     -1.450    1.341    3.485
+ TLX           H3_2   H    H         0.000     -3.059    1.077    2.767
+ TLX           C4     C    CH2       0.000     -2.581    3.130    3.149
+ TLX           H4_1   H    H         0.000     -2.760    3.199    4.224
+ TLX           H4_2   H    H         0.000     -3.481    3.432    2.611
+ TLX           N5     N    NT        0.000     -1.463    4.018    2.777
+ TLX           C6     C    CH2       0.000     -1.967    5.400    2.833
+ TLX           H6_1   H    H         0.000     -1.634    5.926    3.731
+ TLX           H6_2   H    H         0.000     -3.056    5.445    2.770
+ TLX           C7     C    CH2       0.000     -1.349    6.066    1.585
+ TLX           H7_1   H    H         0.000     -0.705    6.886    1.909
+ TLX           H7_2   H    H         0.000     -2.156    6.461    0.964
+ TLX           C8     C    CH2       0.000     -0.516    5.043    0.766
+ TLX           H8_1   H    H         0.000      0.562    5.131    0.917
+ TLX           H8_2   H    H         0.000     -0.734    5.053   -0.304
+ TLX           C9     C    CH1       0.000     -1.007    3.749    1.370
+ TLX           H9     H    H         0.000     -1.940    3.544    0.827
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ TLX      'N''   n/a    'C2''  START
+ TLX      'HN'1' 'N''   .      .
+ TLX      'HN'2' 'N''   .      .
+ TLX      'C2''  'N''   'C1''  .
+ TLX      'H2''  'C2''  .      .
+ TLX      'C3''  'C2''  'C4''  .
+ TLX      'H3'1' 'C3''  .      .
+ TLX      'H3'2' 'C3''  .      .
+ TLX      'C4''  'C3''  'C5''  .
+ TLX      'H4''  'C4''  .      .
+ TLX      'CM''  'C4''  'HM'1' .
+ TLX      'HM'3' 'CM''  .      .
+ TLX      'HM'2' 'CM''  .      .
+ TLX      'HM'1' 'CM''  .      .
+ TLX      'C5''  'C4''  'H5'1' .
+ TLX      'H5'3' 'C5''  .      .
+ TLX      'H5'2' 'C5''  .      .
+ TLX      'H5'1' 'C5''  .      .
+ TLX      'C1''  'C2''  N1     .
+ TLX      'H1'1' 'C1''  .      .
+ TLX      'H1'2' 'C1''  .      .
+ TLX      N1     'C1''  C2     .
+ TLX      C2     N1     C3     .
+ TLX      H2_1   C2     .      .
+ TLX      H2_2   C2     .      .
+ TLX      C3     C2     C4     .
+ TLX      H3_1   C3     .      .
+ TLX      H3_2   C3     .      .
+ TLX      C4     C3     N5     .
+ TLX      H4_1   C4     .      .
+ TLX      H4_2   C4     .      .
+ TLX      N5     C4     C6     .
+ TLX      C6     N5     C7     .
+ TLX      H6_1   C6     .      .
+ TLX      H6_2   C6     .      .
+ TLX      C7     C6     C8     .
+ TLX      H7_1   C7     .      .
+ TLX      H7_2   C7     .      .
+ TLX      C8     C7     C9     .
+ TLX      H8_1   C8     .      .
+ TLX      H8_2   C8     .      .
+ TLX      C9     C8     H9     .
+ TLX      H9     C9     .      END
+ TLX      N1     C9     .    ADD
+ TLX      N5     C9     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ TLX      C2     N1        single      1.469    0.020
+ TLX      N1     C9        single      1.469    0.020
+ TLX      N1     'C1''     single      1.469    0.020
+ TLX      C3     C2        single      1.524    0.020
+ TLX      H2_1   C2        single      1.092    0.020
+ TLX      H2_2   C2        single      1.092    0.020
+ TLX      C4     C3        single      1.524    0.020
+ TLX      H3_1   C3        single      1.092    0.020
+ TLX      H3_2   C3        single      1.092    0.020
+ TLX      N5     C4        single      1.469    0.020
+ TLX      H4_1   C4        single      1.092    0.020
+ TLX      H4_2   C4        single      1.092    0.020
+ TLX      C6     N5        single      1.469    0.020
+ TLX      N5     C9        single      1.469    0.020
+ TLX      C7     C6        single      1.524    0.020
+ TLX      H6_1   C6        single      1.092    0.020
+ TLX      H6_2   C6        single      1.092    0.020
+ TLX      C8     C7        single      1.524    0.020
+ TLX      H7_1   C7        single      1.092    0.020
+ TLX      H7_2   C7        single      1.092    0.020
+ TLX      C9     C8        single      1.524    0.020
+ TLX      H8_1   C8        single      1.092    0.020
+ TLX      H8_2   C8        single      1.092    0.020
+ TLX      H9     C9        single      1.099    0.020
+ TLX      'C1''  'C2''     single      1.524    0.020
+ TLX      'H1'1' 'C1''     single      1.092    0.020
+ TLX      'H1'2' 'C1''     single      1.092    0.020
+ TLX      'C3''  'C2''     single      1.524    0.020
+ TLX      'C2''  'N''      single      1.450    0.020
+ TLX      'H2''  'C2''     single      1.099    0.020
+ TLX      'C4''  'C3''     single      1.524    0.020
+ TLX      'H3'1' 'C3''     single      1.092    0.020
+ TLX      'H3'2' 'C3''     single      1.092    0.020
+ TLX      'C5''  'C4''     single      1.524    0.020
+ TLX      'CM''  'C4''     single      1.524    0.020
+ TLX      'H4''  'C4''     single      1.099    0.020
+ TLX      'H5'1' 'C5''     single      1.059    0.020
+ TLX      'H5'2' 'C5''     single      1.059    0.020
+ TLX      'H5'3' 'C5''     single      1.059    0.020
+ TLX      'HM'1' 'CM''     single      1.059    0.020
+ TLX      'HM'2' 'CM''     single      1.059    0.020
+ TLX      'HM'3' 'CM''     single      1.059    0.020
+ TLX      'HN'1' 'N''      single      1.010    0.020
+ TLX      'HN'2' 'N''      single      1.010    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ TLX      'HN'1' 'N''   'HN'2'  120.000    3.000
+ TLX      'HN'1' 'N''   'C2''   120.000    3.000
+ TLX      'HN'2' 'N''   'C2''   120.000    3.000
+ TLX      'N''   'C2''  'H2''   109.470    3.000
+ TLX      'N''   'C2''  'C3''   109.470    3.000
+ TLX      'N''   'C2''  'C1''   109.470    3.000
+ TLX      'H2''  'C2''  'C3''   108.340    3.000
+ TLX      'H2''  'C2''  'C1''   108.340    3.000
+ TLX      'C3''  'C2''  'C1''   109.470    3.000
+ TLX      'C2''  'C3''  'H3'1'  109.470    3.000
+ TLX      'C2''  'C3''  'H3'2'  109.470    3.000
+ TLX      'C2''  'C3''  'C4''   111.000    3.000
+ TLX      'H3'1' 'C3''  'H3'2'  107.900    3.000
+ TLX      'H3'1' 'C3''  'C4''   109.470    3.000
+ TLX      'H3'2' 'C3''  'C4''   109.470    3.000
+ TLX      'C3''  'C4''  'H4''   108.340    3.000
+ TLX      'C3''  'C4''  'CM''   111.000    3.000
+ TLX      'C3''  'C4''  'C5''   111.000    3.000
+ TLX      'H4''  'C4''  'CM''   108.340    3.000
+ TLX      'H4''  'C4''  'C5''   108.340    3.000
+ TLX      'CM''  'C4''  'C5''   111.000    3.000
+ TLX      'C4''  'CM''  'HM'3'  109.470    3.000
+ TLX      'C4''  'CM''  'HM'2'  109.470    3.000
+ TLX      'C4''  'CM''  'HM'1'  109.470    3.000
+ TLX      'HM'3' 'CM''  'HM'2'  109.470    3.000
+ TLX      'HM'3' 'CM''  'HM'1'  109.470    3.000
+ TLX      'HM'2' 'CM''  'HM'1'  109.470    3.000
+ TLX      'C4''  'C5''  'H5'3'  109.470    3.000
+ TLX      'C4''  'C5''  'H5'2'  109.470    3.000
+ TLX      'C4''  'C5''  'H5'1'  109.470    3.000
+ TLX      'H5'3' 'C5''  'H5'2'  109.470    3.000
+ TLX      'H5'3' 'C5''  'H5'1'  109.470    3.000
+ TLX      'H5'2' 'C5''  'H5'1'  109.470    3.000
+ TLX      'C2''  'C1''  'H1'1'  109.470    3.000
+ TLX      'C2''  'C1''  'H1'2'  109.470    3.000
+ TLX      'C2''  'C1''  N1      109.500    3.000
+ TLX      'H1'1' 'C1''  'H1'2'  107.900    3.000
+ TLX      'H1'1' 'C1''  N1      109.470    3.000
+ TLX      'H1'2' 'C1''  N1      109.470    3.000
+ TLX      'C1''  N1     C2      109.470    3.000
+ TLX      'C1''  N1     C9      109.470    3.000
+ TLX      C2     N1     C9      109.470    3.000
+ TLX      N1     C2     H2_1    109.470    3.000
+ TLX      N1     C2     H2_2    109.470    3.000
+ TLX      N1     C2     C3      109.470    3.000
+ TLX      H2_1   C2     H2_2    107.900    3.000
+ TLX      H2_1   C2     C3      109.470    3.000
+ TLX      H2_2   C2     C3      109.470    3.000
+ TLX      C2     C3     H3_1    109.470    3.000
+ TLX      C2     C3     H3_2    109.470    3.000
+ TLX      C2     C3     C4      111.000    3.000
+ TLX      H3_1   C3     H3_2    107.900    3.000
+ TLX      H3_1   C3     C4      109.470    3.000
+ TLX      H3_2   C3     C4      109.470    3.000
+ TLX      C3     C4     H4_1    109.470    3.000
+ TLX      C3     C4     H4_2    109.470    3.000
+ TLX      C3     C4     N5      109.470    3.000
+ TLX      H4_1   C4     H4_2    107.900    3.000
+ TLX      H4_1   C4     N5      109.470    3.000
+ TLX      H4_2   C4     N5      109.470    3.000
+ TLX      C4     N5     C6      109.470    3.000
+ TLX      C4     N5     C9      109.470    3.000
+ TLX      C6     N5     C9      109.470    3.000
+ TLX      N5     C6     H6_1    109.470    3.000
+ TLX      N5     C6     H6_2    109.470    3.000
+ TLX      N5     C6     C7      109.470    3.000
+ TLX      H6_1   C6     H6_2    107.900    3.000
+ TLX      H6_1   C6     C7      109.470    3.000
+ TLX      H6_2   C6     C7      109.470    3.000
+ TLX      C6     C7     H7_1    109.470    3.000
+ TLX      C6     C7     H7_2    109.470    3.000
+ TLX      C6     C7     C8      111.000    3.000
+ TLX      H7_1   C7     H7_2    107.900    3.000
+ TLX      H7_1   C7     C8      109.470    3.000
+ TLX      H7_2   C7     C8      109.470    3.000
+ TLX      C7     C8     H8_1    109.470    3.000
+ TLX      C7     C8     H8_2    109.470    3.000
+ TLX      C7     C8     C9      111.000    3.000
+ TLX      H8_1   C8     H8_2    107.900    3.000
+ TLX      H8_1   C8     C9      109.470    3.000
+ TLX      H8_2   C8     C9      109.470    3.000
+ TLX      C8     C9     H9      108.340    3.000
+ TLX      C8     C9     N1      109.500    3.000
+ TLX      C8     C9     N5      109.500    3.000
+ TLX      N1     C9     N5      109.500    3.000
+ TLX      H9     C9     N1      109.500    3.000
+ TLX      H9     C9     N5      109.500    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ TLX      var_1    'HN'2' 'N''   'C2''  'C1''   -179.653   20.000   1
+ TLX      var_2    'N''   'C2''  'C3''  'C4''    -59.997   20.000   3
+ TLX      var_3    'C2''  'C3''  'C4''  'C5''   -179.980   20.000   3
+ TLX      var_4    'C3''  'C4''  'CM''  'HM'1'   -60.002   20.000   3
+ TLX      var_5    'C3''  'C4''  'C5''  'H5'1'   180.000   20.000   3
+ TLX      var_6    'N''   'C2''  'C1''  N1        67.128   20.000   3
+ TLX      var_7    'C2''  'C1''  N1     C2       -67.958   20.000   1
+ TLX      var_8    'C1''  N1     C9     C8       -60.000   20.000   1
+ TLX      var_9    'C1''  N1     C2     C3       180.000   20.000   1
+ TLX      var_10   N1     C2     C3     C4        60.000   20.000   3
+ TLX      var_11   C2     C3     C4     N5       -60.000   20.000   3
+ TLX      var_12   C3     C4     N5     C6       180.000   20.000   1
+ TLX      var_13   C4     N5     C9     C8       150.000   20.000   1
+ TLX      var_14   C4     N5     C6     C7      -150.000   20.000   1
+ TLX      var_15   N5     C6     C7     C8         0.000   20.000   3
+ TLX      var_16   C6     C7     C8     C9        30.000   20.000   3
+ TLX      var_17   C7     C8     C9     N1      -150.000   20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ TLX      chir_01  N1     C2     C9     'C1''     positiv
+ TLX      chir_02  N5     C4     C6     C9        positiv
+ TLX      chir_03  C9     N1     N5     C8        negativ
+ TLX      chir_04  'C2''  'C1''  'C3''  'N''      positiv
+ TLX      chir_05  'C4''  'C3''  'C5''  'CM''     negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ TLX      plan-1    'N''      0.020
+ TLX      plan-1    'C2''     0.020
+ TLX      plan-1    'HN'1'    0.020
+ TLX      plan-1    'HN'2'    0.020

@@ -1,0 +1,362 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+RE9      RE9 '6-(2,3,4,5,6,7-HEXAHYDRO-2,4,4-TRIME' non-polymer        50  22 .
+#
+data_comp_RE9
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ RE9           O2     O    OC       -0.500      0.000    0.000    0.000
+ RE9           C15    C    C         0.000      1.050    0.683   -0.053
+ RE9           O1     O    OC       -0.500      2.117    0.104   -0.340
+ RE9           C14    C    C1        0.000      0.917    2.138    0.164
+ RE9           H14    H    H         0.000     -0.019    2.525    0.530
+ RE9           C13    C    C         0.000      1.916    2.990   -0.077
+ RE9           C20    C    CH3       0.000      3.287    2.520   -0.463
+ RE9           H203   H    H         0.000      3.587    3.001   -1.357
+ RE9           H202   H    H         0.000      3.971    2.754    0.311
+ RE9           H201   H    H         0.000      3.271    1.472   -0.614
+ RE9           C12    C    C1        0.000      1.658    4.415    0.183
+ RE9           H12    H    H         0.000      0.656    4.748    0.397
+ RE9           C11    C    C1        0.000      2.640    5.283    0.158
+ RE9           H11    H    H         0.000      3.613    4.927   -0.138
+ RE9           C10    C    CH2       0.000      2.510    6.729    0.507
+ RE9           H101   H    H         0.000      1.519    6.943    0.913
+ RE9           H102   H    H         0.000      2.688    7.358   -0.367
+ RE9           C7     C    CT        0.000      3.584    7.023    1.583
+ RE9           C8     C    CH2       0.000      3.425    6.331    3.043
+ RE9           H8_2   H    H         0.000      4.331    5.792    3.329
+ RE9           H8_1   H    H         0.000      2.573    5.649    3.071
+ RE9           C9     C    C         0.000      3.181    7.522    4.050
+ RE9           C19    C    CH3       0.000      5.016    6.895    1.048
+ RE9           H193   H    H         0.000      5.705    7.118    1.821
+ RE9           H192   H    H         0.000      5.180    5.905    0.706
+ RE9           H191   H    H         0.000      5.157    7.572    0.245
+ RE9           C6     C    C         0.000      3.452    8.526    1.904
+ RE9           C18    C    C2        0.000      3.536    9.525    1.027
+ RE9           H182   H    H         0.000      3.632    9.315   -0.027
+ RE9           H181   H    H         0.000      3.510   10.549    1.366
+ RE9           C5     C    C         0.000      3.202    8.685    3.363
+ RE9           C4     C    CH2       0.000      2.981   10.147    3.807
+ RE9           H4_1   H    H         0.000      2.068   10.483    3.312
+ RE9           H4_2   H    H         0.000      3.831   10.715    3.423
+ RE9           C3     C    CH2       0.000      2.860   10.364    5.277
+ RE9           H3_1   H    H         0.000      1.816   10.471    5.576
+ RE9           H3_2   H    H         0.000      3.421   11.246    5.594
+ RE9           C2     C    CH2       0.000      3.453    9.121    5.930
+ RE9           H2_1   H    H         0.000      3.296    9.250    7.003
+ RE9           H2_2   H    H         0.000      4.522    9.156    5.713
+ RE9           C1     C    CT        0.000      2.878    7.754    5.483
+ RE9           C17    C    CH3       0.000      3.296    6.641    6.386
+ RE9           H173   H    H         0.000      2.878    5.736    6.036
+ RE9           H172   H    H         0.000      4.350    6.573    6.386
+ RE9           H171   H    H         0.000      2.950    6.841    7.364
+ RE9           C16    C    CH3       0.000      1.359    7.928    5.594
+ RE9           H163   H    H         0.000      1.045    8.717    4.960
+ RE9           H162   H    H         0.000      0.877    7.031    5.304
+ RE9           H161   H    H         0.000      1.101    8.159    6.596
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ RE9      O2     n/a    C15    START
+ RE9      C15    O2     C14    .
+ RE9      O1     C15    .      .
+ RE9      C14    C15    C13    .
+ RE9      H14    C14    .      .
+ RE9      C13    C14    C12    .
+ RE9      C20    C13    H201   .
+ RE9      H203   C20    .      .
+ RE9      H202   C20    .      .
+ RE9      H201   C20    .      .
+ RE9      C12    C13    C11    .
+ RE9      H12    C12    .      .
+ RE9      C11    C12    C10    .
+ RE9      H11    C11    .      .
+ RE9      C10    C11    C7     .
+ RE9      H101   C10    .      .
+ RE9      H102   C10    .      .
+ RE9      C7     C10    C6     .
+ RE9      C8     C7     C9     .
+ RE9      H8_2   C8     .      .
+ RE9      H8_1   C8     .      .
+ RE9      C9     C8     .      .
+ RE9      C19    C7     H191   .
+ RE9      H193   C19    .      .
+ RE9      H192   C19    .      .
+ RE9      H191   C19    .      .
+ RE9      C6     C7     C5     .
+ RE9      C18    C6     H181   .
+ RE9      H182   C18    .      .
+ RE9      H181   C18    .      .
+ RE9      C5     C6     C4     .
+ RE9      C4     C5     C3     .
+ RE9      H4_1   C4     .      .
+ RE9      H4_2   C4     .      .
+ RE9      C3     C4     C2     .
+ RE9      H3_1   C3     .      .
+ RE9      H3_2   C3     .      .
+ RE9      C2     C3     C1     .
+ RE9      H2_1   C2     .      .
+ RE9      H2_2   C2     .      .
+ RE9      C1     C2     C16    .
+ RE9      C17    C1     H171   .
+ RE9      H173   C17    .      .
+ RE9      H172   C17    .      .
+ RE9      H171   C17    .      .
+ RE9      C16    C1     H161   .
+ RE9      H163   C16    .      .
+ RE9      H162   C16    .      .
+ RE9      H161   C16    .      END
+ RE9      C1     C9     .    ADD
+ RE9      C5     C9     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ RE9      C1     C2        single      1.524    0.020
+ RE9      C1     C9        single      1.507    0.020
+ RE9      C16    C1        single      1.524    0.020
+ RE9      C17    C1        single      1.524    0.020
+ RE9      C2     C3        single      1.524    0.020
+ RE9      H2_1   C2        single      1.092    0.020
+ RE9      H2_2   C2        single      1.092    0.020
+ RE9      C3     C4        single      1.524    0.020
+ RE9      H3_1   C3        single      1.092    0.020
+ RE9      H3_2   C3        single      1.092    0.020
+ RE9      C4     C5        single      1.510    0.020
+ RE9      H4_1   C4        single      1.092    0.020
+ RE9      H4_2   C4        single      1.092    0.020
+ RE9      C5     C6        single      1.460    0.020
+ RE9      C5     C9        double      1.330    0.020
+ RE9      C6     C7        single      1.507    0.020
+ RE9      C18    C6        double      1.320    0.020
+ RE9      C8     C7        single      1.524    0.020
+ RE9      C7     C10       single      1.524    0.020
+ RE9      C19    C7        single      1.524    0.020
+ RE9      C9     C8        single      1.510    0.020
+ RE9      H8_1   C8        single      1.092    0.020
+ RE9      H8_2   C8        single      1.092    0.020
+ RE9      C10    C11       single      1.510    0.020
+ RE9      H101   C10       single      1.092    0.020
+ RE9      H102   C10       single      1.092    0.020
+ RE9      C11    C12       double      1.330    0.020
+ RE9      H11    C11       single      1.077    0.020
+ RE9      C12    C13       single      1.475    0.020
+ RE9      H12    C12       single      1.077    0.020
+ RE9      C13    C14       double      1.340    0.020
+ RE9      C20    C13       single      1.500    0.020
+ RE9      C14    C15       single      1.475    0.020
+ RE9      H14    C14       single      1.077    0.020
+ RE9      O1     C15       deloc       1.250    0.020
+ RE9      C15    O2        deloc       1.250    0.020
+ RE9      H161   C16       single      1.059    0.020
+ RE9      H162   C16       single      1.059    0.020
+ RE9      H163   C16       single      1.059    0.020
+ RE9      H171   C17       single      1.059    0.020
+ RE9      H172   C17       single      1.059    0.020
+ RE9      H173   C17       single      1.059    0.020
+ RE9      H181   C18       single      1.077    0.020
+ RE9      H182   C18       single      1.077    0.020
+ RE9      H191   C19       single      1.059    0.020
+ RE9      H192   C19       single      1.059    0.020
+ RE9      H193   C19       single      1.059    0.020
+ RE9      H201   C20       single      1.059    0.020
+ RE9      H202   C20       single      1.059    0.020
+ RE9      H203   C20       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ RE9      O2     C15    O1      123.000    3.000
+ RE9      O2     C15    C14     120.000    3.000
+ RE9      O1     C15    C14     120.000    3.000
+ RE9      C15    C14    H14     120.000    3.000
+ RE9      C15    C14    C13     120.000    3.000
+ RE9      H14    C14    C13     120.000    3.000
+ RE9      C14    C13    C20     120.000    3.000
+ RE9      C14    C13    C12     120.000    3.000
+ RE9      C20    C13    C12     120.000    3.000
+ RE9      C13    C20    H203    109.470    3.000
+ RE9      C13    C20    H202    109.470    3.000
+ RE9      C13    C20    H201    109.470    3.000
+ RE9      H203   C20    H202    109.470    3.000
+ RE9      H203   C20    H201    109.470    3.000
+ RE9      H202   C20    H201    109.470    3.000
+ RE9      C13    C12    H12     120.000    3.000
+ RE9      C13    C12    C11     120.000    3.000
+ RE9      H12    C12    C11     120.000    3.000
+ RE9      C12    C11    H11     120.000    3.000
+ RE9      C12    C11    C10     120.000    3.000
+ RE9      H11    C11    C10     120.000    3.000
+ RE9      C11    C10    H101    109.470    3.000
+ RE9      C11    C10    H102    109.470    3.000
+ RE9      C11    C10    C7      109.470    3.000
+ RE9      H101   C10    H102    107.900    3.000
+ RE9      H101   C10    C7      109.470    3.000
+ RE9      H102   C10    C7      109.470    3.000
+ RE9      C10    C7     C8      111.000    3.000
+ RE9      C10    C7     C19     111.000    3.000
+ RE9      C10    C7     C6      109.470    3.000
+ RE9      C8     C7     C19     111.000    3.000
+ RE9      C8     C7     C6      109.470    3.000
+ RE9      C19    C7     C6      109.470    3.000
+ RE9      C7     C8     H8_2    109.470    3.000
+ RE9      C7     C8     H8_1    109.470    3.000
+ RE9      C7     C8     C9      109.470    3.000
+ RE9      H8_2   C8     H8_1    107.900    3.000
+ RE9      H8_2   C8     C9      109.470    3.000
+ RE9      H8_1   C8     C9      109.470    3.000
+ RE9      C8     C9     C1      120.000    3.000
+ RE9      C8     C9     C5      120.000    3.000
+ RE9      C1     C9     C5      120.000    3.000
+ RE9      C7     C19    H193    109.470    3.000
+ RE9      C7     C19    H192    109.470    3.000
+ RE9      C7     C19    H191    109.470    3.000
+ RE9      H193   C19    H192    109.470    3.000
+ RE9      H193   C19    H191    109.470    3.000
+ RE9      H192   C19    H191    109.470    3.000
+ RE9      C7     C6     C18     120.000    3.000
+ RE9      C7     C6     C5      120.000    3.000
+ RE9      C18    C6     C5      120.000    3.000
+ RE9      C6     C18    H182    120.000    3.000
+ RE9      C6     C18    H181    120.000    3.000
+ RE9      H182   C18    H181    120.000    3.000
+ RE9      C6     C5     C4      120.000    3.000
+ RE9      C6     C5     C9      120.000    3.000
+ RE9      C4     C5     C9      120.000    3.000
+ RE9      C5     C4     H4_1    109.470    3.000
+ RE9      C5     C4     H4_2    109.470    3.000
+ RE9      C5     C4     C3      109.470    3.000
+ RE9      H4_1   C4     H4_2    107.900    3.000
+ RE9      H4_1   C4     C3      109.470    3.000
+ RE9      H4_2   C4     C3      109.470    3.000
+ RE9      C4     C3     H3_1    109.470    3.000
+ RE9      C4     C3     H3_2    109.470    3.000
+ RE9      C4     C3     C2      111.000    3.000
+ RE9      H3_1   C3     H3_2    107.900    3.000
+ RE9      H3_1   C3     C2      109.470    3.000
+ RE9      H3_2   C3     C2      109.470    3.000
+ RE9      C3     C2     H2_1    109.470    3.000
+ RE9      C3     C2     H2_2    109.470    3.000
+ RE9      C3     C2     C1      111.000    3.000
+ RE9      H2_1   C2     H2_2    107.900    3.000
+ RE9      H2_1   C2     C1      109.470    3.000
+ RE9      H2_2   C2     C1      109.470    3.000
+ RE9      C2     C1     C17     111.000    3.000
+ RE9      C2     C1     C16     111.000    3.000
+ RE9      C2     C1     C9      109.470    3.000
+ RE9      C17    C1     C16     111.000    3.000
+ RE9      C17    C1     C9      109.470    3.000
+ RE9      C16    C1     C9      109.470    3.000
+ RE9      C1     C17    H173    109.470    3.000
+ RE9      C1     C17    H172    109.470    3.000
+ RE9      C1     C17    H171    109.470    3.000
+ RE9      H173   C17    H172    109.470    3.000
+ RE9      H173   C17    H171    109.470    3.000
+ RE9      H172   C17    H171    109.470    3.000
+ RE9      C1     C16    H163    109.470    3.000
+ RE9      C1     C16    H162    109.470    3.000
+ RE9      C1     C16    H161    109.470    3.000
+ RE9      H163   C16    H162    109.470    3.000
+ RE9      H163   C16    H161    109.470    3.000
+ RE9      H162   C16    H161    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ RE9      var_1    O2     C15    C14    C13     -173.156   20.000   1
+ RE9      CONST_1  C15    C14    C13    C12     -162.943    0.000   0
+ RE9      var_2    C14    C13    C20    H201       6.738   20.000   1
+ RE9      var_3    C14    C13    C12    C11      180.000   20.000   1
+ RE9      CONST_2  C13    C12    C11    C10      180.000    0.000   0
+ RE9      var_4    C12    C11    C10    C7       124.411   20.000   1
+ RE9      var_5    C11    C10    C7     C6      -179.960   20.000   1
+ RE9      var_6    C10    C7     C8     C9      -120.000   20.000   1
+ RE9      var_7    C7     C8     C9     C1       180.000   20.000   3
+ RE9      var_8    C10    C7     C19    H191      59.300   20.000   1
+ RE9      CONST_3  C10    C7     C6     C5       120.000    0.000   0
+ RE9      CONST_4  C7     C6     C18    H181    -175.058    0.000   0
+ RE9      CONST_5  C7     C6     C5     C4       180.000    0.000   0
+ RE9      CONST_6  C6     C5     C9     C8         0.000    0.000   0
+ RE9      var_9    C6     C5     C4     C3       150.000   20.000   3
+ RE9      var_10   C5     C4     C3     C2        60.000   20.000   3
+ RE9      var_11   C4     C3     C2     C1       -60.000   20.000   3
+ RE9      var_12   C3     C2     C1     C16      -60.000   20.000   1
+ RE9      var_13   C2     C1     C9     C8       150.000   20.000   1
+ RE9      var_14   C2     C1     C17    H171      60.001   20.000   1
+ RE9      var_15   C2     C1     C16    H161     -60.003   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ RE9      chir_01  C1     C2     C9     C16       positiv
+ RE9      chir_02  C7     C6     C8     C10       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ RE9      plan-1    C5        0.020
+ RE9      plan-1    C4        0.020
+ RE9      plan-1    C6        0.020
+ RE9      plan-1    C9        0.020
+ RE9      plan-1    C1        0.020
+ RE9      plan-1    C8        0.020
+ RE9      plan-2    C6        0.020
+ RE9      plan-2    C5        0.020
+ RE9      plan-2    C7        0.020
+ RE9      plan-2    C18       0.020
+ RE9      plan-2    H181      0.020
+ RE9      plan-2    H182      0.020
+ RE9      plan-3    C11       0.020
+ RE9      plan-3    C10       0.020
+ RE9      plan-3    C12       0.020
+ RE9      plan-3    H11       0.020
+ RE9      plan-3    C13       0.020
+ RE9      plan-3    H12       0.020
+ RE9      plan-4    C13       0.020
+ RE9      plan-4    C12       0.020
+ RE9      plan-4    C14       0.020
+ RE9      plan-4    C20       0.020
+ RE9      plan-4    C15       0.020
+ RE9      plan-4    H14       0.020
+ RE9      plan-4    H12       0.020
+ RE9      plan-5    C15       0.020
+ RE9      plan-5    C14       0.020
+ RE9      plan-5    O1        0.020
+ RE9      plan-5    O2        0.020
+ RE9      plan-5    H14       0.020

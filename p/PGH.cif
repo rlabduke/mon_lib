@@ -1,0 +1,125 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+PGH      .   'PHOSPHOGLYCOLOHYDROXAMIC ACID       ' non-polymer        16  10 .
+#
+data_comp_PGH
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ PGH           O2P    O    OP        0.000
+ PGH           P      P    P         0.000
+ PGH           O3P    O    OP        0.000
+ PGH           O4P    O    OP        0.000
+ PGH           O1P    O    O2        0.000
+ PGH           C2     C    CH2       0.000
+ PGH           H21    H    HCH2      0.000
+ PGH           H22    H    HCH2      0.000
+ PGH           C1     C    C         0.000
+ PGH           O1     O    O         0.000
+ PGH           N2     N    NH1       0.000
+ PGH           HN     H    HNH1      0.000
+ PGH           O2     O    OH1       0.000
+ PGH           HO2    H    HOH1      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ PGH      O2P    n/a    P      START
+ PGH      P      O2P    O1P    .
+ PGH      O3P    P      .      .
+ PGH      O4P    P      .      .
+ PGH      O1P    P      C2     .
+ PGH      C2     O1P    C1     .
+ PGH      H21    C2     .      .
+ PGH      H22    C2     .      .
+ PGH      C1     C2     N2     .
+ PGH      O1     C1     .      .
+ PGH      N2     C1     O2     .
+ PGH      HN     N2     .      .
+ PGH      O2     N2     HO2    .
+ PGH      HO2    O2     .      END
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ PGH      P      O2P       coval       1.510    0.020
+ PGH      O3P    P         coval       1.510    0.020
+ PGH      O4P    P         coval       1.510    0.020
+ PGH      O1P    P         coval       1.610    0.020
+ PGH      C2     O1P       coval       1.410    0.020
+ PGH      H21    C2        coval       1.090    0.020
+ PGH      H22    C2        coval       1.090    0.020
+ PGH      C1     C2        coval       1.510    0.020
+ PGH      O1     C1        coval       1.410    0.020
+ PGH      N2     C1        coval       1.330    0.020
+ PGH      HN     N2        coval       1.010    0.020
+ PGH      O2     N2        coval       1.360    0.020
+ PGH      HO2    O2        coval       0.980    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ PGH      O2P    P      O3P     109.500    3.000
+ PGH      O2P    P      O4P     109.500    3.000
+ PGH      O2P    P      O1P     108.200    3.000
+ PGH      O3P    P      O4P     109.500    3.000
+ PGH      O3P    P      O1P     109.500    3.000
+ PGH      O4P    P      O1P     109.500    3.000
+ PGH      P      O1P    C2      120.500    3.000
+ PGH      O1P    C2     H21     109.470    3.000
+ PGH      O1P    C2     H22     109.470    3.000
+ PGH      O1P    C2     C1      109.500    3.000
+ PGH      H21    C2     H22     107.900    3.000
+ PGH      H21    C2     C1      109.470    3.000
+ PGH      H22    C2     C1      109.470    3.000
+ PGH      C2     C1     O1      120.500    3.000
+ PGH      C2     C1     N2      116.500    3.000
+ PGH      O1     C1     N2      123.000    3.000
+ PGH      C1     N2     HN      120.000    3.000
+ PGH      C1     N2     O2      120.000    3.000
+ PGH      HN     N2     O2      120.200    3.000
+ PGH      N2     O2     HO2     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ PGH      var_3    O2P    P      O1P    C2       176.880   20.000   1
+ PGH      var_4    P      O1P    C2     C1       145.201   20.000   1
+ PGH      var_5    O1P    C2     C1     N2        14.799   20.000   3
+ PGH      CONST_1  C2     C1     N2     O2       180.000    0.000   0
+ PGH      var_6    C1     N2     O2     HO2        0.000   20.000   1
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ PGH      plan-1    C1        0.020
+ PGH      plan-1    C2        0.020
+ PGH      plan-1    N2        0.020
+ PGH      plan-1    O1        0.020

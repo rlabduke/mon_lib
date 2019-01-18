@@ -1,0 +1,276 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+2AM      .   'ADENOSINE-2*-MONOPHOSPHATE          ' non-polymer        37  23 .
+#
+data_comp_2AM
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ 2AM           O1P    O    OP        0.000
+ 2AM           P      P    P         0.000
+ 2AM           O2P    O    OP        0.000
+ 2AM           O3P    O    OP        0.000
+ 2AM           O2*    O    O2        0.000
+ 2AM           C2*    C    CH1       0.000
+ 2AM           H2*    H    HCH1      0.000
+ 2AM           C3*    C    CH1       0.000
+ 2AM           H3*    H    HCH1      0.000
+ 2AM           O3*    O    OH1       0.000
+ 2AM           HO3*   H    HOH1      0.000
+ 2AM           C1*    C    CH1       0.000
+ 2AM           H1*    H    HCH1      0.000
+ 2AM           O4*    O    O2        0.000
+ 2AM           C4*    C    CH1       0.000
+ 2AM           H4*    H    HCH1      0.000
+ 2AM           C5*    C    CH2       0.000
+ 2AM           H5*1   H    HCH2      0.000
+ 2AM           H5*2   H    HCH2      0.000
+ 2AM           O5*    O    OH1       0.000
+ 2AM           HO5*   H    HOH1      0.000
+ 2AM           N9     N    NR5       0.000
+ 2AM           C8     C    CR15      0.000
+ 2AM           H8     H    HCR5      0.000
+ 2AM           N7     N    NR15      0.000
+ 2AM           C5     C    CR56      0.000
+ 2AM           C6     C    CR6       0.000
+ 2AM           N6     N    NH2       0.000
+ 2AM           HN62   H    HNH2      0.000
+ 2AM           HN61   H    HNH2      0.000
+ 2AM           C4     C    CR56      0.000
+ 2AM           N3     N    NR16      0.000
+ 2AM           C2     C    CR16      0.000
+ 2AM           H2     H    HCR6      0.000
+ 2AM           N1     N    NR16      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ 2AM      O1P    n/a    P      START
+ 2AM      P      O1P    O2*    .
+ 2AM      O2P    P      .      .
+ 2AM      O3P    P      .      .
+ 2AM      O2*    P      C2*    .
+ 2AM      C2*    O2*    C1*    .
+ 2AM      H2*    C2*    .      .
+ 2AM      C3*    C2*    O3*    .
+ 2AM      H3*    C3*    .      .
+ 2AM      O3*    C3*    HO3*   .
+ 2AM      HO3*   O3*    .      .
+ 2AM      C1*    C2*    N9     .
+ 2AM      H1*    C1*    .      .
+ 2AM      O4*    C1*    C4*    .
+ 2AM      C4*    O4*    C5*    .
+ 2AM      H4*    C4*    .      .
+ 2AM      C5*    C4*    O5*    .
+ 2AM      H5*1   C5*    .      .
+ 2AM      H5*2   C5*    .      .
+ 2AM      O5*    C5*    HO5*   .
+ 2AM      HO5*   O5*    .      .
+ 2AM      N9     C1*    C8     .
+ 2AM      C8     N9     N7     .
+ 2AM      H8     C8     .      .
+ 2AM      N7     C8     C5     .
+ 2AM      C5     N7     C4     .
+ 2AM      C6     C5     N6     .
+ 2AM      N6     C6     HN61   .
+ 2AM      HN62   N6     .      .
+ 2AM      HN61   N6     .      .
+ 2AM      C4     C5     N3     .
+ 2AM      N3     C4     C2     .
+ 2AM      C2     N3     N1     .
+ 2AM      H2     C2     .      .
+ 2AM      N1     C2     .      END
+ 2AM      C4*    C3*    .    ADD
+ 2AM      N9     C4     .    ADD
+ 2AM      C6     N1     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ 2AM      P      O1P       coval       1.510    0.020
+ 2AM      O2P    P         coval       1.510    0.020
+ 2AM      O3P    P         coval       1.510    0.020
+ 2AM      O2*    P         coval       1.610    0.020
+ 2AM      C2*    O2*       coval       1.410    0.020
+ 2AM      H2*    C2*       coval       1.090    0.020
+ 2AM      C3*    C2*       coval       1.524    0.020
+ 2AM      H3*    C3*       coval       1.090    0.020
+ 2AM      O3*    C3*       coval       1.410    0.020
+ 2AM      HO3*   O3*       coval       0.980    0.020
+ 2AM      C1*    C2*       coval       1.524    0.020
+ 2AM      H1*    C1*       coval       1.090    0.020
+ 2AM      O4*    C1*       coval       1.410    0.020
+ 2AM      C4*    O4*       coval       1.410    0.020
+ 2AM      C4*    C3*       coval       1.524    0.020
+ 2AM      H4*    C4*       coval       1.090    0.020
+ 2AM      C5*    C4*       coval       1.524    0.020
+ 2AM      H5*1   C5*       coval       1.090    0.020
+ 2AM      H5*2   C5*       coval       1.090    0.020
+ 2AM      O5*    C5*       coval       1.410    0.020
+ 2AM      HO5*   O5*       coval       0.980    0.020
+ 2AM      N9     C1*       coval       1.475    0.020
+ 2AM      N9     C4        coval       1.375    0.020
+ 2AM      C8     N9        coval       1.370    0.020
+ 2AM      H8     C8        coval       1.090    0.020
+ 2AM      N7     C8        coval       1.350    0.020
+ 2AM      C5     N7        coval       1.350    0.020
+ 2AM      C6     C5        coval       1.390    0.020
+ 2AM      C6     N1        coval       1.380    0.020
+ 2AM      N6     C6        coval       1.330    0.020
+ 2AM      HN62   N6        coval       1.015    0.020
+ 2AM      HN61   N6        coval       1.015    0.020
+ 2AM      C4     C5        coval       1.390    0.020
+ 2AM      N3     C4        coval       1.355    0.020
+ 2AM      C2     N3        coval       1.380    0.020
+ 2AM      H2     C2        coval       1.090    0.020
+ 2AM      N1     C2        coval       1.380    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ 2AM      O1P    P      O2P     109.500    3.000
+ 2AM      O1P    P      O3P     109.500    3.000
+ 2AM      O1P    P      O2*     108.200    3.000
+ 2AM      O2P    P      O3P     109.500    3.000
+ 2AM      O2P    P      O2*     109.500    3.000
+ 2AM      O3P    P      O2*     109.500    3.000
+ 2AM      P      O2*    C2*     120.500    3.000
+ 2AM      O2*    C2*    H2*     109.470    3.000
+ 2AM      O2*    C2*    C3*     109.470    3.000
+ 2AM      O2*    C2*    C1*     109.470    3.000
+ 2AM      H2*    C2*    C3*     108.340    3.000
+ 2AM      H2*    C2*    C1*     108.340    3.000
+ 2AM      C3*    C2*    C1*     111.000    3.000
+ 2AM      C2*    C3*    H3*     108.340    3.000
+ 2AM      C2*    C3*    O3*     109.470    3.000
+ 2AM      C2*    C3*    C4*     111.000    3.000
+ 2AM      H3*    C3*    O3*     109.470    3.000
+ 2AM      H3*    C3*    C4*     108.340    3.000
+ 2AM      O3*    C3*    C4*     109.470    3.000
+ 2AM      C3*    O3*    HO3*    109.470    3.000
+ 2AM      C2*    C1*    H1*     108.340    3.000
+ 2AM      C2*    C1*    O4*     109.470    3.000
+ 2AM      C2*    C1*    N9      109.470    3.000
+ 2AM      H1*    C1*    O4*     109.470    3.000
+ 2AM      H1*    C1*    N9      109.470    3.000
+ 2AM      O4*    C1*    N9      109.470    3.000
+ 2AM      C1*    O4*    C4*     111.800    3.000
+ 2AM      O4*    C4*    H4*     109.470    3.000
+ 2AM      O4*    C4*    C5*     109.470    3.000
+ 2AM      O4*    C4*    C3*     109.470    3.000
+ 2AM      H4*    C4*    C5*     108.340    3.000
+ 2AM      H4*    C4*    C3*     108.340    3.000
+ 2AM      C5*    C4*    C3*     111.000    3.000
+ 2AM      C4*    C5*    H5*1    109.470    3.000
+ 2AM      C4*    C5*    H5*2    109.470    3.000
+ 2AM      C4*    C5*    O5*     109.470    3.000
+ 2AM      H5*1   C5*    H5*2    107.900    3.000
+ 2AM      H5*1   C5*    O5*     109.470    3.000
+ 2AM      H5*2   C5*    O5*     109.470    3.000
+ 2AM      C5*    O5*    HO5*    109.470    3.000
+ 2AM      C1*    N9     C8      126.000    3.000
+ 2AM      C1*    N9     C4      126.000    3.000
+ 2AM      C8     N9     C4      108.000    3.000
+ 2AM      N9     C8     H8      126.000    3.000
+ 2AM      N9     C8     N7      108.000    3.000
+ 2AM      H8     C8     N7      126.000    3.000
+ 2AM      C8     N7     C5      108.000    3.000
+ 2AM      N7     C5     C6      132.000    3.000
+ 2AM      N7     C5     C4      108.000    3.000
+ 2AM      C6     C5     C4      120.000    3.000
+ 2AM      C5     C6     N6      120.000    3.000
+ 2AM      C5     C6     N1      120.000    3.000
+ 2AM      N6     C6     N1      120.000    3.000
+ 2AM      C6     N6     HN62    120.000    3.000
+ 2AM      C6     N6     HN61    120.000    3.000
+ 2AM      HN62   N6     HN61    120.000    3.000
+ 2AM      C5     C4     N3      120.000    3.000
+ 2AM      C5     C4     N9      108.000    3.000
+ 2AM      N3     C4     N9      132.000    3.000
+ 2AM      C4     N3     C2      120.000    3.000
+ 2AM      N3     C2     H2      120.000    3.000
+ 2AM      N3     C2     N1      120.000    3.000
+ 2AM      H2     C2     N1      120.000    3.000
+ 2AM      C2     N1     C6      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ 2AM      var_3    O1P    P      O2*    C2*      149.845   20.000   1
+ 2AM      var_4    P      O2*    C2*    C1*      126.238   20.000   1
+ 2AM      var_5    O2*    C2*    C3*    O3*      -29.193   20.000   3
+ 2AM      var_6    O2*    C2*    C3*    C4*     -148.377   20.000   3
+ 2AM      var_7    C2*    C3*    O3*    HO3*       0.000   20.000   1
+ 2AM      var_8    O2*    C2*    C1*    N9       -81.826   20.000   3
+ 2AM      var_9    C2*    C1*    O4*    C4*      -38.840   20.000   1
+ 2AM      var_10   C1*    O4*    C4*    C5*      140.472   20.000   1
+ 2AM      var_11   C1*    O4*    C4*    C3*       18.057   20.000   1
+ 2AM      var_12   O4*    C4*    C5*    O5*        0.000   20.000   3
+ 2AM      var_13   C4*    C5*    O5*    HO5*       0.000   20.000   1
+ 2AM      var_14   C2*    C1*    N9     C8       -46.384   20.000   1
+ 2AM      var_15   C2*    C1*    N9     C4       137.777   20.000   1
+ 2AM      CONST_1  C1*    N9     C8     N7       180.000    0.000   0
+ 2AM      CONST_2  N9     C8     N7     C5         0.000    0.000   0
+ 2AM      CONST_3  C8     N7     C5     C4         0.000    0.000   0
+ 2AM      CONST_4  N7     C5     C6     N6         0.000    0.000   0
+ 2AM      CONST_5  N7     C5     C6     N1       180.000    0.000   0
+ 2AM      var_16   C5     C6     N6     HN61       0.000   20.000   1
+ 2AM      CONST_6  N7     C5     C4     N3       180.000    0.000   0
+ 2AM      CONST_7  N7     C5     C4     N9         0.000    0.000   0
+ 2AM      CONST_8  C5     C4     N3     C2         0.000    0.000   0
+ 2AM      CONST_9  C4     N3     C2     N1         0.000    0.000   0
+ 2AM      CONST_10 N3     C2     N1     C6         0.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ 2AM      chir_01  C4*    C5*    O4*    C3*       negativ
+ 2AM      chir_02  C3*    C4*    O3*    C2*       negativ
+ 2AM      chir_03  C2*    C3*    O2*    C1*       negativ
+ 2AM      chir_04  C1*    O4*    C2*    N9        positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ 2AM      plan-1    N9        0.020
+ 2AM      plan-1    C1*       0.020
+ 2AM      plan-1    C8        0.020
+ 2AM      plan-1    C4        0.020
+ 2AM      plan-1    N7        0.020
+ 2AM      plan-1    C5        0.020
+ 2AM      plan-1    C6        0.020
+ 2AM      plan-1    N1        0.020
+ 2AM      plan-1    C2        0.020
+ 2AM      plan-1    N3        0.020
+ 2AM      plan-1    N6        0.020

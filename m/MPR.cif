@@ -1,0 +1,90 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+MPR      MPR 'BETA-MERCAPTOPROPIONATE             ' polymer             9   5 .
+#
+data_comp_MPR
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ MPR           SG     S    S        -0.360
+ MPR           CB     C    C        -0.360
+ MPR           HB1    H    HC        0.000
+ MPR           HB2    H    HC        0.000
+ MPR           CA     C    C        -0.360
+ MPR           HA1    H    HC        0.000
+ MPR           HA2    H    HC        0.000
+ MPR           C      C    C         1.440
+ MPR           O      O    O        -0.360
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ MPR      SG     n/a    CB     START
+ MPR      CB     SG     CA     .
+ MPR      HB1    CB     .      .
+ MPR      HB2    CB     .      .
+ MPR      CA     CB     C      .
+ MPR      HA1    CA     .      .
+ MPR      HA2    CA     .      .
+ MPR      C      CA     .      END
+ MPR      O      C      .      .
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ MPR      CB     SG        coval       1.800    0.020
+ MPR      HB1    CB        coval       1.080    0.020
+ MPR      HB2    CB        coval       1.088    0.020
+ MPR      CA     CB        coval       1.520    0.020
+ MPR      HA1    CA        coval       1.080    0.020
+ MPR      HA2    CA        coval       1.080    0.020
+ MPR      C      CA        coval       1.480    0.020
+ MPR      O      C         coval       1.240    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ MPR      SG     CB     HB1     109.500    3.000
+ MPR      SG     CB     HB2     109.500    3.000
+ MPR      SG     CB     CA      112.000    3.000
+ MPR      HB1    CB     HB2     109.500    3.000
+ MPR      HB1    CB     CA      109.500    3.000
+ MPR      HB2    CB     CA      109.500    3.000
+ MPR      CB     CA     HA1     109.000    3.000
+ MPR      CB     CA     HA2     109.000    3.000
+ MPR      CB     CA     C       112.000    3.000
+ MPR      HA1    CA     HA2     109.900    3.000
+ MPR      HA1    CA     C       109.900    3.000
+ MPR      HA2    CA     C       109.900    3.000
+ MPR      CA     C      O       124.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ MPR      var_1    SG     CB     CA     C        -75.000   20.000   3

@@ -1,0 +1,253 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+SPM      .   'SPERMINE                            ' non-polymer        40  14 .
+#
+data_comp_SPM
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ SPM           N14    N    NH2       0.000
+ SPM           HN41   H    HNH2      0.000
+ SPM           HN42   H    HNH2      0.000
+ SPM           C13    C    CH2       0.000
+ SPM           H131   H    HCH2      0.000
+ SPM           H132   H    HCH2      0.000
+ SPM           C12    C    CH2       0.000
+ SPM           H121   H    HCH2      0.000
+ SPM           H122   H    HCH2      0.000
+ SPM           C11    C    CH2       0.000
+ SPM           H111   H    HCH2      0.000
+ SPM           H112   H    HCH2      0.000
+ SPM           N10    N    NH1       0.000
+ SPM           HN0    H    HNH1      0.000
+ SPM           C9     C    CH2       0.000
+ SPM           H91    H    HCH2      0.000
+ SPM           H92    H    HCH2      0.000
+ SPM           C8     C    CH2       0.000
+ SPM           H81    H    HCH2      0.000
+ SPM           H82    H    HCH2      0.000
+ SPM           C7     C    CH2       0.000
+ SPM           H71    H    HCH2      0.000
+ SPM           H72    H    HCH2      0.000
+ SPM           C6     C    CH2       0.000
+ SPM           H61    H    HCH2      0.000
+ SPM           H62    H    HCH2      0.000
+ SPM           N5     N    NH1       0.000
+ SPM           HN5    H    HNH1      0.000
+ SPM           C4     C    CH2       0.000
+ SPM           H41    H    HCH2      0.000
+ SPM           H42    H    HCH2      0.000
+ SPM           C3     C    CH2       0.000
+ SPM           H31    H    HCH2      0.000
+ SPM           H32    H    HCH2      0.000
+ SPM           C2     C    CH2       0.000
+ SPM           H21    H    HCH2      0.000
+ SPM           H22    H    HCH2      0.000
+ SPM           N1     N    NH2       0.000
+ SPM           HN12   H    HNH2      0.000
+ SPM           HN11   H    HNH2      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ SPM      N14    n/a    C13    START
+ SPM      HN41   N14    .      .
+ SPM      HN42   N14    .      .
+ SPM      C13    N14    C12    .
+ SPM      H131   C13    .      .
+ SPM      H132   C13    .      .
+ SPM      C12    C13    C11    .
+ SPM      H121   C12    .      .
+ SPM      H122   C12    .      .
+ SPM      C11    C12    N10    .
+ SPM      H111   C11    .      .
+ SPM      H112   C11    .      .
+ SPM      N10    C11    C9     .
+ SPM      HN0    N10    .      .
+ SPM      C9     N10    C8     .
+ SPM      H91    C9     .      .
+ SPM      H92    C9     .      .
+ SPM      C8     C9     C7     .
+ SPM      H81    C8     .      .
+ SPM      H82    C8     .      .
+ SPM      C7     C8     C6     .
+ SPM      H71    C7     .      .
+ SPM      H72    C7     .      .
+ SPM      C6     C7     N5     .
+ SPM      H61    C6     .      .
+ SPM      H62    C6     .      .
+ SPM      N5     C6     C4     .
+ SPM      HN5    N5     .      .
+ SPM      C4     N5     C3     .
+ SPM      H41    C4     .      .
+ SPM      H42    C4     .      .
+ SPM      C3     C4     C2     .
+ SPM      H31    C3     .      .
+ SPM      H32    C3     .      .
+ SPM      C2     C3     N1     .
+ SPM      H21    C2     .      .
+ SPM      H22    C2     .      .
+ SPM      N1     C2     HN11   .
+ SPM      HN12   N1     .      .
+ SPM      HN11   N1     .      END
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ SPM      HN41   N14       coval       1.015    0.020
+ SPM      HN42   N14       coval       1.015    0.020
+ SPM      C13    N14       coval       1.450    0.020
+ SPM      H131   C13       coval       1.090    0.020
+ SPM      H132   C13       coval       1.090    0.020
+ SPM      C12    C13       coval       1.524    0.020
+ SPM      H121   C12       coval       1.090    0.020
+ SPM      H122   C12       coval       1.090    0.020
+ SPM      C11    C12       coval       1.524    0.020
+ SPM      H111   C11       coval       1.090    0.020
+ SPM      H112   C11       coval       1.090    0.020
+ SPM      N10    C11       coval       1.450    0.020
+ SPM      HN0    N10       coval       1.010    0.020
+ SPM      C9     N10       coval       1.450    0.020
+ SPM      H91    C9        coval       1.090    0.020
+ SPM      H92    C9        coval       1.090    0.020
+ SPM      C8     C9        coval       1.524    0.020
+ SPM      H81    C8        coval       1.090    0.020
+ SPM      H82    C8        coval       1.090    0.020
+ SPM      C7     C8        coval       1.524    0.020
+ SPM      H71    C7        coval       1.090    0.020
+ SPM      H72    C7        coval       1.090    0.020
+ SPM      C6     C7        coval       1.524    0.020
+ SPM      H61    C6        coval       1.090    0.020
+ SPM      H62    C6        coval       1.090    0.020
+ SPM      N5     C6        coval       1.450    0.020
+ SPM      HN5    N5        coval       1.010    0.020
+ SPM      C4     N5        coval       1.450    0.020
+ SPM      H41    C4        coval       1.090    0.020
+ SPM      H42    C4        coval       1.090    0.020
+ SPM      C3     C4        coval       1.524    0.020
+ SPM      H31    C3        coval       1.090    0.020
+ SPM      H32    C3        coval       1.090    0.020
+ SPM      C2     C3        coval       1.524    0.020
+ SPM      H21    C2        coval       1.090    0.020
+ SPM      H22    C2        coval       1.090    0.020
+ SPM      N1     C2        coval       1.450    0.020
+ SPM      HN12   N1        coval       1.015    0.020
+ SPM      HN11   N1        coval       1.015    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ SPM      HN41   N14    HN42    120.000    3.000
+ SPM      HN41   N14    C13     120.000    3.000
+ SPM      HN42   N14    C13     120.000    3.000
+ SPM      N14    C13    H131    109.470    3.000
+ SPM      N14    C13    H132    109.470    3.000
+ SPM      N14    C13    C12     109.470    3.000
+ SPM      H131   C13    H132    107.900    3.000
+ SPM      H131   C13    C12     109.470    3.000
+ SPM      H132   C13    C12     109.470    3.000
+ SPM      C13    C12    H121    109.470    3.000
+ SPM      C13    C12    H122    109.470    3.000
+ SPM      C13    C12    C11     111.000    3.000
+ SPM      H121   C12    H122    107.900    3.000
+ SPM      H121   C12    C11     109.470    3.000
+ SPM      H122   C12    C11     109.470    3.000
+ SPM      C12    C11    H111    109.470    3.000
+ SPM      C12    C11    H112    109.470    3.000
+ SPM      C12    C11    N10     112.000    3.000
+ SPM      H111   C11    H112    107.900    3.000
+ SPM      H111   C11    N10     109.470    3.000
+ SPM      H112   C11    N10     109.470    3.000
+ SPM      C11    N10    HN0     118.500    3.000
+ SPM      C11    N10    C9      120.000    3.000
+ SPM      HN0    N10    C9      118.500    3.000
+ SPM      N10    C9     H91     109.470    3.000
+ SPM      N10    C9     H92     109.470    3.000
+ SPM      N10    C9     C8      112.000    3.000
+ SPM      H91    C9     H92     107.900    3.000
+ SPM      H91    C9     C8      109.470    3.000
+ SPM      H92    C9     C8      109.470    3.000
+ SPM      C9     C8     H81     109.470    3.000
+ SPM      C9     C8     H82     109.470    3.000
+ SPM      C9     C8     C7      111.000    3.000
+ SPM      H81    C8     H82     107.900    3.000
+ SPM      H81    C8     C7      109.470    3.000
+ SPM      H82    C8     C7      109.470    3.000
+ SPM      C8     C7     H71     109.470    3.000
+ SPM      C8     C7     H72     109.470    3.000
+ SPM      C8     C7     C6      111.000    3.000
+ SPM      H71    C7     H72     107.900    3.000
+ SPM      H71    C7     C6      109.470    3.000
+ SPM      H72    C7     C6      109.470    3.000
+ SPM      C7     C6     H61     109.470    3.000
+ SPM      C7     C6     H62     109.470    3.000
+ SPM      C7     C6     N5      112.000    3.000
+ SPM      H61    C6     H62     107.900    3.000
+ SPM      H61    C6     N5      109.470    3.000
+ SPM      H62    C6     N5      109.470    3.000
+ SPM      C6     N5     HN5     118.500    3.000
+ SPM      C6     N5     C4      120.000    3.000
+ SPM      HN5    N5     C4      118.500    3.000
+ SPM      N5     C4     H41     109.470    3.000
+ SPM      N5     C4     H42     109.470    3.000
+ SPM      N5     C4     C3      112.000    3.000
+ SPM      H41    C4     H42     107.900    3.000
+ SPM      H41    C4     C3      109.470    3.000
+ SPM      H42    C4     C3      109.470    3.000
+ SPM      C4     C3     H31     109.470    3.000
+ SPM      C4     C3     H32     109.470    3.000
+ SPM      C4     C3     C2      111.000    3.000
+ SPM      H31    C3     H32     107.900    3.000
+ SPM      H31    C3     C2      109.470    3.000
+ SPM      H32    C3     C2      109.470    3.000
+ SPM      C3     C2     H21     109.470    3.000
+ SPM      C3     C2     H22     109.470    3.000
+ SPM      C3     C2     N1      109.470    3.000
+ SPM      H21    C2     H22     107.900    3.000
+ SPM      H21    C2     N1      109.470    3.000
+ SPM      H22    C2     N1      109.470    3.000
+ SPM      C2     N1     HN12    120.000    3.000
+ SPM      C2     N1     HN11    120.000    3.000
+ SPM      HN12   N1     HN11    120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ SPM      var_1    N14    C13    C12    C11      176.364   20.000   3
+ SPM      var_2    C13    C12    C11    N10      168.320   20.000   3
+ SPM      var_3    C12    C11    N10    C9      -151.329   20.000   3
+ SPM      var_4    C11    N10    C9     C8      -144.928   20.000   3
+ SPM      var_5    N10    C9     C8     C7       178.132   20.000   3
+ SPM      var_6    C9     C8     C7     C6      -165.845   20.000   3
+ SPM      var_7    C8     C7     C6     N5       -50.142   20.000   3
+ SPM      var_8    C7     C6     N5     C4      -146.365   20.000   3
+ SPM      var_9    C6     N5     C4     C3      -165.322   20.000   3
+ SPM      var_10   N5     C4     C3     C2      -169.845   20.000   3
+ SPM      var_11   C4     C3     C2     N1       179.763   20.000   3
+ SPM      var_12   C3     C2     N1     HN11       0.000   20.000   1

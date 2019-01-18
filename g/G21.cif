@@ -1,0 +1,406 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+G21      G21 '5-ACETYLAMINO-4-AMINO-6-(PHENETHYLPR' non-polymer        57  28 .
+#
+data_comp_G21
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ G21           O7     O    O         0.000     -0.059    0.058    0.035
+ G21           C7     C    C         0.000      0.852    0.867    0.029
+ G21           C6     C    CH1       0.000      2.280    0.453    0.023
+ G21           H6     H    H         0.000      2.781    0.945    0.868
+ G21           O6     O    O2        0.000      2.881    0.911   -1.169
+ G21           C5     C    CH1       0.000      2.444   -1.038    0.184
+ G21           H5     H    H         0.000      1.699   -1.391    0.910
+ G21           N5     N    NH1       0.000      3.766   -1.314    0.716
+ G21           HN5    H    H         0.000      4.531   -1.441    0.070
+ G21           C10    C    C         0.000      4.010   -1.406    2.021
+ G21           C11    C    CH3       0.000      5.428   -1.737    2.397
+ G21           H113   H    H         0.000      5.696   -2.673    1.978
+ G21           H112   H    H         0.000      6.078   -0.987    2.026
+ G21           H111   H    H         0.000      5.513   -1.787    3.452
+ G21           O10    O    O         0.000      3.177   -1.228    2.898
+ G21           C4     C    CH1       0.000      2.233   -1.787   -1.119
+ G21           H4     H    H         0.000      2.719   -2.770   -1.043
+ G21           NE     N    NH2       0.000      0.821   -1.987   -1.344
+ G21           HNE2   H    H         0.000      0.149   -1.608   -0.694
+ G21           HNE1   H    H         0.000      0.509   -2.506   -2.152
+ G21           C3     C    CH2       0.000      2.795   -1.059   -2.330
+ G21           H3_1   H    H         0.000      2.457   -1.574   -3.231
+ G21           H3_2   H    H         0.000      3.885   -1.094   -2.279
+ G21           C2     C    CH1       0.000      2.335    0.386   -2.367
+ G21           H2     H    H         0.000      1.240    0.475   -2.401
+ G21           C1     C    C         0.000      3.003    1.132   -3.484
+ G21           O1B    O    OH1       0.000      2.703    0.812   -4.734
+ G21           O1A    O    O         0.000      3.814    2.019   -3.264
+ G21           N8     N    N         0.000      0.608    2.170    0.001
+ G21           C9     C    CH2       0.000      1.578    3.234    0.008
+ G21           H9_1   H    H         0.000      1.243    4.084   -0.591
+ G21           H9_2   H    H         0.000      2.548    2.893   -0.358
+ G21           C91    C    CH2       0.000      1.702    3.654    1.460
+ G21           H911   H    H         0.000      2.631    3.235    1.853
+ G21           H912   H    H         0.000      0.855    3.234    2.006
+ G21           C92    C    CH3       0.000      1.716    5.156    1.627
+ G21           H923   H    H         0.000      2.584    5.553    1.170
+ G21           H922   H    H         0.000      0.855    5.569    1.170
+ G21           H921   H    H         0.000      1.718    5.396    2.658
+ G21           C81    C    CH2       0.000     -0.742    2.723   -0.003
+ G21           H811   H    H         0.000     -0.754    3.735    0.407
+ G21           H812   H    H         0.000     -1.428    2.093    0.566
+ G21           C82    C    CH2       0.000     -1.174    2.760   -1.460
+ G21           H821   H    H         0.000     -1.230    1.739   -1.844
+ G21           H822   H    H         0.000     -0.441    3.325   -2.039
+ G21           CG     C    CR6       0.000     -2.526    3.417   -1.579
+ G21           CD1    C    CR16      0.000     -2.631    4.788   -1.791
+ G21           HD1    H    H         0.000     -1.738    5.395   -1.871
+ G21           CE1    C    CR16      0.000     -3.886    5.380   -1.900
+ G21           HE1    H    H         0.000     -3.965    6.447   -2.064
+ G21           CZ     C    CR16      0.000     -5.036    4.611   -1.799
+ G21           HZ     H    H         0.000     -6.011    5.074   -1.884
+ G21           CE2    C    CR16      0.000     -4.928    3.245   -1.588
+ G21           HE2    H    H         0.000     -5.823    2.640   -1.509
+ G21           CD2    C    CR16      0.000     -3.678    2.646   -1.479
+ G21           HD2    H    H         0.000     -3.602    1.579   -1.315
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ G21      O7     n/a    C7     START
+ G21      C7     O7     N8     .
+ G21      C6     C7     C5     .
+ G21      H6     C6     .      .
+ G21      O6     C6     .      .
+ G21      C5     C6     C4     .
+ G21      H5     C5     .      .
+ G21      N5     C5     C10    .
+ G21      HN5    N5     .      .
+ G21      C10    N5     O10    .
+ G21      C11    C10    H111   .
+ G21      H113   C11    .      .
+ G21      H112   C11    .      .
+ G21      H111   C11    .      .
+ G21      O10    C10    .      .
+ G21      C4     C5     C3     .
+ G21      H4     C4     .      .
+ G21      NE     C4     HNE1   .
+ G21      HNE2   NE     .      .
+ G21      HNE1   NE     .      .
+ G21      C3     C4     C2     .
+ G21      H3_1   C3     .      .
+ G21      H3_2   C3     .      .
+ G21      C2     C3     C1     .
+ G21      H2     C2     .      .
+ G21      C1     C2     O1A    .
+ G21      O1B    C1     .      .
+ G21      O1A    C1     .      .
+ G21      N8     C7     C81    .
+ G21      C9     N8     C91    .
+ G21      H9_1   C9     .      .
+ G21      H9_2   C9     .      .
+ G21      C91    C9     C92    .
+ G21      H911   C91    .      .
+ G21      H912   C91    .      .
+ G21      C92    C91    H921   .
+ G21      H923   C92    .      .
+ G21      H922   C92    .      .
+ G21      H921   C92    .      .
+ G21      C81    N8     C82    .
+ G21      H811   C81    .      .
+ G21      H812   C81    .      .
+ G21      C82    C81    CG     .
+ G21      H821   C82    .      .
+ G21      H822   C82    .      .
+ G21      CG     C82    CD1    .
+ G21      CD1    CG     CE1    .
+ G21      HD1    CD1    .      .
+ G21      CE1    CD1    CZ     .
+ G21      HE1    CE1    .      .
+ G21      CZ     CE1    CE2    .
+ G21      HZ     CZ     .      .
+ G21      CE2    CZ     CD2    .
+ G21      HE2    CE2    .      .
+ G21      CD2    CE2    HD2    .
+ G21      HD2    CD2    .      END
+ G21      C2     O6     .    ADD
+ G21      CG     CD2    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ G21      O1A    C1        deloc       1.250    0.020
+ G21      O1B    C1        deloc       1.250    0.020
+ G21      C1     C2        single      1.500    0.020
+ G21      C2     C3        single      1.524    0.020
+ G21      C2     O6        single      1.426    0.020
+ G21      H2     C2        single      1.099    0.020
+ G21      C3     C4        single      1.524    0.020
+ G21      H3_1   C3        single      1.092    0.020
+ G21      H3_2   C3        single      1.092    0.020
+ G21      C4     C5        single      1.524    0.020
+ G21      NE     C4        single      1.450    0.020
+ G21      H4     C4        single      1.099    0.020
+ G21      N5     C5        single      1.450    0.020
+ G21      C5     C6        single      1.524    0.020
+ G21      H5     C5        single      1.099    0.020
+ G21      C10    N5        single      1.330    0.020
+ G21      HN5    N5        single      1.010    0.020
+ G21      O10    C10       double      1.220    0.020
+ G21      C11    C10       single      1.500    0.020
+ G21      H111   C11       single      1.059    0.020
+ G21      H112   C11       single      1.059    0.020
+ G21      H113   C11       single      1.059    0.020
+ G21      O6     C6        single      1.426    0.020
+ G21      C6     C7        single      1.500    0.020
+ G21      H6     C6        single      1.099    0.020
+ G21      C7     O7        double      1.220    0.020
+ G21      N8     C7        single      1.330    0.020
+ G21      C81    N8        single      1.455    0.020
+ G21      C9     N8        single      1.455    0.020
+ G21      C82    C81       single      1.524    0.020
+ G21      H811   C81       single      1.092    0.020
+ G21      H812   C81       single      1.092    0.020
+ G21      CG     C82       single      1.511    0.020
+ G21      H821   C82       single      1.092    0.020
+ G21      H822   C82       single      1.092    0.020
+ G21      CD1    CG        double      1.390    0.020
+ G21      CG     CD2       single      1.390    0.020
+ G21      CE1    CD1       single      1.390    0.020
+ G21      HD1    CD1       single      1.083    0.020
+ G21      CD2    CE2       double      1.390    0.020
+ G21      HD2    CD2       single      1.083    0.020
+ G21      CZ     CE1       double      1.390    0.020
+ G21      HE1    CE1       single      1.083    0.020
+ G21      CE2    CZ        single      1.390    0.020
+ G21      HE2    CE2       single      1.083    0.020
+ G21      HZ     CZ        single      1.083    0.020
+ G21      C91    C9        single      1.524    0.020
+ G21      H9_1   C9        single      1.092    0.020
+ G21      H9_2   C9        single      1.092    0.020
+ G21      C92    C91       single      1.513    0.020
+ G21      H911   C91       single      1.092    0.020
+ G21      H912   C91       single      1.092    0.020
+ G21      H921   C92       single      1.059    0.020
+ G21      H922   C92       single      1.059    0.020
+ G21      H923   C92       single      1.059    0.020
+ G21      HNE1   NE        single      1.010    0.020
+ G21      HNE2   NE        single      1.010    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ G21      O7     C7     C6      120.500    3.000
+ G21      O7     C7     N8      123.000    3.000
+ G21      C6     C7     N8      116.500    3.000
+ G21      C7     C6     H6      108.810    3.000
+ G21      C7     C6     O6      109.470    3.000
+ G21      C7     C6     C5      109.470    3.000
+ G21      H6     C6     O6      109.470    3.000
+ G21      H6     C6     C5      108.340    3.000
+ G21      O6     C6     C5      109.470    3.000
+ G21      C6     O6     C2      111.800    3.000
+ G21      C6     C5     H5      108.340    3.000
+ G21      C6     C5     N5      110.000    3.000
+ G21      C6     C5     C4      111.000    3.000
+ G21      H5     C5     N5      108.550    3.000
+ G21      H5     C5     C4      108.340    3.000
+ G21      N5     C5     C4      110.000    3.000
+ G21      C5     N5     HN5     118.500    3.000
+ G21      C5     N5     C10     121.500    3.000
+ G21      HN5    N5     C10     120.000    3.000
+ G21      N5     C10    C11     116.500    3.000
+ G21      N5     C10    O10     123.000    3.000
+ G21      C11    C10    O10     123.000    3.000
+ G21      C10    C11    H113    109.470    3.000
+ G21      C10    C11    H112    109.470    3.000
+ G21      C10    C11    H111    109.470    3.000
+ G21      H113   C11    H112    109.470    3.000
+ G21      H113   C11    H111    109.470    3.000
+ G21      H112   C11    H111    109.470    3.000
+ G21      C5     C4     H4      108.340    3.000
+ G21      C5     C4     NE      109.470    3.000
+ G21      C5     C4     C3      111.000    3.000
+ G21      H4     C4     NE      109.470    3.000
+ G21      H4     C4     C3      108.340    3.000
+ G21      NE     C4     C3      109.470    3.000
+ G21      C4     NE     HNE2    120.000    3.000
+ G21      C4     NE     HNE1    120.000    3.000
+ G21      HNE2   NE     HNE1    120.000    3.000
+ G21      C4     C3     H3_1    109.470    3.000
+ G21      C4     C3     H3_2    109.470    3.000
+ G21      C4     C3     C2      111.000    3.000
+ G21      H3_1   C3     H3_2    107.900    3.000
+ G21      H3_1   C3     C2      109.470    3.000
+ G21      H3_2   C3     C2      109.470    3.000
+ G21      C3     C2     H2      108.340    3.000
+ G21      C3     C2     C1      109.470    3.000
+ G21      C3     C2     O6      109.470    3.000
+ G21      H2     C2     C1      108.810    3.000
+ G21      H2     C2     O6      109.470    3.000
+ G21      C1     C2     O6      109.470    3.000
+ G21      C2     C1     O1B     120.000    3.000
+ G21      C2     C1     O1A     120.500    3.000
+ G21      O1B    C1     O1A     119.000    3.000
+ G21      C7     N8     C9      127.000    3.000
+ G21      C7     N8     C81     127.000    3.000
+ G21      C9     N8     C81     120.000    3.000
+ G21      N8     C9     H9_1    109.470    3.000
+ G21      N8     C9     H9_2    109.470    3.000
+ G21      N8     C9     C91     105.000    3.000
+ G21      H9_1   C9     H9_2    107.900    3.000
+ G21      H9_1   C9     C91     109.470    3.000
+ G21      H9_2   C9     C91     109.470    3.000
+ G21      C9     C91    H911    109.470    3.000
+ G21      C9     C91    H912    109.470    3.000
+ G21      C9     C91    C92     111.000    3.000
+ G21      H911   C91    H912    107.900    3.000
+ G21      H911   C91    C92     109.470    3.000
+ G21      H912   C91    C92     109.470    3.000
+ G21      C91    C92    H923    109.470    3.000
+ G21      C91    C92    H922    109.470    3.000
+ G21      C91    C92    H921    109.470    3.000
+ G21      H923   C92    H922    109.470    3.000
+ G21      H923   C92    H921    109.470    3.000
+ G21      H922   C92    H921    109.470    3.000
+ G21      N8     C81    H811    109.470    3.000
+ G21      N8     C81    H812    109.470    3.000
+ G21      N8     C81    C82     105.000    3.000
+ G21      H811   C81    H812    107.900    3.000
+ G21      H811   C81    C82     109.470    3.000
+ G21      H812   C81    C82     109.470    3.000
+ G21      C81    C82    H821    109.470    3.000
+ G21      C81    C82    H822    109.470    3.000
+ G21      C81    C82    CG      109.470    3.000
+ G21      H821   C82    H822    107.900    3.000
+ G21      H821   C82    CG      109.470    3.000
+ G21      H822   C82    CG      109.470    3.000
+ G21      C82    CG     CD1     120.000    3.000
+ G21      C82    CG     CD2     120.000    3.000
+ G21      CD1    CG     CD2     120.000    3.000
+ G21      CG     CD1    HD1     120.000    3.000
+ G21      CG     CD1    CE1     120.000    3.000
+ G21      HD1    CD1    CE1     120.000    3.000
+ G21      CD1    CE1    HE1     120.000    3.000
+ G21      CD1    CE1    CZ      120.000    3.000
+ G21      HE1    CE1    CZ      120.000    3.000
+ G21      CE1    CZ     HZ      120.000    3.000
+ G21      CE1    CZ     CE2     120.000    3.000
+ G21      HZ     CZ     CE2     120.000    3.000
+ G21      CZ     CE2    HE2     120.000    3.000
+ G21      CZ     CE2    CD2     120.000    3.000
+ G21      HE2    CE2    CD2     120.000    3.000
+ G21      CE2    CD2    HD2     120.000    3.000
+ G21      CE2    CD2    CG      120.000    3.000
+ G21      HD2    CD2    CG      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ G21      var_1    O7     C7     C6     C5        14.865   20.000   3
+ G21      var_2    C7     C6     O6     C2       -60.000   20.000   1
+ G21      var_3    C7     C6     C5     C4        60.000   20.000   3
+ G21      var_4    C6     C5     N5     C10       94.082   20.000   3
+ G21      CONST_1  C5     N5     C10    O10        0.000    0.000   0
+ G21      var_5    N5     C10    C11    H111    -179.980   20.000   1
+ G21      var_6    C6     C5     C4     C3        60.000   20.000   3
+ G21      var_7    C5     C4     NE     HNE1    -177.441   20.000   1
+ G21      var_8    C5     C4     C3     C2       -60.000   20.000   3
+ G21      var_9    C4     C3     C2     C1       180.000   20.000   3
+ G21      var_10   C3     C2     O6     C6       -60.000   20.000   1
+ G21      var_11   C3     C2     C1     O1A     -120.297   20.000   3
+ G21      CONST_2  O7     C7     N8     C81        0.000    0.000   0
+ G21      var_13   C7     N8     C9     C91      -83.762   20.000   1
+ G21      var_14   N8     C9     C91    C92     -174.765   20.000   3
+ G21      var_15   C9     C91    C92    H921     175.057   20.000   3
+ G21      var_16   C7     N8     C81    C82      -90.003   20.000   1
+ G21      var_17   N8     C81    C82    CG       180.000   20.000   3
+ G21      var_18   C81    C82    CG     CD1       90.000   20.000   2
+ G21      CONST_3  C82    CG     CD2    CE2      180.000    0.000   0
+ G21      CONST_4  C82    CG     CD1    CE1      180.000    0.000   0
+ G21      CONST_5  CG     CD1    CE1    CZ         0.000    0.000   0
+ G21      CONST_6  CD1    CE1    CZ     CE2        0.000    0.000   0
+ G21      CONST_7  CE1    CZ     CE2    CD2        0.000    0.000   0
+ G21      CONST_8  CZ     CE2    CD2    CG         0.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ G21      chir_01  C2     C1     C3     O6        negativ
+ G21      chir_02  C4     C3     C5     NE        negativ
+ G21      chir_03  C5     C4     N5     C6        negativ
+ G21      chir_04  C6     C5     O6     C7        negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ G21      plan-1    C1        0.020
+ G21      plan-1    O1A       0.020
+ G21      plan-1    O1B       0.020
+ G21      plan-1    C2        0.020
+ G21      plan-2    N5        0.020
+ G21      plan-2    C5        0.020
+ G21      plan-2    C10       0.020
+ G21      plan-2    HN5       0.020
+ G21      plan-3    C10       0.020
+ G21      plan-3    N5        0.020
+ G21      plan-3    O10       0.020
+ G21      plan-3    C11       0.020
+ G21      plan-3    HN5       0.020
+ G21      plan-4    C7        0.020
+ G21      plan-4    C6        0.020
+ G21      plan-4    O7        0.020
+ G21      plan-4    N8        0.020
+ G21      plan-5    N8        0.020
+ G21      plan-5    C7        0.020
+ G21      plan-5    C81       0.020
+ G21      plan-5    C9        0.020
+ G21      plan-6    CG        0.020
+ G21      plan-6    C82       0.020
+ G21      plan-6    CD1       0.020
+ G21      plan-6    CD2       0.020
+ G21      plan-6    CE1       0.020
+ G21      plan-6    CE2       0.020
+ G21      plan-6    CZ        0.020
+ G21      plan-6    HD1       0.020
+ G21      plan-6    HD2       0.020
+ G21      plan-6    HE1       0.020
+ G21      plan-6    HE2       0.020
+ G21      plan-6    HZ        0.020
+ G21      plan-7    NE        0.020
+ G21      plan-7    C4        0.020
+ G21      plan-7    HNE1      0.020
+ G21      plan-7    HNE2      0.020

@@ -1,0 +1,244 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+UFP      .   '5-FLUORO-2*-DEOXYURIDINE-5*-MONOPHOS' non-polymer        33  21 .
+#
+data_comp_UFP
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ UFP           O1P    O    OP        0.000
+ UFP           P      P    P         0.000
+ UFP           O2P    O    OP        0.000
+ UFP           O3P    O    OP        0.000
+ UFP           O5*    O    O2        0.000
+ UFP           C5*    C    CH2       0.000
+ UFP           H5*1   H    HCH2      0.000
+ UFP           H5*2   H    HCH2      0.000
+ UFP           C4*    C    CH1       0.000
+ UFP           H4*    H    HCH1      0.000
+ UFP           O4*    O    O2        0.000
+ UFP           C3*    C    CH1       0.000
+ UFP           H3*    H    HCH1      0.000
+ UFP           O3*    O    OH1       0.000
+ UFP           HO3*   H    HOH1      0.000
+ UFP           C2*    C    CH2       0.000
+ UFP           H2*1   H    HCH2      0.000
+ UFP           H2*2   H    HCH2      0.000
+ UFP           C1*    C    CH1       0.000
+ UFP           H1*    H    HCH1      0.000
+ UFP           N1     N    NR6       0.000
+ UFP           C2     C    CR6       0.000
+ UFP           O2     O    O         0.000
+ UFP           N3     N    NR16      0.000
+ UFP           HN3    H    HNR6      0.000
+ UFP           C4     C    CR6       0.000
+ UFP           O4     O    O         0.000
+ UFP           C5     C    CR6       0.000
+ UFP           F5     F    F         0.000
+ UFP           C6     C    CR16      0.000
+ UFP           H6     H    HCR6      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ UFP      O1P    n/a    P      START
+ UFP      P      O1P    O5*    .
+ UFP      O2P    P      .      .
+ UFP      O3P    P      .      .
+ UFP      O5*    P      C5*    .
+ UFP      C5*    O5*    C4*    .
+ UFP      H5*1   C5*    .      .
+ UFP      H5*2   C5*    .      .
+ UFP      C4*    C5*    C3*    .
+ UFP      H4*    C4*    .      .
+ UFP      O4*    C4*    .      .
+ UFP      C3*    C4*    C2*    .
+ UFP      H3*    C3*    .      .
+ UFP      O3*    C3*    HO3*   .
+ UFP      HO3*   O3*    .      .
+ UFP      C2*    C3*    C1*    .
+ UFP      H2*1   C2*    .      .
+ UFP      H2*2   C2*    .      .
+ UFP      C1*    C2*    N1     .
+ UFP      H1*    C1*    .      .
+ UFP      N1     C1*    C2     .
+ UFP      C2     N1     N3     .
+ UFP      O2     C2     .      .
+ UFP      N3     C2     C4     .
+ UFP      HN3    N3     .      .
+ UFP      C4     N3     C5     .
+ UFP      O4     C4     .      .
+ UFP      C5     C4     C6     .
+ UFP      F5     C5     .      .
+ UFP      C6     C5     H6     .
+ UFP      H6     C6     .      END
+ UFP      N1     C6     .    ADD
+ UFP      C1*    O4*    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ UFP      P      O1P       coval       1.480    0.020
+ UFP      O2P    P         coval       1.480    0.020
+ UFP      O3P    P         coval       1.480    0.020
+ UFP      O5*    P         coval       1.610    0.020
+ UFP      C5*    O5*       coval       1.410    0.020
+ UFP      H5*1   C5*       coval       1.090    0.020
+ UFP      H5*2   C5*       coval       1.090    0.020
+ UFP      C4*    C5*       coval       1.524    0.020
+ UFP      H4*    C4*       coval       1.090    0.020
+ UFP      O4*    C4*       coval       1.410    0.020
+ UFP      C3*    C4*       coval       1.524    0.020
+ UFP      H3*    C3*       coval       1.090    0.020
+ UFP      O3*    C3*       coval       1.410    0.020
+ UFP      HO3*   O3*       coval       0.980    0.020
+ UFP      C2*    C3*       coval       1.524    0.020
+ UFP      H2*1   C2*       coval       1.090    0.020
+ UFP      H2*2   C2*       coval       1.090    0.020
+ UFP      C1*    C2*       coval       1.524    0.020
+ UFP      C1*    O4*       coval       1.410    0.020
+ UFP      H1*    C1*       coval       1.090    0.020
+ UFP      N1     C1*       coval       1.475    0.020
+ UFP      N1     C6        coval       1.365    0.020
+ UFP      C2     N1        coval       1.380    0.020
+ UFP      O2     C2        coval       1.230    0.020
+ UFP      N3     C2        coval       1.380    0.020
+ UFP      HN3    N3        coval       1.040    0.020
+ UFP      C4     N3        coval       1.380    0.020
+ UFP      O4     C4        coval       1.230    0.020
+ UFP      C5     C4        coval       1.390    0.020
+ UFP      F5     C5        coval       1.360    0.020
+ UFP      C6     C5        coval       1.390    0.020
+ UFP      H6     C6        coval       1.090    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ UFP      O1P    P      O2P     109.500    3.000
+ UFP      O1P    P      O3P     109.500    3.000
+ UFP      O1P    P      O5*     108.200    3.000
+ UFP      O2P    P      O3P     109.500    3.000
+ UFP      O2P    P      O5*     109.500    3.000
+ UFP      O3P    P      O5*     109.500    3.000
+ UFP      P      O5*    C5*     120.500    3.000
+ UFP      O5*    C5*    H5*1    109.470    3.000
+ UFP      O5*    C5*    H5*2    109.470    3.000
+ UFP      O5*    C5*    C4*     109.470    3.000
+ UFP      H5*1   C5*    H5*2    107.900    3.000
+ UFP      H5*1   C5*    C4*     109.470    3.000
+ UFP      H5*2   C5*    C4*     109.470    3.000
+ UFP      C5*    C4*    H4*     108.340    3.000
+ UFP      C5*    C4*    O4*     109.470    3.000
+ UFP      C5*    C4*    C3*     111.000    3.000
+ UFP      H4*    C4*    O4*     109.470    3.000
+ UFP      H4*    C4*    C3*     108.340    3.000
+ UFP      O4*    C4*    C3*     109.470    3.000
+ UFP      C4*    O4*    C1*     111.800    3.000
+ UFP      C4*    C3*    H3*     108.340    3.000
+ UFP      C4*    C3*    O3*     109.470    3.000
+ UFP      C4*    C3*    C2*     111.000    3.000
+ UFP      H3*    C3*    O3*     109.470    3.000
+ UFP      H3*    C3*    C2*     108.340    3.000
+ UFP      O3*    C3*    C2*     109.470    3.000
+ UFP      C3*    O3*    HO3*    109.470    3.000
+ UFP      C3*    C2*    H2*1    109.470    3.000
+ UFP      C3*    C2*    H2*2    109.470    3.000
+ UFP      C3*    C2*    C1*     111.000    3.000
+ UFP      H2*1   C2*    H2*2    107.900    3.000
+ UFP      H2*1   C2*    C1*     109.470    3.000
+ UFP      H2*2   C2*    C1*     109.470    3.000
+ UFP      C2*    C1*    H1*     108.340    3.000
+ UFP      C2*    C1*    N1      109.470    3.000
+ UFP      C2*    C1*    O4*     109.470    3.000
+ UFP      H1*    C1*    N1      109.470    3.000
+ UFP      H1*    C1*    O4*     109.470    3.000
+ UFP      N1     C1*    O4*     109.470    3.000
+ UFP      C1*    N1     C2      120.000    3.000
+ UFP      C1*    N1     C6      120.000    3.000
+ UFP      C2     N1     C6      120.000    3.000
+ UFP      N1     C2     O2      120.000    3.000
+ UFP      N1     C2     N3      120.000    3.000
+ UFP      O2     C2     N3      120.000    3.000
+ UFP      C2     N3     HN3     120.000    3.000
+ UFP      C2     N3     C4      120.000    3.000
+ UFP      HN3    N3     C4      120.000    3.000
+ UFP      N3     C4     O4      120.000    3.000
+ UFP      N3     C4     C5      120.000    3.000
+ UFP      O4     C4     C5      120.000    3.000
+ UFP      C4     C5     F5      120.000    3.000
+ UFP      C4     C5     C6      120.000    3.000
+ UFP      F5     C5     C6      120.000    3.000
+ UFP      C5     C6     H6      120.000    3.000
+ UFP      C5     C6     N1      120.000    3.000
+ UFP      H6     C6     N1      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ UFP      var_3    O1P    P      O5*    C5*     -172.591   20.000   1
+ UFP      var_4    P      O5*    C5*    C4*      178.371   20.000   1
+ UFP      var_5    O5*    C5*    C4*    C3*      -71.200   20.000   3
+ UFP      var_6    C5*    C4*    O4*    C1*      106.251   20.000   1
+ UFP      var_7    C5*    C4*    C3*    C2*     -100.485   20.000   3
+ UFP      var_8    C4*    C3*    O3*    HO3*       0.000   20.000   1
+ UFP      var_9    C4*    C3*    C2*    C1*      -21.216   20.000   3
+ UFP      var_10   C3*    C2*    C1*    N1      -172.971   20.000   3
+ UFP      var_11   C3*    C2*    C1*    O4*        4.535   20.000   3
+ UFP      var_12   C2*    C1*    N1     C2       -65.538   20.000   1
+ UFP      var_13   C2*    C1*    N1     C6       114.443   20.000   1
+ UFP      CONST_1  C1*    N1     C2     N3       180.000    0.000   0
+ UFP      CONST_2  N1     C2     N3     C4         0.000    0.000   0
+ UFP      CONST_3  C2     N3     C4     C5         0.000    0.000   0
+ UFP      CONST_4  N3     C4     C5     C6         0.000    0.000   0
+ UFP      CONST_5  C4     C5     C6     N1         0.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ UFP      chir_01  C3*    C2*    C4*    O3*       negativ
+ UFP      chir_02  C4*    C3*    O4*    C5*       positiv
+ UFP      chir_03  C1*    N1     C2*    O4*       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ UFP      plan-1    N1        0.020
+ UFP      plan-1    C2        0.020
+ UFP      plan-1    C6        0.020
+ UFP      plan-1    C1*       0.020
+ UFP      plan-1    N3        0.020
+ UFP      plan-1    C4        0.020
+ UFP      plan-1    O4        0.020
+ UFP      plan-1    F5        0.020
+ UFP      plan-1    O2        0.020

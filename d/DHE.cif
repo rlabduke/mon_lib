@@ -1,0 +1,568 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+DHE      DHE 'HEME D                              ' non-polymer        81  49 .
+#
+data_comp_DHE
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ DHE           O2D    O    OC       -0.500      0.080    0.644   -0.040
+ DHE           CGD    C    C         0.000      1.231    1.144   -0.142
+ DHE           O1D    O    OC       -0.500      2.266    0.517    0.006
+ DHE           CBD    C    CH2       0.000      1.283    2.612   -0.419
+ DHE           HBD1   H    H         0.000      0.581    2.991    0.327
+ DHE           HBD2   H    H         0.000      0.819    2.655   -1.407
+ DHE           CAD    C    CH2       0.000      2.545    3.465   -0.411
+ DHE           HAD1   H    H         0.000      3.040    3.515   -1.383
+ DHE           HAD    H    H         0.000      3.269    3.161    0.349
+ DHE           C3D    C    CR5       0.000      1.964    4.866   -0.047
+ DHE           C4D    C    CR56      0.000      1.143    5.628   -1.040
+ DHE           CHA    C    CR16      0.000      0.897    5.249   -2.269
+ DHE           HHA    H    H         0.000      1.400    4.302   -2.417
+ DHE           C2D    C    CR5       0.000      1.817    5.853    1.079
+ DHE           CMD    C    CH3       0.000      2.326    5.820    2.469
+ DHE           HMD3   H    H         0.000      3.211    5.243    2.501
+ DHE           HMD2   H    H         0.000      2.531    6.807    2.786
+ DHE           HMD1   H    H         0.000      1.594    5.387    3.096
+ DHE           C1D    C    CR56      0.000      1.001    6.939    0.466
+ DHE           N_D    N    NR56      0.000      0.622    6.789   -0.774
+ DHE           CHD    C    CR16      0.000      0.662    8.025    1.141
+ DHE           HHD    H    H         0.000      1.090    8.052    2.136
+ DHE           C4C    C    CR56      0.000     -0.090    9.093    0.873
+ DHE           C3C    C    CT        0.000     -0.300   10.269    1.883
+ DHE           CGC    C    CH3       0.000     -0.538   10.185    3.378
+ DHE           HGC3   H    H         0.000     -1.367    9.556    3.567
+ DHE           HGC2   H    H         0.000      0.323    9.788    3.848
+ DHE           HGC1   H    H         0.000     -0.734   11.154    3.757
+ DHE           CAC    C    CH2       0.000      1.017   10.941    1.582
+ DHE           HAC1   H    H         0.000      0.870   11.008    0.502
+ DHE           HAC2   H    H         0.000      1.644   10.076    1.809
+ DHE           CBC    C    C         0.000      1.683   12.184    2.074
+ DHE           O2C    O    OC       -0.500      2.197   12.937    1.209
+ DHE           O1C    O    OC       -0.500      2.000   12.287    3.243
+ DHE           C2C    C    CR5       0.000     -1.096   11.119    1.016
+ DHE           OMC    O    O         0.000     -1.569   12.301    1.219
+ DHE           C1C    C    CR56      0.000     -1.130   10.346   -0.312
+ DHE           N_C    N    NR56      0.000     -0.528    9.198   -0.372
+ DHE           CHC    C    CR16      0.000     -1.731   10.850   -1.394
+ DHE           HHC    H    H         0.000     -2.214   11.807   -1.242
+ DHE           C4B    C    CR56      0.000     -1.832   10.363   -2.626
+ DHE           C3B    C    CT        0.000     -2.685   11.164   -3.568
+ DHE           CGB    C    CH3       0.000     -4.027   10.761   -2.899
+ DHE           HGB3   H    H         0.000     -4.103    9.703   -2.853
+ DHE           HGB2   H    H         0.000     -4.072   11.156   -1.915
+ DHE           HGB1   H    H         0.000     -4.840   11.144   -3.464
+ DHE           CAB    C    CH2       0.000     -2.761   12.631   -4.042
+ DHE           HAB1   H    H         0.000     -1.922   12.875   -4.697
+ DHE           HAB2   H    H         0.000     -2.768   13.317   -3.192
+ DHE           CBB    C    C         0.000     -4.083   12.766   -4.824
+ DHE           O2B    O    OC       -0.500     -4.217   12.742   -6.076
+ DHE           O1B    O    OC       -0.500     -5.211   12.928   -4.281
+ DHE           C2B    C    CR5       0.000     -2.590   10.186   -4.699
+ DHE           OMB    O    O         0.000     -3.134   10.401   -5.832
+ DHE           C1B    C    CR56      0.000     -1.781    8.961   -4.259
+ DHE           N_B    N    NR56      0.000     -1.440    9.153   -2.988
+ DHE           CHB    C    CR16      0.000     -1.517    7.850   -5.038
+ DHE           HHB    H    H         0.000     -1.929    7.856   -6.039
+ DHE           C4A    C    CR56      0.000     -0.797    6.751   -4.687
+ DHE           C3A    C    CR5       0.000     -0.572    5.493   -5.424
+ DHE           CMA    C    CH3       0.000     -1.048    5.941   -6.748
+ DHE           HMA3   H    H         0.000     -2.035    6.307   -6.656
+ DHE           HMA2   H    H         0.000     -0.414    6.709   -7.103
+ DHE           HMA1   H    H         0.000     -1.030    5.124   -7.418
+ DHE           C2A    C    CR5       0.000      0.324    4.561   -4.639
+ DHE           C1A    C    CR56      0.000      0.282    5.549   -3.415
+ DHE           N_A    N    NR56      0.000     -0.326    6.737   -3.433
+ DHE           FE     FE   FE        0.000     -0.413    7.957   -1.910
+ DHE           CAA    C    CH2       0.000      0.923    3.184   -5.107
+ DHE           HAA1   H    H         0.000      0.566    2.741   -6.040
+ DHE           HAA2   H    H         0.000      1.081    2.396   -4.368
+ DHE           CBA    C    CH2       0.000      2.249    3.925   -5.363
+ DHE           HBA1   H    H         0.000      2.490    3.775   -4.308
+ DHE           HBA2   H    H         0.000      1.669    4.843   -5.475
+ DHE           CGA    C    C         0.000      3.509    4.032   -6.151
+ DHE           O1A    O    OC       -0.500      3.966    3.033   -6.570
+ DHE           O2A    O    OC       -0.500      4.129    5.129   -6.067
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ DHE      O2D    n/a    CGD    START
+ DHE      CGD    O2D    CBD    .
+ DHE      O1D    CGD    .      .
+ DHE      CBD    CGD    CAD    .
+ DHE      HBD1   CBD    .      .
+ DHE      HBD2   CBD    .      .
+ DHE      CAD    CBD    C3D    .
+ DHE      HAD1   CAD    .      .
+ DHE      HAD    CAD    .      .
+ DHE      C3D    CAD    C2D    .
+ DHE      C4D    C3D    CHA    .
+ DHE      CHA    C4D    HHA    .
+ DHE      HHA    CHA    .      .
+ DHE      C2D    C3D    C1D    .
+ DHE      CMD    C2D    HMD1   .
+ DHE      HMD3   CMD    .      .
+ DHE      HMD2   CMD    .      .
+ DHE      HMD1   CMD    .      .
+ DHE      C1D    C2D    CHD    .
+ DHE      N_D    C1D    .      .
+ DHE      CHD    C1D    C4C    .
+ DHE      HHD    CHD    .      .
+ DHE      C4C    CHD    C3C    .
+ DHE      C3C    C4C    C2C    .
+ DHE      CGC    C3C    HGC1   .
+ DHE      HGC3   CGC    .      .
+ DHE      HGC2   CGC    .      .
+ DHE      HGC1   CGC    .      .
+ DHE      CAC    C3C    CBC    .
+ DHE      HAC1   CAC    .      .
+ DHE      HAC2   CAC    .      .
+ DHE      CBC    CAC    O1C    .
+ DHE      O2C    CBC    .      .
+ DHE      O1C    CBC    .      .
+ DHE      C2C    C3C    C1C    .
+ DHE      OMC    C2C    .      .
+ DHE      C1C    C2C    CHC    .
+ DHE      N_C    C1C    .      .
+ DHE      CHC    C1C    C4B    .
+ DHE      HHC    CHC    .      .
+ DHE      C4B    CHC    C3B    .
+ DHE      C3B    C4B    C2B    .
+ DHE      CGB    C3B    HGB1   .
+ DHE      HGB3   CGB    .      .
+ DHE      HGB2   CGB    .      .
+ DHE      HGB1   CGB    .      .
+ DHE      CAB    C3B    CBB    .
+ DHE      HAB1   CAB    .      .
+ DHE      HAB2   CAB    .      .
+ DHE      CBB    CAB    O1B    .
+ DHE      O2B    CBB    .      .
+ DHE      O1B    CBB    .      .
+ DHE      C2B    C3B    C1B    .
+ DHE      OMB    C2B    .      .
+ DHE      C1B    C2B    CHB    .
+ DHE      N_B    C1B    .      .
+ DHE      CHB    C1B    C4A    .
+ DHE      HHB    CHB    .      .
+ DHE      C4A    CHB    C3A    .
+ DHE      C3A    C4A    C2A    .
+ DHE      CMA    C3A    HMA1   .
+ DHE      HMA3   CMA    .      .
+ DHE      HMA2   CMA    .      .
+ DHE      HMA1   CMA    .      .
+ DHE      C2A    C3A    CAA    .
+ DHE      C1A    C2A    N_A    .
+ DHE      N_A    C1A    FE     .
+ DHE      FE     N_A    .      .
+ DHE      CAA    C2A    CBA    .
+ DHE      HAA1   CAA    .      .
+ DHE      HAA2   CAA    .      .
+ DHE      CBA    CAA    CGA    .
+ DHE      HBA1   CBA    .      .
+ DHE      HBA2   CBA    .      .
+ DHE      CGA    CBA    O2A    .
+ DHE      O1A    CGA    .      .
+ DHE      O2A    CGA    .      END
+ DHE      FE     N_B    .    ADD
+ DHE      FE     N_C    .    ADD
+ DHE      FE     N_D    .    ADD
+ DHE      CHA    C1A    .    ADD
+ DHE      N_A    C4A    .    ADD
+ DHE      N_B    C4B    .    ADD
+ DHE      N_C    C4C    .    ADD
+ DHE      N_D    C4D    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ DHE      FE     N_A       single      1.935    0.020
+ DHE      FE     N_B       single      1.935    0.020
+ DHE      FE     N_C       single      1.935    0.020
+ DHE      FE     N_D       single      1.935    0.020
+ DHE      CHA    C1A       double      1.390    0.020
+ DHE      CHA    C4D       single      1.390    0.020
+ DHE      HHA    CHA       single      1.083    0.020
+ DHE      C4A    CHB       double      1.390    0.020
+ DHE      CHB    C1B       single      1.390    0.020
+ DHE      HHB    CHB       single      1.083    0.020
+ DHE      C4B    CHC       double      1.390    0.020
+ DHE      CHC    C1C       single      1.390    0.020
+ DHE      HHC    CHC       single      1.083    0.020
+ DHE      C4C    CHD       double      1.390    0.020
+ DHE      CHD    C1D       single      1.390    0.020
+ DHE      HHD    CHD       single      1.083    0.020
+ DHE      N_A    C1A       single      1.337    0.020
+ DHE      N_A    C4A       single      1.337    0.020
+ DHE      C1A    C2A       single      1.490    0.020
+ DHE      C2A    C3A       double      1.490    0.020
+ DHE      CAA    C2A       single      1.510    0.020
+ DHE      C3A    C4A       single      1.490    0.020
+ DHE      CMA    C3A       single      1.506    0.020
+ DHE      HMA1   CMA       single      1.059    0.020
+ DHE      HMA2   CMA       single      1.059    0.020
+ DHE      HMA3   CMA       single      1.059    0.020
+ DHE      CBA    CAA       single      1.524    0.020
+ DHE      HAA1   CAA       single      1.092    0.020
+ DHE      HAA2   CAA       single      1.092    0.020
+ DHE      CGA    CBA       single      1.510    0.020
+ DHE      HBA1   CBA       single      1.092    0.020
+ DHE      HBA2   CBA       single      1.092    0.020
+ DHE      O1A    CGA       deloc       1.250    0.020
+ DHE      O2A    CGA       deloc       1.250    0.020
+ DHE      N_B    C1B       double      1.337    0.020
+ DHE      N_B    C4B       single      1.337    0.020
+ DHE      C1B    C2B       single      1.490    0.020
+ DHE      OMB    C2B       double      1.285    0.020
+ DHE      C2B    C3B       single      1.500    0.020
+ DHE      CGB    C3B       single      1.524    0.020
+ DHE      CAB    C3B       single      1.524    0.020
+ DHE      C3B    C4B       single      1.500    0.020
+ DHE      HGB1   CGB       single      1.059    0.020
+ DHE      HGB2   CGB       single      1.059    0.020
+ DHE      HGB3   CGB       single      1.059    0.020
+ DHE      CBB    CAB       single      1.510    0.020
+ DHE      HAB1   CAB       single      1.092    0.020
+ DHE      HAB2   CAB       single      1.092    0.020
+ DHE      O1B    CBB       deloc       1.250    0.020
+ DHE      O2B    CBB       deloc       1.250    0.020
+ DHE      N_C    C1C       double      1.337    0.020
+ DHE      N_C    C4C       single      1.337    0.020
+ DHE      C1C    C2C       single      1.490    0.020
+ DHE      OMC    C2C       double      1.285    0.020
+ DHE      C2C    C3C       single      1.500    0.020
+ DHE      CGC    C3C       single      1.524    0.020
+ DHE      CAC    C3C       single      1.524    0.020
+ DHE      C3C    C4C       single      1.500    0.020
+ DHE      HGC1   CGC       single      1.059    0.020
+ DHE      HGC2   CGC       single      1.059    0.020
+ DHE      HGC3   CGC       single      1.059    0.020
+ DHE      CBC    CAC       single      1.510    0.020
+ DHE      HAC1   CAC       single      1.092    0.020
+ DHE      HAC2   CAC       single      1.092    0.020
+ DHE      O1C    CBC       deloc       1.250    0.020
+ DHE      O2C    CBC       deloc       1.250    0.020
+ DHE      N_D    C1D       single      1.337    0.020
+ DHE      N_D    C4D       single      1.337    0.020
+ DHE      C1D    C2D       double      1.490    0.020
+ DHE      C2D    C3D       single      1.490    0.020
+ DHE      CMD    C2D       single      1.506    0.020
+ DHE      C4D    C3D       double      1.490    0.020
+ DHE      C3D    CAD       single      1.510    0.020
+ DHE      HMD1   CMD       single      1.059    0.020
+ DHE      HMD2   CMD       single      1.059    0.020
+ DHE      HMD3   CMD       single      1.059    0.020
+ DHE      CAD    CBD       single      1.524    0.020
+ DHE      HAD1   CAD       single      1.092    0.020
+ DHE      CBD    CGD       single      1.510    0.020
+ DHE      O1D    CGD       deloc       1.250    0.020
+ DHE      CGD    O2D       deloc       1.250    0.020
+ DHE      HAD    CAD       single      1.092    0.020
+ DHE      HBD1   CBD       single      1.092    0.020
+ DHE      HBD2   CBD       single      1.092    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ DHE      O2D    CGD    O1D     123.000    3.000
+ DHE      O2D    CGD    CBD     118.500    3.000
+ DHE      O1D    CGD    CBD     118.500    3.000
+ DHE      CGD    CBD    HBD1    109.470    3.000
+ DHE      CGD    CBD    HBD2    109.470    3.000
+ DHE      CGD    CBD    CAD     109.470    3.000
+ DHE      HBD1   CBD    HBD2    107.900    3.000
+ DHE      HBD1   CBD    CAD     109.470    3.000
+ DHE      HBD2   CBD    CAD     109.470    3.000
+ DHE      CBD    CAD    HAD1    109.470    3.000
+ DHE      CBD    CAD    HAD     109.470    3.000
+ DHE      CBD    CAD    C3D     109.470    3.000
+ DHE      HAD1   CAD    HAD     107.900    3.000
+ DHE      HAD1   CAD    C3D     109.470    3.000
+ DHE      HAD    CAD    C3D     109.470    3.000
+ DHE      CAD    C3D    C4D     126.000    3.000
+ DHE      CAD    C3D    C2D     126.000    3.000
+ DHE      C4D    C3D    C2D     108.000    3.000
+ DHE      C3D    C4D    CHA     126.000    3.000
+ DHE      C3D    C4D    N_D     108.000    3.000
+ DHE      CHA    C4D    N_D     120.000    3.000
+ DHE      C4D    CHA    HHA     120.000    3.000
+ DHE      C4D    CHA    C1A     120.000    3.000
+ DHE      HHA    CHA    C1A     120.000    3.000
+ DHE      C3D    C2D    CMD     126.000    3.000
+ DHE      C3D    C2D    C1D     108.000    3.000
+ DHE      CMD    C2D    C1D     108.000    3.000
+ DHE      C2D    CMD    HMD3    109.470    3.000
+ DHE      C2D    CMD    HMD2    109.470    3.000
+ DHE      C2D    CMD    HMD1    109.470    3.000
+ DHE      HMD3   CMD    HMD2    109.470    3.000
+ DHE      HMD3   CMD    HMD1    109.470    3.000
+ DHE      HMD2   CMD    HMD1    109.470    3.000
+ DHE      C2D    C1D    N_D     108.000    3.000
+ DHE      C2D    C1D    CHD     126.000    3.000
+ DHE      N_D    C1D    CHD     120.000    3.000
+ DHE      C1D    N_D    FE      126.000    3.000
+ DHE      C1D    N_D    C4D     108.000    3.000
+ DHE      FE     N_D    C4D     126.000    3.000
+ DHE      C1D    CHD    HHD     120.000    3.000
+ DHE      C1D    CHD    C4C     120.000    3.000
+ DHE      HHD    CHD    C4C     120.000    3.000
+ DHE      CHD    C4C    C3C     126.000    3.000
+ DHE      CHD    C4C    N_C     120.000    3.000
+ DHE      C3C    C4C    N_C     108.000    3.000
+ DHE      C4C    C3C    CGC     109.500    3.000
+ DHE      C4C    C3C    CAC     109.500    3.000
+ DHE      C4C    C3C    C2C     108.000    3.000
+ DHE      CGC    C3C    CAC     111.000    3.000
+ DHE      CGC    C3C    C2C     109.470    3.000
+ DHE      CAC    C3C    C2C     109.470    3.000
+ DHE      C3C    CGC    HGC3    109.470    3.000
+ DHE      C3C    CGC    HGC2    109.470    3.000
+ DHE      C3C    CGC    HGC1    109.470    3.000
+ DHE      HGC3   CGC    HGC2    109.470    3.000
+ DHE      HGC3   CGC    HGC1    109.470    3.000
+ DHE      HGC2   CGC    HGC1    109.470    3.000
+ DHE      C3C    CAC    HAC1    109.470    3.000
+ DHE      C3C    CAC    HAC2    109.470    3.000
+ DHE      C3C    CAC    CBC     109.470    3.000
+ DHE      HAC1   CAC    HAC2    107.900    3.000
+ DHE      HAC1   CAC    CBC     109.470    3.000
+ DHE      HAC2   CAC    CBC     109.470    3.000
+ DHE      CAC    CBC    O2C     118.500    3.000
+ DHE      CAC    CBC    O1C     118.500    3.000
+ DHE      O2C    CBC    O1C     123.000    3.000
+ DHE      C3C    C2C    OMC     108.000    3.000
+ DHE      C3C    C2C    C1C     108.000    3.000
+ DHE      OMC    C2C    C1C     108.000    3.000
+ DHE      C2C    C1C    N_C     108.000    3.000
+ DHE      C2C    C1C    CHC     126.000    3.000
+ DHE      N_C    C1C    CHC     120.000    3.000
+ DHE      C1C    N_C    FE      126.000    3.000
+ DHE      C1C    N_C    C4C     108.000    3.000
+ DHE      FE     N_C    C4C     126.000    3.000
+ DHE      C1C    CHC    HHC     120.000    3.000
+ DHE      C1C    CHC    C4B     120.000    3.000
+ DHE      HHC    CHC    C4B     120.000    3.000
+ DHE      CHC    C4B    C3B     126.000    3.000
+ DHE      CHC    C4B    N_B     120.000    3.000
+ DHE      C3B    C4B    N_B     108.000    3.000
+ DHE      C4B    C3B    CGB     109.500    3.000
+ DHE      C4B    C3B    CAB     109.500    3.000
+ DHE      C4B    C3B    C2B     108.000    3.000
+ DHE      CGB    C3B    CAB     111.000    3.000
+ DHE      CGB    C3B    C2B     109.470    3.000
+ DHE      CAB    C3B    C2B     109.470    3.000
+ DHE      C3B    CGB    HGB3    109.470    3.000
+ DHE      C3B    CGB    HGB2    109.470    3.000
+ DHE      C3B    CGB    HGB1    109.470    3.000
+ DHE      HGB3   CGB    HGB2    109.470    3.000
+ DHE      HGB3   CGB    HGB1    109.470    3.000
+ DHE      HGB2   CGB    HGB1    109.470    3.000
+ DHE      C3B    CAB    HAB1    109.470    3.000
+ DHE      C3B    CAB    HAB2    109.470    3.000
+ DHE      C3B    CAB    CBB     109.470    3.000
+ DHE      HAB1   CAB    HAB2    107.900    3.000
+ DHE      HAB1   CAB    CBB     109.470    3.000
+ DHE      HAB2   CAB    CBB     109.470    3.000
+ DHE      CAB    CBB    O2B     118.500    3.000
+ DHE      CAB    CBB    O1B     118.500    3.000
+ DHE      O2B    CBB    O1B     123.000    3.000
+ DHE      C3B    C2B    OMB     108.000    3.000
+ DHE      C3B    C2B    C1B     108.000    3.000
+ DHE      OMB    C2B    C1B     108.000    3.000
+ DHE      C2B    C1B    N_B     108.000    3.000
+ DHE      C2B    C1B    CHB     126.000    3.000
+ DHE      N_B    C1B    CHB     120.000    3.000
+ DHE      C1B    N_B    FE      126.000    3.000
+ DHE      C1B    N_B    C4B     108.000    3.000
+ DHE      FE     N_B    C4B     126.000    3.000
+ DHE      C1B    CHB    HHB     120.000    3.000
+ DHE      C1B    CHB    C4A     120.000    3.000
+ DHE      HHB    CHB    C4A     120.000    3.000
+ DHE      CHB    C4A    C3A     126.000    3.000
+ DHE      CHB    C4A    N_A     120.000    3.000
+ DHE      C3A    C4A    N_A     108.000    3.000
+ DHE      C4A    C3A    CMA     108.000    3.000
+ DHE      C4A    C3A    C2A     108.000    3.000
+ DHE      CMA    C3A    C2A     126.000    3.000
+ DHE      C3A    CMA    HMA3    109.470    3.000
+ DHE      C3A    CMA    HMA2    109.470    3.000
+ DHE      C3A    CMA    HMA1    109.470    3.000
+ DHE      HMA3   CMA    HMA2    109.470    3.000
+ DHE      HMA3   CMA    HMA1    109.470    3.000
+ DHE      HMA2   CMA    HMA1    109.470    3.000
+ DHE      C3A    C2A    C1A     108.000    3.000
+ DHE      C3A    C2A    CAA     126.000    3.000
+ DHE      C1A    C2A    CAA     126.000    3.000
+ DHE      C2A    C1A    N_A     108.000    3.000
+ DHE      C2A    C1A    CHA     126.000    3.000
+ DHE      N_A    C1A    CHA     120.000    3.000
+ DHE      C1A    N_A    FE      126.000    3.000
+ DHE      C1A    N_A    C4A     108.000    3.000
+ DHE      FE     N_A    C4A     126.000    3.000
+ DHE      N_A    FE     N_B      90.000    3.000
+ DHE      N_A    FE     N_C     180.000    3.000
+ DHE      N_A    FE     N_D      90.000    3.000
+ DHE      N_B    FE     N_C      90.000    3.000
+ DHE      N_B    FE     N_D     180.000    3.000
+ DHE      N_C    FE     N_D      90.000    3.000
+ DHE      C2A    CAA    HAA1    109.470    3.000
+ DHE      C2A    CAA    HAA2    109.470    3.000
+ DHE      C2A    CAA    CBA     109.470    3.000
+ DHE      HAA1   CAA    HAA2    107.900    3.000
+ DHE      HAA1   CAA    CBA     109.470    3.000
+ DHE      HAA2   CAA    CBA     109.470    3.000
+ DHE      CAA    CBA    HBA1    109.470    3.000
+ DHE      CAA    CBA    HBA2    109.470    3.000
+ DHE      CAA    CBA    CGA     109.470    3.000
+ DHE      HBA1   CBA    HBA2    107.900    3.000
+ DHE      HBA1   CBA    CGA     109.470    3.000
+ DHE      HBA2   CBA    CGA     109.470    3.000
+ DHE      CBA    CGA    O1A     118.500    3.000
+ DHE      CBA    CGA    O2A     118.500    3.000
+ DHE      O1A    CGA    O2A     123.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ DHE      var_1    O2D    CGD    CBD    CAD     -179.980   20.000   3
+ DHE      var_2    CGD    CBD    CAD    C3D      179.980   20.000   3
+ DHE      var_3    CBD    CAD    C3D    C2D       89.979   20.000   2
+ DHE      CONST_1  CAD    C3D    C4D    CHA        0.000    0.000   0
+ DHE      CONST_2  C3D    C4D    CHA    C1A      150.000    0.000   0
+ DHE      CONST_3  C4D    CHA    C1A    C2A      180.000    0.000   0
+ DHE      CONST_4  CAD    C3D    C2D    C1D      180.000    0.000   0
+ DHE      var_4    C3D    C2D    CMD    HMD1     -92.257   20.000   1
+ DHE      CONST_5  C3D    C2D    C1D    CHD     -150.000    0.000   0
+ DHE      CONST_6  C2D    C1D    N_D    FE       150.000    0.000   0
+ DHE      CONST_7  C1D    N_D    C4D    C3D       30.000    0.000   0
+ DHE      CONST_8  C2D    C1D    CHD    C4C      180.000    0.000   0
+ DHE      CONST_9  C1D    CHD    C4C    C3C      180.000    0.000   0
+ DHE      CONST_10 CHD    C4C    C3C    C2C      180.000    0.000   0
+ DHE      var_5    C4C    C3C    CGC    HGC1    -174.571   20.000   1
+ DHE      var_6    C4C    C3C    CAC    CBC      174.578   20.000   1
+ DHE      var_7    C3C    CAC    CBC    O1C        0.000   20.000   3
+ DHE      CONST_11 C4C    C3C    C2C    C1C        0.000    0.000   0
+ DHE      CONST_12 C3C    C2C    C1C    CHC      150.000    0.000   0
+ DHE      CONST_13 C2C    C1C    N_C    FE      -150.000    0.000   0
+ DHE      CONST_14 C1C    N_C    C4C    CHD      180.000    0.000   0
+ DHE      CONST_15 C2C    C1C    CHC    C4B      180.000    0.000   0
+ DHE      CONST_16 C1C    CHC    C4B    C3B      180.000    0.000   0
+ DHE      CONST_17 CHC    C4B    C3B    C2B      180.000    0.000   0
+ DHE      var_8    C4B    C3B    CGB    HGB1    -174.413   20.000   1
+ DHE      var_9    C4B    C3B    CAB    CBB      174.389   20.000   1
+ DHE      var_10   C3B    CAB    CBB    O1B        0.000   20.000   3
+ DHE      CONST_18 C4B    C3B    C2B    C1B        0.000    0.000   0
+ DHE      CONST_19 C3B    C2B    C1B    CHB     -150.000    0.000   0
+ DHE      CONST_20 C2B    C1B    N_B    FE       150.000    0.000   0
+ DHE      CONST_21 C1B    N_B    C4B    CHC     -150.000    0.000   0
+ DHE      CONST_22 C2B    C1B    CHB    C4A      180.000    0.000   0
+ DHE      CONST_23 C1B    CHB    C4A    C3A     -150.000    0.000   0
+ DHE      CONST_24 CHB    C4A    C3A    C2A     -150.000    0.000   0
+ DHE      var_11   C4A    C3A    CMA    HMA1    -175.717   20.000   1
+ DHE      CONST_25 C4A    C3A    C2A    CAA      180.000    0.000   0
+ DHE      CONST_26 C3A    C2A    C1A    N_A        0.000    0.000   0
+ DHE      CONST_27 C2A    C1A    N_A    FE      -150.000    0.000   0
+ DHE      CONST_28 C1A    N_A    C4A    CHB      150.000    0.000   0
+ DHE      CONST_29 C4A    N_A    FE     N_B        0.000    0.000   0
+ DHE      CONST_30 C1B    N_B    FE     N_A        0.000    0.000   0
+ DHE      CONST_31 C1C    N_C    FE     N_B        0.000    0.000   0
+ DHE      CONST_32 C4D    N_D    FE     N_A        0.000    0.000   0
+ DHE      var_12   C3A    C2A    CAA    CBA       89.977   20.000   2
+ DHE      var_13   C2A    CAA    CBA    CGA      180.000   20.000   3
+ DHE      var_14   CAA    CBA    CGA    O2A      180.000   20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ DHE      chir_01  FE     N_A    N_C    N_B       cross2
+ DHE      chir_02  C3B    C2B    CGB    CAB       positiv
+ DHE      chir_03  C3C    C2C    CGC    CAC       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ DHE      plan-1    CHA       0.020
+ DHE      plan-1    C1A       0.020
+ DHE      plan-1    C4D       0.020
+ DHE      plan-1    HHA       0.020
+ DHE      plan-1    N_A       0.020
+ DHE      plan-1    C2A       0.020
+ DHE      plan-1    C3A       0.020
+ DHE      plan-1    CAA       0.020
+ DHE      plan-1    C4A       0.020
+ DHE      plan-1    CMA       0.020
+ DHE      plan-1    CHB       0.020
+ DHE      plan-1    N_D       0.020
+ DHE      plan-1    C3D       0.020
+ DHE      plan-1    FE        0.020
+ DHE      plan-1    N_B       0.020
+ DHE      plan-1    C1B       0.020
+ DHE      plan-1    CHC       0.020
+ DHE      plan-1    C4B       0.020
+ DHE      plan-1    N_C       0.020
+ DHE      plan-1    C1C       0.020
+ DHE      plan-1    CHD       0.020
+ DHE      plan-1    C4C       0.020
+ DHE      plan-1    C1D       0.020
+ DHE      plan-1    C2B       0.020
+ DHE      plan-1    C3B       0.020
+ DHE      plan-1    C2C       0.020
+ DHE      plan-1    C3C       0.020
+ DHE      plan-1    C2D       0.020
+ DHE      plan-1    HHB       0.020
+ DHE      plan-1    OMB       0.020
+ DHE      plan-1    HHC       0.020
+ DHE      plan-1    OMC       0.020
+ DHE      plan-1    HHD       0.020
+ DHE      plan-1    CMD       0.020
+ DHE      plan-1    CAD       0.020
+ DHE      plan-2    CGA       0.020
+ DHE      plan-2    CBA       0.020
+ DHE      plan-2    O1A       0.020
+ DHE      plan-2    O2A       0.020
+ DHE      plan-3    CBB       0.020
+ DHE      plan-3    CAB       0.020
+ DHE      plan-3    O1B       0.020
+ DHE      plan-3    O2B       0.020
+ DHE      plan-4    CBC       0.020
+ DHE      plan-4    CAC       0.020
+ DHE      plan-4    O1C       0.020
+ DHE      plan-4    O2C       0.020
+ DHE      plan-5    CGD       0.020
+ DHE      plan-5    CBD       0.020
+ DHE      plan-5    O1D       0.020
+ DHE      plan-5    O2D       0.020

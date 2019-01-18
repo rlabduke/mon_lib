@@ -1,0 +1,333 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+OLA      .   'OLEIC ACID                          ' non-polymer        54  20 .
+#
+data_comp_OLA
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ OLA           O1     O    O         0.000
+ OLA           C1     C    C         0.000
+ OLA           O2     O    O         0.000
+ OLA           C2     C    CH2       0.000
+ OLA           H21    H    HCH2      0.000
+ OLA           H22    H    HCH2      0.000
+ OLA           C3     C    CH2       0.000
+ OLA           H31    H    HCH2      0.000
+ OLA           H32    H    HCH2      0.000
+ OLA           C4     C    CH2       0.000
+ OLA           H41    H    HCH2      0.000
+ OLA           H42    H    HCH2      0.000
+ OLA           C5     C    CH2       0.000
+ OLA           H51    H    HCH2      0.000
+ OLA           H52    H    HCH2      0.000
+ OLA           C6     C    CH2       0.000
+ OLA           H61    H    HCH2      0.000
+ OLA           H62    H    HCH2      0.000
+ OLA           C7     C    CH2       0.000
+ OLA           H71    H    HCH2      0.000
+ OLA           H72    H    HCH2      0.000
+ OLA           C8     C    CH2       0.000
+ OLA           H81    H    HCH2      0.000
+ OLA           H82    H    HCH2      0.000
+ OLA           C9     C    C1        0.000
+ OLA           H9     H    HC1       0.000
+ OLA           C10    C    C1        0.000
+ OLA           H10    H    HC1       0.000
+ OLA           C11    C    CH2       0.000
+ OLA           H111   H    HCH2      0.000
+ OLA           H112   H    HCH2      0.000
+ OLA           C12    C    CH2       0.000
+ OLA           H121   H    HCH2      0.000
+ OLA           H122   H    HCH2      0.000
+ OLA           C13    C    CH2       0.000
+ OLA           H131   H    HCH2      0.000
+ OLA           H132   H    HCH2      0.000
+ OLA           C14    C    CH2       0.000
+ OLA           H141   H    HCH2      0.000
+ OLA           H142   H    HCH2      0.000
+ OLA           C15    C    CH2       0.000
+ OLA           H151   H    HCH2      0.000
+ OLA           H152   H    HCH2      0.000
+ OLA           C16    C    CH2       0.000
+ OLA           H161   H    HCH2      0.000
+ OLA           H162   H    HCH2      0.000
+ OLA           C17    C    CH2       0.000
+ OLA           H171   H    HCH2      0.000
+ OLA           H172   H    HCH2      0.000
+ OLA           C18    C    CH3       0.000
+ OLA           H183   H    HCH3      0.000
+ OLA           H182   H    HCH3      0.000
+ OLA           H181   H    HCH3      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ OLA      O1     n/a    C1     START
+ OLA      C1     O1     C2     .
+ OLA      O2     C1     .      .
+ OLA      C2     C1     C3     .
+ OLA      H21    C2     .      .
+ OLA      H22    C2     .      .
+ OLA      C3     C2     C4     .
+ OLA      H31    C3     .      .
+ OLA      H32    C3     .      .
+ OLA      C4     C3     C5     .
+ OLA      H41    C4     .      .
+ OLA      H42    C4     .      .
+ OLA      C5     C4     C6     .
+ OLA      H51    C5     .      .
+ OLA      H52    C5     .      .
+ OLA      C6     C5     C7     .
+ OLA      H61    C6     .      .
+ OLA      H62    C6     .      .
+ OLA      C7     C6     C8     .
+ OLA      H71    C7     .      .
+ OLA      H72    C7     .      .
+ OLA      C8     C7     C9     .
+ OLA      H81    C8     .      .
+ OLA      H82    C8     .      .
+ OLA      C9     C8     C10    .
+ OLA      H9     C9     .      .
+ OLA      C10    C9     C11    .
+ OLA      H10    C10    .      .
+ OLA      C11    C10    C12    .
+ OLA      H111   C11    .      .
+ OLA      H112   C11    .      .
+ OLA      C12    C11    C13    .
+ OLA      H121   C12    .      .
+ OLA      H122   C12    .      .
+ OLA      C13    C12    C14    .
+ OLA      H131   C13    .      .
+ OLA      H132   C13    .      .
+ OLA      C14    C13    C15    .
+ OLA      H141   C14    .      .
+ OLA      H142   C14    .      .
+ OLA      C15    C14    C16    .
+ OLA      H151   C15    .      .
+ OLA      H152   C15    .      .
+ OLA      C16    C15    C17    .
+ OLA      H161   C16    .      .
+ OLA      H162   C16    .      .
+ OLA      C17    C16    C18    .
+ OLA      H171   C17    .      .
+ OLA      H172   C17    .      .
+ OLA      C18    C17    .      END
+ OLA      H183   C18    .      .
+ OLA      H182   C18    .      .
+ OLA      H181   C18    .      .
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ OLA      C1     O1        coval       1.250    0.020
+ OLA      O2     C1        coval       1.250    0.020
+ OLA      C2     C1        coval       1.510    0.020
+ OLA      H21    C2        coval       1.090    0.020
+ OLA      H22    C2        coval       1.090    0.020
+ OLA      C3     C2        coval       1.524    0.020
+ OLA      H31    C3        coval       1.090    0.020
+ OLA      H32    C3        coval       1.090    0.020
+ OLA      C4     C3        coval       1.524    0.020
+ OLA      H41    C4        coval       1.090    0.020
+ OLA      H42    C4        coval       1.090    0.020
+ OLA      C5     C4        coval       1.524    0.020
+ OLA      H51    C5        coval       1.090    0.020
+ OLA      H52    C5        coval       1.090    0.020
+ OLA      C6     C5        coval       1.524    0.020
+ OLA      H61    C6        coval       1.090    0.020
+ OLA      H62    C6        coval       1.090    0.020
+ OLA      C7     C6        coval       1.524    0.020
+ OLA      H71    C7        coval       1.090    0.020
+ OLA      H72    C7        coval       1.090    0.020
+ OLA      C8     C7        coval       1.524    0.020
+ OLA      H81    C8        coval       1.090    0.020
+ OLA      H82    C8        coval       1.090    0.020
+ OLA      C9     C8        coval       1.510    0.020
+ OLA      H9     C9        coval       1.090    0.020
+ OLA      C10    C9        coval       1.470    0.020
+ OLA      H10    C10       coval       1.090    0.020
+ OLA      C11    C10       coval       1.510    0.020
+ OLA      H111   C11       coval       1.090    0.020
+ OLA      H112   C11       coval       1.090    0.020
+ OLA      C12    C11       coval       1.524    0.020
+ OLA      H121   C12       coval       1.090    0.020
+ OLA      H122   C12       coval       1.090    0.020
+ OLA      C13    C12       coval       1.524    0.020
+ OLA      H131   C13       coval       1.090    0.020
+ OLA      H132   C13       coval       1.090    0.020
+ OLA      C14    C13       coval       1.524    0.020
+ OLA      H141   C14       coval       1.090    0.020
+ OLA      H142   C14       coval       1.090    0.020
+ OLA      C15    C14       coval       1.524    0.020
+ OLA      H151   C15       coval       1.090    0.020
+ OLA      H152   C15       coval       1.090    0.020
+ OLA      C16    C15       coval       1.524    0.020
+ OLA      H161   C16       coval       1.090    0.020
+ OLA      H162   C16       coval       1.090    0.020
+ OLA      C17    C16       coval       1.524    0.020
+ OLA      H171   C17       coval       1.090    0.020
+ OLA      H172   C17       coval       1.090    0.020
+ OLA      C18    C17       coval       1.524    0.020
+ OLA      H183   C18       coval       1.090    0.020
+ OLA      H182   C18       coval       1.090    0.020
+ OLA      H181   C18       coval       1.090    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ OLA      O1     C1     O2      119.000    3.000
+ OLA      O1     C1     C2      120.500    3.000
+ OLA      O2     C1     C2      120.500    3.000
+ OLA      C1     C2     H21     109.470    3.000
+ OLA      C1     C2     H22     109.470    3.000
+ OLA      C1     C2     C3      109.470    3.000
+ OLA      H21    C2     H22     107.900    3.000
+ OLA      H21    C2     C3      109.470    3.000
+ OLA      H22    C2     C3      109.470    3.000
+ OLA      C2     C3     H31     109.470    3.000
+ OLA      C2     C3     H32     109.470    3.000
+ OLA      C2     C3     C4      111.000    3.000
+ OLA      H31    C3     H32     107.900    3.000
+ OLA      H31    C3     C4      109.470    3.000
+ OLA      H32    C3     C4      109.470    3.000
+ OLA      C3     C4     H41     109.470    3.000
+ OLA      C3     C4     H42     109.470    3.000
+ OLA      C3     C4     C5      111.000    3.000
+ OLA      H41    C4     H42     107.900    3.000
+ OLA      H41    C4     C5      109.470    3.000
+ OLA      H42    C4     C5      109.470    3.000
+ OLA      C4     C5     H51     109.470    3.000
+ OLA      C4     C5     H52     109.470    3.000
+ OLA      C4     C5     C6      111.000    3.000
+ OLA      H51    C5     H52     107.900    3.000
+ OLA      H51    C5     C6      109.470    3.000
+ OLA      H52    C5     C6      109.470    3.000
+ OLA      C5     C6     H61     109.470    3.000
+ OLA      C5     C6     H62     109.470    3.000
+ OLA      C5     C6     C7      111.000    3.000
+ OLA      H61    C6     H62     107.900    3.000
+ OLA      H61    C6     C7      109.470    3.000
+ OLA      H62    C6     C7      109.470    3.000
+ OLA      C6     C7     H71     109.470    3.000
+ OLA      C6     C7     H72     109.470    3.000
+ OLA      C6     C7     C8      111.000    3.000
+ OLA      H71    C7     H72     107.900    3.000
+ OLA      H71    C7     C8      109.470    3.000
+ OLA      H72    C7     C8      109.470    3.000
+ OLA      C7     C8     H81     109.470    3.000
+ OLA      C7     C8     H82     109.470    3.000
+ OLA      C7     C8     C9      109.470    3.000
+ OLA      H81    C8     H82     107.900    3.000
+ OLA      H81    C8     C9      109.470    3.000
+ OLA      H82    C8     C9      109.470    3.000
+ OLA      C8     C9     H9      120.000    3.000
+ OLA      C8     C9     C10     120.000    3.000
+ OLA      H9     C9     C10     120.000    3.000
+ OLA      C9     C10    H10     120.000    3.000
+ OLA      C9     C10    C11     120.000    3.000
+ OLA      H10    C10    C11     120.000    3.000
+ OLA      C10    C11    H111    109.470    3.000
+ OLA      C10    C11    H112    109.470    3.000
+ OLA      C10    C11    C12     109.470    3.000
+ OLA      H111   C11    H112    107.900    3.000
+ OLA      H111   C11    C12     109.470    3.000
+ OLA      H112   C11    C12     109.470    3.000
+ OLA      C11    C12    H121    109.470    3.000
+ OLA      C11    C12    H122    109.470    3.000
+ OLA      C11    C12    C13     111.000    3.000
+ OLA      H121   C12    H122    107.900    3.000
+ OLA      H121   C12    C13     109.470    3.000
+ OLA      H122   C12    C13     109.470    3.000
+ OLA      C12    C13    H131    109.470    3.000
+ OLA      C12    C13    H132    109.470    3.000
+ OLA      C12    C13    C14     111.000    3.000
+ OLA      H131   C13    H132    107.900    3.000
+ OLA      H131   C13    C14     109.470    3.000
+ OLA      H132   C13    C14     109.470    3.000
+ OLA      C13    C14    H141    109.470    3.000
+ OLA      C13    C14    H142    109.470    3.000
+ OLA      C13    C14    C15     111.000    3.000
+ OLA      H141   C14    H142    107.900    3.000
+ OLA      H141   C14    C15     109.470    3.000
+ OLA      H142   C14    C15     109.470    3.000
+ OLA      C14    C15    H151    109.470    3.000
+ OLA      C14    C15    H152    109.470    3.000
+ OLA      C14    C15    C16     111.000    3.000
+ OLA      H151   C15    H152    107.900    3.000
+ OLA      H151   C15    C16     109.470    3.000
+ OLA      H152   C15    C16     109.470    3.000
+ OLA      C15    C16    H161    109.470    3.000
+ OLA      C15    C16    H162    109.470    3.000
+ OLA      C15    C16    C17     111.000    3.000
+ OLA      H161   C16    H162    107.900    3.000
+ OLA      H161   C16    C17     109.470    3.000
+ OLA      H162   C16    C17     109.470    3.000
+ OLA      C16    C17    H171    109.470    3.000
+ OLA      C16    C17    H172    109.470    3.000
+ OLA      C16    C17    C18     111.000    3.000
+ OLA      H171   C17    H172    107.900    3.000
+ OLA      H171   C17    C18     109.470    3.000
+ OLA      H172   C17    C18     109.470    3.000
+ OLA      C17    C18    H183    109.470    3.000
+ OLA      C17    C18    H182    109.470    3.000
+ OLA      C17    C18    H181    109.470    3.000
+ OLA      H183   C18    H182    109.470    3.000
+ OLA      H183   C18    H181    109.470    3.000
+ OLA      H182   C18    H181    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ OLA      var_2    O1     C1     C2     C3       160.966   20.000   3
+ OLA      var_3    C1     C2     C3     C4       113.517   20.000   3
+ OLA      var_4    C2     C3     C4     C5       -52.588   20.000   3
+ OLA      var_5    C3     C4     C5     C6      -146.289   20.000   3
+ OLA      var_6    C4     C5     C6     C7       138.981   20.000   3
+ OLA      var_7    C5     C6     C7     C8      -156.057   20.000   3
+ OLA      var_8    C6     C7     C8     C9       166.879   20.000   3
+ OLA      var_9    C7     C8     C9     C10     -162.218   20.000   1
+ OLA      var_10   C8     C9     C10    C11      -39.419   20.000   1
+ OLA      var_11   C9     C10    C11    C12      177.437   20.000   1
+ OLA      var_12   C10    C11    C12    C13      -55.795   20.000   3
+ OLA      var_13   C11    C12    C13    C14     -144.677   20.000   3
+ OLA      var_14   C12    C13    C14    C15     -160.799   20.000   3
+ OLA      var_15   C13    C14    C15    C16     -171.715   20.000   3
+ OLA      var_16   C14    C15    C16    C17     -165.758   20.000   3
+ OLA      var_17   C15    C16    C17    C18     -173.802   20.000   3
+ OLA      var_18   C16    C17    C18    H181       0.000   20.000   1
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ OLA      plan-1    C1        0.020
+ OLA      plan-1    O1        0.020
+ OLA      plan-1    O2        0.020
+ OLA      plan-1    C2        0.020

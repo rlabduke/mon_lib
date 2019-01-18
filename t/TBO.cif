@@ -1,0 +1,317 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+TBO      TBO '5-CHLORO-8-METHYL-7-(3-METHYL-BUT-2-' non-polymer        41  21 .
+#
+data_comp_TBO
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ TBO           CL8    CL   CL        0.000      0.000    0.000    0.000
+ TBO           C8     C    CR6       0.000      1.198    1.341   -0.069
+ TBO           C9     C    CR16      0.000      2.543    1.039   -0.251
+ TBO           H9     H    H         0.000      2.837    0.001   -0.337
+ TBO           C10    C    CR16      0.000      3.532    2.029   -0.328
+ TBO           H10    H    H         0.000      4.560    1.716   -0.464
+ TBO           C7A    C    CR6       0.000      0.790    2.769    0.063
+ TBO           C3A    C    CR56      0.000      1.855    3.788   -0.034
+ TBO           C1A    C    CR56      0.000      3.269    3.380   -0.241
+ TBO           N1     N    NR15      0.000      3.982    4.524   -0.270
+ TBO           HN1    H    H         0.000      5.017    4.615   -0.305
+ TBO           C7     C    CH2       0.000     -0.646    3.103    0.185
+ TBO           H7_1   H    H         0.000     -1.156    2.243    0.625
+ TBO           H7_2   H    H         0.000     -1.037    3.282   -0.819
+ TBO           N6     N    NT        0.000     -0.868    4.264    1.002
+ TBO           C12    C    CH2       0.000     -2.243    4.222    1.500
+ TBO           H121   H    H         0.000     -2.932    4.464    0.688
+ TBO           H122   H    H         0.000     -2.362    4.949    2.306
+ TBO           C13    C    C1        0.000     -2.541    2.846    2.018
+ TBO           H13    H    H         0.000     -1.850    2.372    2.694
+ TBO           C14    C    C         0.000     -3.652    2.200    1.652
+ TBO           C16    C    CH3       0.000     -4.665    2.790    0.717
+ TBO           H163   H    H         0.000     -4.826    2.127   -0.093
+ TBO           H162   H    H         0.000     -5.576    2.943    1.234
+ TBO           H161   H    H         0.000     -4.309    3.716    0.349
+ TBO           C15    C    CH3       0.000     -3.891    0.817    2.182
+ TBO           H153   H    H         0.000     -3.100    0.181    1.879
+ TBO           H152   H    H         0.000     -3.935    0.847    3.239
+ TBO           H151   H    H         0.000     -4.808    0.446    1.801
+ TBO           C5     C    CH1       0.000     -0.676    5.461    0.156
+ TBO           H5     H    H         0.000     -0.943    5.196   -0.877
+ TBO           C11    C    CH3       0.000     -1.613    6.566    0.620
+ TBO           H113   H    H         0.000     -2.616    6.264    0.468
+ TBO           H112   H    H         0.000     -1.452    6.755    1.649
+ TBO           H111   H    H         0.000     -1.421    7.446    0.064
+ TBO           C4     C    CH2       0.000      0.715    6.013    0.152
+ TBO           H4_1   H    H         0.000      0.829    6.486    1.129
+ TBO           H4_2   H    H         0.000      0.705    6.782   -0.624
+ TBO           N3     N    NR5       0.000      1.802    5.121   -0.075
+ TBO           C2     C    CR5       0.000      3.051    5.561   -0.245
+ TBO           S2     S    S1        0.000      3.435    7.171   -0.475
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ TBO      CL8    n/a    C8     START
+ TBO      C8     CL8    C7A    .
+ TBO      C9     C8     C10    .
+ TBO      H9     C9     .      .
+ TBO      C10    C9     H10    .
+ TBO      H10    C10    .      .
+ TBO      C7A    C8     C7     .
+ TBO      C3A    C7A    C1A    .
+ TBO      C1A    C3A    N1     .
+ TBO      N1     C1A    HN1    .
+ TBO      HN1    N1     .      .
+ TBO      C7     C7A    N6     .
+ TBO      H7_1   C7     .      .
+ TBO      H7_2   C7     .      .
+ TBO      N6     C7     C5     .
+ TBO      C12    N6     C13    .
+ TBO      H121   C12    .      .
+ TBO      H122   C12    .      .
+ TBO      C13    C12    C14    .
+ TBO      H13    C13    .      .
+ TBO      C14    C13    C15    .
+ TBO      C16    C14    H161   .
+ TBO      H163   C16    .      .
+ TBO      H162   C16    .      .
+ TBO      H161   C16    .      .
+ TBO      C15    C14    H151   .
+ TBO      H153   C15    .      .
+ TBO      H152   C15    .      .
+ TBO      H151   C15    .      .
+ TBO      C5     N6     C4     .
+ TBO      H5     C5     .      .
+ TBO      C11    C5     H111   .
+ TBO      H113   C11    .      .
+ TBO      H112   C11    .      .
+ TBO      H111   C11    .      .
+ TBO      C4     C5     N3     .
+ TBO      H4_1   C4     .      .
+ TBO      H4_2   C4     .      .
+ TBO      N3     C4     C2     .
+ TBO      C2     N3     S2     .
+ TBO      S2     C2     .      END
+ TBO      N1     C2     .    ADD
+ TBO      C1A    C10    .    ADD
+ TBO      N3     C3A    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ TBO      N1     C1A       single      1.340    0.020
+ TBO      N1     C2        single      1.340    0.020
+ TBO      HN1    N1        single      1.040    0.020
+ TBO      C1A    C3A       double      1.490    0.020
+ TBO      C1A    C10       single      1.390    0.020
+ TBO      S2     C2        double      1.645    0.020
+ TBO      C2     N3        single      1.337    0.020
+ TBO      N3     C3A       single      1.337    0.020
+ TBO      N3     C4        single      1.462    0.020
+ TBO      C3A    C7A       single      1.490    0.020
+ TBO      C4     C5        single      1.524    0.020
+ TBO      H4_1   C4        single      1.092    0.020
+ TBO      H4_2   C4        single      1.092    0.020
+ TBO      C5     N6        single      1.469    0.020
+ TBO      C11    C5        single      1.524    0.020
+ TBO      H5     C5        single      1.099    0.020
+ TBO      N6     C7        single      1.469    0.020
+ TBO      C12    N6        single      1.469    0.020
+ TBO      C7     C7A       single      1.511    0.020
+ TBO      H7_1   C7        single      1.092    0.020
+ TBO      H7_2   C7        single      1.092    0.020
+ TBO      C7A    C8        double      1.487    0.020
+ TBO      C8     CL8       single      1.795    0.020
+ TBO      C9     C8        single      1.390    0.020
+ TBO      C10    C9        double      1.390    0.020
+ TBO      H9     C9        single      1.083    0.020
+ TBO      H10    C10       single      1.083    0.020
+ TBO      H111   C11       single      1.059    0.020
+ TBO      H112   C11       single      1.059    0.020
+ TBO      H113   C11       single      1.059    0.020
+ TBO      C13    C12       single      1.510    0.020
+ TBO      H121   C12       single      1.092    0.020
+ TBO      H122   C12       single      1.092    0.020
+ TBO      C14    C13       double      1.340    0.020
+ TBO      H13    C13       single      1.077    0.020
+ TBO      C15    C14       single      1.500    0.020
+ TBO      C16    C14       single      1.500    0.020
+ TBO      H151   C15       single      1.059    0.020
+ TBO      H152   C15       single      1.059    0.020
+ TBO      H153   C15       single      1.059    0.020
+ TBO      H161   C16       single      1.059    0.020
+ TBO      H162   C16       single      1.059    0.020
+ TBO      H163   C16       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ TBO      CL8    C8     C9      120.000    3.000
+ TBO      CL8    C8     C7A     120.000    3.000
+ TBO      C9     C8     C7A     120.000    3.000
+ TBO      C8     C9     H9      120.000    3.000
+ TBO      C8     C9     C10     120.000    3.000
+ TBO      H9     C9     C10     120.000    3.000
+ TBO      C9     C10    H10     120.000    3.000
+ TBO      C9     C10    C1A     120.000    3.000
+ TBO      H10    C10    C1A     120.000    3.000
+ TBO      C8     C7A    C3A     120.000    3.000
+ TBO      C8     C7A    C7      120.000    3.000
+ TBO      C3A    C7A    C7      120.000    3.000
+ TBO      C7A    C3A    C1A     120.000    3.000
+ TBO      C7A    C3A    N3      120.000    3.000
+ TBO      C1A    C3A    N3      108.000    3.000
+ TBO      C3A    C1A    N1      108.000    3.000
+ TBO      C3A    C1A    C10     120.000    3.000
+ TBO      N1     C1A    C10     132.000    3.000
+ TBO      C1A    N1     HN1     126.000    3.000
+ TBO      C1A    N1     C2      108.000    3.000
+ TBO      HN1    N1     C2      126.000    3.000
+ TBO      C7A    C7     H7_1    109.470    3.000
+ TBO      C7A    C7     H7_2    109.470    3.000
+ TBO      C7A    C7     N6      109.500    3.000
+ TBO      H7_1   C7     H7_2    107.900    3.000
+ TBO      H7_1   C7     N6      109.470    3.000
+ TBO      H7_2   C7     N6      109.470    3.000
+ TBO      C7     N6     C12     109.470    3.000
+ TBO      C7     N6     C5      109.470    3.000
+ TBO      C12    N6     C5      109.470    3.000
+ TBO      N6     C12    H121    109.470    3.000
+ TBO      N6     C12    H122    109.470    3.000
+ TBO      N6     C12    C13     109.500    3.000
+ TBO      H121   C12    H122    107.900    3.000
+ TBO      H121   C12    C13     109.470    3.000
+ TBO      H122   C12    C13     109.470    3.000
+ TBO      C12    C13    H13     120.000    3.000
+ TBO      C12    C13    C14     120.500    3.000
+ TBO      H13    C13    C14     120.000    3.000
+ TBO      C13    C14    C16     120.000    3.000
+ TBO      C13    C14    C15     120.000    3.000
+ TBO      C16    C14    C15     120.000    3.000
+ TBO      C14    C16    H163    109.470    3.000
+ TBO      C14    C16    H162    109.470    3.000
+ TBO      C14    C16    H161    109.470    3.000
+ TBO      H163   C16    H162    109.470    3.000
+ TBO      H163   C16    H161    109.470    3.000
+ TBO      H162   C16    H161    109.470    3.000
+ TBO      C14    C15    H153    109.470    3.000
+ TBO      C14    C15    H152    109.470    3.000
+ TBO      C14    C15    H151    109.470    3.000
+ TBO      H153   C15    H152    109.470    3.000
+ TBO      H153   C15    H151    109.470    3.000
+ TBO      H152   C15    H151    109.470    3.000
+ TBO      N6     C5     H5      109.500    3.000
+ TBO      N6     C5     C11     109.500    3.000
+ TBO      N6     C5     C4      109.500    3.000
+ TBO      H5     C5     C11     108.340    3.000
+ TBO      H5     C5     C4      108.340    3.000
+ TBO      C11    C5     C4      111.000    3.000
+ TBO      C5     C11    H113    109.470    3.000
+ TBO      C5     C11    H112    109.470    3.000
+ TBO      C5     C11    H111    109.470    3.000
+ TBO      H113   C11    H112    109.470    3.000
+ TBO      H113   C11    H111    109.470    3.000
+ TBO      H112   C11    H111    109.470    3.000
+ TBO      C5     C4     H4_1    109.470    3.000
+ TBO      C5     C4     H4_2    109.470    3.000
+ TBO      C5     C4     N3      109.500    3.000
+ TBO      H4_1   C4     H4_2    107.900    3.000
+ TBO      H4_1   C4     N3      109.500    3.000
+ TBO      H4_2   C4     N3      109.500    3.000
+ TBO      C4     N3     C2      126.000    3.000
+ TBO      C4     N3     C3A     126.000    3.000
+ TBO      C2     N3     C3A     108.000    3.000
+ TBO      N3     C2     S2      126.000    3.000
+ TBO      N3     C2     N1      108.000    3.000
+ TBO      S2     C2     N1      126.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ TBO      CONST_1  CL8    C8     C9     C10      180.000    0.000   0
+ TBO      CONST_2  C8     C9     C10    C1A        0.000    0.000   0
+ TBO      CONST_3  CL8    C8     C7A    C7         0.000    0.000   0
+ TBO      CONST_4  C8     C7A    C3A    C1A        0.000    0.000   0
+ TBO      CONST_5  C7A    C3A    C1A    N1       180.000    0.000   0
+ TBO      CONST_6  C3A    C1A    C10    C9         0.000    0.000   0
+ TBO      CONST_7  C3A    C1A    N1     C2         0.000    0.000   0
+ TBO      CONST_8  C1A    N1     C2     N3        30.000    0.000   0
+ TBO      var_1    C8     C7A    C7     N6       143.453   20.000   2
+ TBO      var_2    C7A    C7     N6     C5        68.188   20.000   1
+ TBO      var_3    C7     N6     C12    C13       54.795   20.000   1
+ TBO      var_4    N6     C12    C13    C14     -128.212   20.000   1
+ TBO      CONST_9  C12    C13    C14    C15      172.631    0.000   0
+ TBO      var_5    C13    C14    C16    H161       5.291   20.000   1
+ TBO      var_6    C13    C14    C15    H151     180.000   20.000   1
+ TBO      var_7    C7     N6     C5     C4       -93.240   20.000   1
+ TBO      var_8    N6     C5     C11    H111     175.554   20.000   3
+ TBO      var_9    N6     C5     C4     N3        80.301   20.000   3
+ TBO      var_10   C5     C4     N3     C2       135.993   20.000   1
+ TBO      CONST_10 C4     N3     C3A    C7A       30.000    0.000   0
+ TBO      CONST_11 C4     N3     C2     S2       -30.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ TBO      chir_01  C5     C4     N6     C11       negativ
+ TBO      chir_02  N6     C5     C7     C12       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ TBO      plan-1    N1        0.020
+ TBO      plan-1    C1A       0.020
+ TBO      plan-1    C2        0.020
+ TBO      plan-1    HN1       0.020
+ TBO      plan-1    N3        0.020
+ TBO      plan-1    C3A       0.020
+ TBO      plan-1    C10       0.020
+ TBO      plan-1    C7A       0.020
+ TBO      plan-1    C8        0.020
+ TBO      plan-1    C9        0.020
+ TBO      plan-1    S2        0.020
+ TBO      plan-1    C4        0.020
+ TBO      plan-1    C7        0.020
+ TBO      plan-1    CL8       0.020
+ TBO      plan-1    H9        0.020
+ TBO      plan-1    H10       0.020
+ TBO      plan-2    C13       0.020
+ TBO      plan-2    C12       0.020
+ TBO      plan-2    C14       0.020
+ TBO      plan-2    H13       0.020
+ TBO      plan-2    C15       0.020
+ TBO      plan-2    C16       0.020

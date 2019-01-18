@@ -1,0 +1,137 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HED      .   '2-HYDROXYETHYL DISULFIDE            ' non-polymer        18   8 .
+#
+data_comp_HED
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ HED           O6     O    OH1       0.000
+ HED           HO6    H    HOH1      0.000
+ HED           C6     C    CH2       0.000
+ HED           H61    H    HCH2      0.000
+ HED           H62    H    HCH2      0.000
+ HED           C5     C    CH2       0.000
+ HED           H51    H    HCH2      0.000
+ HED           H52    H    HCH2      0.000
+ HED           S4     S    S         0.000
+ HED           S3     S    S         0.000
+ HED           C2     C    CH2       0.000
+ HED           H21    H    HCH2      0.000
+ HED           H22    H    HCH2      0.000
+ HED           C1     C    CH2       0.000
+ HED           H11    H    HCH2      0.000
+ HED           H12    H    HCH2      0.000
+ HED           O1     O    OH1       0.000
+ HED           HO1    H    HOH1      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ HED      O6     n/a    C6     START
+ HED      HO6    O6     .      .
+ HED      C6     O6     C5     .
+ HED      H61    C6     .      .
+ HED      H62    C6     .      .
+ HED      C5     C6     S4     .
+ HED      H51    C5     .      .
+ HED      H52    C5     .      .
+ HED      S4     C5     S3     .
+ HED      S3     S4     C2     .
+ HED      C2     S3     C1     .
+ HED      H21    C2     .      .
+ HED      H22    C2     .      .
+ HED      C1     C2     O1     .
+ HED      H11    C1     .      .
+ HED      H12    C1     .      .
+ HED      O1     C1     HO1    .
+ HED      HO1    O1     .      END
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ HED      HO6    O6        coval       0.980    0.020
+ HED      C6     O6        coval       1.410    0.020
+ HED      H61    C6        coval       1.090    0.020
+ HED      H62    C6        coval       1.090    0.020
+ HED      C5     C6        coval       1.524    0.020
+ HED      H51    C5        coval       1.090    0.020
+ HED      H52    C5        coval       1.090    0.020
+ HED      S4     C5        coval       1.810    0.020
+ HED      S3     S4        coval       2.036    0.020
+ HED      C2     S3        coval       1.810    0.020
+ HED      H21    C2        coval       1.090    0.020
+ HED      H22    C2        coval       1.090    0.020
+ HED      C1     C2        coval       1.524    0.020
+ HED      H11    C1        coval       1.090    0.020
+ HED      H12    C1        coval       1.090    0.020
+ HED      O1     C1        coval       1.410    0.020
+ HED      HO1    O1        coval       0.980    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ HED      HO6    O6     C6      109.470    3.000
+ HED      O6     C6     H61     109.470    3.000
+ HED      O6     C6     H62     109.470    3.000
+ HED      O6     C6     C5      109.470    3.000
+ HED      H61    C6     H62     107.900    3.000
+ HED      H61    C6     C5      109.470    3.000
+ HED      H62    C6     C5      109.470    3.000
+ HED      C6     C5     H51     109.470    3.000
+ HED      C6     C5     H52     109.470    3.000
+ HED      C6     C5     S4      112.500    3.000
+ HED      H51    C5     H52     107.900    3.000
+ HED      H51    C5     S4      109.470    3.000
+ HED      H52    C5     S4      109.470    3.000
+ HED      C5     S4     S3      104.200    3.000
+ HED      S4     S3     C2      104.200    3.000
+ HED      S3     C2     H21     109.470    3.000
+ HED      S3     C2     H22     109.470    3.000
+ HED      S3     C2     C1      112.500    3.000
+ HED      H21    C2     H22     107.900    3.000
+ HED      H21    C2     C1      109.470    3.000
+ HED      H22    C2     C1      109.470    3.000
+ HED      C2     C1     H11     109.470    3.000
+ HED      C2     C1     H12     109.470    3.000
+ HED      C2     C1     O1      109.470    3.000
+ HED      H11    C1     H12     107.900    3.000
+ HED      H11    C1     O1      109.470    3.000
+ HED      H12    C1     O1      109.470    3.000
+ HED      C1     O1     HO1     109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ HED      var_1    O6     C6     C5     S4       -37.121   20.000   3
+ HED      var_2    C6     C5     S4     S3      -105.884   20.000   3
+ HED      CONST_1  C5     S4     S3     C2         0.000    0.000   0
+ HED      var_3    S4     S3     C2     C1      -145.238   20.000   3
+ HED      var_4    S3     C2     C1     O1         9.495   20.000   3
+ HED      var_5    C2     C1     O1     HO1        0.000   20.000   1

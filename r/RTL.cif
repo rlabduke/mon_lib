@@ -1,0 +1,337 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+RTL      .   'RETINOL                             ' non-polymer        51  21 .
+#
+data_comp_RTL
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ RTL           O1     O    OH1       0.000
+ RTL           HO1    H    HOH1      0.000
+ RTL           C15    C    CH2       0.000
+ RTL           H151   H    HCH2      0.000
+ RTL           H152   H    HCH2      0.000
+ RTL           C14    C    C1        0.000
+ RTL           H14    H    HC1       0.000
+ RTL           C13    C    C         0.000
+ RTL           C20    C    CH3       0.000
+ RTL           H203   H    HCH3      0.000
+ RTL           H202   H    HCH3      0.000
+ RTL           H201   H    HCH3      0.000
+ RTL           C12    C    C1        0.000
+ RTL           H12    H    HC1       0.000
+ RTL           C11    C    C1        0.000
+ RTL           H11    H    HC1       0.000
+ RTL           C10    C    C1        0.000
+ RTL           H10    H    HC1       0.000
+ RTL           C9     C    C         0.000
+ RTL           C19    C    CH3       0.000
+ RTL           H193   H    HCH3      0.000
+ RTL           H192   H    HCH3      0.000
+ RTL           H191   H    HCH3      0.000
+ RTL           C8     C    C1        0.000
+ RTL           H8     H    HC1       0.000
+ RTL           C7     C    C1        0.000
+ RTL           H7     H    HC1       0.000
+ RTL           C6     C    C         0.000
+ RTL           C5     C    C         0.000
+ RTL           C18    C    CH3       0.000
+ RTL           H183   H    HCH3      0.000
+ RTL           H182   H    HCH3      0.000
+ RTL           H181   H    HCH3      0.000
+ RTL           C4     C    CH2       0.000
+ RTL           H41    H    HCH2      0.000
+ RTL           H42    H    HCH2      0.000
+ RTL           C3     C    CH2       0.000
+ RTL           H31    H    HCH2      0.000
+ RTL           H32    H    HCH2      0.000
+ RTL           C2     C    CH2       0.000
+ RTL           H21    H    HCH2      0.000
+ RTL           H22    H    HCH2      0.000
+ RTL           C1     C    CT        0.000
+ RTL           C17    C    CH3       0.000
+ RTL           H173   H    HCH3      0.000
+ RTL           H172   H    HCH3      0.000
+ RTL           H171   H    HCH3      0.000
+ RTL           C16    C    CH3       0.000
+ RTL           H163   H    HCH3      0.000
+ RTL           H162   H    HCH3      0.000
+ RTL           H161   H    HCH3      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ RTL      O1     n/a    C15    START
+ RTL      HO1    O1     .      .
+ RTL      C15    O1     C14    .
+ RTL      H151   C15    .      .
+ RTL      H152   C15    .      .
+ RTL      C14    C15    C13    .
+ RTL      H14    C14    .      .
+ RTL      C13    C14    C12    .
+ RTL      C20    C13    H201   .
+ RTL      H203   C20    .      .
+ RTL      H202   C20    .      .
+ RTL      H201   C20    .      .
+ RTL      C12    C13    C11    .
+ RTL      H12    C12    .      .
+ RTL      C11    C12    C10    .
+ RTL      H11    C11    .      .
+ RTL      C10    C11    C9     .
+ RTL      H10    C10    .      .
+ RTL      C9     C10    C8     .
+ RTL      C19    C9     H191   .
+ RTL      H193   C19    .      .
+ RTL      H192   C19    .      .
+ RTL      H191   C19    .      .
+ RTL      C8     C9     C7     .
+ RTL      H8     C8     .      .
+ RTL      C7     C8     C6     .
+ RTL      H7     C7     .      .
+ RTL      C6     C7     C5     .
+ RTL      C5     C6     C4     .
+ RTL      C18    C5     H181   .
+ RTL      H183   C18    .      .
+ RTL      H182   C18    .      .
+ RTL      H181   C18    .      .
+ RTL      C4     C5     C3     .
+ RTL      H41    C4     .      .
+ RTL      H42    C4     .      .
+ RTL      C3     C4     C2     .
+ RTL      H31    C3     .      .
+ RTL      H32    C3     .      .
+ RTL      C2     C3     C1     .
+ RTL      H21    C2     .      .
+ RTL      H22    C2     .      .
+ RTL      C1     C2     C16    .
+ RTL      C17    C1     H171   .
+ RTL      H173   C17    .      .
+ RTL      H172   C17    .      .
+ RTL      H171   C17    .      .
+ RTL      C16    C1     H161   .
+ RTL      H163   C16    .      .
+ RTL      H162   C16    .      .
+ RTL      H161   C16    .      END
+ RTL      C1     C6     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ RTL      HO1    O1        coval       0.980    0.020
+ RTL      C15    O1        coval       1.410    0.020
+ RTL      H151   C15       coval       1.090    0.020
+ RTL      H152   C15       coval       1.090    0.020
+ RTL      C14    C15       coval       1.510    0.020
+ RTL      H14    C14       coval       1.090    0.020
+ RTL      C13    C14       coval       1.470    0.020
+ RTL      C20    C13       coval       1.500    0.020
+ RTL      H203   C20       coval       1.090    0.020
+ RTL      H202   C20       coval       1.090    0.020
+ RTL      H201   C20       coval       1.090    0.020
+ RTL      C12    C13       coval       1.470    0.020
+ RTL      H12    C12       coval       1.090    0.020
+ RTL      C11    C12       coval       1.470    0.020
+ RTL      H11    C11       coval       1.090    0.020
+ RTL      C10    C11       coval       1.470    0.020
+ RTL      H10    C10       coval       1.090    0.020
+ RTL      C9     C10       coval       1.470    0.020
+ RTL      C19    C9        coval       1.500    0.020
+ RTL      H193   C19       coval       1.090    0.020
+ RTL      H192   C19       coval       1.090    0.020
+ RTL      H191   C19       coval       1.090    0.020
+ RTL      C8     C9        coval       1.470    0.020
+ RTL      H8     C8        coval       1.090    0.020
+ RTL      C7     C8        coval       1.470    0.020
+ RTL      H7     C7        coval       1.090    0.020
+ RTL      C6     C7        coval       1.470    0.020
+ RTL      C5     C6        coval       1.390    0.020
+ RTL      C18    C5        coval       1.500    0.020
+ RTL      H183   C18       coval       1.090    0.020
+ RTL      H182   C18       coval       1.090    0.020
+ RTL      H181   C18       coval       1.090    0.020
+ RTL      C4     C5        coval       1.510    0.020
+ RTL      H41    C4        coval       1.090    0.020
+ RTL      H42    C4        coval       1.090    0.020
+ RTL      C3     C4        coval       1.524    0.020
+ RTL      H31    C3        coval       1.090    0.020
+ RTL      H32    C3        coval       1.090    0.020
+ RTL      C2     C3        coval       1.524    0.020
+ RTL      H21    C2        coval       1.090    0.020
+ RTL      H22    C2        coval       1.090    0.020
+ RTL      C1     C2        coval       1.524    0.020
+ RTL      C1     C6        coval       1.520    0.020
+ RTL      C17    C1        coval       1.524    0.020
+ RTL      H173   C17       coval       1.090    0.020
+ RTL      H172   C17       coval       1.090    0.020
+ RTL      H171   C17       coval       1.090    0.020
+ RTL      C16    C1        coval       1.524    0.020
+ RTL      H163   C16       coval       1.090    0.020
+ RTL      H162   C16       coval       1.090    0.020
+ RTL      H161   C16       coval       1.090    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ RTL      HO1    O1     C15     109.470    3.000
+ RTL      O1     C15    H151    109.470    3.000
+ RTL      O1     C15    H152    109.470    3.000
+ RTL      O1     C15    C14     109.500    3.000
+ RTL      H151   C15    H152    107.900    3.000
+ RTL      H151   C15    C14     109.470    3.000
+ RTL      H152   C15    C14     109.470    3.000
+ RTL      C15    C14    H14     120.000    3.000
+ RTL      C15    C14    C13     120.500    3.000
+ RTL      H14    C14    C13     120.000    3.000
+ RTL      C14    C13    C20     120.000    3.000
+ RTL      C14    C13    C12     120.000    3.000
+ RTL      C20    C13    C12     120.000    3.000
+ RTL      C13    C20    H203    109.470    3.000
+ RTL      C13    C20    H202    109.470    3.000
+ RTL      C13    C20    H201    109.470    3.000
+ RTL      H203   C20    H202    109.470    3.000
+ RTL      H203   C20    H201    109.470    3.000
+ RTL      H202   C20    H201    109.470    3.000
+ RTL      C13    C12    H12     120.000    3.000
+ RTL      C13    C12    C11     120.000    3.000
+ RTL      H12    C12    C11     120.000    3.000
+ RTL      C12    C11    H11     120.000    3.000
+ RTL      C12    C11    C10     120.000    3.000
+ RTL      H11    C11    C10     120.000    3.000
+ RTL      C11    C10    H10     120.000    3.000
+ RTL      C11    C10    C9      120.000    3.000
+ RTL      H10    C10    C9      120.000    3.000
+ RTL      C10    C9     C19     120.000    3.000
+ RTL      C10    C9     C8      120.000    3.000
+ RTL      C19    C9     C8      120.000    3.000
+ RTL      C9     C19    H193    109.470    3.000
+ RTL      C9     C19    H192    109.470    3.000
+ RTL      C9     C19    H191    109.470    3.000
+ RTL      H193   C19    H192    109.470    3.000
+ RTL      H193   C19    H191    109.470    3.000
+ RTL      H192   C19    H191    109.470    3.000
+ RTL      C9     C8     H8      120.000    3.000
+ RTL      C9     C8     C7      120.000    3.000
+ RTL      H8     C8     C7      120.000    3.000
+ RTL      C8     C7     H7      120.000    3.000
+ RTL      C8     C7     C6      120.000    3.000
+ RTL      H7     C7     C6      120.000    3.000
+ RTL      C7     C6     C5      120.000    3.000
+ RTL      C7     C6     C1      120.000    3.000
+ RTL      C5     C6     C1      120.000    3.000
+ RTL      C6     C5     C18     120.000    3.000
+ RTL      C6     C5     C4      120.000    3.000
+ RTL      C18    C5     C4      120.000    3.000
+ RTL      C5     C18    H183    109.470    3.000
+ RTL      C5     C18    H182    109.470    3.000
+ RTL      C5     C18    H181    109.470    3.000
+ RTL      H183   C18    H182    109.470    3.000
+ RTL      H183   C18    H181    109.470    3.000
+ RTL      H182   C18    H181    109.470    3.000
+ RTL      C5     C4     H41     109.470    3.000
+ RTL      C5     C4     H42     109.470    3.000
+ RTL      C5     C4     C3      109.470    3.000
+ RTL      H41    C4     H42     107.900    3.000
+ RTL      H41    C4     C3      109.470    3.000
+ RTL      H42    C4     C3      109.470    3.000
+ RTL      C4     C3     H31     109.470    3.000
+ RTL      C4     C3     H32     109.470    3.000
+ RTL      C4     C3     C2      111.000    3.000
+ RTL      H31    C3     H32     107.900    3.000
+ RTL      H31    C3     C2      109.470    3.000
+ RTL      H32    C3     C2      109.470    3.000
+ RTL      C3     C2     H21     109.470    3.000
+ RTL      C3     C2     H22     109.470    3.000
+ RTL      C3     C2     C1      111.000    3.000
+ RTL      H21    C2     H22     107.900    3.000
+ RTL      H21    C2     C1      109.470    3.000
+ RTL      H22    C2     C1      109.470    3.000
+ RTL      C2     C1     C17     111.000    3.000
+ RTL      C2     C1     C16     111.000    3.000
+ RTL      C2     C1     C6      109.470    3.000
+ RTL      C17    C1     C16     111.000    3.000
+ RTL      C17    C1     C6      109.470    3.000
+ RTL      C16    C1     C6      109.470    3.000
+ RTL      C1     C17    H173    109.470    3.000
+ RTL      C1     C17    H172    109.470    3.000
+ RTL      C1     C17    H171    109.470    3.000
+ RTL      H173   C17    H172    109.470    3.000
+ RTL      H173   C17    H171    109.470    3.000
+ RTL      H172   C17    H171    109.470    3.000
+ RTL      C1     C16    H163    109.470    3.000
+ RTL      C1     C16    H162    109.470    3.000
+ RTL      C1     C16    H161    109.470    3.000
+ RTL      H163   C16    H162    109.470    3.000
+ RTL      H163   C16    H161    109.470    3.000
+ RTL      H162   C16    H161    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ RTL      var_1    O1     C15    C14    C13     -179.424   20.000   1
+ RTL      var_2    C15    C14    C13    C12     -179.443   20.000   1
+ RTL      var_3    C14    C13    C20    H201      60.000   20.000   1
+ RTL      var_4    C14    C13    C12    C11      178.349   20.000   1
+ RTL      var_5    C13    C12    C11    C10      177.659   20.000   1
+ RTL      var_6    C12    C11    C10    C9       177.355   20.000   1
+ RTL      var_7    C11    C10    C9     C8       176.712   20.000   1
+ RTL      var_8    C10    C9     C19    H191      60.000   20.000   1
+ RTL      var_9    C10    C9     C8     C7       178.663   20.000   1
+ RTL      var_10   C9     C8     C7     C6      -179.914   20.000   1
+ RTL      var_11   C8     C7     C6     C5        62.165   20.000   1
+ RTL      var_12   C8     C7     C6     C1      -124.313   20.000   1
+ RTL      var_13   C7     C6     C5     C4       172.435   20.000   1
+ RTL      var_14   C6     C5     C18    H181      60.000   20.000   1
+ RTL      var_15   C6     C5     C4     C3        20.990   20.000   3
+ RTL      var_16   C5     C4     C3     C2       -50.871   20.000   3
+ RTL      var_17   C4     C3     C2     C1        61.826   20.000   3
+ RTL      var_18   C3     C2     C1     C16     -159.370   20.000   1
+ RTL      var_19   C3     C2     C1     C6       -37.565   20.000   1
+ RTL      var_20   C2     C1     C17    H171      60.000   20.000   1
+ RTL      var_21   C2     C1     C16    H161      60.000   20.000   1
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ RTL      plan-1    C5        0.020
+ RTL      plan-1    C4        0.020
+ RTL      plan-1    C6        0.020
+ RTL      plan-1    C18       0.020
+ RTL      plan-2    C6        0.020
+ RTL      plan-2    C1        0.020
+ RTL      plan-2    C5        0.020
+ RTL      plan-2    C7        0.020
+ RTL      plan-3    C9        0.020
+ RTL      plan-3    C8        0.020
+ RTL      plan-3    C10       0.020
+ RTL      plan-3    C19       0.020
+ RTL      plan-4    C13       0.020
+ RTL      plan-4    C12       0.020
+ RTL      plan-4    C14       0.020
+ RTL      plan-4    C20       0.020

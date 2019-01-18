@@ -1,0 +1,103 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+FS3      .   'FE3-S4 CLUSTER                      ' non-polymer         7   7 .
+#
+data_comp_FS3
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ FS3           S3     S    S         0.000     16.878   14.420   22.702
+ FS3           FE2    FE   FE        0.000     14.701   16.613   20.420
+ FS3           FE1    FE   FE        0.000     15.468   14.090   20.997
+ FS3           FE3    FE   FE        0.000     17.130   16.142   21.338
+ FS3           S1     S    S         0.000     13.524   15.000   21.419
+ FS3           S2     S    S         0.000     16.298   15.382   19.345
+ FS3           S4     S    S         0.000     15.824   17.852   21.921
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ FS3      S2     n/a    FE1    START
+ FS3      FE1    S2     S1     .
+ FS3      S1     FE1    FE2    .
+ FS3      FE2    S1     S4     .
+ FS3      S4     FE2    FE3    .
+ FS3      FE3    S4     S3     .
+ FS3      S3     FE3    .      END
+ FS3      S2     FE2    .    ADD
+ FS3      S2     FE3    .    ADD
+ FS3      S3     FE1    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ FS3      S2     FE1       metal       2.200    0.020
+ FS3      FE1    S1        metal       2.200    0.020
+ FS3      S1     FE2       metal       2.200    0.020
+ FS3      FE2    S4        metal       2.200    0.020
+ FS3      S4     FE3       metal       2.200    0.020
+ FS3      FE3    S3        metal       2.200    0.020
+ FS3      S2     FE2       metal       2.200    0.020
+ FS3      S2     FE3       metal       2.200    0.020
+ FS3      S3     FE1       metal       2.200    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ FS3      S2     FE1    S1      104.000    3.000
+ FS3      S2     FE1    S3      104.000    3.000
+ FS3      FE1    S1     FE2      75.000    3.000
+ FS3      S1     FE2    S2      104.000    3.000
+ FS3      S4     FE2    S2      104.000    3.000
+ FS3      FE2    S4     FE3      75.000    3.000
+ FS3      S4     FE3    S2      104.000    3.000
+ FS3      S3     FE3    S2      104.000    3.000
+ FS3      FE3    S3     FE1      75.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ FS3      var_1    S2     FE1    S1     FE2      -18.000   20.000   1
+ FS3      var_2    FE1    S1     FE2    S4       -88.000   20.000   1
+ FS3      CONST_1  FE1    S1     FE2    S2        18.000    0.000   0
+ FS3      var_3    S1     FE2    S4     FE3       92.000   20.000   1
+ FS3      var_4    FE2    S4     FE3    S3       -92.000   20.000   1
+ FS3      var_5    S4     FE3    S3     FE1       90.000   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ FS3      chir_01  FE3    S4     S3     S2        negativ

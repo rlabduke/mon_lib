@@ -1,0 +1,782 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HEA      HEA 'HEME-A                              ' non-polymer       122  60 .
+#
+data_comp_HEA
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ HEA           O2D    O    OC       -0.500      0.000    0.000    0.000
+ HEA           CGD    C    C         0.000      0.962    0.811   -0.035
+ HEA           O1D    O    OC       -0.500      2.132    0.445    0.130
+ HEA           CBD    C    CH2       0.000      0.343    2.185   -0.212
+ HEA           HBD1   H    H         0.000      0.448    2.538    0.816
+ HEA           HBD2   H    H         0.000     -0.689    1.871   -0.384
+ HEA           CAD    C    CH2       0.000      0.707    3.328   -1.192
+ HEA           HAD1   H    H         0.000     -0.180    3.397   -1.824
+ HEA           HAD2   H    H         0.000      1.531    2.900   -1.768
+ HEA           C3D    C    CR5       0.000      1.088    4.696   -0.712
+ HEA           C4D    C    CR56      0.000      2.223    5.607   -1.061
+ HEA           CHA    C    CR16      0.000      3.109    5.276   -1.992
+ HEA           HHA    H    H         0.000      3.078    4.297   -2.454
+ HEA           C2D    C    CR5       0.000      0.470    5.535    0.282
+ HEA           CMD    C    CH3       0.000     -0.509    5.737    1.484
+ HEA           HMD3   H    H         0.000      0.024    6.083    2.336
+ HEA           HMD2   H    H         0.000     -1.255    6.452    1.233
+ HEA           HMD1   H    H         0.000     -0.984    4.817    1.728
+ HEA           C1D    C    CR56      0.000      1.351    6.701    0.425
+ HEA           N_D    N    NR56      0.000      2.366    6.735   -0.362
+ HEA           CHD    C    CR16      0.000      1.050    7.676    1.376
+ HEA           HHD    H    H         0.000      0.160    7.400    1.928
+ HEA           C4C    C    CR56      0.000      1.532    8.867    1.822
+ HEA           C3C    C    CR5       0.000      0.908    9.758    2.914
+ HEA           CAC    C    C1        0.000     -0.332    9.200    3.452
+ HEA           HAC    H    H         0.000     -0.237    8.179    3.779
+ HEA           CBC    C    C2        0.000     -1.549    9.697    3.619
+ HEA           HBC2   H    H         0.000     -1.764   10.712    3.327
+ HEA           HBC1   H    H         0.000     -2.328    9.086    4.047
+ HEA           C2C    C    CR5       0.000      1.858   10.827    2.899
+ HEA           CMC    C    CH3       0.000      1.891   12.085    3.669
+ HEA           HMC3   H    H         0.000      2.375   12.829    3.096
+ HEA           HMC2   H    H         0.000      0.901   12.385    3.884
+ HEA           HMC1   H    H         0.000      2.420   11.926    4.570
+ HEA           C1C    C    CR56      0.000      2.768   10.366    1.756
+ HEA           N_C    N    NR56      0.000      2.584    9.198    1.157
+ HEA           CHC    C    CR16      0.000      3.782   11.066    1.294
+ HEA           HHC    H    H         0.000      3.877   12.021    1.796
+ HEA           C4B    C    CR56      0.000      4.714   10.897    0.373
+ HEA           C3B    C    CR5       0.000      5.684   12.005    0.182
+ HEA           C2B    C    CR5       0.000      6.566   11.454   -0.919
+ HEA           CMB    C    CH3       0.000      7.815   11.868   -1.621
+ HEA           HMB3   H    H         0.000      7.656   12.801   -2.095
+ HEA           HMB2   H    H         0.000      8.599   11.955   -0.917
+ HEA           HMB1   H    H         0.000      8.066   11.139   -2.346
+ HEA           C1B    C    CR56      0.000      5.880   10.124   -1.160
+ HEA           N_B    N    NR56      0.000      4.835    9.840   -0.349
+ HEA           CHB    C    CR16      0.000      6.069    9.102   -1.972
+ HEA           HHB    H    H         0.000      6.958    9.261   -2.570
+ HEA           C4A    C    CR56      0.000      5.510    7.941   -2.285
+ HEA           C3A    C    CR5       0.000      6.007    7.025   -3.302
+ HEA           CMA    C    C1        0.000      7.187    7.409   -4.111
+ HEA           HMA    H    H         0.000      7.944    6.759   -4.516
+ HEA           OMA    O    O         0.000      7.111    8.663   -4.222
+ HEA           C2A    C    CR5       0.000      5.135    5.843   -3.284
+ HEA           CAA    C    CH2       0.000      5.141    4.731   -4.205
+ HEA           HAA1   H    H         0.000      5.105    5.247   -5.167
+ HEA           HAA2   H    H         0.000      4.169    4.276   -4.001
+ HEA           CBA    C    CH2       0.000      6.129    3.730   -4.245
+ HEA           HBA1   H    H         0.000      6.171    3.146   -3.323
+ HEA           HBA2   H    H         0.000      7.121    4.130   -4.466
+ HEA           CGA    C    C         0.000      5.679    2.851   -5.376
+ HEA           O2A    O    OC       -0.500      6.319    1.786   -5.544
+ HEA           O1A    O    OC       -0.500      4.741    3.088   -6.180
+ HEA           C1A    C    CR56      0.000      4.035    6.160   -2.351
+ HEA           N_A    N    NR56      0.000      4.449    7.341   -1.737
+ HEA           FE     FE   FE        0.000      3.557    8.303   -0.323
+ HEA           C11    C    CH1       0.000      5.596   13.109    1.247
+ HEA           H11    H    H         0.000      6.558   13.617    1.098
+ HEA           O11    O    OH1       0.000      4.710   14.218    1.273
+ HEA           HO1    H    H         0.000      3.807   13.903    1.412
+ HEA           C12    C    CH2       0.000      5.891   12.290    2.685
+ HEA           H121   H    H         0.000      6.713   11.667    2.328
+ HEA           H122   H    H         0.000      4.971   11.702    2.706
+ HEA           C13    C    CH2       0.000      6.212   12.804    4.120
+ HEA           H131   H    H         0.000      5.411   13.537    4.238
+ HEA           H132   H    H         0.000      7.153   13.323    3.925
+ HEA           C14    C    C1        0.000      6.342   11.968    5.414
+ HEA           H14    H    H         0.000      5.656   11.141    5.493
+ HEA           C15    C    C         0.000      7.218   12.119    6.503
+ HEA           C26    C    CH3       0.000      8.369   13.097    6.430
+ HEA           H263   H    H         0.000      8.957   13.022    7.309
+ HEA           H262   H    H         0.000      8.971   12.876    5.585
+ HEA           H261   H    H         0.000      7.993   14.084    6.343
+ HEA           C16    C    CH2       0.000      7.230   11.291    7.839
+ HEA           H161   H    H         0.000      6.207   11.024    8.111
+ HEA           H162   H    H         0.000      7.672   11.893    8.636
+ HEA           C17    C    CH2       0.000      8.063   10.006    7.637
+ HEA           H171   H    H         0.000      9.108   10.296    7.508
+ HEA           H172   H    H         0.000      7.710    9.511    6.730
+ HEA           C18    C    C1        0.000      7.943    9.062    8.807
+ HEA           H18    H    H         0.000      8.205    9.441    9.780
+ HEA           C19    C    C         0.000      7.536    7.793    8.730
+ HEA           C27    C    CH3       0.000      7.139    7.207    7.411
+ HEA           H273   H    H         0.000      6.931    6.176    7.532
+ HEA           H272   H    H         0.000      6.275    7.701    7.051
+ HEA           H271   H    H         0.000      7.931    7.329    6.718
+ HEA           C20    C    CH2       0.000      7.438    6.943    9.984
+ HEA           H201   H    H         0.000      8.169    7.279   10.722
+ HEA           H202   H    H         0.000      7.622    5.894    9.742
+ HEA           C21    C    CH2       0.000      6.018    7.097   10.559
+ HEA           H211   H    H         0.000      5.305    6.663    9.855
+ HEA           H212   H    H         0.000      5.803    8.160   10.684
+ HEA           C22    C    C1        0.000      5.900    6.400   11.887
+ HEA           H22    H    H         0.000      6.177    5.359   11.927
+ HEA           C23    C    C         0.000      5.482    6.966   13.019
+ HEA           C25    C    CH3       0.000      5.107    8.413   13.062
+ HEA           H253   H    H         0.000      4.721    8.648   14.019
+ HEA           H252   H    H         0.000      5.963    9.005   12.871
+ HEA           H251   H    H         0.000      4.370    8.607   12.326
+ HEA           C24    C    CH3       0.000      5.424    6.111   14.254
+ HEA           H243   H    H         0.000      4.764    5.299   14.092
+ HEA           H242   H    H         0.000      6.392    5.739   14.474
+ HEA           H241   H    H         0.000      5.076    6.691   15.070
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ HEA      O2D    n/a    CGD    START
+ HEA      CGD    O2D    CBD    .
+ HEA      O1D    CGD    .      .
+ HEA      CBD    CGD    CAD    .
+ HEA      HBD1   CBD    .      .
+ HEA      HBD2   CBD    .      .
+ HEA      CAD    CBD    C3D    .
+ HEA      HAD1   CAD    .      .
+ HEA      HAD2   CAD    .      .
+ HEA      C3D    CAD    C2D    .
+ HEA      C4D    C3D    CHA    .
+ HEA      CHA    C4D    HHA    .
+ HEA      HHA    CHA    .      .
+ HEA      C2D    C3D    C1D    .
+ HEA      CMD    C2D    HMD1   .
+ HEA      HMD3   CMD    .      .
+ HEA      HMD2   CMD    .      .
+ HEA      HMD1   CMD    .      .
+ HEA      C1D    C2D    CHD    .
+ HEA      N_D    C1D    .      .
+ HEA      CHD    C1D    C4C    .
+ HEA      HHD    CHD    .      .
+ HEA      C4C    CHD    C3C    .
+ HEA      C3C    C4C    C2C    .
+ HEA      CAC    C3C    CBC    .
+ HEA      HAC    CAC    .      .
+ HEA      CBC    CAC    HBC1   .
+ HEA      HBC2   CBC    .      .
+ HEA      HBC1   CBC    .      .
+ HEA      C2C    C3C    C1C    .
+ HEA      CMC    C2C    HMC1   .
+ HEA      HMC3   CMC    .      .
+ HEA      HMC2   CMC    .      .
+ HEA      HMC1   CMC    .      .
+ HEA      C1C    C2C    CHC    .
+ HEA      N_C    C1C    .      .
+ HEA      CHC    C1C    C4B    .
+ HEA      HHC    CHC    .      .
+ HEA      C4B    CHC    C3B    .
+ HEA      C3B    C4B    C11    .
+ HEA      C2B    C3B    C1B    .
+ HEA      CMB    C2B    HMB1   .
+ HEA      HMB3   CMB    .      .
+ HEA      HMB2   CMB    .      .
+ HEA      HMB1   CMB    .      .
+ HEA      C1B    C2B    CHB    .
+ HEA      N_B    C1B    .      .
+ HEA      CHB    C1B    C4A    .
+ HEA      HHB    CHB    .      .
+ HEA      C4A    CHB    C3A    .
+ HEA      C3A    C4A    C2A    .
+ HEA      CMA    C3A    OMA    .
+ HEA      HMA    CMA    .      .
+ HEA      OMA    CMA    .      .
+ HEA      C2A    C3A    C1A    .
+ HEA      CAA    C2A    CBA    .
+ HEA      HAA1   CAA    .      .
+ HEA      HAA2   CAA    .      .
+ HEA      CBA    CAA    CGA    .
+ HEA      HBA1   CBA    .      .
+ HEA      HBA2   CBA    .      .
+ HEA      CGA    CBA    O1A    .
+ HEA      O2A    CGA    .      .
+ HEA      O1A    CGA    .      .
+ HEA      C1A    C2A    N_A    .
+ HEA      N_A    C1A    FE     .
+ HEA      FE     N_A    .      .
+ HEA      C11    C3B    C12    .
+ HEA      H11    C11    .      .
+ HEA      O11    C11    HO1    .
+ HEA      HO1    O11    .      .
+ HEA      C12    C11    C13    .
+ HEA      H121   C12    .      .
+ HEA      H122   C12    .      .
+ HEA      C13    C12    C14    .
+ HEA      H131   C13    .      .
+ HEA      H132   C13    .      .
+ HEA      C14    C13    C15    .
+ HEA      H14    C14    .      .
+ HEA      C15    C14    C16    .
+ HEA      C26    C15    H261   .
+ HEA      H263   C26    .      .
+ HEA      H262   C26    .      .
+ HEA      H261   C26    .      .
+ HEA      C16    C15    C17    .
+ HEA      H161   C16    .      .
+ HEA      H162   C16    .      .
+ HEA      C17    C16    C18    .
+ HEA      H171   C17    .      .
+ HEA      H172   C17    .      .
+ HEA      C18    C17    C19    .
+ HEA      H18    C18    .      .
+ HEA      C19    C18    C20    .
+ HEA      C27    C19    H271   .
+ HEA      H273   C27    .      .
+ HEA      H272   C27    .      .
+ HEA      H271   C27    .      .
+ HEA      C20    C19    C21    .
+ HEA      H201   C20    .      .
+ HEA      H202   C20    .      .
+ HEA      C21    C20    C22    .
+ HEA      H211   C21    .      .
+ HEA      H212   C21    .      .
+ HEA      C22    C21    C23    .
+ HEA      H22    C22    .      .
+ HEA      C23    C22    C24    .
+ HEA      C25    C23    H251   .
+ HEA      H253   C25    .      .
+ HEA      H252   C25    .      .
+ HEA      H251   C25    .      .
+ HEA      C24    C23    H241   .
+ HEA      H243   C24    .      .
+ HEA      H242   C24    .      .
+ HEA      H241   C24    .      END
+ HEA      FE     N_B    .    ADD
+ HEA      FE     N_C    .    ADD
+ HEA      FE     N_D    .    ADD
+ HEA      CHA    C1A    .    ADD
+ HEA      N_A    C4A    .    ADD
+ HEA      N_B    C4B    .    ADD
+ HEA      N_C    C4C    .    ADD
+ HEA      N_D    C4D    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ HEA      FE     N_A       single      1.935    0.020
+ HEA      FE     N_B       single      1.935    0.020
+ HEA      FE     N_C       single      1.935    0.020
+ HEA      FE     N_D       single      1.935    0.020
+ HEA      CHA    C1A       double      1.390    0.020
+ HEA      CHA    C4D       single      1.390    0.020
+ HEA      HHA    CHA       single      1.083    0.020
+ HEA      C4A    CHB       double      1.390    0.020
+ HEA      CHB    C1B       single      1.390    0.020
+ HEA      HHB    CHB       single      1.083    0.020
+ HEA      C4B    CHC       double      1.390    0.020
+ HEA      CHC    C1C       single      1.390    0.020
+ HEA      HHC    CHC       single      1.083    0.020
+ HEA      C4C    CHD       single      1.390    0.020
+ HEA      CHD    C1D       double      1.390    0.020
+ HEA      HHD    CHD       single      1.083    0.020
+ HEA      N_A    C1A       single      1.337    0.020
+ HEA      N_A    C4A       single      1.337    0.020
+ HEA      C1A    C2A       single      1.490    0.020
+ HEA      C2A    C3A       double      1.490    0.020
+ HEA      CAA    C2A       single      1.510    0.020
+ HEA      C3A    C4A       single      1.490    0.020
+ HEA      CMA    C3A       single      1.483    0.020
+ HEA      OMA    CMA       double      1.220    0.020
+ HEA      HMA    CMA       single      1.077    0.020
+ HEA      CBA    CAA       single      1.524    0.020
+ HEA      HAA1   CAA       single      1.092    0.020
+ HEA      HAA2   CAA       single      1.092    0.020
+ HEA      CGA    CBA       single      1.510    0.020
+ HEA      HBA1   CBA       single      1.092    0.020
+ HEA      HBA2   CBA       single      1.092    0.020
+ HEA      O1A    CGA       deloc       1.250    0.020
+ HEA      O2A    CGA       deloc       1.250    0.020
+ HEA      N_B    C1B       double      1.337    0.020
+ HEA      N_B    C4B       single      1.337    0.020
+ HEA      C1B    C2B       single      1.490    0.020
+ HEA      C2B    C3B       double      1.490    0.020
+ HEA      CMB    C2B       single      1.506    0.020
+ HEA      C3B    C4B       single      1.490    0.020
+ HEA      C11    C3B       single      1.480    0.020
+ HEA      HMB1   CMB       single      1.059    0.020
+ HEA      HMB2   CMB       single      1.059    0.020
+ HEA      HMB3   CMB       single      1.059    0.020
+ HEA      N_C    C1C       single      1.337    0.020
+ HEA      N_C    C4C       single      1.337    0.020
+ HEA      C1C    C2C       double      1.490    0.020
+ HEA      C2C    C3C       single      1.490    0.020
+ HEA      CMC    C2C       single      1.506    0.020
+ HEA      C3C    C4C       double      1.490    0.020
+ HEA      CAC    C3C       single      1.483    0.020
+ HEA      HMC1   CMC       single      1.059    0.020
+ HEA      HMC2   CMC       single      1.059    0.020
+ HEA      HMC3   CMC       single      1.059    0.020
+ HEA      CBC    CAC       double      1.320    0.020
+ HEA      HAC    CAC       single      1.077    0.020
+ HEA      HBC1   CBC       single      1.077    0.020
+ HEA      HBC2   CBC       single      1.077    0.020
+ HEA      N_D    C1D       single      1.337    0.020
+ HEA      N_D    C4D       double      1.337    0.020
+ HEA      C1D    C2D       single      1.490    0.020
+ HEA      C2D    C3D       double      1.490    0.020
+ HEA      CMD    C2D       single      1.506    0.020
+ HEA      C4D    C3D       single      1.490    0.020
+ HEA      C3D    CAD       single      1.510    0.020
+ HEA      HMD1   CMD       single      1.059    0.020
+ HEA      HMD2   CMD       single      1.059    0.020
+ HEA      HMD3   CMD       single      1.059    0.020
+ HEA      CAD    CBD       single      1.524    0.020
+ HEA      HAD1   CAD       single      1.092    0.020
+ HEA      HAD2   CAD       single      1.092    0.020
+ HEA      CBD    CGD       single      1.510    0.020
+ HEA      HBD1   CBD       single      1.092    0.020
+ HEA      HBD2   CBD       single      1.092    0.020
+ HEA      O1D    CGD       deloc       1.250    0.020
+ HEA      CGD    O2D       deloc       1.250    0.020
+ HEA      O11    C11       single      1.432    0.020
+ HEA      C12    C11       single      1.524    0.020
+ HEA      H11    C11       single      1.099    0.020
+ HEA      HO1    O11       single      0.967    0.020
+ HEA      C13    C12       single      1.524    0.020
+ HEA      H121   C12       single      1.092    0.020
+ HEA      H122   C12       single      1.092    0.020
+ HEA      C14    C13       single      1.510    0.020
+ HEA      H131   C13       single      1.092    0.020
+ HEA      H132   C13       single      1.092    0.020
+ HEA      C15    C14       double      1.340    0.020
+ HEA      H14    C14       single      1.077    0.020
+ HEA      C16    C15       single      1.510    0.020
+ HEA      C26    C15       single      1.500    0.020
+ HEA      C17    C16       single      1.524    0.020
+ HEA      H161   C16       single      1.092    0.020
+ HEA      H162   C16       single      1.092    0.020
+ HEA      C18    C17       single      1.510    0.020
+ HEA      H171   C17       single      1.092    0.020
+ HEA      H172   C17       single      1.092    0.020
+ HEA      C19    C18       double      1.340    0.020
+ HEA      H18    C18       single      1.077    0.020
+ HEA      C20    C19       single      1.510    0.020
+ HEA      C27    C19       single      1.500    0.020
+ HEA      C21    C20       single      1.524    0.020
+ HEA      H201   C20       single      1.092    0.020
+ HEA      H202   C20       single      1.092    0.020
+ HEA      C22    C21       single      1.510    0.020
+ HEA      H211   C21       single      1.092    0.020
+ HEA      H212   C21       single      1.092    0.020
+ HEA      C23    C22       double      1.340    0.020
+ HEA      H22    C22       single      1.077    0.020
+ HEA      C24    C23       single      1.500    0.020
+ HEA      C25    C23       single      1.500    0.020
+ HEA      H241   C24       single      1.059    0.020
+ HEA      H242   C24       single      1.059    0.020
+ HEA      H243   C24       single      1.059    0.020
+ HEA      H251   C25       single      1.059    0.020
+ HEA      H252   C25       single      1.059    0.020
+ HEA      H253   C25       single      1.059    0.020
+ HEA      H261   C26       single      1.059    0.020
+ HEA      H262   C26       single      1.059    0.020
+ HEA      H263   C26       single      1.059    0.020
+ HEA      H271   C27       single      1.059    0.020
+ HEA      H272   C27       single      1.059    0.020
+ HEA      H273   C27       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ HEA      O2D    CGD    O1D     123.000    3.000
+ HEA      O2D    CGD    CBD     118.500    3.000
+ HEA      O1D    CGD    CBD     118.500    3.000
+ HEA      CGD    CBD    HBD1    109.470    3.000
+ HEA      CGD    CBD    HBD2    109.470    3.000
+ HEA      CGD    CBD    CAD     109.470    3.000
+ HEA      HBD1   CBD    HBD2    107.900    3.000
+ HEA      HBD1   CBD    CAD     109.470    3.000
+ HEA      HBD2   CBD    CAD     109.470    3.000
+ HEA      CBD    CAD    HAD1    109.470    3.000
+ HEA      CBD    CAD    HAD2    109.470    3.000
+ HEA      CBD    CAD    C3D     109.470    3.000
+ HEA      HAD1   CAD    HAD2    107.900    3.000
+ HEA      HAD1   CAD    C3D     109.470    3.000
+ HEA      HAD2   CAD    C3D     109.470    3.000
+ HEA      CAD    C3D    C4D     126.000    3.000
+ HEA      CAD    C3D    C2D     126.000    3.000
+ HEA      C4D    C3D    C2D     108.000    3.000
+ HEA      C3D    C4D    CHA     126.000    3.000
+ HEA      C3D    C4D    N_D     108.000    3.000
+ HEA      CHA    C4D    N_D     120.000    3.000
+ HEA      C4D    CHA    HHA     120.000    3.000
+ HEA      C4D    CHA    C1A     120.000    3.000
+ HEA      HHA    CHA    C1A     120.000    3.000
+ HEA      C3D    C2D    CMD     126.000    3.000
+ HEA      C3D    C2D    C1D     108.000    3.000
+ HEA      CMD    C2D    C1D     108.000    3.000
+ HEA      C2D    CMD    HMD3    109.470    3.000
+ HEA      C2D    CMD    HMD2    109.470    3.000
+ HEA      C2D    CMD    HMD1    109.470    3.000
+ HEA      HMD3   CMD    HMD2    109.470    3.000
+ HEA      HMD3   CMD    HMD1    109.470    3.000
+ HEA      HMD2   CMD    HMD1    109.470    3.000
+ HEA      C2D    C1D    N_D     108.000    3.000
+ HEA      C2D    C1D    CHD     126.000    3.000
+ HEA      N_D    C1D    CHD     120.000    3.000
+ HEA      C1D    N_D    FE      126.000    3.000
+ HEA      C1D    N_D    C4D     108.000    3.000
+ HEA      FE     N_D    C4D     126.000    3.000
+ HEA      C1D    CHD    HHD     120.000    3.000
+ HEA      C1D    CHD    C4C     120.000    3.000
+ HEA      HHD    CHD    C4C     120.000    3.000
+ HEA      CHD    C4C    C3C     126.000    3.000
+ HEA      CHD    C4C    N_C     120.000    3.000
+ HEA      C3C    C4C    N_C     108.000    3.000
+ HEA      C4C    C3C    CAC     108.000    3.000
+ HEA      C4C    C3C    C2C     108.000    3.000
+ HEA      CAC    C3C    C2C     117.000    3.000
+ HEA      C3C    CAC    HAC     120.000    3.000
+ HEA      C3C    CAC    CBC     120.000    3.000
+ HEA      HAC    CAC    CBC     120.000    3.000
+ HEA      CAC    CBC    HBC2    120.000    3.000
+ HEA      CAC    CBC    HBC1    120.000    3.000
+ HEA      HBC2   CBC    HBC1    120.000    3.000
+ HEA      C3C    C2C    CMC     126.000    3.000
+ HEA      C3C    C2C    C1C     108.000    3.000
+ HEA      CMC    C2C    C1C     108.000    3.000
+ HEA      C2C    CMC    HMC3    109.470    3.000
+ HEA      C2C    CMC    HMC2    109.470    3.000
+ HEA      C2C    CMC    HMC1    109.470    3.000
+ HEA      HMC3   CMC    HMC2    109.470    3.000
+ HEA      HMC3   CMC    HMC1    109.470    3.000
+ HEA      HMC2   CMC    HMC1    109.470    3.000
+ HEA      C2C    C1C    N_C     108.000    3.000
+ HEA      C2C    C1C    CHC     126.000    3.000
+ HEA      N_C    C1C    CHC     120.000    3.000
+ HEA      C1C    N_C    FE      126.000    3.000
+ HEA      C1C    N_C    C4C     108.000    3.000
+ HEA      FE     N_C    C4C     126.000    3.000
+ HEA      C1C    CHC    HHC     120.000    3.000
+ HEA      C1C    CHC    C4B     120.000    3.000
+ HEA      HHC    CHC    C4B     120.000    3.000
+ HEA      CHC    C4B    C3B     126.000    3.000
+ HEA      CHC    C4B    N_B     120.000    3.000
+ HEA      C3B    C4B    N_B     108.000    3.000
+ HEA      C4B    C3B    C2B     108.000    3.000
+ HEA      C4B    C3B    C11     108.000    3.000
+ HEA      C2B    C3B    C11     126.000    3.000
+ HEA      C3B    C2B    CMB     126.000    3.000
+ HEA      C3B    C2B    C1B     108.000    3.000
+ HEA      CMB    C2B    C1B     108.000    3.000
+ HEA      C2B    CMB    HMB3    109.470    3.000
+ HEA      C2B    CMB    HMB2    109.470    3.000
+ HEA      C2B    CMB    HMB1    109.470    3.000
+ HEA      HMB3   CMB    HMB2    109.470    3.000
+ HEA      HMB3   CMB    HMB1    109.470    3.000
+ HEA      HMB2   CMB    HMB1    109.470    3.000
+ HEA      C2B    C1B    N_B     108.000    3.000
+ HEA      C2B    C1B    CHB     126.000    3.000
+ HEA      N_B    C1B    CHB     120.000    3.000
+ HEA      C1B    N_B    FE      126.000    3.000
+ HEA      C1B    N_B    C4B     108.000    3.000
+ HEA      FE     N_B    C4B     126.000    3.000
+ HEA      C1B    CHB    HHB     120.000    3.000
+ HEA      C1B    CHB    C4A     120.000    3.000
+ HEA      HHB    CHB    C4A     120.000    3.000
+ HEA      CHB    C4A    C3A     126.000    3.000
+ HEA      CHB    C4A    N_A     120.000    3.000
+ HEA      C3A    C4A    N_A     108.000    3.000
+ HEA      C4A    C3A    CMA     108.000    3.000
+ HEA      C4A    C3A    C2A     108.000    3.000
+ HEA      CMA    C3A    C2A     117.000    3.000
+ HEA      C3A    CMA    HMA     120.000    3.000
+ HEA      C3A    CMA    OMA     120.000    3.000
+ HEA      HMA    CMA    OMA     123.000    3.000
+ HEA      C3A    C2A    CAA     126.000    3.000
+ HEA      C3A    C2A    C1A     108.000    3.000
+ HEA      CAA    C2A    C1A     126.000    3.000
+ HEA      C2A    CAA    HAA1    109.470    3.000
+ HEA      C2A    CAA    HAA2    109.470    3.000
+ HEA      C2A    CAA    CBA     109.470    3.000
+ HEA      HAA1   CAA    HAA2    107.900    3.000
+ HEA      HAA1   CAA    CBA     109.470    3.000
+ HEA      HAA2   CAA    CBA     109.470    3.000
+ HEA      CAA    CBA    HBA1    109.470    3.000
+ HEA      CAA    CBA    HBA2    109.470    3.000
+ HEA      CAA    CBA    CGA     109.470    3.000
+ HEA      HBA1   CBA    HBA2    107.900    3.000
+ HEA      HBA1   CBA    CGA     109.470    3.000
+ HEA      HBA2   CBA    CGA     109.470    3.000
+ HEA      CBA    CGA    O2A     118.500    3.000
+ HEA      CBA    CGA    O1A     118.500    3.000
+ HEA      O2A    CGA    O1A     123.000    3.000
+ HEA      C2A    C1A    N_A     108.000    3.000
+ HEA      C2A    C1A    CHA     126.000    3.000
+ HEA      N_A    C1A    CHA     120.000    3.000
+ HEA      C1A    N_A    FE      126.000    3.000
+ HEA      C1A    N_A    C4A     108.000    3.000
+ HEA      FE     N_A    C4A     126.000    3.000
+ HEA      N_A    FE     N_B      90.000    3.000
+ HEA      N_A    FE     N_C     180.000    3.000
+ HEA      N_A    FE     N_D      90.000    3.000
+ HEA      N_B    FE     N_C      90.000    3.000
+ HEA      N_B    FE     N_D     180.000    3.000
+ HEA      N_C    FE     N_D      90.000    3.000
+ HEA      C3B    C11    H11     109.470    3.000
+ HEA      C3B    C11    O11     109.500    3.000
+ HEA      C3B    C11    C12     109.470    3.000
+ HEA      H11    C11    O11     109.470    3.000
+ HEA      H11    C11    C12     108.340    3.000
+ HEA      O11    C11    C12     109.470    3.000
+ HEA      C11    O11    HO1     109.470    3.000
+ HEA      C11    C12    H121    109.470    3.000
+ HEA      C11    C12    H122    109.470    3.000
+ HEA      C11    C12    C13     111.000    3.000
+ HEA      H121   C12    H122    107.900    3.000
+ HEA      H121   C12    C13     109.470    3.000
+ HEA      H122   C12    C13     109.470    3.000
+ HEA      C12    C13    H131    109.470    3.000
+ HEA      C12    C13    H132    109.470    3.000
+ HEA      C12    C13    C14     109.470    3.000
+ HEA      H131   C13    H132    107.900    3.000
+ HEA      H131   C13    C14     109.470    3.000
+ HEA      H132   C13    C14     109.470    3.000
+ HEA      C13    C14    H14     120.000    3.000
+ HEA      C13    C14    C15     120.500    3.000
+ HEA      H14    C14    C15     120.000    3.000
+ HEA      C14    C15    C26     120.000    3.000
+ HEA      C14    C15    C16     120.000    3.000
+ HEA      C26    C15    C16     120.000    3.000
+ HEA      C15    C26    H263    109.470    3.000
+ HEA      C15    C26    H262    109.470    3.000
+ HEA      C15    C26    H261    109.470    3.000
+ HEA      H263   C26    H262    109.470    3.000
+ HEA      H263   C26    H261    109.470    3.000
+ HEA      H262   C26    H261    109.470    3.000
+ HEA      C15    C16    H161    109.470    3.000
+ HEA      C15    C16    H162    109.470    3.000
+ HEA      C15    C16    C17     109.470    3.000
+ HEA      H161   C16    H162    107.900    3.000
+ HEA      H161   C16    C17     109.470    3.000
+ HEA      H162   C16    C17     109.470    3.000
+ HEA      C16    C17    H171    109.470    3.000
+ HEA      C16    C17    H172    109.470    3.000
+ HEA      C16    C17    C18     109.470    3.000
+ HEA      H171   C17    H172    107.900    3.000
+ HEA      H171   C17    C18     109.470    3.000
+ HEA      H172   C17    C18     109.470    3.000
+ HEA      C17    C18    H18     120.000    3.000
+ HEA      C17    C18    C19     120.500    3.000
+ HEA      H18    C18    C19     120.000    3.000
+ HEA      C18    C19    C27     120.000    3.000
+ HEA      C18    C19    C20     120.000    3.000
+ HEA      C27    C19    C20     120.000    3.000
+ HEA      C19    C27    H273    109.470    3.000
+ HEA      C19    C27    H272    109.470    3.000
+ HEA      C19    C27    H271    109.470    3.000
+ HEA      H273   C27    H272    109.470    3.000
+ HEA      H273   C27    H271    109.470    3.000
+ HEA      H272   C27    H271    109.470    3.000
+ HEA      C19    C20    H201    109.470    3.000
+ HEA      C19    C20    H202    109.470    3.000
+ HEA      C19    C20    C21     109.470    3.000
+ HEA      H201   C20    H202    107.900    3.000
+ HEA      H201   C20    C21     109.470    3.000
+ HEA      H202   C20    C21     109.470    3.000
+ HEA      C20    C21    H211    109.470    3.000
+ HEA      C20    C21    H212    109.470    3.000
+ HEA      C20    C21    C22     109.470    3.000
+ HEA      H211   C21    H212    107.900    3.000
+ HEA      H211   C21    C22     109.470    3.000
+ HEA      H212   C21    C22     109.470    3.000
+ HEA      C21    C22    H22     120.000    3.000
+ HEA      C21    C22    C23     120.500    3.000
+ HEA      H22    C22    C23     120.000    3.000
+ HEA      C22    C23    C25     120.000    3.000
+ HEA      C22    C23    C24     120.000    3.000
+ HEA      C25    C23    C24     120.000    3.000
+ HEA      C23    C25    H253    109.470    3.000
+ HEA      C23    C25    H252    109.470    3.000
+ HEA      C23    C25    H251    109.470    3.000
+ HEA      H253   C25    H252    109.470    3.000
+ HEA      H253   C25    H251    109.470    3.000
+ HEA      H252   C25    H251    109.470    3.000
+ HEA      C23    C24    H243    109.470    3.000
+ HEA      C23    C24    H242    109.470    3.000
+ HEA      C23    C24    H241    109.470    3.000
+ HEA      H243   C24    H242    109.470    3.000
+ HEA      H243   C24    H241    109.470    3.000
+ HEA      H242   C24    H241    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ HEA      var_1    O2D    CGD    CBD    CAD      180.000   20.000   3
+ HEA      var_2    CGD    CBD    CAD    C3D      180.000   20.000   3
+ HEA      var_3    CBD    CAD    C3D    C2D       89.976   20.000   2
+ HEA      CONST_1  CAD    C3D    C4D    CHA       30.000    0.000   0
+ HEA      CONST_2  C3D    C4D    CHA    C1A      180.000    0.000   0
+ HEA      CONST_3  C4D    CHA    C1A    C2A      180.000    0.000   0
+ HEA      CONST_4  CAD    C3D    C2D    C1D      180.000    0.000   0
+ HEA      var_4    C3D    C2D    CMD    HMD1      -0.112   20.000   1
+ HEA      CONST_5  C3D    C2D    C1D    CHD      150.000    0.000   0
+ HEA      CONST_6  C2D    C1D    N_D    FE      -150.000    0.000   0
+ HEA      CONST_7  C1D    N_D    C4D    C3D      -30.000    0.000   0
+ HEA      CONST_8  C2D    C1D    CHD    C4C      150.000    0.000   0
+ HEA      CONST_9  C1D    CHD    C4C    C3C      180.000    0.000   0
+ HEA      CONST_10 CHD    C4C    C3C    C2C      150.000    0.000   0
+ HEA      var_5    C4C    C3C    CAC    CBC      119.994   20.000   1
+ HEA      CONST_11 C3C    CAC    CBC    HBC1     180.000    0.000   0
+ HEA      CONST_12 C4C    C3C    C2C    C1C        0.000    0.000   0
+ HEA      var_6    C3C    C2C    CMC    HMC1      89.977   20.000   1
+ HEA      CONST_13 C3C    C2C    C1C    CHC      180.000    0.000   0
+ HEA      CONST_14 C2C    C1C    N_C    FE       150.000    0.000   0
+ HEA      CONST_15 C1C    N_C    C4C    CHD     -150.000    0.000   0
+ HEA      CONST_16 C2C    C1C    CHC    C4B     -150.000    0.000   0
+ HEA      CONST_17 C1C    CHC    C4B    C3B      180.000    0.000   0
+ HEA      CONST_18 CHC    C4B    C3B    C11        0.000    0.000   0
+ HEA      CONST_19 C4B    C3B    C2B    C1B        0.000    0.000   0
+ HEA      var_7    C3B    C2B    CMB    HMB1     180.000   20.000   1
+ HEA      CONST_20 C3B    C2B    C1B    CHB      180.000    0.000   0
+ HEA      CONST_21 C2B    C1B    N_B    FE      -150.000    0.000   0
+ HEA      CONST_22 C1B    N_B    C4B    CHC      150.000    0.000   0
+ HEA      CONST_23 C2B    C1B    CHB    C4A      180.000    0.000   0
+ HEA      CONST_24 C1B    CHB    C4A    C3A      180.000    0.000   0
+ HEA      CONST_25 CHB    C4A    C3A    C2A      150.000    0.000   0
+ HEA      var_8    C4A    C3A    CMA    OMA       -1.669   20.000   1
+ HEA      CONST_26 C4A    C3A    C2A    C1A        0.000    0.000   0
+ HEA      var_9    C3A    C2A    CAA    CBA       90.065   20.000   2
+ HEA      var_10   C2A    CAA    CBA    CGA      180.000   20.000   3
+ HEA      var_11   CAA    CBA    CGA    O1A        0.000   20.000   3
+ HEA      CONST_27 C3A    C2A    C1A    N_A        0.000    0.000   0
+ HEA      CONST_28 C2A    C1A    N_A    FE       180.000    0.000   0
+ HEA      CONST_29 C1A    N_A    C4A    CHB     -150.000    0.000   0
+ HEA      CONST_30 C4A    N_A    FE     N_B        0.000    0.000   0
+ HEA      CONST_31 C1B    N_B    FE     N_A        0.000    0.000   0
+ HEA      CONST_32 C1C    N_C    FE     N_B        0.000    0.000   0
+ HEA      CONST_33 C4D    N_D    FE     N_A        0.000    0.000   0
+ HEA      var_12   C4B    C3B    C11    C12       64.346   20.000   1
+ HEA      var_13   C3B    C11    O11    HO1       67.785   20.000   1
+ HEA      var_14   C3B    C11    C12    C13      180.000   20.000   3
+ HEA      var_15   C11    C12    C13    C14      179.972   20.000   3
+ HEA      var_16   C12    C13    C14    C15      125.203   20.000   1
+ HEA      CONST_34 C13    C14    C15    C16     -174.970    0.000   0
+ HEA      var_17   C14    C15    C26    H261      64.139   20.000   1
+ HEA      var_18   C14    C15    C16    C17       90.000   20.000   3
+ HEA      var_19   C15    C16    C17    C18     -179.980   20.000   3
+ HEA      var_20   C16    C17    C18    C19      125.390   20.000   1
+ HEA      CONST_35 C17    C18    C19    C20     -174.437    0.000   0
+ HEA      var_21   C18    C19    C27    H271      54.939   20.000   1
+ HEA      var_22   C18    C19    C20    C21       90.005   20.000   3
+ HEA      var_23   C19    C20    C21    C22      180.000   20.000   3
+ HEA      var_24   C20    C21    C22    C23      125.396   20.000   1
+ HEA      CONST_36 C21    C22    C23    C24     -174.440    0.000   0
+ HEA      var_25   C22    C23    C25    H251      54.937   20.000   1
+ HEA      var_26   C22    C23    C24    H241     180.000   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ HEA      chir_01  FE     N_A    N_C    N_B       cross2
+ HEA      chir_02  C11    C3B    O11    C12       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ HEA      plan-1    CHA       0.020
+ HEA      plan-1    C1A       0.020
+ HEA      plan-1    C4D       0.020
+ HEA      plan-1    HHA       0.020
+ HEA      plan-1    N_A       0.020
+ HEA      plan-1    C2A       0.020
+ HEA      plan-1    C3A       0.020
+ HEA      plan-1    CAA       0.020
+ HEA      plan-1    C4A       0.020
+ HEA      plan-1    CMA       0.020
+ HEA      plan-1    CHB       0.020
+ HEA      plan-1    N_D       0.020
+ HEA      plan-1    C3D       0.020
+ HEA      plan-1    FE        0.020
+ HEA      plan-1    N_B       0.020
+ HEA      plan-1    C1B       0.020
+ HEA      plan-1    CHC       0.020
+ HEA      plan-1    C4B       0.020
+ HEA      plan-1    N_C       0.020
+ HEA      plan-1    C1C       0.020
+ HEA      plan-1    CHD       0.020
+ HEA      plan-1    C4C       0.020
+ HEA      plan-1    C1D       0.020
+ HEA      plan-1    C2B       0.020
+ HEA      plan-1    C3B       0.020
+ HEA      plan-1    C2C       0.020
+ HEA      plan-1    C3C       0.020
+ HEA      plan-1    C2D       0.020
+ HEA      plan-1    HHB       0.020
+ HEA      plan-1    CMB       0.020
+ HEA      plan-1    C11       0.020
+ HEA      plan-1    HHC       0.020
+ HEA      plan-1    CMC       0.020
+ HEA      plan-1    CAC       0.020
+ HEA      plan-1    HHD       0.020
+ HEA      plan-1    CMD       0.020
+ HEA      plan-1    CAD       0.020
+ HEA      plan-1    HMA       0.020
+ HEA      plan-1    HAC       0.020
+ HEA      plan-2    CMA       0.020
+ HEA      plan-2    C3A       0.020
+ HEA      plan-2    OMA       0.020
+ HEA      plan-2    HMA       0.020
+ HEA      plan-3    CGA       0.020
+ HEA      plan-3    CBA       0.020
+ HEA      plan-3    O1A       0.020
+ HEA      plan-3    O2A       0.020
+ HEA      plan-4    CAC       0.020
+ HEA      plan-4    C3C       0.020
+ HEA      plan-4    CBC       0.020
+ HEA      plan-4    HAC       0.020
+ HEA      plan-4    HBC1      0.020
+ HEA      plan-4    HBC2      0.020
+ HEA      plan-5    CGD       0.020
+ HEA      plan-5    CBD       0.020
+ HEA      plan-5    O1D       0.020
+ HEA      plan-5    O2D       0.020
+ HEA      plan-6    C14       0.020
+ HEA      plan-6    C13       0.020
+ HEA      plan-6    C15       0.020
+ HEA      plan-6    H14       0.020
+ HEA      plan-6    C16       0.020
+ HEA      plan-6    C26       0.020
+ HEA      plan-7    C18       0.020
+ HEA      plan-7    C17       0.020
+ HEA      plan-7    C19       0.020
+ HEA      plan-7    H18       0.020
+ HEA      plan-7    C20       0.020
+ HEA      plan-7    C27       0.020
+ HEA      plan-8    C22       0.020
+ HEA      plan-8    C21       0.020
+ HEA      plan-8    C23       0.020
+ HEA      plan-8    H22       0.020
+ HEA      plan-8    C24       0.020
+ HEA      plan-8    C25       0.020

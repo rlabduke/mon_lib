@@ -1,0 +1,248 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+INI      INI 'Amidinated_lysine_with_methyl_isonic' L-peptide          35  17 .
+#
+data_comp_INI
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ INI           N      N    NH1       0.000
+ INI           HN     H    HNH1      0.000
+ INI           CA     C    CH1       0.000
+ INI           HA     H    HCH1      0.000
+ INI           CB     C    CH2       0.000
+ INI           HB1    H    HCH2      0.000
+ INI           HB2    H    HCH2      0.000
+ INI           CG     C    CH2       0.000
+ INI           HG1    H    HCH2      0.000
+ INI           HG2    H    HCH2      0.000
+ INI           CD     C    CH2       0.000
+ INI           HD1    H    HCH2      0.000
+ INI           HD2    H    HCH2      0.000
+ INI           CE     C    CH2       0.000
+ INI           HE1    H    HCH2      0.000
+ INI           HE2    H    HCH2      0.000
+ INI           NZ     N    NH1       0.000
+ INI           HNZ    H    HNH1      0.000
+ INI           CI1    C    C         0.000
+ INI           NI1    N    NH2       0.000
+ INI           HNI1   H    HNH2      0.000
+ INI           HNI2   H    HNH2      0.000
+ INI           CI2    C    CR6       0.000
+ INI           CI3    C    CR16      0.000
+ INI           HI3    H    HCR6      0.000
+ INI           CI4    C    CR16      0.000
+ INI           HI4    H    HCR6      0.000
+ INI           NI2    N    NR16      0.000
+ INI           HNX2   H    HNR6      0.000
+ INI           CI5    C    CR16      0.000
+ INI           HI5    H    HCR6      0.000
+ INI           CI6    C    CR16      0.000
+ INI           HI6    H    HCR6      0.000
+ INI           C      C    C         0.000
+ INI           O      O    O         0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ INI      N      n/a    CA     START
+ INI      HN     N      .      .
+ INI      CA     N      C      .
+ INI      HA     CA     .      .
+ INI      CB     CA     CG     .
+ INI      HB1    CB     .      .
+ INI      HB2    CB     .      .
+ INI      CG     CB     CD     .
+ INI      HG1    CG     .      .
+ INI      HG2    CG     .      .
+ INI      CD     CG     CE     .
+ INI      HD1    CD     .      .
+ INI      HD2    CD     .      .
+ INI      CE     CD     NZ     .
+ INI      HE1    CE     .      .
+ INI      HE2    CE     .      .
+ INI      NZ     CE     CI1    .
+ INI      HNZ    NZ     .      .
+ INI      CI1    NZ     CI2    .
+ INI      NI1    CI1    HNI2   .
+ INI      HNI1   NI1    .      .
+ INI      HNI2   NI1    .      .
+ INI      CI2    CI1    CI3    .
+ INI      CI3    CI2    CI4    .
+ INI      HI3    CI3    .      .
+ INI      CI4    CI3    NI2    .
+ INI      HI4    CI4    .      .
+ INI      NI2    CI4    CI5    .
+ INI      HNX2   NI2    .      .
+ INI      CI5    NI2    CI6    .
+ INI      HI5    CI5    .      .
+ INI      CI6    CI5    HI6    .
+ INI      HI6    CI6    .      .
+ INI      C      CA     .      END
+ INI      O      C      .      .
+ INI      CI2    CI6    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ INI      CA     N         coval       1.450    0.020
+ INI      C      CA        coval       1.500    0.020
+ INI      O      C         coval       1.230    0.020
+ INI      CB     CA        coval       1.524    0.020
+ INI      CG     CB        coval       1.524    0.020
+ INI      CD     CG        coval       1.524    0.020
+ INI      CE     CD        coval       1.524    0.020
+ INI      NZ     CE        coval       1.450    0.020
+ INI      CI1    NZ        coval       1.330    0.020
+ INI      CI2    CI1       coval       1.500    0.020
+ INI      NI1    CI1       coval       1.332    0.020
+ INI      CI3    CI2       coval       1.390    0.020
+ INI      CI4    CI3       coval       1.390    0.020
+ INI      NI2    CI4       coval       1.365    0.020
+ INI      CI5    NI2       coval       1.365    0.020
+ INI      CI6    CI5       coval       1.390    0.020
+ INI      HN     N         coval       1.010    0.020
+ INI      HA     CA        coval       1.090    0.020
+ INI      HB1    CB        coval       1.090    0.020
+ INI      HB2    CB        coval       1.090    0.020
+ INI      HG1    CG        coval       1.090    0.020
+ INI      HG2    CG        coval       1.090    0.020
+ INI      HD1    CD        coval       1.090    0.020
+ INI      HD2    CD        coval       1.090    0.020
+ INI      HE1    CE        coval       1.090    0.020
+ INI      HE2    CE        coval       1.090    0.020
+ INI      HNZ    NZ        coval       1.010    0.020
+ INI      HNI1   NI1       coval       1.015    0.020
+ INI      HNI2   NI1       coval       1.015    0.020
+ INI      HI3    CI3       coval       1.090    0.020
+ INI      HI4    CI4       coval       1.090    0.020
+ INI      HNX2   NI2       coval       1.040    0.020
+ INI      HI5    CI5       coval       1.090    0.020
+ INI      HI6    CI6       coval       1.090    0.020
+ INI      CI2    CI6       coval       1.390    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ INI      HN     N      CA      118.500    3.000
+ INI      N      CA     HA      108.550    3.000
+ INI      N      CA     CB      110.000    3.000
+ INI      N      CA     C       111.600    3.000
+ INI      HA     CA     CB      108.340    3.000
+ INI      CB     CA     C       109.470    3.000
+ INI      CA     C      O       120.500    3.000
+ INI      CA     CB     HB1     109.470    3.000
+ INI      CA     CB     HB2     109.470    3.000
+ INI      CA     CB     CG      111.000    3.000
+ INI      HB1    CB     HB2     107.900    3.000
+ INI      HB2    CB     CG      109.470    3.000
+ INI      CB     CG     HG1     109.470    3.000
+ INI      CB     CG     HG2     109.470    3.000
+ INI      CB     CG     CD      111.000    3.000
+ INI      HG1    CG     HG2     107.900    3.000
+ INI      HG2    CG     CD      109.470    3.000
+ INI      CG     CD     HD1     109.470    3.000
+ INI      CG     CD     HD2     109.470    3.000
+ INI      CG     CD     CE      111.000    3.000
+ INI      HD1    CD     HD2     107.900    3.000
+ INI      HD2    CD     CE      109.470    3.000
+ INI      CD     CE     HE1     109.470    3.000
+ INI      CD     CE     HE2     109.470    3.000
+ INI      CD     CE     NZ      112.000    3.000
+ INI      HE1    CE     HE2     107.900    3.000
+ INI      HE2    CE     NZ      109.470    3.000
+ INI      CE     NZ     HNZ     118.500    3.000
+ INI      CE     NZ     CI1     121.500    3.000
+ INI      HNZ    NZ     CI1     120.000    3.000
+ INI      NZ     CI1    NI1     120.000    3.000
+ INI      NZ     CI1    CI2     120.000    3.000
+ INI      NI1    CI1    CI2     120.000    3.000
+ INI      CI1    CI2    CI3     120.000    3.000
+ INI      CI1    CI2    CI6     120.000    3.000
+ INI      CI3    CI2    CI6     120.000    3.000
+ INI      CI1    NI1    HNI1    120.000    3.000
+ INI      CI1    NI1    HNI2    120.000    3.000
+ INI      HNI1   NI1    HNI2    120.000    3.000
+ INI      CI2    CI3    HI3     120.000    3.000
+ INI      CI2    CI3    CI4     120.000    3.000
+ INI      HI3    CI3    CI4     120.000    3.000
+ INI      CI3    CI4    HI4     120.000    3.000
+ INI      CI3    CI4    NI2     120.000    3.000
+ INI      HI4    CI4    NI2     120.000    3.000
+ INI      CI4    NI2    HNX2    120.000    3.000
+ INI      CI4    NI2    CI5     120.000    3.000
+ INI      HNX2   NI2    CI5     120.000    3.000
+ INI      NI2    CI5    HI5     120.000    3.000
+ INI      NI2    CI5    CI6     120.000    3.000
+ INI      HI5    CI5    CI6     120.000    3.000
+ INI      CI5    CI6    HI6     120.000    3.000
+ INI      CI5    CI6    CI2     120.000    3.000
+ INI      HI6    CI6    CI2     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ INI      var_1    N      CA     CB     CG        10.000   20.000   1
+ INI      var_2    CA     CB     CG     CD       100.000   20.000   1
+ INI      var_3    CB     CG     CD     CE       120.000   20.000   1
+ INI      var_4    CG     CD     CE     NZ       -60.000   20.000   1
+ INI      var_5    CD     CE     NZ     CI1      180.000   20.000   1
+ INI      var_6    CE     NZ     CI1    CI2      180.000   20.000   2
+ INI      var_7    NZ     CI1    CI2    CI3      180.000   20.000   1
+ INI      var_8    NZ     CI1    NI1    HNI2     180.000   20.000   2
+ INI      CONST_01 CI1    CI2    CI3    CI4      180.000    0.000   0
+ INI      CONST_02 CI2    CI3    CI4    NI2        0.000    0.000   0
+ INI      CONST_03 CI3    CI4    NI2    CI5        0.000    0.000   0
+ INI      CONST_04 CI4    NI2    CI5    CI6        0.000    0.000   0
+ INI      CONST_05 NI2    CI5    CI6    CI2        0.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ INI      chir_01  CA     N      CB     C         negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ INI      plan1     CI2       0.020
+ INI      plan1     CI3       0.020
+ INI      plan1     CI4       0.020
+ INI      plan1     NI2       0.020
+ INI      plan1     CI5       0.020
+ INI      plan1     CI6       0.020
+ INI      plan1     CI1       0.020
+ INI      plan2     CI1       0.020
+ INI      plan2     NZ        0.020
+ INI      plan2     CI2       0.020
+ INI      plan2     NI1       0.020

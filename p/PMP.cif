@@ -1,0 +1,207 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+PMP      .   '4*-DEOXY-4*-AMINOPYRIDOXAL-5*-PHOSPH' non-polymer        29  16 .
+#
+data_comp_PMP
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ PMP           O1P    O    OP        0.000
+ PMP           P      P    P         0.000
+ PMP           O2P    O    OP        0.000
+ PMP           O3P    O    OP        0.000
+ PMP           O4P    O    O2        0.000
+ PMP           C5A    C    CH2       0.000
+ PMP           H5A1   H    HCH2      0.000
+ PMP           H5A2   H    HCH2      0.000
+ PMP           C5     C    CR6       0.000
+ PMP           C6     C    CR16      0.000
+ PMP           H6     H    HCR6      0.000
+ PMP           C4     C    CR6       0.000
+ PMP           C4A    C    CH2       0.000
+ PMP           H4A1   H    HCH2      0.000
+ PMP           H4A2   H    HCH2      0.000
+ PMP           N4A    N    NH2       0.000
+ PMP           HNA2   H    HNH2      0.000
+ PMP           HNA1   H    HNH2      0.000
+ PMP           C3     C    CR6       0.000
+ PMP           O3     O    OH1       0.000
+ PMP           HO3    H    HOH1      0.000
+ PMP           C2     C    CR6       0.000
+ PMP           N1     N    NR6       0.000
+ PMP           C2A    C    CH3       0.000
+ PMP           H2A3   H    HCH3      0.000
+ PMP           H2A2   H    HCH3      0.000
+ PMP           H2A1   H    HCH3      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ PMP      O1P    n/a    P      START
+ PMP      P      O1P    O4P    .
+ PMP      O2P    P      .      .
+ PMP      O3P    P      .      .
+ PMP      O4P    P      C5A    .
+ PMP      C5A    O4P    C5     .
+ PMP      H5A1   C5A    .      .
+ PMP      H5A2   C5A    .      .
+ PMP      C5     C5A    C4     .
+ PMP      C6     C5     H6     .
+ PMP      H6     C6     .      .
+ PMP      C4     C5     C3     .
+ PMP      C4A    C4     N4A    .
+ PMP      H4A1   C4A    .      .
+ PMP      H4A2   C4A    .      .
+ PMP      N4A    C4A    HNA1   .
+ PMP      HNA2   N4A    .      .
+ PMP      HNA1   N4A    .      .
+ PMP      C3     C4     C2     .
+ PMP      O3     C3     HO3    .
+ PMP      HO3    O3     .      .
+ PMP      C2     C3     C2A    .
+ PMP      N1     C2     .      .
+ PMP      C2A    C2     H2A1   .
+ PMP      H2A3   C2A    .      .
+ PMP      H2A2   C2A    .      .
+ PMP      H2A1   C2A    .      END
+ PMP      N1     C6     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ PMP      P      O1P       coval       1.510    0.020
+ PMP      O2P    P         coval       1.510    0.020
+ PMP      O3P    P         coval       1.510    0.020
+ PMP      O4P    P         coval       1.610    0.020
+ PMP      C5A    O4P       coval       1.410    0.020
+ PMP      H5A1   C5A       coval       1.090    0.020
+ PMP      H5A2   C5A       coval       1.090    0.020
+ PMP      C5     C5A       coval       1.511    0.020
+ PMP      C6     C5        coval       1.390    0.020
+ PMP      H6     C6        coval       1.090    0.020
+ PMP      C4     C5        coval       1.390    0.020
+ PMP      C4A    C4        coval       1.511    0.020
+ PMP      H4A1   C4A       coval       1.090    0.020
+ PMP      H4A2   C4A       coval       1.090    0.020
+ PMP      N4A    C4A       coval       1.450    0.020
+ PMP      HNA2   N4A       coval       1.015    0.020
+ PMP      HNA1   N4A       coval       1.015    0.020
+ PMP      C3     C4        coval       1.390    0.020
+ PMP      O3     C3        coval       1.370    0.020
+ PMP      HO3    O3        coval       0.980    0.020
+ PMP      C2     C3        coval       1.390    0.020
+ PMP      N1     C2        coval       1.380    0.020
+ PMP      N1     C6        coval       1.365    0.020
+ PMP      C2A    C2        coval       1.500    0.020
+ PMP      H2A3   C2A       coval       1.090    0.020
+ PMP      H2A2   C2A       coval       1.090    0.020
+ PMP      H2A1   C2A       coval       1.090    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ PMP      O1P    P      O2P     109.500    3.000
+ PMP      O1P    P      O3P     109.500    3.000
+ PMP      O1P    P      O4P     108.200    3.000
+ PMP      O2P    P      O3P     109.500    3.000
+ PMP      O2P    P      O4P     109.500    3.000
+ PMP      O3P    P      O4P     109.500    3.000
+ PMP      P      O4P    C5A     120.500    3.000
+ PMP      O4P    C5A    H5A1    109.470    3.000
+ PMP      O4P    C5A    H5A2    109.470    3.000
+ PMP      O4P    C5A    C5      109.470    3.000
+ PMP      H5A1   C5A    H5A2    107.900    3.000
+ PMP      H5A1   C5A    C5      109.470    3.000
+ PMP      H5A2   C5A    C5      109.470    3.000
+ PMP      C5A    C5     C6      120.000    3.000
+ PMP      C5A    C5     C4      120.000    3.000
+ PMP      C6     C5     C4      120.000    3.000
+ PMP      C5     C6     H6      120.000    3.000
+ PMP      C5     C6     N1      120.000    3.000
+ PMP      H6     C6     N1      120.000    3.000
+ PMP      C5     C4     C4A     120.000    3.000
+ PMP      C5     C4     C3      120.000    3.000
+ PMP      C4A    C4     C3      120.000    3.000
+ PMP      C4     C4A    H4A1    109.470    3.000
+ PMP      C4     C4A    H4A2    109.470    3.000
+ PMP      C4     C4A    N4A     109.500    3.000
+ PMP      H4A1   C4A    H4A2    107.900    3.000
+ PMP      H4A1   C4A    N4A     109.470    3.000
+ PMP      H4A2   C4A    N4A     109.470    3.000
+ PMP      C4A    N4A    HNA2    120.000    3.000
+ PMP      C4A    N4A    HNA1    120.000    3.000
+ PMP      HNA2   N4A    HNA1    120.000    3.000
+ PMP      C4     C3     O3      120.000    3.000
+ PMP      C4     C3     C2      120.000    3.000
+ PMP      O3     C3     C2      120.000    3.000
+ PMP      C3     O3     HO3     109.470    3.000
+ PMP      C3     C2     N1      120.000    3.000
+ PMP      C3     C2     C2A     120.000    3.000
+ PMP      N1     C2     C2A     120.000    3.000
+ PMP      C2     N1     C6      120.000    3.000
+ PMP      C2     C2A    H2A3    109.470    3.000
+ PMP      C2     C2A    H2A2    109.470    3.000
+ PMP      C2     C2A    H2A1    109.470    3.000
+ PMP      H2A3   C2A    H2A2    109.470    3.000
+ PMP      H2A3   C2A    H2A1    109.470    3.000
+ PMP      H2A2   C2A    H2A1    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ PMP      var_3    O1P    P      O4P    C5A      118.705   20.000   1
+ PMP      var_4    P      O4P    C5A    C5       165.632   20.000   1
+ PMP      var_5    O4P    C5A    C5     C4        53.358   20.000   2
+ PMP      CONST_1  C5A    C5     C6     N1       180.000    0.000   0
+ PMP      CONST_2  C5A    C5     C4     C3       180.000    0.000   0
+ PMP      var_6    C5     C4     C4A    N4A     -111.106   20.000   2
+ PMP      var_7    C4     C4A    N4A    HNA1       0.000   20.000   1
+ PMP      CONST_3  C5     C4     C3     C2         0.000    0.000   0
+ PMP      var_8    C4     C3     O3     HO3        0.000   20.000   1
+ PMP      CONST_4  C4     C3     C2     C2A      180.000    0.000   0
+ PMP      CONST_5  C3     C2     N1     C6         0.000    0.000   0
+ PMP      var_9    C3     C2     C2A    H2A1       0.000   20.000   1
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ PMP      plan-1    C3        0.020
+ PMP      plan-1    C2        0.020
+ PMP      plan-1    C2A       0.020
+ PMP      plan-1    O3        0.020
+ PMP      plan-1    C4        0.020
+ PMP      plan-2    C4        0.020
+ PMP      plan-2    C3        0.020
+ PMP      plan-2    C4A       0.020
+ PMP      plan-2    C5        0.020
+ PMP      plan-3    C5        0.020
+ PMP      plan-3    C4        0.020
+ PMP      plan-3    C6        0.020
+ PMP      plan-3    C5A       0.020

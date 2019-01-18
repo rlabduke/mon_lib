@@ -1,0 +1,88 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+ETA      ETA 'ethanolamine                        ' polymer             9   4 .
+#
+data_comp_ETA
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ ETA           N      N    NH1       0.000
+ ETA           H      H    HNH1      0.000
+ ETA           CA     C    CH2       0.000
+ ETA           HA1    H    HCH2      0.000
+ ETA           HA2    H    HCH2      0.000
+ ETA           CB     C    CH2       0.000
+ ETA           HB2    H    HCH2      0.000
+ ETA           HB1    H    HCH2      0.000
+ ETA           O      O    O         0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ ETA      N      n/a    CA     START
+ ETA      H      N      .      .
+ ETA      CA     N      CB     .
+ ETA      HA1    CA     .      .
+ ETA      HA2    CA     .      .
+ ETA      CB     CA     O      .
+ ETA      HB2    CB     .      .
+ ETA      HB1    CB     .      .
+ ETA      O      CB     .      END
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ ETA      CA     N         coval       1.460    0.020
+ ETA      CB     CA        coval       1.545    0.020
+ ETA      O      CB        coval       1.460    0.020
+ ETA      H      N         coval       0.960    0.020
+ ETA      HB1    CB        coval       1.000    0.020
+ ETA      HB2    CB        coval       1.000    0.020
+ ETA      HA1    CA        coval       1.000    0.020
+ ETA      HA2    CA        coval       1.000    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ ETA      H      N      CA      119.300    3.000
+ ETA      N      CA     HA1     110.500    3.000
+ ETA      N      CA     HA2     112.300    3.000
+ ETA      N      CA     CB      112.300    3.000
+ ETA      HA1    CA     HA2     111.700    3.000
+ ETA      HA2    CA     CB      103.300    3.000
+ ETA      CA     CB     HB2     110.500    3.000
+ ETA      CA     CB     HB1     107.500    3.000
+ ETA      CA     CB     O       107.500    3.000
+ ETA      HB2    CB     HB1     110.500    3.000
+ ETA      HB1    CB     O       110.500    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ ETA      var_1    N      CA     CB     O         60.000   20.000   1

@@ -1,0 +1,253 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+C5X      C5X '4,5-EPOXYPENTYL-BETA-D-XYLOSIDE     ' non-polymer        34  16 .
+#
+data_comp_C5X
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ C5X           C1     C    CH1       0.000      0.081   -0.130    0.396
+ C5X           H1     H    H         0.000      0.022   -0.524    1.420
+ C5X           O1     O    O2        0.000      0.293   -1.125   -0.638
+ C5X           'C1''  C    CH2       0.000     -0.867   -1.784   -1.205
+ C5X           'H1'1' H    H         0.000     -1.396   -1.111   -1.883
+ C5X           'H1'2' H    H         0.000     -1.546   -2.110   -0.415
+ C5X           'C2''  C    CH2       0.000     -0.364   -2.999   -1.980
+ C5X           'H2'1' H    H         0.000      0.525   -3.376   -1.469
+ C5X           'H2'2' H    H         0.000     -0.091   -2.665   -2.983
+ C5X           'C3''  C    CH2       0.000     -1.406   -4.110   -2.078
+ C5X           'H3'1' H    H         0.000     -2.329   -3.712   -2.507
+ C5X           'H3'2' H    H         0.000     -1.612   -4.510   -1.083
+ C5X           'C4''  C    CH1       0.000     -0.872   -5.209   -2.964
+ C5X           'H4''  H    H         0.000      0.222   -5.262   -3.050
+ C5X           'O''   O    O2        0.000     -1.567   -6.506   -2.693
+ C5X           'C5''  C    CH2       0.000     -1.688   -5.937   -4.107
+ C5X           'H5'2' H    H         0.000     -2.490   -5.283   -4.457
+ C5X           'H5'1' H    H         0.000     -1.021   -6.170   -4.940
+ C5X           C2     C    CH1       0.000      1.091    0.970    0.189
+ C5X           H2     H    H         0.000      1.643    0.772   -0.740
+ C5X           O2     O    OH1       0.000      2.017    1.001    1.273
+ C5X           HO2    H    H         0.000      2.657    1.710    1.128
+ C5X           C3     C    CH1       0.000      0.350    2.307    0.045
+ C5X           H3     H    H         0.000      0.394    2.632   -1.004
+ C5X           O3     O    OH1       0.000      1.103    3.226    0.854
+ C5X           HO3    H    H         0.000      0.694    4.102    0.814
+ C5X           C4     C    CH1       0.000     -1.095    2.486    0.572
+ C5X           H4     H    H         0.000     -1.499    3.419    0.155
+ C5X           O4     O    OH1       0.000     -1.108    2.591    1.987
+ C5X           HO4    H    H         0.000     -2.018    2.701    2.292
+ C5X           C5     C    CH2       0.000     -2.050    1.389    0.260
+ C5X           H52    H    H         0.000     -2.716    1.576   -0.585
+ C5X           H51    H    H         0.000     -2.633    1.023    1.108
+ C5X           O5     O    O2        0.000     -1.106    0.444   -0.095
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ C5X      C1     n/a    C2     START
+ C5X      H1     C1     .      .
+ C5X      O1     C1     'C1''  .
+ C5X      'C1''  O1     'C2''  .
+ C5X      'H1'1' 'C1''  .      .
+ C5X      'H1'2' 'C1''  .      .
+ C5X      'C2''  'C1''  'C3''  .
+ C5X      'H2'1' 'C2''  .      .
+ C5X      'H2'2' 'C2''  .      .
+ C5X      'C3''  'C2''  'C4''  .
+ C5X      'H3'1' 'C3''  .      .
+ C5X      'H3'2' 'C3''  .      .
+ C5X      'C4''  'C3''  'O''   .
+ C5X      'H4''  'C4''  .      .
+ C5X      'O''   'C4''  'C5''  .
+ C5X      'C5''  'O''   'H5'1' .
+ C5X      'H5'2' 'C5''  .      .
+ C5X      'H5'1' 'C5''  .      .
+ C5X      C2     C1     C3     .
+ C5X      H2     C2     .      .
+ C5X      O2     C2     HO2    .
+ C5X      HO2    O2     .      .
+ C5X      C3     C2     C4     .
+ C5X      H3     C3     .      .
+ C5X      O3     C3     HO3    .
+ C5X      HO3    O3     .      .
+ C5X      C4     C3     C5     .
+ C5X      H4     C4     .      .
+ C5X      O4     C4     .      .
+ C5X      HO4    O4     .      .
+ C5X      C5     C4     O5     .
+ C5X      H52    C5     .      .
+ C5X      H51    C5     .      .
+ C5X      O5     C5     .      END
+ C5X      C1     O5     .    ADD
+ C5X      'C4''  'C5''  .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ C5X      C2     C1        single      1.524    0.020
+ C5X      O1     C1        single      1.426    0.020
+ C5X      C1     O5        single      1.426    0.020
+ C5X      H1     C1        single      1.099    0.020
+ C5X      C3     C2        single      1.524    0.020
+ C5X      O2     C2        single      1.432    0.020
+ C5X      H2     C2        single      1.099    0.020
+ C5X      C4     C3        single      1.524    0.020
+ C5X      O3     C3        single      1.432    0.020
+ C5X      H3     C3        single      1.099    0.020
+ C5X      C5     C4        single      1.524    0.020
+ C5X      O4     C4        single      1.432    0.020
+ C5X      H4     C4        single      1.099    0.020
+ C5X      O5     C5        single      1.426    0.020
+ C5X      H51    C5        single      1.092    0.020
+ C5X      H52    C5        single      1.092    0.020
+ C5X      'C1''  O1        single      1.426    0.020
+ C5X      HO2    O2        single      0.967    0.020
+ C5X      HO3    O3        single      0.967    0.020
+ C5X      HO4    O4        single      0.967    0.020
+ C5X      'C2''  'C1''     single      1.524    0.020
+ C5X      'H1'1' 'C1''     single      1.092    0.020
+ C5X      'H1'2' 'C1''     single      1.092    0.020
+ C5X      'C3''  'C2''     single      1.524    0.020
+ C5X      'H2'1' 'C2''     single      1.092    0.020
+ C5X      'H2'2' 'C2''     single      1.092    0.020
+ C5X      'C4''  'C3''     single      1.524    0.020
+ C5X      'H3'1' 'C3''     single      1.092    0.020
+ C5X      'H3'2' 'C3''     single      1.092    0.020
+ C5X      'C4''  'C5''     single      1.524    0.020
+ C5X      'O''   'C4''     single      1.426    0.020
+ C5X      'H4''  'C4''     single      1.099    0.020
+ C5X      'C5''  'O''      single      1.426    0.020
+ C5X      'H5'1' 'C5''     single      1.092    0.020
+ C5X      'H5'2' 'C5''     single      1.092    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ C5X      H1     C1     O1      109.470    3.000
+ C5X      H1     C1     C2      108.340    3.000
+ C5X      O1     C1     C2      109.470    3.000
+ C5X      H1     C1     O5      109.470    3.000
+ C5X      O1     C1     O5      109.470    3.000
+ C5X      C2     C1     O5      109.470    3.000
+ C5X      C1     O1     'C1''   111.800    3.000
+ C5X      O1     'C1''  'H1'1'  109.470    3.000
+ C5X      O1     'C1''  'H1'2'  109.470    3.000
+ C5X      O1     'C1''  'C2''   109.470    3.000
+ C5X      'H1'1' 'C1''  'H1'2'  107.900    3.000
+ C5X      'H1'1' 'C1''  'C2''   109.470    3.000
+ C5X      'H1'2' 'C1''  'C2''   109.470    3.000
+ C5X      'C1''  'C2''  'H2'1'  109.470    3.000
+ C5X      'C1''  'C2''  'H2'2'  109.470    3.000
+ C5X      'C1''  'C2''  'C3''   111.000    3.000
+ C5X      'H2'1' 'C2''  'H2'2'  107.900    3.000
+ C5X      'H2'1' 'C2''  'C3''   109.470    3.000
+ C5X      'H2'2' 'C2''  'C3''   109.470    3.000
+ C5X      'C2''  'C3''  'H3'1'  109.470    3.000
+ C5X      'C2''  'C3''  'H3'2'  109.470    3.000
+ C5X      'C2''  'C3''  'C4''   111.000    3.000
+ C5X      'H3'1' 'C3''  'H3'2'  107.900    3.000
+ C5X      'H3'1' 'C3''  'C4''   109.470    3.000
+ C5X      'H3'2' 'C3''  'C4''   109.470    3.000
+ C5X      'C3''  'C4''  'H4''   108.340    3.000
+ C5X      'C3''  'C4''  'O''    109.470    3.000
+ C5X      'C3''  'C4''  'C5''   109.470    3.000
+ C5X      'H4''  'C4''  'O''    109.470    3.000
+ C5X      'H4''  'C4''  'C5''   108.340    3.000
+ C5X      'O''   'C4''  'C5''   109.470    3.000
+ C5X      'C4''  'O''   'C5''   111.800    3.000
+ C5X      'O''   'C5''  'H5'2'  109.470    3.000
+ C5X      'O''   'C5''  'H5'1'  109.470    3.000
+ C5X      'O''   'C5''  'C4''   109.470    3.000
+ C5X      'H5'2' 'C5''  'H5'1'  107.900    3.000
+ C5X      'H5'2' 'C5''  'C4''   109.470    3.000
+ C5X      'H5'1' 'C5''  'C4''   109.470    3.000
+ C5X      C1     C2     H2      108.340    3.000
+ C5X      C1     C2     O2      109.470    3.000
+ C5X      C1     C2     C3      111.000    3.000
+ C5X      H2     C2     O2      109.470    3.000
+ C5X      H2     C2     C3      108.340    3.000
+ C5X      O2     C2     C3      109.470    3.000
+ C5X      C2     O2     HO2     109.470    3.000
+ C5X      C2     C3     H3      108.340    3.000
+ C5X      C2     C3     O3      109.470    3.000
+ C5X      C2     C3     C4      111.000    3.000
+ C5X      H3     C3     O3      109.470    3.000
+ C5X      H3     C3     C4      108.340    3.000
+ C5X      O3     C3     C4      109.470    3.000
+ C5X      C3     O3     HO3     109.470    3.000
+ C5X      C3     C4     H4      108.340    3.000
+ C5X      C3     C4     O4      109.470    3.000
+ C5X      C3     C4     C5      111.000    3.000
+ C5X      H4     C4     O4      109.470    3.000
+ C5X      H4     C4     C5      108.340    3.000
+ C5X      O4     C4     C5      109.470    3.000
+ C5X      C4     O4     HO4     109.470    3.000
+ C5X      C4     C5     H52     109.470    3.000
+ C5X      C4     C5     H51     109.470    3.000
+ C5X      C4     C5     O5      109.470    3.000
+ C5X      H52    C5     H51     107.900    3.000
+ C5X      H52    C5     O5      109.470    3.000
+ C5X      H51    C5     O5      109.470    3.000
+ C5X      C5     O5     C1      111.800    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ C5X      var_1    C2     C1     O1     'C1''    180.000   20.000   1
+ C5X      var_2    C1     O1     'C1''  'C2''    180.000   20.000   1
+ C5X      var_3    O1     'C1''  'C2''  'C3''    180.000   20.000   3
+ C5X      var_4    'C1''  'C2''  'C3''  'C4''    180.000   20.000   3
+ C5X      var_5    'C2''  'C3''  'C4''  'O''     180.000   20.000   3
+ C5X      var_6    'C3''  'C4''  'C5''  'O''     180.000   20.000   3
+ C5X      var_7    'C3''  'C4''  'O''   'C5''    180.000   20.000   1
+ C5X      var_8    O1     C1     C2     C3       120.000   20.000   3
+ C5X      var_9    C1     C2     O2     HO2      180.000   20.000   1
+ C5X      var_10   C1     C2     C3     C4        60.000   20.000   3
+ C5X      var_11   C2     C3     O3     HO3      180.000   20.000   1
+ C5X      var_12   C2     C3     C4     C5       -60.000   20.000   3
+ C5X      var_13   C3     C4     C5     O5         0.000   20.000   3
+ C5X      var_14   C4     C5     O5     C1        60.000   20.000   1
+ C5X      var_15   C5     O5     C1     C2       -60.000   20.000   1
+ C5X      var_1    C3     C4     O4     HO4      180.000   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ C5X      chir_01  C1     C2     O1     O5        positiv
+ C5X      chir_02  C2     C1     C3     O2        negativ
+ C5X      chir_03  C3     C2     C4     O3        negativ
+ C5X      chir_04  C4     C3     C5     O4        negativ
+ C5X      chir_05  'C4''  'C3''  'C5''  'O''      positiv

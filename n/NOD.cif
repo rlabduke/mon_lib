@@ -1,0 +1,522 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+NOD      NOD 'N-ETHYLHYDROXY-DOXORUBICIN          ' non-polymer        75  42 .
+#
+data_comp_NOD
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ NOD           O19    O    O         0.000     -0.001   -0.015   -0.017
+ NOD           C19    C    CR6       0.000      0.850    0.897   -0.010
+ NOD           C20    C    CR66      0.000      2.277    0.516   -0.029
+ NOD           C18    C    CR66      0.000      0.484    2.338    0.001
+ NOD           C17    C    CR6       0.000     -0.944    2.735    0.017
+ NOD           O17    O    OH1       0.000     -1.916    1.771    0.021
+ NOD           HO17   H    H         0.000     -2.137    1.537    0.934
+ NOD           C16    C    CR6       0.000     -1.296    4.184    0.021
+ NOD           C15    C    CH2       0.000     -2.771    4.523    0.027
+ NOD           H151   H    H         0.000     -3.292    3.871    0.732
+ NOD           H152   H    H         0.000     -3.183    4.377   -0.973
+ NOD           C12    C    CT        0.000     -2.951    5.958    0.442
+ NOD           O12    O    OH1       0.000     -4.297    6.388    0.212
+ NOD           HO12   H    H         0.000     -4.903    5.836    0.725
+ NOD           C13    C    C         0.000     -2.627    6.079    1.907
+ NOD           C14    C    CH2       0.000     -3.124    7.251    2.714
+ NOD           H141   H    H         0.000     -4.209    7.192    2.827
+ NOD           H142   H    H         0.000     -2.862    8.186    2.214
+ NOD           O14    O    OH1       0.000     -2.503    7.209    4.009
+ NOD           HO14   H    H         0.000     -2.812    7.956    4.541
+ NOD           O13    O    O         0.000     -1.904    5.279    2.504
+ NOD           C11    C    CH2       0.000     -2.015    6.861   -0.367
+ NOD           H111   H    H         0.000     -2.326    7.895   -0.208
+ NOD           H112   H    H         0.000     -2.132    6.605   -1.422
+ NOD           C10    C    CH1       0.000     -0.561    6.700    0.037
+ NOD           H10    H    H         0.000     -0.438    7.065    1.066
+ NOD           O10    O    O2        0.000      0.300    7.449   -0.822
+ NOD           C1*    C    CH1       0.000      0.851    8.652   -0.256
+ NOD           H1*    H    H         0.000      1.452    8.437    0.638
+ NOD           C2*    C    CH2       0.000      1.680    9.316   -1.336
+ NOD           H2*1   H    H         0.000      1.108    9.351   -2.265
+ NOD           H2*2   H    H         0.000      2.596    8.743   -1.496
+ NOD           C3*    C    CH1       0.000      2.032   10.725   -0.904
+ NOD           H3*    H    H         0.000      2.575   10.647    0.049
+ NOD           N3*    N    NH1       0.000      2.897   11.365   -1.833
+ NOD           HN3*   H    H         0.000      2.515   11.732   -2.693
+ NOD           C53    C    CH2       0.000      4.311   11.502   -1.574
+ NOD           H531   H    H         0.000      4.734   10.518   -1.362
+ NOD           H532   H    H         0.000      4.456   12.153   -0.710
+ NOD           C63    C    CH2       0.000      5.008   12.104   -2.790
+ NOD           H631   H    H         0.000      4.813   11.466   -3.654
+ NOD           H632   H    H         0.000      6.082   12.134   -2.595
+ NOD           O16    O    OH1       0.000      4.532   13.430   -3.056
+ NOD           H16    H    H         0.000      4.989   13.787   -3.830
+ NOD           C4*    C    CH1       0.000      0.835   11.611   -0.665
+ NOD           H4*    H    H         0.000      0.285   11.751   -1.606
+ NOD           C5*    C    CH1       0.000     -0.037   10.915    0.330
+ NOD           H5*    H    H         0.000     -1.033   11.368    0.223
+ NOD           C6*    C    CH3       0.000      0.293   10.992    1.797
+ NOD           H6*3   H    H         0.000     -0.336   10.330    2.331
+ NOD           H6*2   H    H         0.000      1.304   10.717    1.942
+ NOD           H6*1   H    H         0.000      0.140   11.981    2.138
+ NOD           O5*    O    O2        0.000     -0.204    9.545    0.032
+ NOD           O4*    O    OH1       0.000      1.222   12.884   -0.138
+ NOD           HO4*   H    H         0.000      0.434   13.426    0.003
+ NOD           C9     C    CR6       0.000     -0.242    5.245    0.004
+ NOD           C8     C    CR6       0.000      1.188    4.836    0.002
+ NOD           O8     O    OH1       0.000      2.186    5.768    0.007
+ NOD           HO8    H    H         0.000      2.474    5.927    0.916
+ NOD           C7     C    CR66      0.000      1.545    3.389   -0.004
+ NOD           C6     C    CR6       0.000      2.980    2.983   -0.022
+ NOD           O6     O    O         0.000      3.911    3.809   -0.034
+ NOD           C5     C    CR66      0.000      3.358    1.548   -0.031
+ NOD           C4     C    CR6       0.000      4.793    1.108   -0.048
+ NOD           O4     O    O2        0.000      5.810    1.983   -0.061
+ NOD           C21    C    CH3       0.000      7.161    1.632    0.192
+ NOD           H213   H    H         0.000      7.240    1.220    1.164
+ NOD           H212   H    H         0.000      7.478    0.919   -0.522
+ NOD           H211   H    H         0.000      7.767    2.497    0.124
+ NOD           C3     C    CR16      0.000      5.049   -0.239   -0.065
+ NOD           H3     H    H         0.000      6.069   -0.603   -0.089
+ NOD           C2     C    CR16      0.000      3.994   -1.124   -0.051
+ NOD           H2     H    H         0.000      4.244   -2.177   -0.052
+ NOD           C1     C    CR16      0.000      2.652   -0.808   -0.037
+ NOD           H1     H    H         0.000      1.904   -1.591   -0.031
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ NOD      O19    n/a    C19    START
+ NOD      C19    O19    C18    .
+ NOD      C20    C19    .      .
+ NOD      C18    C19    C17    .
+ NOD      C17    C18    C16    .
+ NOD      O17    C17    HO17   .
+ NOD      HO17   O17    .      .
+ NOD      C16    C17    C15    .
+ NOD      C15    C16    C12    .
+ NOD      H151   C15    .      .
+ NOD      H152   C15    .      .
+ NOD      C12    C15    C11    .
+ NOD      O12    C12    HO12   .
+ NOD      HO12   O12    .      .
+ NOD      C13    C12    O13    .
+ NOD      C14    C13    O14    .
+ NOD      H141   C14    .      .
+ NOD      H142   C14    .      .
+ NOD      O14    C14    HO14   .
+ NOD      HO14   O14    .      .
+ NOD      O13    C13    .      .
+ NOD      C11    C12    C10    .
+ NOD      H111   C11    .      .
+ NOD      H112   C11    .      .
+ NOD      C10    C11    C9     .
+ NOD      H10    C10    .      .
+ NOD      O10    C10    C1*    .
+ NOD      C1*    O10    C2*    .
+ NOD      H1*    C1*    .      .
+ NOD      C2*    C1*    C3*    .
+ NOD      H2*1   C2*    .      .
+ NOD      H2*2   C2*    .      .
+ NOD      C3*    C2*    C4*    .
+ NOD      H3*    C3*    .      .
+ NOD      N3*    C3*    C53    .
+ NOD      HN3*   N3*    .      .
+ NOD      C53    N3*    C63    .
+ NOD      H531   C53    .      .
+ NOD      H532   C53    .      .
+ NOD      C63    C53    O16    .
+ NOD      H631   C63    .      .
+ NOD      H632   C63    .      .
+ NOD      O16    C63    H16    .
+ NOD      H16    O16    .      .
+ NOD      C4*    C3*    O4*    .
+ NOD      H4*    C4*    .      .
+ NOD      C5*    C4*    O5*    .
+ NOD      H5*    C5*    .      .
+ NOD      C6*    C5*    H6*1   .
+ NOD      H6*3   C6*    .      .
+ NOD      H6*2   C6*    .      .
+ NOD      H6*1   C6*    .      .
+ NOD      O5*    C5*    .      .
+ NOD      O4*    C4*    HO4*   .
+ NOD      HO4*   O4*    .      .
+ NOD      C9     C10    C8     .
+ NOD      C8     C9     C7     .
+ NOD      O8     C8     HO8    .
+ NOD      HO8    O8     .      .
+ NOD      C7     C8     C6     .
+ NOD      C6     C7     C5     .
+ NOD      O6     C6     .      .
+ NOD      C5     C6     C4     .
+ NOD      C4     C5     C3     .
+ NOD      O4     C4     C21    .
+ NOD      C21    O4     H211   .
+ NOD      H213   C21    .      .
+ NOD      H212   C21    .      .
+ NOD      H211   C21    .      .
+ NOD      C3     C4     C2     .
+ NOD      H3     C3     .      .
+ NOD      C2     C3     C1     .
+ NOD      H2     C2     .      .
+ NOD      C1     C2     H1     .
+ NOD      H1     C1     .      END
+ NOD      C1     C20    .    ADD
+ NOD      C5     C20    .    ADD
+ NOD      C7     C18    .    ADD
+ NOD      C9     C16    .    ADD
+ NOD      C1*    O5*    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ NOD      C1     C2        double      1.390    0.020
+ NOD      C1     C20       single      1.390    0.020
+ NOD      H1     C1        single      1.083    0.020
+ NOD      C2     C3        single      1.390    0.020
+ NOD      H2     C2        single      1.083    0.020
+ NOD      C3     C4        double      1.390    0.020
+ NOD      H3     C3        single      1.083    0.020
+ NOD      O4     C4        single      1.370    0.020
+ NOD      C4     C5        single      1.490    0.020
+ NOD      C21    O4        single      1.426    0.020
+ NOD      C5     C6        single      1.490    0.020
+ NOD      C5     C20       double      1.490    0.020
+ NOD      O6     C6        double      1.250    0.020
+ NOD      C6     C7        single      1.490    0.020
+ NOD      C7     C8        double      1.490    0.020
+ NOD      C7     C18       single      1.490    0.020
+ NOD      O8     C8        single      1.362    0.020
+ NOD      C8     C9        single      1.487    0.020
+ NOD      HO8    O8        single      0.967    0.020
+ NOD      C9     C10       single      1.480    0.020
+ NOD      C9     C16       double      1.487    0.020
+ NOD      O10    C10       single      1.426    0.020
+ NOD      C10    C11       single      1.524    0.020
+ NOD      H10    C10       single      1.099    0.020
+ NOD      C1*    O10       single      1.426    0.020
+ NOD      C11    C12       single      1.524    0.020
+ NOD      H111   C11       single      1.092    0.020
+ NOD      H112   C11       single      1.092    0.020
+ NOD      O12    C12       single      1.432    0.020
+ NOD      C13    C12       single      1.507    0.020
+ NOD      C12    C15       single      1.524    0.020
+ NOD      HO12   O12       single      0.967    0.020
+ NOD      O13    C13       double      1.220    0.020
+ NOD      C14    C13       single      1.510    0.020
+ NOD      O14    C14       single      1.432    0.020
+ NOD      H141   C14       single      1.092    0.020
+ NOD      H142   C14       single      1.092    0.020
+ NOD      HO14   O14       single      0.967    0.020
+ NOD      C15    C16       single      1.511    0.020
+ NOD      H151   C15       single      1.092    0.020
+ NOD      H152   C15       single      1.092    0.020
+ NOD      C16    C17       single      1.487    0.020
+ NOD      O17    C17       single      1.362    0.020
+ NOD      C17    C18       double      1.490    0.020
+ NOD      HO17   O17       single      0.967    0.020
+ NOD      C18    C19       single      1.490    0.020
+ NOD      C19    O19       double      1.250    0.020
+ NOD      C20    C19       single      1.490    0.020
+ NOD      H211   C21       single      1.059    0.020
+ NOD      H212   C21       single      1.059    0.020
+ NOD      H213   C21       single      1.059    0.020
+ NOD      C2*    C1*       single      1.524    0.020
+ NOD      C1*    O5*       single      1.426    0.020
+ NOD      H1*    C1*       single      1.099    0.020
+ NOD      C3*    C2*       single      1.524    0.020
+ NOD      H2*1   C2*       single      1.092    0.020
+ NOD      H2*2   C2*       single      1.092    0.020
+ NOD      C4*    C3*       single      1.524    0.020
+ NOD      N3*    C3*       single      1.450    0.020
+ NOD      H3*    C3*       single      1.099    0.020
+ NOD      O4*    C4*       single      1.432    0.020
+ NOD      C5*    C4*       single      1.524    0.020
+ NOD      H4*    C4*       single      1.099    0.020
+ NOD      HO4*   O4*       single      0.967    0.020
+ NOD      O5*    C5*       single      1.426    0.020
+ NOD      C6*    C5*       single      1.524    0.020
+ NOD      H5*    C5*       single      1.099    0.020
+ NOD      H6*1   C6*       single      1.059    0.020
+ NOD      H6*2   C6*       single      1.059    0.020
+ NOD      H6*3   C6*       single      1.059    0.020
+ NOD      C53    N3*       single      1.450    0.020
+ NOD      HN3*   N3*       single      1.010    0.020
+ NOD      O16    C63       single      1.432    0.020
+ NOD      H16    O16       single      0.967    0.020
+ NOD      C63    C53       single      1.524    0.020
+ NOD      H631   C63       single      1.092    0.020
+ NOD      H632   C63       single      1.092    0.020
+ NOD      H531   C53       single      1.092    0.020
+ NOD      H532   C53       single      1.092    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ NOD      O19    C19    C20     120.000    3.000
+ NOD      O19    C19    C18     120.000    3.000
+ NOD      C20    C19    C18     120.000    3.000
+ NOD      C19    C20    C1      120.000    3.000
+ NOD      C19    C20    C5      120.000    3.000
+ NOD      C1     C20    C5      120.000    3.000
+ NOD      C19    C18    C17     120.000    3.000
+ NOD      C19    C18    C7      120.000    3.000
+ NOD      C17    C18    C7      120.000    3.000
+ NOD      C18    C17    O17     120.000    3.000
+ NOD      C18    C17    C16     120.000    3.000
+ NOD      O17    C17    C16     120.000    3.000
+ NOD      C17    O17    HO17    109.470    3.000
+ NOD      C17    C16    C15     120.000    3.000
+ NOD      C17    C16    C9      120.000    3.000
+ NOD      C15    C16    C9      120.000    3.000
+ NOD      C16    C15    H151    109.470    3.000
+ NOD      C16    C15    H152    109.470    3.000
+ NOD      C16    C15    C12     109.470    3.000
+ NOD      H151   C15    H152    107.900    3.000
+ NOD      H151   C15    C12     109.470    3.000
+ NOD      H152   C15    C12     109.470    3.000
+ NOD      C15    C12    O12     109.470    3.000
+ NOD      C15    C12    C13     109.470    3.000
+ NOD      C15    C12    C11     111.000    3.000
+ NOD      O12    C12    C13     109.470    3.000
+ NOD      O12    C12    C11     109.470    3.000
+ NOD      C13    C12    C11     109.470    3.000
+ NOD      C12    O12    HO12    109.470    3.000
+ NOD      C12    C13    C14     120.000    3.000
+ NOD      C12    C13    O13     120.500    3.000
+ NOD      C14    C13    O13     120.500    3.000
+ NOD      C13    C14    H141    109.470    3.000
+ NOD      C13    C14    H142    109.470    3.000
+ NOD      C13    C14    O14     109.500    3.000
+ NOD      H141   C14    H142    107.900    3.000
+ NOD      H141   C14    O14     109.470    3.000
+ NOD      H142   C14    O14     109.470    3.000
+ NOD      C14    O14    HO14    109.470    3.000
+ NOD      C12    C11    H111    109.470    3.000
+ NOD      C12    C11    H112    109.470    3.000
+ NOD      C12    C11    C10     111.000    3.000
+ NOD      H111   C11    H112    107.900    3.000
+ NOD      H111   C11    C10     109.470    3.000
+ NOD      H112   C11    C10     109.470    3.000
+ NOD      C11    C10    H10     108.340    3.000
+ NOD      C11    C10    O10     109.470    3.000
+ NOD      C11    C10    C9      109.470    3.000
+ NOD      H10    C10    O10     109.470    3.000
+ NOD      H10    C10    C9      109.470    3.000
+ NOD      O10    C10    C9      109.470    3.000
+ NOD      C10    O10    C1*     111.800    3.000
+ NOD      O10    C1*    H1*     109.470    3.000
+ NOD      O10    C1*    C2*     109.470    3.000
+ NOD      O10    C1*    O5*     109.470    3.000
+ NOD      H1*    C1*    C2*     108.340    3.000
+ NOD      H1*    C1*    O5*     109.470    3.000
+ NOD      C2*    C1*    O5*     109.470    3.000
+ NOD      C1*    C2*    H2*1    109.470    3.000
+ NOD      C1*    C2*    H2*2    109.470    3.000
+ NOD      C1*    C2*    C3*     111.000    3.000
+ NOD      H2*1   C2*    H2*2    107.900    3.000
+ NOD      H2*1   C2*    C3*     109.470    3.000
+ NOD      H2*2   C2*    C3*     109.470    3.000
+ NOD      C2*    C3*    H3*     108.340    3.000
+ NOD      C2*    C3*    N3*     110.000    3.000
+ NOD      C2*    C3*    C4*     111.000    3.000
+ NOD      H3*    C3*    N3*     108.550    3.000
+ NOD      H3*    C3*    C4*     108.340    3.000
+ NOD      N3*    C3*    C4*     110.000    3.000
+ NOD      C3*    N3*    HN3*    118.500    3.000
+ NOD      C3*    N3*    C53     120.000    3.000
+ NOD      HN3*   N3*    C53     118.500    3.000
+ NOD      N3*    C53    H531    109.470    3.000
+ NOD      N3*    C53    H532    109.470    3.000
+ NOD      N3*    C53    C63     112.000    3.000
+ NOD      H531   C53    H532    107.900    3.000
+ NOD      H531   C53    C63     109.470    3.000
+ NOD      H532   C53    C63     109.470    3.000
+ NOD      C53    C63    H631    109.470    3.000
+ NOD      C53    C63    H632    109.470    3.000
+ NOD      C53    C63    O16     109.470    3.000
+ NOD      H631   C63    H632    107.900    3.000
+ NOD      H631   C63    O16     109.470    3.000
+ NOD      H632   C63    O16     109.470    3.000
+ NOD      C63    O16    H16     109.470    3.000
+ NOD      C3*    C4*    H4*     108.340    3.000
+ NOD      C3*    C4*    C5*     111.000    3.000
+ NOD      C3*    C4*    O4*     109.470    3.000
+ NOD      H4*    C4*    C5*     108.340    3.000
+ NOD      H4*    C4*    O4*     109.470    3.000
+ NOD      C5*    C4*    O4*     109.470    3.000
+ NOD      C4*    C5*    H5*     108.340    3.000
+ NOD      C4*    C5*    C6*     111.000    3.000
+ NOD      C4*    C5*    O5*     109.470    3.000
+ NOD      H5*    C5*    C6*     108.340    3.000
+ NOD      H5*    C5*    O5*     109.470    3.000
+ NOD      C6*    C5*    O5*     109.470    3.000
+ NOD      C5*    C6*    H6*3    109.470    3.000
+ NOD      C5*    C6*    H6*2    109.470    3.000
+ NOD      C5*    C6*    H6*1    109.470    3.000
+ NOD      H6*3   C6*    H6*2    109.470    3.000
+ NOD      H6*3   C6*    H6*1    109.470    3.000
+ NOD      H6*2   C6*    H6*1    109.470    3.000
+ NOD      C5*    O5*    C1*     111.800    3.000
+ NOD      C4*    O4*    HO4*    109.470    3.000
+ NOD      C10    C9     C8      120.000    3.000
+ NOD      C10    C9     C16     120.000    3.000
+ NOD      C8     C9     C16     120.000    3.000
+ NOD      C9     C8     O8      120.000    3.000
+ NOD      C9     C8     C7      120.000    3.000
+ NOD      O8     C8     C7      120.000    3.000
+ NOD      C8     O8     HO8     109.470    3.000
+ NOD      C8     C7     C6      120.000    3.000
+ NOD      C8     C7     C18     120.000    3.000
+ NOD      C6     C7     C18     120.000    3.000
+ NOD      C7     C6     O6      120.000    3.000
+ NOD      C7     C6     C5      120.000    3.000
+ NOD      O6     C6     C5      120.000    3.000
+ NOD      C6     C5     C4      120.000    3.000
+ NOD      C6     C5     C20     120.000    3.000
+ NOD      C4     C5     C20     120.000    3.000
+ NOD      C5     C4     O4      120.000    3.000
+ NOD      C5     C4     C3      120.000    3.000
+ NOD      O4     C4     C3      120.000    3.000
+ NOD      C4     O4     C21     120.000    3.000
+ NOD      O4     C21    H213    109.470    3.000
+ NOD      O4     C21    H212    109.470    3.000
+ NOD      O4     C21    H211    109.470    3.000
+ NOD      H213   C21    H212    109.470    3.000
+ NOD      H213   C21    H211    109.470    3.000
+ NOD      H212   C21    H211    109.470    3.000
+ NOD      C4     C3     H3      120.000    3.000
+ NOD      C4     C3     C2      120.000    3.000
+ NOD      H3     C3     C2      120.000    3.000
+ NOD      C3     C2     H2      120.000    3.000
+ NOD      C3     C2     C1      120.000    3.000
+ NOD      H2     C2     C1      120.000    3.000
+ NOD      C2     C1     H1      120.000    3.000
+ NOD      C2     C1     C20     120.000    3.000
+ NOD      H1     C1     C20     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ NOD      CONST_1  O19    C19    C20    C1         0.000    0.000   0
+ NOD      CONST_2  O19    C19    C18    C17        0.000    0.000   0
+ NOD      CONST_3  C19    C18    C17    C16      180.000    0.000   0
+ NOD      var_1    C18    C17    O17    HO17      90.004   20.000   1
+ NOD      CONST_4  C18    C17    C16    C15      180.000    0.000   0
+ NOD      var_2    C17    C16    C15    C12      150.000   20.000   2
+ NOD      var_3    C16    C15    C12    C11       60.000   20.000   1
+ NOD      var_4    C15    C12    O12    HO12      59.997   20.000   1
+ NOD      var_5    C15    C12    C13    O13       24.108   20.000   1
+ NOD      var_6    C12    C13    C14    O14      180.000   20.000   3
+ NOD      var_7    C13    C14    O14    HO14     180.000   20.000   1
+ NOD      var_8    C15    C12    C11    C10      -60.000   20.000   1
+ NOD      var_9    C12    C11    C10    C9        60.000   20.000   3
+ NOD      var_10   C11    C10    O10    C1*       96.514   20.000   1
+ NOD      var_11   C10    O10    C1*    C2*      167.119   20.000   1
+ NOD      var_12   O10    C1*    O5*    C5*      180.000   20.000   1
+ NOD      var_13   O10    C1*    C2*    C3*      180.000   20.000   3
+ NOD      var_14   C1*    C2*    C3*    C4*      -60.000   20.000   3
+ NOD      var_15   C2*    C3*    N3*    C53      -89.998   20.000   3
+ NOD      var_16   C3*    N3*    C53    C63      180.000   20.000   3
+ NOD      var_17   N3*    C53    C63    O16       59.997   20.000   3
+ NOD      var_18   C53    C63    O16    H16      180.000   20.000   1
+ NOD      var_19   C2*    C3*    C4*    O4*      180.000   20.000   3
+ NOD      var_20   C3*    C4*    C5*    O5*      -60.000   20.000   3
+ NOD      var_21   C4*    C5*    C6*    H6*1      68.486   20.000   3
+ NOD      var_22   C4*    C5*    O5*    C1*       60.000   20.000   1
+ NOD      var_23   C3*    C4*    O4*    HO4*     180.000   20.000   1
+ NOD      var_24   C11    C10    C9     C8       150.000   20.000   1
+ NOD      CONST_5  C10    C9     C16    C17      180.000    0.000   0
+ NOD      CONST_6  C10    C9     C8     C7       180.000    0.000   0
+ NOD      var_25   C9     C8     O8     HO8       94.874   20.000   1
+ NOD      CONST_7  C9     C8     C7     C6       180.000    0.000   0
+ NOD      CONST_8  C8     C7     C18    C19      180.000    0.000   0
+ NOD      CONST_9  C8     C7     C6     C5       180.000    0.000   0
+ NOD      CONST_10 C7     C6     C5     C4       180.000    0.000   0
+ NOD      CONST_11 C6     C5     C20    C19        0.000    0.000   0
+ NOD      CONST_12 C6     C5     C4     C3       180.000    0.000   0
+ NOD      var_26   C5     C4     O4     C21      179.720   20.000   1
+ NOD      var_27   C4     O4     C21    H211     180.000   20.000   1
+ NOD      CONST_13 C5     C4     C3     C2         0.000    0.000   0
+ NOD      CONST_14 C4     C3     C2     C1         0.000    0.000   0
+ NOD      CONST_15 C3     C2     C1     C20        0.000    0.000   0
+ NOD      CONST_16 C2     C1     C20    C19      180.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ NOD      chir_01  C10    C9     O10    C11       negativ
+ NOD      chir_02  C12    C11    O12    C13       positiv
+ NOD      chir_03  C1*    O10    C2*    O5*       negativ
+ NOD      chir_04  C3*    C2*    C4*    N3*       positiv
+ NOD      chir_05  C4*    C3*    O4*    C5*       positiv
+ NOD      chir_06  C5*    C4*    O5*    C6*       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ NOD      plan-1    C1        0.020
+ NOD      plan-1    C2        0.020
+ NOD      plan-1    C20       0.020
+ NOD      plan-1    H1        0.020
+ NOD      plan-1    C3        0.020
+ NOD      plan-1    C4        0.020
+ NOD      plan-1    H2        0.020
+ NOD      plan-1    H3        0.020
+ NOD      plan-1    O4        0.020
+ NOD      plan-1    C5        0.020
+ NOD      plan-1    C6        0.020
+ NOD      plan-1    C19       0.020
+ NOD      plan-1    O6        0.020
+ NOD      plan-1    C7        0.020
+ NOD      plan-1    C8        0.020
+ NOD      plan-1    C18       0.020
+ NOD      plan-1    C9        0.020
+ NOD      plan-1    C16       0.020
+ NOD      plan-1    C17       0.020
+ NOD      plan-1    O8        0.020
+ NOD      plan-1    C10       0.020
+ NOD      plan-1    C15       0.020
+ NOD      plan-1    O17       0.020
+ NOD      plan-1    O19       0.020
+ NOD      plan-2    C13       0.020
+ NOD      plan-2    C12       0.020
+ NOD      plan-2    O13       0.020
+ NOD      plan-2    C14       0.020
+ NOD      plan-3    N3*       0.020
+ NOD      plan-3    C3*       0.020
+ NOD      plan-3    C53       0.020
+ NOD      plan-3    HN3*      0.020

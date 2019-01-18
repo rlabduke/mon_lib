@@ -1,0 +1,551 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+AP5      .   'BIS(ADENOSINE)-5*-PENTAPHOSPHATE    ' non-polymer        86  57 .
+#
+data_comp_AP5
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ AP5           O1E    O    OP        0.000
+ AP5           PE     P    P         0.000
+ AP5           O2E    O    OP        0.000
+ AP5           BO5*   O    O2        0.000
+ AP5           BC5*   C    CH2       0.000
+ AP5           BH51   H    HCH2      0.000
+ AP5           BH52   H    HCH2      0.000
+ AP5           BC4*   C    CH1       0.000
+ AP5           BH4*   H    HCH1      0.000
+ AP5           BO4*   O    O2        0.000
+ AP5           BC1*   C    CH1       0.000
+ AP5           BH1*   H    HCH1      0.000
+ AP5           BN9    N    NR5       0.000
+ AP5           BC8    C    CR15      0.000
+ AP5           BH8    H    HCR5      0.000
+ AP5           BN7    N    NR15      0.000
+ AP5           BC5    C    CR56      0.000
+ AP5           BC4    C    CR56      0.000
+ AP5           BN3    N    NR16      0.000
+ AP5           BC2    C    CR16      0.000
+ AP5           BH2    H    HCR6      0.000
+ AP5           BN1    N    NR16      0.000
+ AP5           BC6    C    CR6       0.000
+ AP5           BN6    N    NH2       0.000
+ AP5           BH62   H    HNH2      0.000
+ AP5           BH61   H    HNH2      0.000
+ AP5           BC2*   C    CH1       0.000
+ AP5           BH2*   H    HCH1      0.000
+ AP5           BO2*   O    OH1       0.000
+ AP5           BHO2   H    HOH1      0.000
+ AP5           BC3*   C    CH1       0.000
+ AP5           BH3*   H    HCH1      0.000
+ AP5           BO3*   O    OH1       0.000
+ AP5           BHO3   H    HOH1      0.000
+ AP5           O3D    O    O2        0.000
+ AP5           PD     P    P         0.000
+ AP5           O1D    O    OP        0.000
+ AP5           O2D    O    OP        0.000
+ AP5           O3G    O    O2        0.000
+ AP5           PG     P    P         0.000
+ AP5           O1G    O    OP        0.000
+ AP5           O2G    O    OP        0.000
+ AP5           O3B    O    O2        0.000
+ AP5           PB     P    P         0.000
+ AP5           O1B    O    OP        0.000
+ AP5           O2B    O    OP        0.000
+ AP5           O3A    O    O2        0.000
+ AP5           PA     P    P         0.000
+ AP5           O1A    O    OP        0.000
+ AP5           O2A    O    OP        0.000
+ AP5           AO5*   O    O2        0.000
+ AP5           AC5*   C    CH2       0.000
+ AP5           AH51   H    HCH2      0.000
+ AP5           AH52   H    HCH2      0.000
+ AP5           AC4*   C    CH1       0.000
+ AP5           AH4*   H    HCH1      0.000
+ AP5           AO4*   O    O2        0.000
+ AP5           AC1*   C    CH1       0.000
+ AP5           AH1*   H    HCH1      0.000
+ AP5           AC2*   C    CH1       0.000
+ AP5           AH2*   H    HCH1      0.000
+ AP5           AO2*   O    OH1       0.000
+ AP5           AHO2   H    HOH1      0.000
+ AP5           AC3*   C    CH1       0.000
+ AP5           AH3*   H    HCH1      0.000
+ AP5           AO3*   O    OH1       0.000
+ AP5           AHO3   H    HOH1      0.000
+ AP5           AN9    N    NR5       0.000
+ AP5           AC8    C    CR15      0.000
+ AP5           AH8    H    HCR5      0.000
+ AP5           AN7    N    NR15      0.000
+ AP5           AC5    C    CR56      0.000
+ AP5           AC6    C    CR6       0.000
+ AP5           AN6    N    NH2       0.000
+ AP5           AH62   H    HNH2      0.000
+ AP5           AH61   H    HNH2      0.000
+ AP5           AC4    C    CR56      0.000
+ AP5           AN3    N    NR16      0.000
+ AP5           AC2    C    CR16      0.000
+ AP5           AH2    H    HCR6      0.000
+ AP5           AN1    N    NR16      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ AP5      O1E    n/a    PE     START
+ AP5      PE     O1E    O3D    .
+ AP5      O2E    PE     .      .
+ AP5      BO5*   PE     BC5*   .
+ AP5      BC5*   BO5*   BC4*   .
+ AP5      BH51   BC5*   .      .
+ AP5      BH52   BC5*   .      .
+ AP5      BC4*   BC5*   BO4*   .
+ AP5      BH4*   BC4*   .      .
+ AP5      BO4*   BC4*   BC1*   .
+ AP5      BC1*   BO4*   BC2*   .
+ AP5      BH1*   BC1*   .      .
+ AP5      BN9    BC1*   BC8    .
+ AP5      BC8    BN9    BN7    .
+ AP5      BH8    BC8    .      .
+ AP5      BN7    BC8    BC5    .
+ AP5      BC5    BN7    BC6    .
+ AP5      BC4    BC5    BN3    .
+ AP5      BN3    BC4    BC2    .
+ AP5      BC2    BN3    BN1    .
+ AP5      BH2    BC2    .      .
+ AP5      BN1    BC2    .      .
+ AP5      BC6    BC5    BN6    .
+ AP5      BN6    BC6    BH61   .
+ AP5      BH62   BN6    .      .
+ AP5      BH61   BN6    .      .
+ AP5      BC2*   BC1*   BC3*   .
+ AP5      BH2*   BC2*   .      .
+ AP5      BO2*   BC2*   BHO2   .
+ AP5      BHO2   BO2*   .      .
+ AP5      BC3*   BC2*   BO3*   .
+ AP5      BH3*   BC3*   .      .
+ AP5      BO3*   BC3*   BHO3   .
+ AP5      BHO3   BO3*   .      .
+ AP5      O3D    PE     PD     .
+ AP5      PD     O3D    O3G    .
+ AP5      O1D    PD     .      .
+ AP5      O2D    PD     .      .
+ AP5      O3G    PD     PG     .
+ AP5      PG     O3G    O3B    .
+ AP5      O1G    PG     .      .
+ AP5      O2G    PG     .      .
+ AP5      O3B    PG     PB     .
+ AP5      PB     O3B    O3A    .
+ AP5      O1B    PB     .      .
+ AP5      O2B    PB     .      .
+ AP5      O3A    PB     PA     .
+ AP5      PA     O3A    AO5*   .
+ AP5      O1A    PA     .      .
+ AP5      O2A    PA     .      .
+ AP5      AO5*   PA     AC5*   .
+ AP5      AC5*   AO5*   AC4*   .
+ AP5      AH51   AC5*   .      .
+ AP5      AH52   AC5*   .      .
+ AP5      AC4*   AC5*   AO4*   .
+ AP5      AH4*   AC4*   .      .
+ AP5      AO4*   AC4*   AC1*   .
+ AP5      AC1*   AO4*   AN9    .
+ AP5      AH1*   AC1*   .      .
+ AP5      AC2*   AC1*   AC3*   .
+ AP5      AH2*   AC2*   .      .
+ AP5      AO2*   AC2*   AHO2   .
+ AP5      AHO2   AO2*   .      .
+ AP5      AC3*   AC2*   AO3*   .
+ AP5      AH3*   AC3*   .      .
+ AP5      AO3*   AC3*   AHO3   .
+ AP5      AHO3   AO3*   .      .
+ AP5      AN9    AC1*   AC8    .
+ AP5      AC8    AN9    AN7    .
+ AP5      AH8    AC8    .      .
+ AP5      AN7    AC8    AC5    .
+ AP5      AC5    AN7    AC4    .
+ AP5      AC6    AC5    AN6    .
+ AP5      AN6    AC6    AH61   .
+ AP5      AH62   AN6    .      .
+ AP5      AH61   AN6    .      .
+ AP5      AC4    AC5    AN3    .
+ AP5      AN3    AC4    AC2    .
+ AP5      AC2    AN3    AN1    .
+ AP5      AH2    AC2    .      .
+ AP5      AN1    AC2    .      END
+ AP5      AC4*   AC3*   .    ADD
+ AP5      AN9    AC4    .    ADD
+ AP5      AC6    AN1    .    ADD
+ AP5      BC4*   BC3*   .    ADD
+ AP5      BN9    BC4    .    ADD
+ AP5      BC6    BN1    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ AP5      PE     O1E       coval       1.510    0.020
+ AP5      O2E    PE        coval       1.510    0.020
+ AP5      BO5*   PE        coval       1.610    0.020
+ AP5      BC5*   BO5*      coval       1.410    0.020
+ AP5      BH51   BC5*      coval       1.090    0.020
+ AP5      BH52   BC5*      coval       1.090    0.020
+ AP5      BC4*   BC5*      coval       1.524    0.020
+ AP5      BC4*   BC3*      coval       1.524    0.020
+ AP5      BH4*   BC4*      coval       1.090    0.020
+ AP5      BO4*   BC4*      coval       1.410    0.020
+ AP5      BC1*   BO4*      coval       1.410    0.020
+ AP5      BH1*   BC1*      coval       1.090    0.020
+ AP5      BN9    BC1*      coval       1.475    0.020
+ AP5      BN9    BC4       coval       1.375    0.020
+ AP5      BC8    BN9       coval       1.370    0.020
+ AP5      BH8    BC8       coval       1.090    0.020
+ AP5      BN7    BC8       coval       1.350    0.020
+ AP5      BC5    BN7       coval       1.350    0.020
+ AP5      BC4    BC5       coval       1.390    0.020
+ AP5      BN3    BC4       coval       1.355    0.020
+ AP5      BC2    BN3       coval       1.380    0.020
+ AP5      BH2    BC2       coval       1.090    0.020
+ AP5      BN1    BC2       coval       1.380    0.020
+ AP5      BC6    BC5       coval       1.390    0.020
+ AP5      BC6    BN1       coval       1.380    0.020
+ AP5      BN6    BC6       coval       1.330    0.020
+ AP5      BH62   BN6       coval       1.015    0.020
+ AP5      BH61   BN6       coval       1.015    0.020
+ AP5      BC2*   BC1*      coval       1.524    0.020
+ AP5      BH2*   BC2*      coval       1.090    0.020
+ AP5      BO2*   BC2*      coval       1.410    0.020
+ AP5      BHO2   BO2*      coval       0.980    0.020
+ AP5      BC3*   BC2*      coval       1.524    0.020
+ AP5      BH3*   BC3*      coval       1.090    0.020
+ AP5      BO3*   BC3*      coval       1.410    0.020
+ AP5      BHO3   BO3*      coval       0.980    0.020
+ AP5      O3D    PE        coval       1.610    0.020
+ AP5      PD     O3D       coval       1.610    0.020
+ AP5      O1D    PD        coval       1.510    0.020
+ AP5      O2D    PD        coval       1.510    0.020
+ AP5      O3G    PD        coval       1.610    0.020
+ AP5      PG     O3G       coval       1.610    0.020
+ AP5      O1G    PG        coval       1.510    0.020
+ AP5      O2G    PG        coval       1.510    0.020
+ AP5      O3B    PG        coval       1.610    0.020
+ AP5      PB     O3B       coval       1.610    0.020
+ AP5      O1B    PB        coval       1.510    0.020
+ AP5      O2B    PB        coval       1.510    0.020
+ AP5      O3A    PB        coval       1.610    0.020
+ AP5      PA     O3A       coval       1.610    0.020
+ AP5      O1A    PA        coval       1.510    0.020
+ AP5      O2A    PA        coval       1.510    0.020
+ AP5      AO5*   PA        coval       1.610    0.020
+ AP5      AC5*   AO5*      coval       1.410    0.020
+ AP5      AH51   AC5*      coval       1.090    0.020
+ AP5      AH52   AC5*      coval       1.090    0.020
+ AP5      AC4*   AC5*      coval       1.524    0.020
+ AP5      AC4*   AC3*      coval       1.524    0.020
+ AP5      AH4*   AC4*      coval       1.090    0.020
+ AP5      AO4*   AC4*      coval       1.410    0.020
+ AP5      AC1*   AO4*      coval       1.410    0.020
+ AP5      AH1*   AC1*      coval       1.090    0.020
+ AP5      AC2*   AC1*      coval       1.524    0.020
+ AP5      AH2*   AC2*      coval       1.090    0.020
+ AP5      AO2*   AC2*      coval       1.410    0.020
+ AP5      AHO2   AO2*      coval       0.980    0.020
+ AP5      AC3*   AC2*      coval       1.524    0.020
+ AP5      AH3*   AC3*      coval       1.090    0.020
+ AP5      AO3*   AC3*      coval       1.410    0.020
+ AP5      AHO3   AO3*      coval       0.980    0.020
+ AP5      AN9    AC1*      coval       1.475    0.020
+ AP5      AN9    AC4       coval       1.375    0.020
+ AP5      AC8    AN9       coval       1.370    0.020
+ AP5      AH8    AC8       coval       1.090    0.020
+ AP5      AN7    AC8       coval       1.350    0.020
+ AP5      AC5    AN7       coval       1.350    0.020
+ AP5      AC6    AC5       coval       1.390    0.020
+ AP5      AC6    AN1       coval       1.380    0.020
+ AP5      AN6    AC6       coval       1.330    0.020
+ AP5      AH62   AN6       coval       1.015    0.020
+ AP5      AH61   AN6       coval       1.015    0.020
+ AP5      AC4    AC5       coval       1.390    0.020
+ AP5      AN3    AC4       coval       1.355    0.020
+ AP5      AC2    AN3       coval       1.380    0.020
+ AP5      AH2    AC2       coval       1.090    0.020
+ AP5      AN1    AC2       coval       1.380    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ AP5      O1E    PE     O2E     109.500    3.000
+ AP5      O1E    PE     BO5*    108.200    3.000
+ AP5      O1E    PE     O3D     108.200    3.000
+ AP5      O2E    PE     BO5*    109.500    3.000
+ AP5      O2E    PE     O3D     109.500    3.000
+ AP5      BO5*   PE     O3D     102.600    3.000
+ AP5      PE     BO5*   BC5*    120.500    3.000
+ AP5      BO5*   BC5*   BH51    109.470    3.000
+ AP5      BO5*   BC5*   BH52    109.470    3.000
+ AP5      BO5*   BC5*   BC4*    109.470    3.000
+ AP5      BH51   BC5*   BH52    107.900    3.000
+ AP5      BH51   BC5*   BC4*    109.470    3.000
+ AP5      BH52   BC5*   BC4*    109.470    3.000
+ AP5      BC5*   BC4*   BH4*    108.340    3.000
+ AP5      BC5*   BC4*   BO4*    109.470    3.000
+ AP5      BC5*   BC4*   BC3*    111.000    3.000
+ AP5      BH4*   BC4*   BO4*    109.470    3.000
+ AP5      BH4*   BC4*   BC3*    108.340    3.000
+ AP5      BO4*   BC4*   BC3*    109.470    3.000
+ AP5      BC4*   BO4*   BC1*    111.800    3.000
+ AP5      BO4*   BC1*   BH1*    109.470    3.000
+ AP5      BO4*   BC1*   BN9     109.470    3.000
+ AP5      BO4*   BC1*   BC2*    109.470    3.000
+ AP5      BH1*   BC1*   BN9     109.470    3.000
+ AP5      BH1*   BC1*   BC2*    108.340    3.000
+ AP5      BN9    BC1*   BC2*    109.470    3.000
+ AP5      BC1*   BN9    BC8     126.000    3.000
+ AP5      BC1*   BN9    BC4     126.000    3.000
+ AP5      BC8    BN9    BC4     108.000    3.000
+ AP5      BN9    BC8    BH8     126.000    3.000
+ AP5      BN9    BC8    BN7     108.000    3.000
+ AP5      BH8    BC8    BN7     126.000    3.000
+ AP5      BC8    BN7    BC5     108.000    3.000
+ AP5      BN7    BC5    BC4     108.000    3.000
+ AP5      BN7    BC5    BC6     132.000    3.000
+ AP5      BC4    BC5    BC6     120.000    3.000
+ AP5      BC5    BC4    BN3     120.000    3.000
+ AP5      BC5    BC4    BN9     108.000    3.000
+ AP5      BN3    BC4    BN9     132.000    3.000
+ AP5      BC4    BN3    BC2     120.000    3.000
+ AP5      BN3    BC2    BH2     120.000    3.000
+ AP5      BN3    BC2    BN1     120.000    3.000
+ AP5      BH2    BC2    BN1     120.000    3.000
+ AP5      BC2    BN1    BC6     120.000    3.000
+ AP5      BC5    BC6    BN6     120.000    3.000
+ AP5      BC5    BC6    BN1     120.000    3.000
+ AP5      BN6    BC6    BN1     120.000    3.000
+ AP5      BC6    BN6    BH62    120.000    3.000
+ AP5      BC6    BN6    BH61    120.000    3.000
+ AP5      BH62   BN6    BH61    120.000    3.000
+ AP5      BC1*   BC2*   BH2*    108.340    3.000
+ AP5      BC1*   BC2*   BO2*    109.470    3.000
+ AP5      BC1*   BC2*   BC3*    111.000    3.000
+ AP5      BH2*   BC2*   BO2*    109.470    3.000
+ AP5      BH2*   BC2*   BC3*    108.340    3.000
+ AP5      BO2*   BC2*   BC3*    109.470    3.000
+ AP5      BC2*   BO2*   BHO2    109.470    3.000
+ AP5      BC2*   BC3*   BH3*    108.340    3.000
+ AP5      BC2*   BC3*   BO3*    109.470    3.000
+ AP5      BC2*   BC3*   BC4*    111.000    3.000
+ AP5      BH3*   BC3*   BO3*    109.470    3.000
+ AP5      BH3*   BC3*   BC4*    108.340    3.000
+ AP5      BO3*   BC3*   BC4*    109.470    3.000
+ AP5      BC3*   BO3*   BHO3    109.470    3.000
+ AP5      PE     O3D    PD      120.500    3.000
+ AP5      O3D    PD     O1D     108.200    3.000
+ AP5      O3D    PD     O2D     109.500    3.000
+ AP5      O3D    PD     O3G     102.600    3.000
+ AP5      O1D    PD     O2D     109.500    3.000
+ AP5      O1D    PD     O3G     108.200    3.000
+ AP5      O2D    PD     O3G     109.500    3.000
+ AP5      PD     O3G    PG      120.500    3.000
+ AP5      O3G    PG     O1G     108.200    3.000
+ AP5      O3G    PG     O2G     109.500    3.000
+ AP5      O3G    PG     O3B     102.600    3.000
+ AP5      O1G    PG     O2G     109.500    3.000
+ AP5      O1G    PG     O3B     108.200    3.000
+ AP5      O2G    PG     O3B     109.500    3.000
+ AP5      PG     O3B    PB      120.500    3.000
+ AP5      O3B    PB     O1B     108.200    3.000
+ AP5      O3B    PB     O2B     109.500    3.000
+ AP5      O3B    PB     O3A     102.600    3.000
+ AP5      O1B    PB     O2B     109.500    3.000
+ AP5      O1B    PB     O3A     108.200    3.000
+ AP5      O2B    PB     O3A     109.500    3.000
+ AP5      PB     O3A    PA      120.500    3.000
+ AP5      O3A    PA     O1A     108.200    3.000
+ AP5      O3A    PA     O2A     109.500    3.000
+ AP5      O3A    PA     AO5*    102.600    3.000
+ AP5      O1A    PA     O2A     109.500    3.000
+ AP5      O1A    PA     AO5*    108.200    3.000
+ AP5      O2A    PA     AO5*    109.500    3.000
+ AP5      PA     AO5*   AC5*    120.500    3.000
+ AP5      AO5*   AC5*   AH51    109.470    3.000
+ AP5      AO5*   AC5*   AH52    109.470    3.000
+ AP5      AO5*   AC5*   AC4*    109.470    3.000
+ AP5      AH51   AC5*   AH52    107.900    3.000
+ AP5      AH51   AC5*   AC4*    109.470    3.000
+ AP5      AH52   AC5*   AC4*    109.470    3.000
+ AP5      AC5*   AC4*   AH4*    108.340    3.000
+ AP5      AC5*   AC4*   AO4*    109.470    3.000
+ AP5      AC5*   AC4*   AC3*    111.000    3.000
+ AP5      AH4*   AC4*   AO4*    109.470    3.000
+ AP5      AH4*   AC4*   AC3*    108.340    3.000
+ AP5      AO4*   AC4*   AC3*    109.470    3.000
+ AP5      AC4*   AO4*   AC1*    111.800    3.000
+ AP5      AO4*   AC1*   AH1*    109.470    3.000
+ AP5      AO4*   AC1*   AC2*    109.470    3.000
+ AP5      AO4*   AC1*   AN9     109.470    3.000
+ AP5      AH1*   AC1*   AC2*    108.340    3.000
+ AP5      AH1*   AC1*   AN9     109.470    3.000
+ AP5      AC2*   AC1*   AN9     109.470    3.000
+ AP5      AC1*   AC2*   AH2*    108.340    3.000
+ AP5      AC1*   AC2*   AO2*    109.470    3.000
+ AP5      AC1*   AC2*   AC3*    111.000    3.000
+ AP5      AH2*   AC2*   AO2*    109.470    3.000
+ AP5      AH2*   AC2*   AC3*    108.340    3.000
+ AP5      AO2*   AC2*   AC3*    109.470    3.000
+ AP5      AC2*   AO2*   AHO2    109.470    3.000
+ AP5      AC2*   AC3*   AH3*    108.340    3.000
+ AP5      AC2*   AC3*   AO3*    109.470    3.000
+ AP5      AC2*   AC3*   AC4*    111.000    3.000
+ AP5      AH3*   AC3*   AO3*    109.470    3.000
+ AP5      AH3*   AC3*   AC4*    108.340    3.000
+ AP5      AO3*   AC3*   AC4*    109.470    3.000
+ AP5      AC3*   AO3*   AHO3    109.470    3.000
+ AP5      AC1*   AN9    AC8     126.000    3.000
+ AP5      AC1*   AN9    AC4     126.000    3.000
+ AP5      AC8    AN9    AC4     108.000    3.000
+ AP5      AN9    AC8    AH8     126.000    3.000
+ AP5      AN9    AC8    AN7     108.000    3.000
+ AP5      AH8    AC8    AN7     126.000    3.000
+ AP5      AC8    AN7    AC5     108.000    3.000
+ AP5      AN7    AC5    AC6     132.000    3.000
+ AP5      AN7    AC5    AC4     108.000    3.000
+ AP5      AC6    AC5    AC4     120.000    3.000
+ AP5      AC5    AC6    AN6     120.000    3.000
+ AP5      AC5    AC6    AN1     120.000    3.000
+ AP5      AN6    AC6    AN1     120.000    3.000
+ AP5      AC6    AN6    AH62    120.000    3.000
+ AP5      AC6    AN6    AH61    120.000    3.000
+ AP5      AH62   AN6    AH61    120.000    3.000
+ AP5      AC5    AC4    AN3     120.000    3.000
+ AP5      AC5    AC4    AN9     108.000    3.000
+ AP5      AN3    AC4    AN9     132.000    3.000
+ AP5      AC4    AN3    AC2     120.000    3.000
+ AP5      AN3    AC2    AH2     120.000    3.000
+ AP5      AN3    AC2    AN1     120.000    3.000
+ AP5      AH2    AC2    AN1     120.000    3.000
+ AP5      AC2    AN1    AC6     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ AP5      var_2    O1E    PE     BO5*   BC5*     -42.503   20.000   1
+ AP5      var_3    PE     BO5*   BC5*   BC4*    -177.125   20.000   1
+ AP5      var_4    BO5*   BC5*   BC4*   BO4*     -61.070   20.000   3
+ AP5      var_5    BO5*   BC5*   BC4*   BC3*      52.588   20.000   3
+ AP5      var_6    BC5*   BC4*   BO4*   BC1*     139.921   20.000   1
+ AP5      var_7    BC4*   BO4*   BC1*   BC2*      17.393   20.000   1
+ AP5      var_8    BO4*   BC1*   BN9    BC8        7.141   20.000   1
+ AP5      var_9    BO4*   BC1*   BN9    BC4     -174.530   20.000   1
+ AP5      CONST_1  BC1*   BN9    BC8    BN7      180.000    0.000   0
+ AP5      CONST_2  BN9    BC8    BN7    BC5        0.000    0.000   0
+ AP5      CONST_3  BC8    BN7    BC5    BC6      180.000    0.000   0
+ AP5      CONST_4  BN7    BC5    BC4    BN3      180.000    0.000   0
+ AP5      CONST_5  BN7    BC5    BC4    BN9        0.000    0.000   0
+ AP5      CONST_6  BC5    BC4    BN3    BC2        0.000    0.000   0
+ AP5      CONST_7  BC4    BN3    BC2    BN1        0.000    0.000   0
+ AP5      CONST_8  BN3    BC2    BN1    BC6        0.000    0.000   0
+ AP5      CONST_9  BN7    BC5    BC6    BN6        0.000    0.000   0
+ AP5      CONST_10 BN7    BC5    BC6    BN1      180.000    0.000   0
+ AP5      var_10   BC5    BC6    BN6    BH61     179.206   20.000   1
+ AP5      var_11   BO4*   BC1*   BC2*   BC3*     -40.692   20.000   3
+ AP5      var_12   BC1*   BC2*   BO2*   BHO2    -161.807   20.000   1
+ AP5      var_13   BC1*   BC2*   BC3*   BO3*     169.612   20.000   3
+ AP5      var_14   BC1*   BC2*   BC3*   BC4*      50.104   20.000   3
+ AP5      var_15   BC2*   BC3*   BO3*   BHO3     -54.202   20.000   1
+ AP5      var_16   O1E    PE     O3D    PD      -159.501   20.000   1
+ AP5      var_17   PE     O3D    PD     O3G      123.424   20.000   1
+ AP5      var_19   O3D    PD     O3G    PG        51.147   20.000   1
+ AP5      var_20   PD     O3G    PG     O3B      168.974   20.000   1
+ AP5      var_22   O3G    PG     O3B    PB       100.568   20.000   1
+ AP5      var_23   PG     O3B    PB     O3A       97.934   20.000   1
+ AP5      var_25   O3B    PB     O3A    PA      -138.048   20.000   1
+ AP5      var_26   PB     O3A    PA     AO5*    -151.740   20.000   1
+ AP5      var_28   O3A    PA     AO5*   AC5*     -59.129   20.000   1
+ AP5      var_29   PA     AO5*   AC5*   AC4*    -134.978   20.000   1
+ AP5      var_30   AO5*   AC5*   AC4*   AO4*     -74.131   20.000   3
+ AP5      var_31   AO5*   AC5*   AC4*   AC3*      47.832   20.000   3
+ AP5      var_32   AC5*   AC4*   AO4*   AC1*     111.257   20.000   1
+ AP5      var_33   AC4*   AO4*   AC1*   AN9     -140.581   20.000   1
+ AP5      var_34   AO4*   AC1*   AC2*   AC3*      22.312   20.000   3
+ AP5      var_35   AC1*   AC2*   AO2*   AHO2     -62.459   20.000   1
+ AP5      var_36   AC1*   AC2*   AC3*   AO3*      87.185   20.000   3
+ AP5      var_37   AC1*   AC2*   AC3*   AC4*     -30.167   20.000   3
+ AP5      var_38   AC2*   AC3*   AO3*   AHO3    -170.105   20.000   1
+ AP5      var_39   AO4*   AC1*   AN9    AC8       77.739   20.000   1
+ AP5      var_40   AO4*   AC1*   AN9    AC4      -90.789   20.000   1
+ AP5      CONST_11 AC1*   AN9    AC8    AN7      180.000    0.000   0
+ AP5      CONST_12 AN9    AC8    AN7    AC5        0.000    0.000   0
+ AP5      CONST_13 AC8    AN7    AC5    AC4        0.000    0.000   0
+ AP5      CONST_14 AN7    AC5    AC6    AN6        0.000    0.000   0
+ AP5      CONST_15 AN7    AC5    AC6    AN1      180.000    0.000   0
+ AP5      var_41   AC5    AC6    AN6    AH61       0.602   20.000   1
+ AP5      CONST_16 AN7    AC5    AC4    AN3      180.000    0.000   0
+ AP5      CONST_17 AN7    AC5    AC4    AN9        0.000    0.000   0
+ AP5      CONST_18 AC5    AC4    AN3    AC2        0.000    0.000   0
+ AP5      CONST_19 AC4    AN3    AC2    AN1        0.000    0.000   0
+ AP5      CONST_20 AN3    AC2    AN1    AC6        0.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ AP5      chir_01  AC4*   AC5*   AO4*   AC3*      negativ
+ AP5      chir_02  AC3*   AC4*   AO3*   AC2*      negativ
+ AP5      chir_03  AC2*   AC3*   AO2*   AC1*      negativ
+ AP5      chir_04  AC1*   AO4*   AC2*   AN9       positiv
+ AP5      chir_05  BC4*   BC5*   BO4*   BC3*      negativ
+ AP5      chir_06  BC3*   BC4*   BO3*   BC2*      negativ
+ AP5      chir_07  BC2*   BC3*   BO2*   BC1*      negativ
+ AP5      chir_08  BC1*   BO4*   BC2*   BN9       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ AP5      plan-1    AN9       0.020
+ AP5      plan-1    AC1*      0.020
+ AP5      plan-1    AC8       0.020
+ AP5      plan-1    AC4       0.020
+ AP5      plan-1    AN7       0.020
+ AP5      plan-1    AC5       0.020
+ AP5      plan-1    AC6       0.020
+ AP5      plan-1    AN1       0.020
+ AP5      plan-1    AC2       0.020
+ AP5      plan-1    AN3       0.020
+ AP5      plan-2    BN9       0.020
+ AP5      plan-2    BC1*      0.020
+ AP5      plan-2    BC8       0.020
+ AP5      plan-2    BC4       0.020
+ AP5      plan-2    BN7       0.020
+ AP5      plan-2    BC5       0.020
+ AP5      plan-2    BC6       0.020
+ AP5      plan-2    BN1       0.020
+ AP5      plan-2    BC2       0.020
+ AP5      plan-2    BN3       0.020

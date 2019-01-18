@@ -1,0 +1,6 @@
+svn rm c/CFM.cif
+svn rm c/CLP.cif
+svn rm 0/072.cif
+svn rm q/Q82.cif
+svn rm 2/2MO.cif
+svn rm s/SRS.cif

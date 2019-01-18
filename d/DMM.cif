@@ -1,0 +1,570 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+DMM      DMM '3"-DESAMINO-3"-(2-METHOXY-4-MORPHOLI' non-polymer        83  46 .
+#
+data_comp_DMM
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ DMM           O19    O    O         0.000     -0.009   -0.005    0.003
+ DMM           C19    C    CR6       0.000      0.862    0.888    0.001
+ DMM           C20    C    CR66      0.000      2.288    0.496    0.000
+ DMM           C18    C    CR66      0.000      0.489    2.332    0.004
+ DMM           C17    C    CR6       0.000     -0.944    2.730    0.003
+ DMM           O17    O    OH1       0.000     -1.913    1.762   -0.006
+ DMM           HO17   H    H         0.000     -2.140    1.538   -0.919
+ DMM           C16    C    CR6       0.000     -1.303    4.181   -0.001
+ DMM           C15    C    CH2       0.000     -2.776    4.526    0.002
+ DMM           H151   H    H         0.000     -3.306    3.874    0.699
+ DMM           H152   H    H         0.000     -3.187    4.396   -1.001
+ DMM           C12    C    CT        0.000     -2.938    5.959    0.430
+ DMM           O12    O    OH1       0.000     -4.282    6.403    0.219
+ DMM           HO12   H    H         0.000     -4.886    5.864    0.749
+ DMM           C13    C    C         0.000     -2.602    6.093    1.896
+ DMM           C14    C    CH2       0.000     -3.114    7.259    2.707
+ DMM           H141   H    H         0.000     -4.194    7.166    2.839
+ DMM           H142   H    H         0.000     -2.891    8.193    2.186
+ DMM           O14    O    OH1       0.000     -2.472    7.261    3.991
+ DMM           HO14   H    H         0.000     -2.797    8.006    4.514
+ DMM           O13    O    O         0.000     -1.857    5.299    2.472
+ DMM           C11    C    CH2       0.000     -2.003    6.846   -0.399
+ DMM           H111   H    H         0.000     -2.311    7.885   -0.266
+ DMM           H112   H    H         0.000     -2.110    6.568   -1.450
+ DMM           C10    C    CH1       0.000     -0.558    6.688    0.021
+ DMM           H10    H    H         0.000     -0.433    7.077    1.042
+ DMM           C9     C    CR6       0.000     -0.241    5.243    0.005
+ DMM           C8     C    CR6       0.000      1.184    4.833    0.021
+ DMM           O8     O    OH1       0.000      2.198    5.737    0.009
+ DMM           HO8    H    H         0.000      2.499    5.870   -0.900
+ DMM           C7     C    CR66      0.000      1.541    3.388    0.009
+ DMM           C6     C    CR6       0.000      2.972    2.971    0.009
+ DMM           O6     O    O         0.000      3.921    3.775    0.021
+ DMM           C5     C    CR66      0.000      3.350    1.536    0.005
+ DMM           C4     C    CR6       0.000      4.784    1.092    0.000
+ DMM           O4     O    O2        0.000      5.785    1.986    0.000
+ DMM           C21    C    CH3       0.000      7.140    1.610   -0.131
+ DMM           H213   H    H         0.000      7.403    0.967    0.667
+ DMM           H212   H    H         0.000      7.276    1.108   -1.052
+ DMM           H211   H    H         0.000      7.748    2.476   -0.105
+ DMM           C3     C    CR16      0.000      5.045   -0.262   -0.002
+ DMM           H3     H    H         0.000      6.069   -0.615   -0.005
+ DMM           C2     C    CR16      0.000      4.006   -1.168    0.000
+ DMM           H2     H    H         0.000      4.256   -2.222    0.000
+ DMM           C1     C    CR16      0.000      2.673   -0.827    0.003
+ DMM           H1     H    H         0.000      1.919   -1.605    0.007
+ DMM           O10    O    O2        0.000      0.298    7.392   -0.856
+ DMM           C1*    C    CH1       0.000      1.020    8.467   -0.256
+ DMM           H1*    H    H         0.000      1.555    8.070    0.618
+ DMM           C2*    C    CH2       0.000      2.051    9.040   -1.220
+ DMM           H2*1   H    H         0.000      2.609    8.196   -1.629
+ DMM           H2*2   H    H         0.000      2.723    9.669   -0.631
+ DMM           C3*    C    CH1       0.000      1.460    9.852   -2.350
+ DMM           H3*    H    H         0.000      0.875    9.199   -3.013
+ DMM           C4*    C    CH1       0.000      0.560   10.901   -1.735
+ DMM           H4*    H    H         0.000      0.023   11.421   -2.541
+ DMM           C5*    C    CH1       0.000     -0.447   10.274   -0.813
+ DMM           H5*    H    H         0.000     -1.106    9.621   -1.403
+ DMM           C6*    C    CH3       0.000     -1.301   11.339   -0.127
+ DMM           H6*3   H    H         0.000     -0.679   11.977    0.445
+ DMM           H6*2   H    H         0.000     -1.812   11.909   -0.860
+ DMM           H6*1   H    H         0.000     -2.007   10.871    0.509
+ DMM           O5*    O    O2        0.000      0.176    9.503    0.183
+ DMM           O4*    O    OH1       0.000      1.324   11.860   -1.001
+ DMM           HO4*   H    H         0.000      0.730   12.514   -0.610
+ DMM           N3*    N    NT        0.000      2.500   10.525   -3.110
+ DMM           C33    C    CH2       0.000      3.027    9.581   -4.121
+ DMM           H331   H    H         0.000      2.264    9.387   -4.878
+ DMM           H332   H    H         0.000      3.305    8.641   -3.638
+ DMM           C23    C    CH1       0.000      4.257   10.200   -4.781
+ DMM           H23    H    H         0.000      4.989   10.487   -4.013
+ DMM           O23    O    O2        0.000      4.838    9.247   -5.675
+ DMM           C73    C    CH3       0.000      6.064    9.701   -6.248
+ DMM           H733   H    H         0.000      5.892   10.592   -6.794
+ DMM           H732   H    H         0.000      6.766    9.889   -5.477
+ DMM           H731   H    H         0.000      6.447    8.957   -6.898
+ DMM           O16    O    O2        0.000      3.856   11.336   -5.509
+ DMM           C63    C    CH2       0.000      3.387   12.308   -4.627
+ DMM           H631   H    H         0.000      3.095   13.193   -5.196
+ DMM           H632   H    H         0.000      4.187   12.571   -3.931
+ DMM           C53    C    CH2       0.000      2.179   11.779   -3.844
+ DMM           H532   H    H         0.000      1.370   11.591   -4.553
+ DMM           H531   H    H         0.000      1.869   12.549   -3.135
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ DMM      O19    n/a    C19    START
+ DMM      C19    O19    C18    .
+ DMM      C20    C19    .      .
+ DMM      C18    C19    C17    .
+ DMM      C17    C18    C16    .
+ DMM      O17    C17    HO17   .
+ DMM      HO17   O17    .      .
+ DMM      C16    C17    C15    .
+ DMM      C15    C16    C12    .
+ DMM      H151   C15    .      .
+ DMM      H152   C15    .      .
+ DMM      C12    C15    C11    .
+ DMM      O12    C12    HO12   .
+ DMM      HO12   O12    .      .
+ DMM      C13    C12    O13    .
+ DMM      C14    C13    O14    .
+ DMM      H141   C14    .      .
+ DMM      H142   C14    .      .
+ DMM      O14    C14    HO14   .
+ DMM      HO14   O14    .      .
+ DMM      O13    C13    .      .
+ DMM      C11    C12    C10    .
+ DMM      H111   C11    .      .
+ DMM      H112   C11    .      .
+ DMM      C10    C11    O10    .
+ DMM      H10    C10    .      .
+ DMM      C9     C10    C8     .
+ DMM      C8     C9     C7     .
+ DMM      O8     C8     HO8    .
+ DMM      HO8    O8     .      .
+ DMM      C7     C8     C6     .
+ DMM      C6     C7     C5     .
+ DMM      O6     C6     .      .
+ DMM      C5     C6     C4     .
+ DMM      C4     C5     C3     .
+ DMM      O4     C4     C21    .
+ DMM      C21    O4     H211   .
+ DMM      H213   C21    .      .
+ DMM      H212   C21    .      .
+ DMM      H211   C21    .      .
+ DMM      C3     C4     C2     .
+ DMM      H3     C3     .      .
+ DMM      C2     C3     C1     .
+ DMM      H2     C2     .      .
+ DMM      C1     C2     H1     .
+ DMM      H1     C1     .      .
+ DMM      O10    C10    C1*    .
+ DMM      C1*    O10    C2*    .
+ DMM      H1*    C1*    .      .
+ DMM      C2*    C1*    C3*    .
+ DMM      H2*1   C2*    .      .
+ DMM      H2*2   C2*    .      .
+ DMM      C3*    C2*    N3*    .
+ DMM      H3*    C3*    .      .
+ DMM      C4*    C3*    O4*    .
+ DMM      H4*    C4*    .      .
+ DMM      C5*    C4*    O5*    .
+ DMM      H5*    C5*    .      .
+ DMM      C6*    C5*    H6*1   .
+ DMM      H6*3   C6*    .      .
+ DMM      H6*2   C6*    .      .
+ DMM      H6*1   C6*    .      .
+ DMM      O5*    C5*    .      .
+ DMM      O4*    C4*    HO4*   .
+ DMM      HO4*   O4*    .      .
+ DMM      N3*    C3*    C33    .
+ DMM      C33    N3*    C23    .
+ DMM      H331   C33    .      .
+ DMM      H332   C33    .      .
+ DMM      C23    C33    O16    .
+ DMM      H23    C23    .      .
+ DMM      O23    C23    C73    .
+ DMM      C73    O23    H731   .
+ DMM      H733   C73    .      .
+ DMM      H732   C73    .      .
+ DMM      H731   C73    .      .
+ DMM      O16    C23    C63    .
+ DMM      C63    O16    C53    .
+ DMM      H631   C63    .      .
+ DMM      H632   C63    .      .
+ DMM      C53    C63    H531   .
+ DMM      H532   C53    .      .
+ DMM      H531   C53    .      END
+ DMM      C1     C20    .    ADD
+ DMM      C5     C20    .    ADD
+ DMM      C7     C18    .    ADD
+ DMM      C9     C16    .    ADD
+ DMM      C1*    O5*    .    ADD
+ DMM      N3*    C53    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ DMM      C1     C2        double      1.390    0.020
+ DMM      C1     C20       single      1.390    0.020
+ DMM      H1     C1        single      1.083    0.020
+ DMM      C2     C3        single      1.390    0.020
+ DMM      H2     C2        single      1.083    0.020
+ DMM      C3     C4        double      1.390    0.020
+ DMM      H3     C3        single      1.083    0.020
+ DMM      O4     C4        single      1.370    0.020
+ DMM      C4     C5        single      1.490    0.020
+ DMM      C21    O4        single      1.426    0.020
+ DMM      C5     C6        single      1.490    0.020
+ DMM      C5     C20       double      1.490    0.020
+ DMM      O6     C6        double      1.250    0.020
+ DMM      C6     C7        single      1.490    0.020
+ DMM      C7     C8        double      1.490    0.020
+ DMM      C7     C18       single      1.490    0.020
+ DMM      O8     C8        single      1.362    0.020
+ DMM      C8     C9        single      1.487    0.020
+ DMM      HO8    O8        single      0.967    0.020
+ DMM      C9     C10       single      1.480    0.020
+ DMM      C9     C16       double      1.487    0.020
+ DMM      O10    C10       single      1.426    0.020
+ DMM      C10    C11       single      1.524    0.020
+ DMM      H10    C10       single      1.099    0.020
+ DMM      C1*    O10       single      1.426    0.020
+ DMM      C11    C12       single      1.524    0.020
+ DMM      H111   C11       single      1.092    0.020
+ DMM      H112   C11       single      1.092    0.020
+ DMM      O12    C12       single      1.432    0.020
+ DMM      C13    C12       single      1.507    0.020
+ DMM      C12    C15       single      1.524    0.020
+ DMM      HO12   O12       single      0.967    0.020
+ DMM      O13    C13       double      1.220    0.020
+ DMM      C14    C13       single      1.510    0.020
+ DMM      O14    C14       single      1.432    0.020
+ DMM      H141   C14       single      1.092    0.020
+ DMM      H142   C14       single      1.092    0.020
+ DMM      HO14   O14       single      0.967    0.020
+ DMM      C15    C16       single      1.511    0.020
+ DMM      H151   C15       single      1.092    0.020
+ DMM      H152   C15       single      1.092    0.020
+ DMM      C16    C17       single      1.487    0.020
+ DMM      O17    C17       single      1.362    0.020
+ DMM      C17    C18       double      1.490    0.020
+ DMM      HO17   O17       single      0.967    0.020
+ DMM      C18    C19       single      1.490    0.020
+ DMM      C19    O19       double      1.250    0.020
+ DMM      C20    C19       single      1.490    0.020
+ DMM      H211   C21       single      1.059    0.020
+ DMM      H212   C21       single      1.059    0.020
+ DMM      H213   C21       single      1.059    0.020
+ DMM      C2*    C1*       single      1.524    0.020
+ DMM      C1*    O5*       single      1.426    0.020
+ DMM      H1*    C1*       single      1.099    0.020
+ DMM      C3*    C2*       single      1.524    0.020
+ DMM      H2*1   C2*       single      1.092    0.020
+ DMM      H2*2   C2*       single      1.092    0.020
+ DMM      C4*    C3*       single      1.524    0.020
+ DMM      N3*    C3*       single      1.469    0.020
+ DMM      H3*    C3*       single      1.099    0.020
+ DMM      O4*    C4*       single      1.432    0.020
+ DMM      C5*    C4*       single      1.524    0.020
+ DMM      H4*    C4*       single      1.099    0.020
+ DMM      HO4*   O4*       single      0.967    0.020
+ DMM      O5*    C5*       single      1.426    0.020
+ DMM      C6*    C5*       single      1.524    0.020
+ DMM      H5*    C5*       single      1.099    0.020
+ DMM      H6*1   C6*       single      1.059    0.020
+ DMM      H6*2   C6*       single      1.059    0.020
+ DMM      H6*3   C6*       single      1.059    0.020
+ DMM      C33    N3*       single      1.469    0.020
+ DMM      N3*    C53       single      1.469    0.020
+ DMM      C23    C33       single      1.524    0.020
+ DMM      H331   C33       single      1.092    0.020
+ DMM      H332   C33       single      1.092    0.020
+ DMM      O16    C23       single      1.426    0.020
+ DMM      O23    C23       single      1.426    0.020
+ DMM      C63    O16       single      1.426    0.020
+ DMM      C53    C63       single      1.524    0.020
+ DMM      H631   C63       single      1.092    0.020
+ DMM      H632   C63       single      1.092    0.020
+ DMM      H531   C53       single      1.092    0.020
+ DMM      H532   C53       single      1.092    0.020
+ DMM      C73    O23       single      1.426    0.020
+ DMM      H23    C23       single      1.099    0.020
+ DMM      H731   C73       single      1.059    0.020
+ DMM      H732   C73       single      1.059    0.020
+ DMM      H733   C73       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ DMM      O19    C19    C20     120.000    3.000
+ DMM      O19    C19    C18     120.000    3.000
+ DMM      C20    C19    C18     120.000    3.000
+ DMM      C19    C20    C1      120.000    3.000
+ DMM      C19    C20    C5      120.000    3.000
+ DMM      C1     C20    C5      120.000    3.000
+ DMM      C19    C18    C17     120.000    3.000
+ DMM      C19    C18    C7      120.000    3.000
+ DMM      C17    C18    C7      120.000    3.000
+ DMM      C18    C17    O17     120.000    3.000
+ DMM      C18    C17    C16     120.000    3.000
+ DMM      O17    C17    C16     120.000    3.000
+ DMM      C17    O17    HO17    109.470    3.000
+ DMM      C17    C16    C15     120.000    3.000
+ DMM      C17    C16    C9      120.000    3.000
+ DMM      C15    C16    C9      120.000    3.000
+ DMM      C16    C15    H151    109.470    3.000
+ DMM      C16    C15    H152    109.470    3.000
+ DMM      C16    C15    C12     109.470    3.000
+ DMM      H151   C15    H152    107.900    3.000
+ DMM      H151   C15    C12     109.470    3.000
+ DMM      H152   C15    C12     109.470    3.000
+ DMM      C15    C12    O12     109.470    3.000
+ DMM      C15    C12    C13     109.470    3.000
+ DMM      C15    C12    C11     111.000    3.000
+ DMM      O12    C12    C13     109.470    3.000
+ DMM      O12    C12    C11     109.470    3.000
+ DMM      C13    C12    C11     109.470    3.000
+ DMM      C12    O12    HO12    109.470    3.000
+ DMM      C12    C13    C14     120.000    3.000
+ DMM      C12    C13    O13     120.500    3.000
+ DMM      C14    C13    O13     120.500    3.000
+ DMM      C13    C14    H141    109.470    3.000
+ DMM      C13    C14    H142    109.470    3.000
+ DMM      C13    C14    O14     109.500    3.000
+ DMM      H141   C14    H142    107.900    3.000
+ DMM      H141   C14    O14     109.470    3.000
+ DMM      H142   C14    O14     109.470    3.000
+ DMM      C14    O14    HO14    109.470    3.000
+ DMM      C12    C11    H111    109.470    3.000
+ DMM      C12    C11    H112    109.470    3.000
+ DMM      C12    C11    C10     111.000    3.000
+ DMM      H111   C11    H112    107.900    3.000
+ DMM      H111   C11    C10     109.470    3.000
+ DMM      H112   C11    C10     109.470    3.000
+ DMM      C11    C10    H10     108.340    3.000
+ DMM      C11    C10    C9      109.470    3.000
+ DMM      C11    C10    O10     109.470    3.000
+ DMM      H10    C10    C9      109.470    3.000
+ DMM      H10    C10    O10     109.470    3.000
+ DMM      C9     C10    O10     109.470    3.000
+ DMM      C10    C9     C8      120.000    3.000
+ DMM      C10    C9     C16     120.000    3.000
+ DMM      C8     C9     C16     120.000    3.000
+ DMM      C9     C8     O8      120.000    3.000
+ DMM      C9     C8     C7      120.000    3.000
+ DMM      O8     C8     C7      120.000    3.000
+ DMM      C8     O8     HO8     109.470    3.000
+ DMM      C8     C7     C6      120.000    3.000
+ DMM      C8     C7     C18     120.000    3.000
+ DMM      C6     C7     C18     120.000    3.000
+ DMM      C7     C6     O6      120.000    3.000
+ DMM      C7     C6     C5      120.000    3.000
+ DMM      O6     C6     C5      120.000    3.000
+ DMM      C6     C5     C4      120.000    3.000
+ DMM      C6     C5     C20     120.000    3.000
+ DMM      C4     C5     C20     120.000    3.000
+ DMM      C5     C4     O4      120.000    3.000
+ DMM      C5     C4     C3      120.000    3.000
+ DMM      O4     C4     C3      120.000    3.000
+ DMM      C4     O4     C21     120.000    3.000
+ DMM      O4     C21    H213    109.470    3.000
+ DMM      O4     C21    H212    109.470    3.000
+ DMM      O4     C21    H211    109.470    3.000
+ DMM      H213   C21    H212    109.470    3.000
+ DMM      H213   C21    H211    109.470    3.000
+ DMM      H212   C21    H211    109.470    3.000
+ DMM      C4     C3     H3      120.000    3.000
+ DMM      C4     C3     C2      120.000    3.000
+ DMM      H3     C3     C2      120.000    3.000
+ DMM      C3     C2     H2      120.000    3.000
+ DMM      C3     C2     C1      120.000    3.000
+ DMM      H2     C2     C1      120.000    3.000
+ DMM      C2     C1     H1      120.000    3.000
+ DMM      C2     C1     C20     120.000    3.000
+ DMM      H1     C1     C20     120.000    3.000
+ DMM      C10    O10    C1*     111.800    3.000
+ DMM      O10    C1*    H1*     109.470    3.000
+ DMM      O10    C1*    C2*     109.470    3.000
+ DMM      O10    C1*    O5*     109.470    3.000
+ DMM      H1*    C1*    C2*     108.340    3.000
+ DMM      H1*    C1*    O5*     109.470    3.000
+ DMM      C2*    C1*    O5*     109.470    3.000
+ DMM      C1*    C2*    H2*1    109.470    3.000
+ DMM      C1*    C2*    H2*2    109.470    3.000
+ DMM      C1*    C2*    C3*     111.000    3.000
+ DMM      H2*1   C2*    H2*2    107.900    3.000
+ DMM      H2*1   C2*    C3*     109.470    3.000
+ DMM      H2*2   C2*    C3*     109.470    3.000
+ DMM      C2*    C3*    H3*     108.340    3.000
+ DMM      C2*    C3*    C4*     111.000    3.000
+ DMM      C2*    C3*    N3*     109.500    3.000
+ DMM      H3*    C3*    C4*     108.340    3.000
+ DMM      H3*    C3*    N3*     109.500    3.000
+ DMM      C4*    C3*    N3*     109.500    3.000
+ DMM      C3*    C4*    H4*     108.340    3.000
+ DMM      C3*    C4*    C5*     111.000    3.000
+ DMM      C3*    C4*    O4*     109.470    3.000
+ DMM      H4*    C4*    C5*     108.340    3.000
+ DMM      H4*    C4*    O4*     109.470    3.000
+ DMM      C5*    C4*    O4*     109.470    3.000
+ DMM      C4*    C5*    H5*     108.340    3.000
+ DMM      C4*    C5*    C6*     111.000    3.000
+ DMM      C4*    C5*    O5*     109.470    3.000
+ DMM      H5*    C5*    C6*     108.340    3.000
+ DMM      H5*    C5*    O5*     109.470    3.000
+ DMM      C6*    C5*    O5*     109.470    3.000
+ DMM      C5*    C6*    H6*3    109.470    3.000
+ DMM      C5*    C6*    H6*2    109.470    3.000
+ DMM      C5*    C6*    H6*1    109.470    3.000
+ DMM      H6*3   C6*    H6*2    109.470    3.000
+ DMM      H6*3   C6*    H6*1    109.470    3.000
+ DMM      H6*2   C6*    H6*1    109.470    3.000
+ DMM      C5*    O5*    C1*     111.800    3.000
+ DMM      C4*    O4*    HO4*    109.470    3.000
+ DMM      C3*    N3*    C33     109.470    3.000
+ DMM      C3*    N3*    C53     109.470    3.000
+ DMM      C33    N3*    C53     109.470    3.000
+ DMM      N3*    C33    H331    109.470    3.000
+ DMM      N3*    C33    H332    109.470    3.000
+ DMM      N3*    C33    C23     109.500    3.000
+ DMM      H331   C33    H332    107.900    3.000
+ DMM      H331   C33    C23     109.470    3.000
+ DMM      H332   C33    C23     109.470    3.000
+ DMM      C33    C23    H23     108.340    3.000
+ DMM      C33    C23    O23     109.470    3.000
+ DMM      C33    C23    O16     109.470    3.000
+ DMM      H23    C23    O23     109.470    3.000
+ DMM      H23    C23    O16     109.470    3.000
+ DMM      O23    C23    O16     109.470    3.000
+ DMM      C23    O23    C73     111.800    3.000
+ DMM      O23    C73    H733    109.470    3.000
+ DMM      O23    C73    H732    109.470    3.000
+ DMM      O23    C73    H731    109.470    3.000
+ DMM      H733   C73    H732    109.470    3.000
+ DMM      H733   C73    H731    109.470    3.000
+ DMM      H732   C73    H731    109.470    3.000
+ DMM      C23    O16    C63     111.800    3.000
+ DMM      O16    C63    H631    109.470    3.000
+ DMM      O16    C63    H632    109.470    3.000
+ DMM      O16    C63    C53     109.470    3.000
+ DMM      H631   C63    H632    107.900    3.000
+ DMM      H631   C63    C53     109.470    3.000
+ DMM      H632   C63    C53     109.470    3.000
+ DMM      C63    C53    H532    109.470    3.000
+ DMM      C63    C53    H531    109.470    3.000
+ DMM      C63    C53    N3*     109.470    3.000
+ DMM      H532   C53    H531    107.900    3.000
+ DMM      H532   C53    N3*     109.470    3.000
+ DMM      H531   C53    N3*     109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ DMM      CONST_1  O19    C19    C20    C1         0.000    0.000   0
+ DMM      CONST_2  O19    C19    C18    C17        0.000    0.000   0
+ DMM      CONST_3  C19    C18    C17    C16      180.000    0.000   0
+ DMM      var_1    C18    C17    O17    HO17     -89.973   20.000   1
+ DMM      CONST_4  C18    C17    C16    C15      180.000    0.000   0
+ DMM      var_2    C17    C16    C15    C12      150.000   20.000   2
+ DMM      var_3    C16    C15    C12    C11       60.000   20.000   1
+ DMM      var_4    C15    C12    O12    HO12      61.140   20.000   1
+ DMM      var_5    C15    C12    C13    O13       23.353   20.000   1
+ DMM      var_6    C12    C13    C14    O14      180.000   20.000   3
+ DMM      var_7    C13    C14    O14    HO14     180.000   20.000   1
+ DMM      var_8    C15    C12    C11    C10      -60.000   20.000   1
+ DMM      var_9    C12    C11    C10    O10      180.000   20.000   3
+ DMM      var_10   C11    C10    C9     C8       150.000   20.000   1
+ DMM      CONST_5  C10    C9     C16    C17      180.000    0.000   0
+ DMM      CONST_6  C10    C9     C8     C7       180.000    0.000   0
+ DMM      var_11   C9     C8     O8     HO8      -95.270   20.000   1
+ DMM      CONST_7  C9     C8     C7     C6       180.000    0.000   0
+ DMM      CONST_8  C8     C7     C18    C19      180.000    0.000   0
+ DMM      CONST_9  C8     C7     C6     C5       180.000    0.000   0
+ DMM      CONST_10 C7     C6     C5     C4       180.000    0.000   0
+ DMM      CONST_11 C6     C5     C20    C19        0.000    0.000   0
+ DMM      CONST_12 C6     C5     C4     C3       180.000    0.000   0
+ DMM      var_12   C5     C4     O4     C21     -179.980   20.000   1
+ DMM      var_13   C4     O4     C21    H211     180.000   20.000   1
+ DMM      CONST_13 C5     C4     C3     C2         0.000    0.000   0
+ DMM      CONST_14 C4     C3     C2     C1         0.000    0.000   0
+ DMM      CONST_15 C3     C2     C1     C20        0.000    0.000   0
+ DMM      CONST_16 C2     C1     C20    C19      180.000    0.000   0
+ DMM      var_14   C11    C10    O10    C1*      108.240   20.000   1
+ DMM      var_15   C10    O10    C1*    C2*      166.313   20.000   1
+ DMM      var_16   O10    C1*    O5*    C5*      -60.000   20.000   1
+ DMM      var_17   O10    C1*    C2*    C3*       60.000   20.000   3
+ DMM      var_18   C1*    C2*    C3*    N3*      180.000   20.000   3
+ DMM      var_19   C2*    C3*    C4*    O4*       60.000   20.000   3
+ DMM      var_20   C3*    C4*    C5*    O5*       60.000   20.000   3
+ DMM      var_21   C4*    C5*    C6*    H6*1     179.528   20.000   3
+ DMM      var_22   C4*    C5*    O5*    C1*      -60.000   20.000   1
+ DMM      var_23   C3*    C4*    O4*    HO4*    -179.436   20.000   1
+ DMM      var_24   C2*    C3*    N3*    C33       60.324   20.000   1
+ DMM      var_25   C3*    N3*    C53    C63      180.000   20.000   1
+ DMM      var_26   C3*    N3*    C33    C23      180.000   20.000   1
+ DMM      var_27   N3*    C33    C23    O16      -60.000   20.000   3
+ DMM      var_28   C33    C23    O23    C73     -179.893   20.000   1
+ DMM      var_29   C23    O23    C73    H731     180.000   20.000   1
+ DMM      var_30   C33    C23    O16    C63       60.000   20.000   1
+ DMM      var_31   C23    O16    C63    C53      -60.000   20.000   1
+ DMM      var_32   O16    C63    C53    N3*       60.000   20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ DMM      chir_01  C10    C9     O10    C11       negativ
+ DMM      chir_02  C12    C11    O12    C13       positiv
+ DMM      chir_03  C1*    O10    C2*    O5*       negativ
+ DMM      chir_04  C3*    C2*    C4*    N3*       negativ
+ DMM      chir_05  C4*    C3*    O4*    C5*       positiv
+ DMM      chir_06  C5*    C4*    O5*    C6*       negativ
+ DMM      chir_07  N3*    C3*    C33    C53       negativ
+ DMM      chir_08  C23    C33    O16    O23       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ DMM      plan-1    C1        0.020
+ DMM      plan-1    C2        0.020
+ DMM      plan-1    C20       0.020
+ DMM      plan-1    H1        0.020
+ DMM      plan-1    C3        0.020
+ DMM      plan-1    C4        0.020
+ DMM      plan-1    H2        0.020
+ DMM      plan-1    H3        0.020
+ DMM      plan-1    O4        0.020
+ DMM      plan-1    C5        0.020
+ DMM      plan-1    C6        0.020
+ DMM      plan-1    C19       0.020
+ DMM      plan-1    O6        0.020
+ DMM      plan-1    C7        0.020
+ DMM      plan-1    C8        0.020
+ DMM      plan-1    C18       0.020
+ DMM      plan-1    C9        0.020
+ DMM      plan-1    C16       0.020
+ DMM      plan-1    C17       0.020
+ DMM      plan-1    O8        0.020
+ DMM      plan-1    C10       0.020
+ DMM      plan-1    C15       0.020
+ DMM      plan-1    O17       0.020
+ DMM      plan-1    O19       0.020
+ DMM      plan-2    C13       0.020
+ DMM      plan-2    C12       0.020
+ DMM      plan-2    O13       0.020
+ DMM      plan-2    C14       0.020

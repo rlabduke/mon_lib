@@ -1,0 +1,782 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+TOT      TOT '1,1-(4,4,8,8-TETRAMETHYL-4,8-DIAZAUN' non-polymer       115  57 .
+#
+data_comp_TOT
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ TOT           C59    C    CH3       0.000      0.000    0.000    0.000
+ TOT           H591   H    H         0.000     -0.510    0.081   -0.925
+ TOT           H592   H    H         0.000      0.450   -0.957    0.071
+ TOT           H593   H    H         0.000     -0.691    0.124    0.794
+ TOT           N55    N    NT        1.000      1.042    1.044    0.083
+ TOT           C58    C    CH3       0.000      1.884    0.929    1.292
+ TOT           H583   H    H         0.000      1.277    1.014    2.157
+ TOT           H582   H    H         0.000      2.372   -0.011    1.297
+ TOT           H581   H    H         0.000      2.609    1.702    1.295
+ TOT           C54    C    CH2       0.000      1.908    0.929   -1.099
+ TOT           H541   H    H         0.000      2.649    1.729   -1.046
+ TOT           H542   H    H         0.000      1.282    1.071   -1.982
+ TOT           C53    C    CH2       0.000      2.611   -0.405   -1.188
+ TOT           H531   H    H         0.000      1.841   -1.179   -1.190
+ TOT           H532   H    H         0.000      3.226   -0.509   -0.291
+ TOT           C52    C    CH2       0.000      3.487   -0.553   -2.427
+ TOT           H521   H    H         0.000      4.233    0.243   -2.487
+ TOT           H522   H    H         0.000      2.889   -0.559   -3.341
+ TOT           N51    N    NR6       1.000      4.161   -1.847   -2.274
+ TOT           C50    C    CR16      0.000      3.642   -2.952   -2.799
+ TOT           H50    H    H         0.000      2.715   -2.855   -3.350
+ TOT           C49    C    CR16      0.000      4.195   -4.222   -2.698
+ TOT           H49    H    H         0.000      3.622   -5.031   -3.133
+ TOT           C48    C    CR6       0.000      5.388   -4.567   -2.107
+ TOT           C47    C    CR66      0.000      6.011   -3.376   -1.441
+ TOT           C46    C    CR16      0.000      7.204   -3.476   -0.749
+ TOT           H46    H    H         0.000      7.681   -4.444   -0.657
+ TOT           C45    C    CR16      0.000      7.803   -2.378   -0.174
+ TOT           H45    H    H         0.000      8.734   -2.485    0.367
+ TOT           C44    C    CR16      0.000      7.210   -1.147   -0.293
+ TOT           H44    H    H         0.000      7.696   -0.297    0.170
+ TOT           C43    C    CR16      0.000      6.024   -0.934   -0.972
+ TOT           H43    H    H         0.000      5.605    0.063   -1.030
+ TOT           C42    C    CR66      0.000      5.371   -1.996   -1.578
+ TOT           C38    C    C1        0.000      5.885   -5.989   -2.084
+ TOT           H38    H    H         0.000      6.558   -6.257   -1.287
+ TOT           C37    C    CR5       0.000      5.529   -7.070   -3.070
+ TOT           N35    N    NR5       0.000      5.852   -8.424   -3.249
+ TOT           C36    C    CH3       0.000      6.861   -8.866   -2.184
+ TOT           H363   H    H         0.000      6.451   -9.654   -1.600
+ TOT           H362   H    H         0.000      7.753   -9.210   -2.648
+ TOT           H361   H    H         0.000      7.097   -8.051   -1.546
+ TOT           S39    S    S2        0.000      4.391   -6.374   -4.164
+ TOT           C40    C    CR56      0.000      4.248   -7.818   -4.919
+ TOT           C41    C    CR56      0.000      5.112   -8.908   -4.315
+ TOT           C34    C    CR16      0.000      4.752   -9.929   -5.174
+ TOT           H34    H    H         0.000      5.200  -10.905   -5.038
+ TOT           C33    C    CR16      0.000      3.805   -9.744   -6.241
+ TOT           H33    H    H         0.000      3.647  -10.655   -6.804
+ TOT           C32    C    CR16      0.000      3.052   -8.703   -6.725
+ TOT           H32    H    H         0.000      2.368   -8.728   -7.564
+ TOT           C31    C    CR16      0.000      3.329   -7.674   -5.963
+ TOT           H31    H    H         0.000      2.850   -6.719   -6.140
+ TOT           C56    C    CH2       0.000      0.438    2.397   -0.014
+ TOT           H561   H    H         0.000     -0.138    2.481   -0.937
+ TOT           H562   H    H         0.000      1.224    3.156   -0.007
+ TOT           C27    C    CH2       0.000     -0.474    2.603    1.173
+ TOT           H271   H    H         0.000      0.151    2.475    2.059
+ TOT           H272   H    H         0.000     -1.211    1.799    1.129
+ TOT           C26    C    CH2       0.000     -1.184    3.936    1.243
+ TOT           H261   H    H         0.000     -1.813    4.069    0.361
+ TOT           H262   H    H         0.000     -0.452    4.744    1.292
+ TOT           N25    N    NT        1.000     -2.029    3.957    2.464
+ TOT           C28    C    CH3       0.000     -1.197    3.852    3.682
+ TOT           H283   H    H         0.000     -1.819    3.869    4.539
+ TOT           H282   H    H         0.000     -0.651    2.943    3.661
+ TOT           H281   H    H         0.000     -0.521    4.667    3.722
+ TOT           C29    C    CH3       0.000     -3.081    2.923    2.390
+ TOT           H293   H    H         0.000     -2.633    1.967    2.301
+ TOT           H292   H    H         0.000     -3.672    2.954    3.269
+ TOT           H291   H    H         0.000     -3.696    3.103    1.546
+ TOT           C24    C    CH2       0.000     -2.679    5.275    2.454
+ TOT           H241   H    H         0.000     -3.263    5.348    1.535
+ TOT           H242   H    H         0.000     -1.892    6.032    2.445
+ TOT           C23    C    CH2       0.000     -3.580    5.497    3.645
+ TOT           H231   H    H         0.000     -2.972    5.364    4.543
+ TOT           H232   H    H         0.000     -4.355    4.728    3.615
+ TOT           C22    C    CH2       0.000     -4.231    6.876    3.670
+ TOT           H221   H    H         0.000     -4.796    7.067    2.755
+ TOT           H222   H    H         0.000     -3.490    7.665    3.810
+ TOT           N21    N    NR6       1.000     -5.146    6.853    4.816
+ TOT           C20    C    CR16      0.000     -4.751    7.281    6.012
+ TOT           H20    H    H         0.000     -3.738    7.654    6.099
+ TOT           C19    C    CR16      0.000     -5.535    7.288    7.158
+ TOT           H19    H    H         0.000     -5.051    7.617    8.069
+ TOT           C18    C    CR6       0.000     -6.858    6.925    7.266
+ TOT           C17    C    CR66      0.000     -7.362    6.377    5.964
+ TOT           C16    C    CR16      0.000     -8.658    5.913    5.828
+ TOT           H16    H    H         0.000     -9.311    5.914    6.691
+ TOT           C15    C    CR16      0.000     -9.139    5.452    4.624
+ TOT           H15    H    H         0.000    -10.157    5.090    4.546
+ TOT           C14    C    CR16      0.000     -8.321    5.453    3.525
+ TOT           H14    H    H         0.000     -8.718    5.080    2.589
+ TOT           C13    C    CR16      0.000     -7.013    5.906    3.548
+ TOT           H13    H    H         0.000     -6.417    5.883    2.644
+ TOT           C12    C    CR66      0.000     -6.467    6.389    4.726
+ TOT           C8     C    C1        0.000     -7.600    7.000    8.573
+ TOT           H8     H    H         0.000     -8.442    6.339    8.694
+ TOT           C7     C    CR5       0.000     -7.277    7.911    9.729
+ TOT           N5     N    NR5       0.000     -7.804    8.151   11.008
+ TOT           C6     C    CH3       0.000     -9.049    7.288   11.231
+ TOT           H6_3   H    H         0.000     -8.902    6.645   12.064
+ TOT           H6_2   H    H         0.000     -9.893    7.906   11.419
+ TOT           H6_1   H    H         0.000     -9.241    6.696   10.369
+ TOT           S9     S    S2        0.000     -5.855    8.779    9.279
+ TOT           C10    C    CR56      0.000     -5.846    9.503   10.745
+ TOT           C11    C    CR56      0.000     -6.986    9.070   11.646
+ TOT           C4     C    CR16      0.000     -6.668    9.857   12.735
+ TOT           H4     H    H         0.000     -7.302    9.810   13.611
+ TOT           C3     C    CR16      0.000     -5.531   10.733   12.755
+ TOT           H3     H    H         0.000     -5.443   11.261   13.697
+ TOT           C2     C    CR16      0.000     -4.528   11.070   11.881
+ TOT           H2     H    H         0.000     -3.723   11.774   12.051
+ TOT           C1     C    CR16      0.000     -4.746   10.364   10.799
+ TOT           H1     H    H         0.000     -4.078   10.447    9.950
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ TOT      C59    n/a    N55    START
+ TOT      H591   C59    .      .
+ TOT      H592   C59    .      .
+ TOT      H593   C59    .      .
+ TOT      N55    C59    C56    .
+ TOT      C58    N55    H581   .
+ TOT      H583   C58    .      .
+ TOT      H582   C58    .      .
+ TOT      H581   C58    .      .
+ TOT      C54    N55    C53    .
+ TOT      H541   C54    .      .
+ TOT      H542   C54    .      .
+ TOT      C53    C54    C52    .
+ TOT      H531   C53    .      .
+ TOT      H532   C53    .      .
+ TOT      C52    C53    N51    .
+ TOT      H521   C52    .      .
+ TOT      H522   C52    .      .
+ TOT      N51    C52    C50    .
+ TOT      C50    N51    C49    .
+ TOT      H50    C50    .      .
+ TOT      C49    C50    C48    .
+ TOT      H49    C49    .      .
+ TOT      C48    C49    C38    .
+ TOT      C47    C48    C46    .
+ TOT      C46    C47    C45    .
+ TOT      H46    C46    .      .
+ TOT      C45    C46    C44    .
+ TOT      H45    C45    .      .
+ TOT      C44    C45    C43    .
+ TOT      H44    C44    .      .
+ TOT      C43    C44    C42    .
+ TOT      H43    C43    .      .
+ TOT      C42    C43    .      .
+ TOT      C38    C48    C37    .
+ TOT      H38    C38    .      .
+ TOT      C37    C38    S39    .
+ TOT      N35    C37    C36    .
+ TOT      C36    N35    H361   .
+ TOT      H363   C36    .      .
+ TOT      H362   C36    .      .
+ TOT      H361   C36    .      .
+ TOT      S39    C37    C40    .
+ TOT      C40    S39    C41    .
+ TOT      C41    C40    C34    .
+ TOT      C34    C41    C33    .
+ TOT      H34    C34    .      .
+ TOT      C33    C34    C32    .
+ TOT      H33    C33    .      .
+ TOT      C32    C33    C31    .
+ TOT      H32    C32    .      .
+ TOT      C31    C32    H31    .
+ TOT      H31    C31    .      .
+ TOT      C56    N55    C27    .
+ TOT      H561   C56    .      .
+ TOT      H562   C56    .      .
+ TOT      C27    C56    C26    .
+ TOT      H271   C27    .      .
+ TOT      H272   C27    .      .
+ TOT      C26    C27    N25    .
+ TOT      H261   C26    .      .
+ TOT      H262   C26    .      .
+ TOT      N25    C26    C24    .
+ TOT      C28    N25    H281   .
+ TOT      H283   C28    .      .
+ TOT      H282   C28    .      .
+ TOT      H281   C28    .      .
+ TOT      C29    N25    H291   .
+ TOT      H293   C29    .      .
+ TOT      H292   C29    .      .
+ TOT      H291   C29    .      .
+ TOT      C24    N25    C23    .
+ TOT      H241   C24    .      .
+ TOT      H242   C24    .      .
+ TOT      C23    C24    C22    .
+ TOT      H231   C23    .      .
+ TOT      H232   C23    .      .
+ TOT      C22    C23    N21    .
+ TOT      H221   C22    .      .
+ TOT      H222   C22    .      .
+ TOT      N21    C22    C20    .
+ TOT      C20    N21    C19    .
+ TOT      H20    C20    .      .
+ TOT      C19    C20    C18    .
+ TOT      H19    C19    .      .
+ TOT      C18    C19    C8     .
+ TOT      C17    C18    C16    .
+ TOT      C16    C17    C15    .
+ TOT      H16    C16    .      .
+ TOT      C15    C16    C14    .
+ TOT      H15    C15    .      .
+ TOT      C14    C15    C13    .
+ TOT      H14    C14    .      .
+ TOT      C13    C14    C12    .
+ TOT      H13    C13    .      .
+ TOT      C12    C13    .      .
+ TOT      C8     C18    C7     .
+ TOT      H8     C8     .      .
+ TOT      C7     C8     S9     .
+ TOT      N5     C7     C6     .
+ TOT      C6     N5     H6_1   .
+ TOT      H6_3   C6     .      .
+ TOT      H6_2   C6     .      .
+ TOT      H6_1   C6     .      .
+ TOT      S9     C7     C10    .
+ TOT      C10    S9     C11    .
+ TOT      C11    C10    C4     .
+ TOT      C4     C11    C3     .
+ TOT      H4     C4     .      .
+ TOT      C3     C4     C2     .
+ TOT      H3     C3     .      .
+ TOT      C2     C3     C1     .
+ TOT      H2     C2     .      .
+ TOT      C1     C2     H1     .
+ TOT      H1     C1     .      END
+ TOT      C1     C10    .    ADD
+ TOT      N5     C11    .    ADD
+ TOT      C12    C17    .    ADD
+ TOT      C12    N21    .    ADD
+ TOT      C31    C40    .    ADD
+ TOT      N35    C41    .    ADD
+ TOT      C42    C47    .    ADD
+ TOT      C42    N51    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ TOT      C1     C2        double      1.390    0.020
+ TOT      C1     C10       single      1.390    0.020
+ TOT      H1     C1        single      1.083    0.020
+ TOT      C2     C3        single      1.390    0.020
+ TOT      H2     C2        single      1.083    0.020
+ TOT      C3     C4        double      1.390    0.020
+ TOT      H3     C3        single      1.083    0.020
+ TOT      C4     C11       single      1.390    0.020
+ TOT      H4     C4        single      1.083    0.020
+ TOT      C6     N5        single      1.485    0.020
+ TOT      N5     C7        single      1.337    0.020
+ TOT      N5     C11       single      1.337    0.020
+ TOT      H6_1   C6        single      1.059    0.020
+ TOT      H6_2   C6        single      1.059    0.020
+ TOT      H6_3   C6        single      1.059    0.020
+ TOT      C7     C8        double      1.483    0.020
+ TOT      S9     C7        single      1.745    0.020
+ TOT      C8     C18       single      1.480    0.020
+ TOT      H8     C8        single      1.077    0.020
+ TOT      C10    S9        single      1.695    0.020
+ TOT      C11    C10       double      1.490    0.020
+ TOT      C12    C13       single      1.390    0.020
+ TOT      C12    C17       double      1.490    0.020
+ TOT      C12    N21       single      1.410    0.020
+ TOT      C13    C14       double      1.390    0.020
+ TOT      H13    C13       single      1.083    0.020
+ TOT      C14    C15       single      1.390    0.020
+ TOT      H14    C14       single      1.083    0.020
+ TOT      C15    C16       double      1.390    0.020
+ TOT      H15    C15       single      1.083    0.020
+ TOT      C16    C17       single      1.390    0.020
+ TOT      H16    C16       single      1.083    0.020
+ TOT      C17    C18       single      1.490    0.020
+ TOT      C18    C19       double      1.390    0.020
+ TOT      C19    C20       single      1.390    0.020
+ TOT      H19    C19       single      1.083    0.020
+ TOT      C20    N21       double      1.337    0.020
+ TOT      H20    C20       single      1.083    0.020
+ TOT      N21    C22       single      1.465    0.020
+ TOT      C22    C23       single      1.524    0.020
+ TOT      H221   C22       single      1.092    0.020
+ TOT      H222   C22       single      1.092    0.020
+ TOT      C23    C24       single      1.524    0.020
+ TOT      H231   C23       single      1.092    0.020
+ TOT      H232   C23       single      1.092    0.020
+ TOT      C24    N25       single      1.469    0.020
+ TOT      H241   C24       single      1.092    0.020
+ TOT      H242   C24       single      1.092    0.020
+ TOT      N25    C26       single      1.469    0.020
+ TOT      C28    N25       single      1.469    0.020
+ TOT      C29    N25       single      1.469    0.020
+ TOT      C26    C27       single      1.524    0.020
+ TOT      H261   C26       single      1.092    0.020
+ TOT      H262   C26       single      1.092    0.020
+ TOT      C27    C56       single      1.524    0.020
+ TOT      H271   C27       single      1.092    0.020
+ TOT      H272   C27       single      1.092    0.020
+ TOT      H281   C28       single      1.059    0.020
+ TOT      H282   C28       single      1.059    0.020
+ TOT      H283   C28       single      1.059    0.020
+ TOT      H291   C29       single      1.059    0.020
+ TOT      H292   C29       single      1.059    0.020
+ TOT      H293   C29       single      1.059    0.020
+ TOT      C31    C32       double      1.390    0.020
+ TOT      C31    C40       single      1.390    0.020
+ TOT      H31    C31       single      1.083    0.020
+ TOT      C32    C33       single      1.390    0.020
+ TOT      H32    C32       single      1.083    0.020
+ TOT      C33    C34       double      1.390    0.020
+ TOT      H33    C33       single      1.083    0.020
+ TOT      C34    C41       single      1.390    0.020
+ TOT      H34    C34       single      1.083    0.020
+ TOT      C36    N35       single      1.485    0.020
+ TOT      N35    C37       single      1.337    0.020
+ TOT      N35    C41       single      1.337    0.020
+ TOT      H361   C36       single      1.059    0.020
+ TOT      H362   C36       single      1.059    0.020
+ TOT      H363   C36       single      1.059    0.020
+ TOT      C37    C38       double      1.483    0.020
+ TOT      S39    C37       single      1.745    0.020
+ TOT      C38    C48       single      1.480    0.020
+ TOT      H38    C38       single      1.077    0.020
+ TOT      C40    S39       single      1.695    0.020
+ TOT      C41    C40       double      1.490    0.020
+ TOT      C42    C43       single      1.390    0.020
+ TOT      C42    C47       double      1.490    0.020
+ TOT      C42    N51       single      1.410    0.020
+ TOT      C43    C44       double      1.390    0.020
+ TOT      H43    C43       single      1.083    0.020
+ TOT      C44    C45       single      1.390    0.020
+ TOT      H44    C44       single      1.083    0.020
+ TOT      C45    C46       double      1.390    0.020
+ TOT      H45    C45       single      1.083    0.020
+ TOT      C46    C47       single      1.390    0.020
+ TOT      H46    C46       single      1.083    0.020
+ TOT      C47    C48       single      1.490    0.020
+ TOT      C48    C49       double      1.390    0.020
+ TOT      C49    C50       single      1.390    0.020
+ TOT      H49    C49       single      1.083    0.020
+ TOT      C50    N51       double      1.337    0.020
+ TOT      H50    C50       single      1.083    0.020
+ TOT      N51    C52       single      1.465    0.020
+ TOT      C52    C53       single      1.524    0.020
+ TOT      H521   C52       single      1.092    0.020
+ TOT      H522   C52       single      1.092    0.020
+ TOT      C53    C54       single      1.524    0.020
+ TOT      H531   C53       single      1.092    0.020
+ TOT      H532   C53       single      1.092    0.020
+ TOT      C54    N55       single      1.469    0.020
+ TOT      H541   C54       single      1.092    0.020
+ TOT      H542   C54       single      1.092    0.020
+ TOT      C56    N55       single      1.469    0.020
+ TOT      C58    N55       single      1.469    0.020
+ TOT      N55    C59       single      1.469    0.020
+ TOT      H561   C56       single      1.092    0.020
+ TOT      H562   C56       single      1.092    0.020
+ TOT      H581   C58       single      1.059    0.020
+ TOT      H582   C58       single      1.059    0.020
+ TOT      H583   C58       single      1.059    0.020
+ TOT      H591   C59       single      1.059    0.020
+ TOT      H592   C59       single      1.059    0.020
+ TOT      H593   C59       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ TOT      H591   C59    H592    109.470    3.000
+ TOT      H591   C59    H593    109.470    3.000
+ TOT      H592   C59    H593    109.470    3.000
+ TOT      H591   C59    N55     109.470    3.000
+ TOT      H592   C59    N55     109.470    3.000
+ TOT      H593   C59    N55     109.470    3.000
+ TOT      C59    N55    C58     109.470    3.000
+ TOT      C59    N55    C54     109.470    3.000
+ TOT      C59    N55    C56     109.470    3.000
+ TOT      C58    N55    C54     109.470    3.000
+ TOT      C58    N55    C56     109.470    3.000
+ TOT      C54    N55    C56     109.470    3.000
+ TOT      N55    C58    H583    109.470    3.000
+ TOT      N55    C58    H582    109.470    3.000
+ TOT      N55    C58    H581    109.470    3.000
+ TOT      H583   C58    H582    109.470    3.000
+ TOT      H583   C58    H581    109.470    3.000
+ TOT      H582   C58    H581    109.470    3.000
+ TOT      N55    C54    H541    109.470    3.000
+ TOT      N55    C54    H542    109.470    3.000
+ TOT      N55    C54    C53     109.470    3.000
+ TOT      H541   C54    H542    107.900    3.000
+ TOT      H541   C54    C53     109.470    3.000
+ TOT      H542   C54    C53     109.470    3.000
+ TOT      C54    C53    H531    109.470    3.000
+ TOT      C54    C53    H532    109.470    3.000
+ TOT      C54    C53    C52     111.000    3.000
+ TOT      H531   C53    H532    107.900    3.000
+ TOT      H531   C53    C52     109.470    3.000
+ TOT      H532   C53    C52     109.470    3.000
+ TOT      C53    C52    H521    109.470    3.000
+ TOT      C53    C52    H522    109.470    3.000
+ TOT      C53    C52    N51     109.470    3.000
+ TOT      H521   C52    H522    107.900    3.000
+ TOT      H521   C52    N51     109.470    3.000
+ TOT      H522   C52    N51     109.470    3.000
+ TOT      C52    N51    C50     120.000    3.000
+ TOT      C52    N51    C42     120.000    3.000
+ TOT      C50    N51    C42     120.000    3.000
+ TOT      N51    C50    H50     120.000    3.000
+ TOT      N51    C50    C49     120.000    3.000
+ TOT      H50    C50    C49     120.000    3.000
+ TOT      C50    C49    H49     120.000    3.000
+ TOT      C50    C49    C48     120.000    3.000
+ TOT      H49    C49    C48     120.000    3.000
+ TOT      C49    C48    C47     120.000    3.000
+ TOT      C49    C48    C38     120.000    3.000
+ TOT      C47    C48    C38     120.000    3.000
+ TOT      C48    C47    C46     120.000    3.000
+ TOT      C48    C47    C42     120.000    3.000
+ TOT      C46    C47    C42     120.000    3.000
+ TOT      C47    C46    H46     120.000    3.000
+ TOT      C47    C46    C45     120.000    3.000
+ TOT      H46    C46    C45     120.000    3.000
+ TOT      C46    C45    H45     120.000    3.000
+ TOT      C46    C45    C44     120.000    3.000
+ TOT      H45    C45    C44     120.000    3.000
+ TOT      C45    C44    H44     120.000    3.000
+ TOT      C45    C44    C43     120.000    3.000
+ TOT      H44    C44    C43     120.000    3.000
+ TOT      C44    C43    H43     120.000    3.000
+ TOT      C44    C43    C42     120.000    3.000
+ TOT      H43    C43    C42     120.000    3.000
+ TOT      C43    C42    C47     120.000    3.000
+ TOT      C43    C42    N51     120.000    3.000
+ TOT      C47    C42    N51     120.000    3.000
+ TOT      C48    C38    H38     120.000    3.000
+ TOT      C48    C38    C37     120.000    3.000
+ TOT      H38    C38    C37     120.000    3.000
+ TOT      C38    C37    N35     108.000    3.000
+ TOT      C38    C37    S39     108.000    3.000
+ TOT      N35    C37    S39     108.000    3.000
+ TOT      C37    N35    C36     126.000    3.000
+ TOT      C37    N35    C41     108.000    3.000
+ TOT      C36    N35    C41     126.000    3.000
+ TOT      N35    C36    H363    109.470    3.000
+ TOT      N35    C36    H362    109.470    3.000
+ TOT      N35    C36    H361    109.470    3.000
+ TOT      H363   C36    H362    109.470    3.000
+ TOT      H363   C36    H361    109.470    3.000
+ TOT      H362   C36    H361    109.470    3.000
+ TOT      C37    S39    C40      98.029    3.000
+ TOT      S39    C40    C41     120.000    3.000
+ TOT      S39    C40    C31     120.000    3.000
+ TOT      C41    C40    C31     120.000    3.000
+ TOT      C40    C41    C34     120.000    3.000
+ TOT      C40    C41    N35     108.000    3.000
+ TOT      C34    C41    N35     132.000    3.000
+ TOT      C41    C34    H34     120.000    3.000
+ TOT      C41    C34    C33     120.000    3.000
+ TOT      H34    C34    C33     120.000    3.000
+ TOT      C34    C33    H33     120.000    3.000
+ TOT      C34    C33    C32     120.000    3.000
+ TOT      H33    C33    C32     120.000    3.000
+ TOT      C33    C32    H32     120.000    3.000
+ TOT      C33    C32    C31     120.000    3.000
+ TOT      H32    C32    C31     120.000    3.000
+ TOT      C32    C31    H31     120.000    3.000
+ TOT      C32    C31    C40     120.000    3.000
+ TOT      H31    C31    C40     120.000    3.000
+ TOT      N55    C56    H561    109.470    3.000
+ TOT      N55    C56    H562    109.470    3.000
+ TOT      N55    C56    C27     109.470    3.000
+ TOT      H561   C56    H562    107.900    3.000
+ TOT      H561   C56    C27     109.470    3.000
+ TOT      H562   C56    C27     109.470    3.000
+ TOT      C56    C27    H271    109.470    3.000
+ TOT      C56    C27    H272    109.470    3.000
+ TOT      C56    C27    C26     111.000    3.000
+ TOT      H271   C27    H272    107.900    3.000
+ TOT      H271   C27    C26     109.470    3.000
+ TOT      H272   C27    C26     109.470    3.000
+ TOT      C27    C26    H261    109.470    3.000
+ TOT      C27    C26    H262    109.470    3.000
+ TOT      C27    C26    N25     109.470    3.000
+ TOT      H261   C26    H262    107.900    3.000
+ TOT      H261   C26    N25     109.470    3.000
+ TOT      H262   C26    N25     109.470    3.000
+ TOT      C26    N25    C28     109.470    3.000
+ TOT      C26    N25    C29     109.470    3.000
+ TOT      C26    N25    C24     109.470    3.000
+ TOT      C28    N25    C29     109.470    3.000
+ TOT      C28    N25    C24     109.470    3.000
+ TOT      C29    N25    C24     109.470    3.000
+ TOT      N25    C28    H283    109.470    3.000
+ TOT      N25    C28    H282    109.470    3.000
+ TOT      N25    C28    H281    109.470    3.000
+ TOT      H283   C28    H282    109.470    3.000
+ TOT      H283   C28    H281    109.470    3.000
+ TOT      H282   C28    H281    109.470    3.000
+ TOT      N25    C29    H293    109.470    3.000
+ TOT      N25    C29    H292    109.470    3.000
+ TOT      N25    C29    H291    109.470    3.000
+ TOT      H293   C29    H292    109.470    3.000
+ TOT      H293   C29    H291    109.470    3.000
+ TOT      H292   C29    H291    109.470    3.000
+ TOT      N25    C24    H241    109.470    3.000
+ TOT      N25    C24    H242    109.470    3.000
+ TOT      N25    C24    C23     109.470    3.000
+ TOT      H241   C24    H242    107.900    3.000
+ TOT      H241   C24    C23     109.470    3.000
+ TOT      H242   C24    C23     109.470    3.000
+ TOT      C24    C23    H231    109.470    3.000
+ TOT      C24    C23    H232    109.470    3.000
+ TOT      C24    C23    C22     111.000    3.000
+ TOT      H231   C23    H232    107.900    3.000
+ TOT      H231   C23    C22     109.470    3.000
+ TOT      H232   C23    C22     109.470    3.000
+ TOT      C23    C22    H221    109.470    3.000
+ TOT      C23    C22    H222    109.470    3.000
+ TOT      C23    C22    N21     109.470    3.000
+ TOT      H221   C22    H222    107.900    3.000
+ TOT      H221   C22    N21     109.470    3.000
+ TOT      H222   C22    N21     109.470    3.000
+ TOT      C22    N21    C20     120.000    3.000
+ TOT      C22    N21    C12     120.000    3.000
+ TOT      C20    N21    C12     120.000    3.000
+ TOT      N21    C20    H20     120.000    3.000
+ TOT      N21    C20    C19     120.000    3.000
+ TOT      H20    C20    C19     120.000    3.000
+ TOT      C20    C19    H19     120.000    3.000
+ TOT      C20    C19    C18     120.000    3.000
+ TOT      H19    C19    C18     120.000    3.000
+ TOT      C19    C18    C17     120.000    3.000
+ TOT      C19    C18    C8      120.000    3.000
+ TOT      C17    C18    C8      120.000    3.000
+ TOT      C18    C17    C16     120.000    3.000
+ TOT      C18    C17    C12     120.000    3.000
+ TOT      C16    C17    C12     120.000    3.000
+ TOT      C17    C16    H16     120.000    3.000
+ TOT      C17    C16    C15     120.000    3.000
+ TOT      H16    C16    C15     120.000    3.000
+ TOT      C16    C15    H15     120.000    3.000
+ TOT      C16    C15    C14     120.000    3.000
+ TOT      H15    C15    C14     120.000    3.000
+ TOT      C15    C14    H14     120.000    3.000
+ TOT      C15    C14    C13     120.000    3.000
+ TOT      H14    C14    C13     120.000    3.000
+ TOT      C14    C13    H13     120.000    3.000
+ TOT      C14    C13    C12     120.000    3.000
+ TOT      H13    C13    C12     120.000    3.000
+ TOT      C13    C12    C17     120.000    3.000
+ TOT      C13    C12    N21     120.000    3.000
+ TOT      C17    C12    N21     120.000    3.000
+ TOT      C18    C8     H8      120.000    3.000
+ TOT      C18    C8     C7      120.000    3.000
+ TOT      H8     C8     C7      120.000    3.000
+ TOT      C8     C7     N5      108.000    3.000
+ TOT      C8     C7     S9      108.000    3.000
+ TOT      N5     C7     S9      108.000    3.000
+ TOT      C7     N5     C6      126.000    3.000
+ TOT      C7     N5     C11     108.000    3.000
+ TOT      C6     N5     C11     126.000    3.000
+ TOT      N5     C6     H6_3    109.470    3.000
+ TOT      N5     C6     H6_2    109.470    3.000
+ TOT      N5     C6     H6_1    109.470    3.000
+ TOT      H6_3   C6     H6_2    109.470    3.000
+ TOT      H6_3   C6     H6_1    109.470    3.000
+ TOT      H6_2   C6     H6_1    109.470    3.000
+ TOT      C7     S9     C10      98.029    3.000
+ TOT      S9     C10    C11     120.000    3.000
+ TOT      S9     C10    C1      120.000    3.000
+ TOT      C11    C10    C1      120.000    3.000
+ TOT      C10    C11    C4      120.000    3.000
+ TOT      C10    C11    N5      108.000    3.000
+ TOT      C4     C11    N5      132.000    3.000
+ TOT      C11    C4     H4      120.000    3.000
+ TOT      C11    C4     C3      120.000    3.000
+ TOT      H4     C4     C3      120.000    3.000
+ TOT      C4     C3     H3      120.000    3.000
+ TOT      C4     C3     C2      120.000    3.000
+ TOT      H3     C3     C2      120.000    3.000
+ TOT      C3     C2     H2      120.000    3.000
+ TOT      C3     C2     C1      120.000    3.000
+ TOT      H2     C2     C1      120.000    3.000
+ TOT      C2     C1     H1      120.000    3.000
+ TOT      C2     C1     C10     120.000    3.000
+ TOT      H1     C1     C10     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ TOT      var_1    H593   C59    N55    C56      -60.003   20.000   1
+ TOT      var_2    C59    N55    C58    H581     180.000   20.000   1
+ TOT      var_3    C59    N55    C54    C53      -60.002   20.000   1
+ TOT      var_4    N55    C54    C53    C52     -179.972   20.000   3
+ TOT      var_5    C54    C53    C52    N51      180.000   20.000   3
+ TOT      var_6    C53    C52    N51    C50       89.999   20.000   1
+ TOT      CONST_1  C52    N51    C50    C49      180.000    0.000   0
+ TOT      CONST_2  N51    C50    C49    C48        0.000    0.000   0
+ TOT      CONST_3  C50    C49    C48    C38      180.000    0.000   0
+ TOT      CONST_4  C49    C48    C47    C46      180.000    0.000   0
+ TOT      CONST_5  C48    C47    C46    C45      180.000    0.000   0
+ TOT      CONST_6  C47    C46    C45    C44        0.000    0.000   0
+ TOT      CONST_7  C46    C45    C44    C43        0.000    0.000   0
+ TOT      CONST_8  C45    C44    C43    C42        0.000    0.000   0
+ TOT      CONST_9  C44    C43    C42    C47        0.000    0.000   0
+ TOT      CONST_10 C43    C42    C47    C48      180.000    0.000   0
+ TOT      CONST_11 C43    C42    N51    C52        0.000    0.000   0
+ TOT      var_7    C49    C48    C38    C37       17.192   20.000   1
+ TOT      CONST_12 C48    C38    C37    S39        6.611    0.000   0
+ TOT      CONST_13 C38    C37    N35    C36        0.000    0.000   0
+ TOT      CONST_14 C37    N35    C41    C40        0.000    0.000   0
+ TOT      var_8    C37    N35    C36    H361      -0.188   20.000   1
+ TOT      CONST_15 C38    C37    S39    C40      180.000    0.000   0
+ TOT      CONST_16 C37    S39    C40    C41        0.000    0.000   0
+ TOT      CONST_17 S39    C40    C41    C34      180.000    0.000   0
+ TOT      CONST_18 C40    C41    C34    C33        0.000    0.000   0
+ TOT      CONST_19 C41    C34    C33    C32        0.000    0.000   0
+ TOT      CONST_20 C34    C33    C32    C31        0.000    0.000   0
+ TOT      CONST_21 C33    C32    C31    C40        0.000    0.000   0
+ TOT      CONST_22 C32    C31    C40    S39      180.000    0.000   0
+ TOT      var_9    C59    N55    C56    C27       59.999   20.000   1
+ TOT      var_10   N55    C56    C27    C26     -179.980   20.000   3
+ TOT      var_11   C56    C27    C26    N25      180.000   20.000   3
+ TOT      var_12   C27    C26    N25    C24      180.000   20.000   1
+ TOT      var_13   C26    N25    C28    H281      60.007   20.000   1
+ TOT      var_14   C26    N25    C29    H291     -59.998   20.000   1
+ TOT      var_15   C26    N25    C24    C23      180.000   20.000   1
+ TOT      var_16   N25    C24    C23    C22     -179.980   20.000   3
+ TOT      var_17   C24    C23    C22    N21      180.000   20.000   3
+ TOT      var_18   C23    C22    N21    C20       89.999   20.000   1
+ TOT      CONST_23 C22    N21    C20    C19      180.000    0.000   0
+ TOT      CONST_24 N21    C20    C19    C18        0.000    0.000   0
+ TOT      CONST_25 C20    C19    C18    C8       180.000    0.000   0
+ TOT      CONST_26 C19    C18    C17    C16      180.000    0.000   0
+ TOT      CONST_27 C18    C17    C16    C15      180.000    0.000   0
+ TOT      CONST_28 C17    C16    C15    C14        0.000    0.000   0
+ TOT      CONST_29 C16    C15    C14    C13        0.000    0.000   0
+ TOT      CONST_30 C15    C14    C13    C12        0.000    0.000   0
+ TOT      CONST_31 C14    C13    C12    C17        0.000    0.000   0
+ TOT      CONST_32 C13    C12    C17    C18      180.000    0.000   0
+ TOT      CONST_33 C13    C12    N21    C22        0.000    0.000   0
+ TOT      var_19   C19    C18    C8     C7        17.311   20.000   1
+ TOT      CONST_34 C18    C8     C7     S9         6.635    0.000   0
+ TOT      CONST_35 C8     C7     N5     C6         0.000    0.000   0
+ TOT      CONST_36 C7     N5     C11    C10        0.000    0.000   0
+ TOT      var_20   C7     N5     C6     H6_1       0.020   20.000   1
+ TOT      CONST_37 C8     C7     S9     C10      180.000    0.000   0
+ TOT      CONST_38 C7     S9     C10    C11        0.000    0.000   0
+ TOT      CONST_39 S9     C10    C11    C4       180.000    0.000   0
+ TOT      CONST_40 C10    C11    C4     C3         0.000    0.000   0
+ TOT      CONST_41 C11    C4     C3     C2         0.000    0.000   0
+ TOT      CONST_42 C4     C3     C2     C1         0.000    0.000   0
+ TOT      CONST_43 C3     C2     C1     C10        0.000    0.000   0
+ TOT      CONST_44 C2     C1     C10    S9       180.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ TOT      chir_01  N25    C24    C26    C28       negativ
+ TOT      chir_02  N55    C54    C56    C58       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ TOT      plan-1    C1        0.020
+ TOT      plan-1    C2        0.020
+ TOT      plan-1    C10       0.020
+ TOT      plan-1    H1        0.020
+ TOT      plan-1    C3        0.020
+ TOT      plan-1    C4        0.020
+ TOT      plan-1    H2        0.020
+ TOT      plan-1    H3        0.020
+ TOT      plan-1    C11       0.020
+ TOT      plan-1    H4        0.020
+ TOT      plan-1    N5        0.020
+ TOT      plan-1    C6        0.020
+ TOT      plan-1    C7        0.020
+ TOT      plan-1    S9        0.020
+ TOT      plan-1    C8        0.020
+ TOT      plan-1    C18       0.020
+ TOT      plan-1    H8        0.020
+ TOT      plan-2    C12       0.020
+ TOT      plan-2    C13       0.020
+ TOT      plan-2    C17       0.020
+ TOT      plan-2    N21       0.020
+ TOT      plan-2    C18       0.020
+ TOT      plan-2    C19       0.020
+ TOT      plan-2    C20       0.020
+ TOT      plan-2    C14       0.020
+ TOT      plan-2    H13       0.020
+ TOT      plan-2    C15       0.020
+ TOT      plan-2    C16       0.020
+ TOT      plan-2    H14       0.020
+ TOT      plan-2    H15       0.020
+ TOT      plan-2    H16       0.020
+ TOT      plan-2    C8        0.020
+ TOT      plan-2    H19       0.020
+ TOT      plan-2    H20       0.020
+ TOT      plan-2    C22       0.020
+ TOT      plan-2    H8        0.020
+ TOT      plan-3    C31       0.020
+ TOT      plan-3    C32       0.020
+ TOT      plan-3    C40       0.020
+ TOT      plan-3    H31       0.020
+ TOT      plan-3    C33       0.020
+ TOT      plan-3    C34       0.020
+ TOT      plan-3    H32       0.020
+ TOT      plan-3    H33       0.020
+ TOT      plan-3    C41       0.020
+ TOT      plan-3    H34       0.020
+ TOT      plan-3    N35       0.020
+ TOT      plan-3    C36       0.020
+ TOT      plan-3    C37       0.020
+ TOT      plan-3    S39       0.020
+ TOT      plan-3    C38       0.020
+ TOT      plan-3    C48       0.020
+ TOT      plan-3    H38       0.020
+ TOT      plan-4    C42       0.020
+ TOT      plan-4    C43       0.020
+ TOT      plan-4    C47       0.020
+ TOT      plan-4    N51       0.020
+ TOT      plan-4    C48       0.020
+ TOT      plan-4    C49       0.020
+ TOT      plan-4    C50       0.020
+ TOT      plan-4    C44       0.020
+ TOT      plan-4    H43       0.020
+ TOT      plan-4    C45       0.020
+ TOT      plan-4    C46       0.020
+ TOT      plan-4    H44       0.020
+ TOT      plan-4    H45       0.020
+ TOT      plan-4    H46       0.020
+ TOT      plan-4    C38       0.020
+ TOT      plan-4    H49       0.020
+ TOT      plan-4    H50       0.020
+ TOT      plan-4    C52       0.020
+ TOT      plan-4    H38       0.020

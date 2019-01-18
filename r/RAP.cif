@@ -1,0 +1,913 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+RAP      RAP 'RAPAMYCIN IMMUNOSUPPRESSANT DRUG    ' non-polymer       144  65 .
+#
+data_comp_RAP
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ RAP           O11    O    O         0.000      0.000    0.000    0.000
+ RAP           C32    C    C         0.000      0.836    0.714   -0.545
+ RAP           C33    C    CH2       0.000      2.079    0.125   -1.161
+ RAP           H331   H    H         0.000      2.923    0.290   -0.487
+ RAP           H332   H    H         0.000      2.274    0.621   -2.114
+ RAP           C34    C    CH1       0.000      1.896   -1.362   -1.390
+ RAP           H34    H    H         0.000      1.304   -1.798   -0.574
+ RAP           C35    C    CH1       0.000      1.237   -1.637   -2.703
+ RAP           H35    H    H         0.000      1.838   -1.146   -3.482
+ RAP           C49    C    CH3       0.000     -0.148   -1.022   -2.744
+ RAP           H493   H    H         0.000     -0.064    0.033   -2.707
+ RAP           H492   H    H         0.000     -0.633   -1.308   -3.641
+ RAP           H491   H    H         0.000     -0.708   -1.362   -1.914
+ RAP           C36    C    CH2       0.000      1.225   -3.126   -3.011
+ RAP           H361   H    H         0.000      0.568   -3.623   -2.294
+ RAP           H362   H    H         0.000      2.241   -3.511   -2.900
+ RAP           C37    C    CH1       0.000      0.734   -3.393   -4.420
+ RAP           H37    H    H         0.000     -0.222   -2.865   -4.544
+ RAP           C38    C    CH2       0.000      1.695   -2.874   -5.492
+ RAP           H381   H    H         0.000      2.651   -3.390   -5.385
+ RAP           H382   H    H         0.000      1.842   -1.802   -5.341
+ RAP           C39    C    CH1       0.000      1.134   -3.121   -6.894
+ RAP           H39    H    H         0.000      0.193   -2.567   -7.013
+ RAP           C40    C    CH1       0.000      0.887   -4.590   -7.148
+ RAP           H40    H    H         0.000      1.834   -5.144   -7.082
+ RAP           C41    C    CH2       0.000     -0.064   -5.067   -6.066
+ RAP           H411   H    H         0.000     -0.237   -6.134   -6.225
+ RAP           H412   H    H         0.000     -1.004   -4.526   -6.190
+ RAP           C42    C    CH2       0.000      0.480   -4.839   -4.640
+ RAP           H422   H    H         0.000      1.411   -5.396   -4.518
+ RAP           H421   H    H         0.000     -0.255   -5.196   -3.915
+ RAP           O13    O    OH1       0.000      0.278   -4.820   -8.422
+ RAP           HO3    H    H         0.000      0.137   -5.769   -8.545
+ RAP           O12    O    O2        0.000      2.078   -2.644   -7.824
+ RAP           C52    C    CH3       0.000      1.562   -2.077   -9.021
+ RAP           H523   H    H         0.000      0.990   -2.803   -9.537
+ RAP           H522   H    H         0.000      0.947   -1.248   -8.782
+ RAP           H521   H    H         0.000      2.364   -1.757   -9.634
+ RAP           O1     O    O2        0.000      3.211   -1.913   -1.387
+ RAP           C31    C    CH1       0.000      0.603    2.175   -0.468
+ RAP           H31    H    H         0.000      0.221    2.544   -1.430
+ RAP           C48    C    CH3       0.000      1.897    2.885   -0.120
+ RAP           H483   H    H         0.000      2.248    2.537    0.816
+ RAP           H482   H    H         0.000      2.620    2.685   -0.866
+ RAP           H481   H    H         0.000      1.722    3.928   -0.067
+ RAP           C30    C    C1        0.000     -0.402    2.447    0.622
+ RAP           H30    H    H         0.000     -0.037    2.493    1.634
+ RAP           C29    C    C         0.000     -1.708    2.635    0.430
+ RAP           C47    C    CH3       0.000     -2.298    2.645   -0.942
+ RAP           H473   H    H         0.000     -3.019    1.875   -1.020
+ RAP           H472   H    H         0.000     -2.759    3.581   -1.119
+ RAP           H471   H    H         0.000     -1.532    2.487   -1.655
+ RAP           C28    C    CH1       0.000     -2.583    2.884    1.628
+ RAP           H28    H    H         0.000     -1.962    2.994    2.529
+ RAP           O10    O    OH1       0.000     -3.354    4.079    1.414
+ RAP           HO1    H    H         0.000     -2.758    4.831    1.287
+ RAP           C27    C    CH1       0.000     -3.560    1.719    1.806
+ RAP           H27    H    H         0.000     -4.391    1.851    1.099
+ RAP           O9     O    O2        0.000     -2.917    0.497    1.518
+ RAP           C51    C    CH3       0.000     -3.622   -0.543    0.857
+ RAP           H513   H    H         0.000     -4.458   -0.828    1.442
+ RAP           H512   H    H         0.000     -3.952   -0.200   -0.088
+ RAP           H511   H    H         0.000     -2.981   -1.376    0.728
+ RAP           C26    C    C         0.000     -4.115    1.728    3.195
+ RAP           O8     O    O         0.000     -3.846    2.670    3.927
+ RAP           C25    C    CH1       0.000     -5.023    0.619    3.632
+ RAP           H25    H    H         0.000     -4.532   -0.341    3.420
+ RAP           C46    C    CH3       0.000     -6.354    0.654    2.901
+ RAP           H463   H    H         0.000     -6.962   -0.144    3.239
+ RAP           H462   H    H         0.000     -6.838    1.575    3.096
+ RAP           H461   H    H         0.000     -6.187    0.555    1.861
+ RAP           C24    C    CH2       0.000     -5.261    0.721    5.126
+ RAP           H241   H    H         0.000     -6.102    1.401    5.280
+ RAP           H242   H    H         0.000     -4.362    1.149    5.574
+ RAP           C23    C    CH1       0.000     -5.566   -0.623    5.778
+ RAP           H23    H    H         0.000     -6.363   -1.107    5.197
+ RAP           C45    C    CH3       0.000     -6.072   -0.437    7.203
+ RAP           H453   H    H         0.000     -5.334    0.060    7.778
+ RAP           H452   H    H         0.000     -6.958    0.142    7.190
+ RAP           H451   H    H         0.000     -6.275   -1.384    7.632
+ RAP           C22    C    C1        0.000     -4.377   -1.555    5.799
+ RAP           H22    H    H         0.000     -3.415   -1.167    6.091
+ RAP           C21    C    C1        0.000     -4.481   -2.844    5.468
+ RAP           H21    H    H         0.000     -5.432   -3.273    5.198
+ RAP           C20    C    C1        0.000     -3.259   -3.658    5.484
+ RAP           H20    H    H         0.000     -2.324   -3.249    5.828
+ RAP           C19    C    C1        0.000     -3.342   -4.908    5.062
+ RAP           H19    H    H         0.000     -4.302   -5.288    4.753
+ RAP           C18    C    C1        0.000     -2.191   -5.788    5.000
+ RAP           H18    H    H         0.000     -1.242   -5.444    5.376
+ RAP           C17    C    C         0.000     -2.288   -7.021    4.484
+ RAP           C44    C    CH3       0.000     -3.595   -7.575    4.015
+ RAP           H443   H    H         0.000     -4.019   -6.919    3.302
+ RAP           H442   H    H         0.000     -3.436   -8.524    3.573
+ RAP           H441   H    H         0.000     -4.251   -7.675    4.840
+ RAP           C16    C    CH1       0.000     -1.036   -7.823    4.467
+ RAP           H16    H    H         0.000     -0.221   -7.208    4.875
+ RAP           O7     O    O2        0.000     -1.174   -8.974    5.266
+ RAP           C50    C    CH3       0.000     -0.809   -8.853    6.630
+ RAP           H503   H    H         0.000      0.210   -8.578    6.697
+ RAP           H502   H    H         0.000     -1.408   -8.111    7.089
+ RAP           H501   H    H         0.000     -0.959   -9.781    7.117
+ RAP           C15    C    CH2       0.000     -0.695   -8.188    3.041
+ RAP           H151   H    H         0.000     -1.056   -7.375    2.409
+ RAP           H152   H    H         0.000     -1.245   -9.102    2.806
+ RAP           C14    C    CH1       0.000      0.783   -8.409    2.788
+ RAP           H14    H    H         0.000      0.868   -8.830    1.777
+ RAP           C13    C    CH2       0.000      1.388   -9.412    3.720
+ RAP           H131   H    H         0.000      0.913  -10.378    3.539
+ RAP           H132   H    H         0.000      1.184   -9.094    4.745
+ RAP           C12    C    CH2       0.000      2.885   -9.538    3.518
+ RAP           H121   H    H         0.000      3.065  -10.019    2.555
+ RAP           H122   H    H         0.000      3.291  -10.161    4.317
+ RAP           C11    C    CH1       0.000      3.567   -8.166    3.542
+ RAP           H11    H    H         0.000      3.422   -7.736    4.543
+ RAP           C43    C    CH3       0.000      5.068   -8.402    3.347
+ RAP           H433   H    H         0.000      5.233   -8.883    2.417
+ RAP           H432   H    H         0.000      5.578   -7.473    3.357
+ RAP           H431   H    H         0.000      5.436   -9.014    4.130
+ RAP           O5     O    O2        0.000      1.526   -7.190    2.786
+ RAP           C10    C    CT        0.000      2.934   -7.242    2.550
+ RAP           O6     O    OH1       0.000      3.175   -7.666    1.199
+ RAP           HO6    H    H         0.000      2.759   -7.045    0.585
+ RAP           C9     C    C         0.000      3.439   -5.839    2.786
+ RAP           O4     O    O         0.000      3.731   -5.464    3.906
+ RAP           C8     C    C         0.000      3.485   -4.915    1.662
+ RAP           O3     O    O         0.000      2.572   -5.005    0.866
+ RAP           N7     N    N         0.000      4.430   -3.996    1.544
+ RAP           C6     C    CH2       0.000      5.545   -3.812    2.472
+ RAP           H6_1   H    H         0.000      5.472   -4.531    3.291
+ RAP           H6_2   H    H         0.000      5.530   -2.798    2.878
+ RAP           C5     C    CH2       0.000      6.839   -4.035    1.714
+ RAP           H5_1   H    H         0.000      6.843   -5.043    1.294
+ RAP           H5_2   H    H         0.000      7.683   -3.924    2.397
+ RAP           C4     C    CH2       0.000      6.953   -3.026    0.604
+ RAP           H4_1   H    H         0.000      7.843   -3.239    0.009
+ RAP           H4_2   H    H         0.000      7.032   -2.024    1.030
+ RAP           C3     C    CH2       0.000      5.718   -3.105   -0.281
+ RAP           H3_1   H    H         0.000      5.748   -4.053   -0.823
+ RAP           H3_2   H    H         0.000      5.757   -2.279   -0.994
+ RAP           C2     C    CH1       0.000      4.423   -3.020    0.533
+ RAP           H2     H    H         0.000      4.427   -2.043    1.036
+ RAP           C1     C    C         0.000      3.271   -3.004   -0.439
+ RAP           O2     O    O         0.000      2.430   -3.889   -0.429
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ RAP      O11    n/a    C32    START
+ RAP      C32    O11    C31    .
+ RAP      C33    C32    C34    .
+ RAP      H331   C33    .      .
+ RAP      H332   C33    .      .
+ RAP      C34    C33    O1     .
+ RAP      H34    C34    .      .
+ RAP      C35    C34    C36    .
+ RAP      H35    C35    .      .
+ RAP      C49    C35    H491   .
+ RAP      H493   C49    .      .
+ RAP      H492   C49    .      .
+ RAP      H491   C49    .      .
+ RAP      C36    C35    C37    .
+ RAP      H361   C36    .      .
+ RAP      H362   C36    .      .
+ RAP      C37    C36    C38    .
+ RAP      H37    C37    .      .
+ RAP      C38    C37    C39    .
+ RAP      H381   C38    .      .
+ RAP      H382   C38    .      .
+ RAP      C39    C38    O12    .
+ RAP      H39    C39    .      .
+ RAP      C40    C39    O13    .
+ RAP      H40    C40    .      .
+ RAP      C41    C40    C42    .
+ RAP      H411   C41    .      .
+ RAP      H412   C41    .      .
+ RAP      C42    C41    H421   .
+ RAP      H422   C42    .      .
+ RAP      H421   C42    .      .
+ RAP      O13    C40    HO3    .
+ RAP      HO3    O13    .      .
+ RAP      O12    C39    C52    .
+ RAP      C52    O12    H521   .
+ RAP      H523   C52    .      .
+ RAP      H522   C52    .      .
+ RAP      H521   C52    .      .
+ RAP      O1     C34    .      .
+ RAP      C31    C32    C30    .
+ RAP      H31    C31    .      .
+ RAP      C48    C31    H481   .
+ RAP      H483   C48    .      .
+ RAP      H482   C48    .      .
+ RAP      H481   C48    .      .
+ RAP      C30    C31    C29    .
+ RAP      H30    C30    .      .
+ RAP      C29    C30    C28    .
+ RAP      C47    C29    H471   .
+ RAP      H473   C47    .      .
+ RAP      H472   C47    .      .
+ RAP      H471   C47    .      .
+ RAP      C28    C29    C27    .
+ RAP      H28    C28    .      .
+ RAP      O10    C28    HO1    .
+ RAP      HO1    O10    .      .
+ RAP      C27    C28    C26    .
+ RAP      H27    C27    .      .
+ RAP      O9     C27    C51    .
+ RAP      C51    O9     H511   .
+ RAP      H513   C51    .      .
+ RAP      H512   C51    .      .
+ RAP      H511   C51    .      .
+ RAP      C26    C27    C25    .
+ RAP      O8     C26    .      .
+ RAP      C25    C26    C24    .
+ RAP      H25    C25    .      .
+ RAP      C46    C25    H461   .
+ RAP      H463   C46    .      .
+ RAP      H462   C46    .      .
+ RAP      H461   C46    .      .
+ RAP      C24    C25    C23    .
+ RAP      H241   C24    .      .
+ RAP      H242   C24    .      .
+ RAP      C23    C24    C22    .
+ RAP      H23    C23    .      .
+ RAP      C45    C23    H451   .
+ RAP      H453   C45    .      .
+ RAP      H452   C45    .      .
+ RAP      H451   C45    .      .
+ RAP      C22    C23    C21    .
+ RAP      H22    C22    .      .
+ RAP      C21    C22    C20    .
+ RAP      H21    C21    .      .
+ RAP      C20    C21    C19    .
+ RAP      H20    C20    .      .
+ RAP      C19    C20    C18    .
+ RAP      H19    C19    .      .
+ RAP      C18    C19    C17    .
+ RAP      H18    C18    .      .
+ RAP      C17    C18    C16    .
+ RAP      C44    C17    H441   .
+ RAP      H443   C44    .      .
+ RAP      H442   C44    .      .
+ RAP      H441   C44    .      .
+ RAP      C16    C17    C15    .
+ RAP      H16    C16    .      .
+ RAP      O7     C16    C50    .
+ RAP      C50    O7     H501   .
+ RAP      H503   C50    .      .
+ RAP      H502   C50    .      .
+ RAP      H501   C50    .      .
+ RAP      C15    C16    C14    .
+ RAP      H151   C15    .      .
+ RAP      H152   C15    .      .
+ RAP      C14    C15    O5     .
+ RAP      H14    C14    .      .
+ RAP      C13    C14    C12    .
+ RAP      H131   C13    .      .
+ RAP      H132   C13    .      .
+ RAP      C12    C13    C11    .
+ RAP      H121   C12    .      .
+ RAP      H122   C12    .      .
+ RAP      C11    C12    C43    .
+ RAP      H11    C11    .      .
+ RAP      C43    C11    H431   .
+ RAP      H433   C43    .      .
+ RAP      H432   C43    .      .
+ RAP      H431   C43    .      .
+ RAP      O5     C14    C10    .
+ RAP      C10    O5     C9     .
+ RAP      O6     C10    HO6    .
+ RAP      HO6    O6     .      .
+ RAP      C9     C10    C8     .
+ RAP      O4     C9     .      .
+ RAP      C8     C9     N7     .
+ RAP      O3     C8     .      .
+ RAP      N7     C8     C6     .
+ RAP      C6     N7     C5     .
+ RAP      H6_1   C6     .      .
+ RAP      H6_2   C6     .      .
+ RAP      C5     C6     C4     .
+ RAP      H5_1   C5     .      .
+ RAP      H5_2   C5     .      .
+ RAP      C4     C5     C3     .
+ RAP      H4_1   C4     .      .
+ RAP      H4_2   C4     .      .
+ RAP      C3     C4     C2     .
+ RAP      H3_1   C3     .      .
+ RAP      H3_2   C3     .      .
+ RAP      C2     C3     C1     .
+ RAP      H2     C2     .      .
+ RAP      C1     C2     O2     .
+ RAP      O2     C1     .      END
+ RAP      C1     O1     .    ADD
+ RAP      C2     N7     .    ADD
+ RAP      C10    C11    .    ADD
+ RAP      C37    C42    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ RAP      C1     O1        single      1.454    0.020
+ RAP      O2     C1        double      1.220    0.020
+ RAP      C1     C2        single      1.500    0.020
+ RAP      O1     C34       single      1.426    0.020
+ RAP      C2     C3        single      1.524    0.020
+ RAP      C2     N7        single      1.455    0.020
+ RAP      H2     C2        single      1.099    0.020
+ RAP      C3     C4        single      1.524    0.020
+ RAP      H3_1   C3        single      1.092    0.020
+ RAP      H3_2   C3        single      1.092    0.020
+ RAP      C4     C5        single      1.524    0.020
+ RAP      H4_1   C4        single      1.092    0.020
+ RAP      H4_2   C4        single      1.092    0.020
+ RAP      C5     C6        single      1.524    0.020
+ RAP      H5_1   C5        single      1.092    0.020
+ RAP      H5_2   C5        single      1.092    0.020
+ RAP      C6     N7        single      1.455    0.020
+ RAP      H6_1   C6        single      1.092    0.020
+ RAP      H6_2   C6        single      1.092    0.020
+ RAP      N7     C8        single      1.330    0.020
+ RAP      O3     C8        double      1.220    0.020
+ RAP      C8     C9        single      1.460    0.020
+ RAP      O4     C9        double      1.220    0.020
+ RAP      C9     C10       single      1.507    0.020
+ RAP      C10    O5        single      1.426    0.020
+ RAP      O6     C10       single      1.432    0.020
+ RAP      C10    C11       single      1.524    0.020
+ RAP      O5     C14       single      1.426    0.020
+ RAP      HO6    O6        single      0.967    0.020
+ RAP      C11    C12       single      1.524    0.020
+ RAP      C43    C11       single      1.524    0.020
+ RAP      H11    C11       single      1.099    0.020
+ RAP      C12    C13       single      1.524    0.020
+ RAP      H121   C12       single      1.092    0.020
+ RAP      H122   C12       single      1.092    0.020
+ RAP      C13    C14       single      1.524    0.020
+ RAP      H131   C13       single      1.092    0.020
+ RAP      H132   C13       single      1.092    0.020
+ RAP      C14    C15       single      1.524    0.020
+ RAP      H14    C14       single      1.099    0.020
+ RAP      C15    C16       single      1.524    0.020
+ RAP      H151   C15       single      1.092    0.020
+ RAP      H152   C15       single      1.092    0.020
+ RAP      O7     C16       single      1.426    0.020
+ RAP      C16    C17       single      1.500    0.020
+ RAP      H16    C16       single      1.099    0.020
+ RAP      C50    O7        single      1.426    0.020
+ RAP      C17    C18       double      1.340    0.020
+ RAP      C44    C17       single      1.500    0.020
+ RAP      C18    C19       single      1.460    0.020
+ RAP      H18    C18       single      1.077    0.020
+ RAP      C19    C20       double      1.330    0.020
+ RAP      H19    C19       single      1.077    0.020
+ RAP      C20    C21       single      1.460    0.020
+ RAP      H20    C20       single      1.077    0.020
+ RAP      C21    C22       double      1.330    0.020
+ RAP      H21    C21       single      1.077    0.020
+ RAP      C22    C23       single      1.510    0.020
+ RAP      H22    C22       single      1.077    0.020
+ RAP      C23    C24       single      1.524    0.020
+ RAP      C45    C23       single      1.524    0.020
+ RAP      H23    C23       single      1.099    0.020
+ RAP      C24    C25       single      1.524    0.020
+ RAP      H241   C24       single      1.092    0.020
+ RAP      H242   C24       single      1.092    0.020
+ RAP      C25    C26       single      1.500    0.020
+ RAP      C46    C25       single      1.524    0.020
+ RAP      H25    C25       single      1.099    0.020
+ RAP      O8     C26       double      1.220    0.020
+ RAP      C26    C27       single      1.500    0.020
+ RAP      O9     C27       single      1.426    0.020
+ RAP      C27    C28       single      1.524    0.020
+ RAP      H27    C27       single      1.099    0.020
+ RAP      C51    O9        single      1.426    0.020
+ RAP      O10    C28       single      1.432    0.020
+ RAP      C28    C29       single      1.500    0.020
+ RAP      H28    C28       single      1.099    0.020
+ RAP      HO1    O10       single      0.967    0.020
+ RAP      C29    C30       double      1.340    0.020
+ RAP      C47    C29       single      1.500    0.020
+ RAP      C30    C31       single      1.510    0.020
+ RAP      H30    C30       single      1.077    0.020
+ RAP      C31    C32       single      1.500    0.020
+ RAP      C48    C31       single      1.524    0.020
+ RAP      H31    C31       single      1.099    0.020
+ RAP      C32    O11       double      1.220    0.020
+ RAP      C33    C32       single      1.510    0.020
+ RAP      C34    C33       single      1.524    0.020
+ RAP      H331   C33       single      1.092    0.020
+ RAP      H332   C33       single      1.092    0.020
+ RAP      C35    C34       single      1.524    0.020
+ RAP      H34    C34       single      1.099    0.020
+ RAP      C36    C35       single      1.524    0.020
+ RAP      C49    C35       single      1.524    0.020
+ RAP      H35    C35       single      1.099    0.020
+ RAP      C37    C36       single      1.524    0.020
+ RAP      H361   C36       single      1.092    0.020
+ RAP      H362   C36       single      1.092    0.020
+ RAP      C38    C37       single      1.524    0.020
+ RAP      C37    C42       single      1.524    0.020
+ RAP      H37    C37       single      1.099    0.020
+ RAP      C39    C38       single      1.524    0.020
+ RAP      H381   C38       single      1.092    0.020
+ RAP      H382   C38       single      1.092    0.020
+ RAP      O12    C39       single      1.426    0.020
+ RAP      C40    C39       single      1.524    0.020
+ RAP      H39    C39       single      1.099    0.020
+ RAP      C52    O12       single      1.426    0.020
+ RAP      O13    C40       single      1.432    0.020
+ RAP      C41    C40       single      1.524    0.020
+ RAP      H40    C40       single      1.099    0.020
+ RAP      HO3    O13       single      0.967    0.020
+ RAP      C42    C41       single      1.524    0.020
+ RAP      H411   C41       single      1.092    0.020
+ RAP      H412   C41       single      1.092    0.020
+ RAP      H421   C42       single      1.092    0.020
+ RAP      H422   C42       single      1.092    0.020
+ RAP      H431   C43       single      1.059    0.020
+ RAP      H432   C43       single      1.059    0.020
+ RAP      H433   C43       single      1.059    0.020
+ RAP      H441   C44       single      1.059    0.020
+ RAP      H442   C44       single      1.059    0.020
+ RAP      H443   C44       single      1.059    0.020
+ RAP      H451   C45       single      1.059    0.020
+ RAP      H452   C45       single      1.059    0.020
+ RAP      H453   C45       single      1.059    0.020
+ RAP      H461   C46       single      1.059    0.020
+ RAP      H462   C46       single      1.059    0.020
+ RAP      H463   C46       single      1.059    0.020
+ RAP      H471   C47       single      1.059    0.020
+ RAP      H472   C47       single      1.059    0.020
+ RAP      H473   C47       single      1.059    0.020
+ RAP      H481   C48       single      1.059    0.020
+ RAP      H482   C48       single      1.059    0.020
+ RAP      H483   C48       single      1.059    0.020
+ RAP      H491   C49       single      1.059    0.020
+ RAP      H492   C49       single      1.059    0.020
+ RAP      H493   C49       single      1.059    0.020
+ RAP      H501   C50       single      1.059    0.020
+ RAP      H502   C50       single      1.059    0.020
+ RAP      H503   C50       single      1.059    0.020
+ RAP      H511   C51       single      1.059    0.020
+ RAP      H512   C51       single      1.059    0.020
+ RAP      H513   C51       single      1.059    0.020
+ RAP      H521   C52       single      1.059    0.020
+ RAP      H522   C52       single      1.059    0.020
+ RAP      H523   C52       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ RAP      O11    C32    C33     120.500    3.000
+ RAP      O11    C32    C31     120.500    3.000
+ RAP      C33    C32    C31     120.000    3.000
+ RAP      C32    C33    H331    109.470    3.000
+ RAP      C32    C33    H332    109.470    3.000
+ RAP      C32    C33    C34     109.470    3.000
+ RAP      H331   C33    H332    107.900    3.000
+ RAP      H331   C33    C34     109.470    3.000
+ RAP      H332   C33    C34     109.470    3.000
+ RAP      C33    C34    H34     108.340    3.000
+ RAP      C33    C34    C35     111.000    3.000
+ RAP      C33    C34    O1      109.470    3.000
+ RAP      H34    C34    C35     108.340    3.000
+ RAP      H34    C34    O1      109.470    3.000
+ RAP      C35    C34    O1      109.470    3.000
+ RAP      C34    C35    H35     108.340    3.000
+ RAP      C34    C35    C49     111.000    3.000
+ RAP      C34    C35    C36     111.000    3.000
+ RAP      H35    C35    C49     108.340    3.000
+ RAP      H35    C35    C36     108.340    3.000
+ RAP      C49    C35    C36     111.000    3.000
+ RAP      C35    C49    H493    109.470    3.000
+ RAP      C35    C49    H492    109.470    3.000
+ RAP      C35    C49    H491    109.470    3.000
+ RAP      H493   C49    H492    109.470    3.000
+ RAP      H493   C49    H491    109.470    3.000
+ RAP      H492   C49    H491    109.470    3.000
+ RAP      C35    C36    H361    109.470    3.000
+ RAP      C35    C36    H362    109.470    3.000
+ RAP      C35    C36    C37     111.000    3.000
+ RAP      H361   C36    H362    107.900    3.000
+ RAP      H361   C36    C37     109.470    3.000
+ RAP      H362   C36    C37     109.470    3.000
+ RAP      C36    C37    H37     108.340    3.000
+ RAP      C36    C37    C38     109.470    3.000
+ RAP      C36    C37    C42     109.470    3.000
+ RAP      H37    C37    C38     108.340    3.000
+ RAP      H37    C37    C42     108.340    3.000
+ RAP      C38    C37    C42     109.470    3.000
+ RAP      C37    C38    H381    109.470    3.000
+ RAP      C37    C38    H382    109.470    3.000
+ RAP      C37    C38    C39     111.000    3.000
+ RAP      H381   C38    H382    107.900    3.000
+ RAP      H381   C38    C39     109.470    3.000
+ RAP      H382   C38    C39     109.470    3.000
+ RAP      C38    C39    H39     108.340    3.000
+ RAP      C38    C39    C40     111.000    3.000
+ RAP      C38    C39    O12     109.470    3.000
+ RAP      H39    C39    C40     108.340    3.000
+ RAP      H39    C39    O12     109.470    3.000
+ RAP      C40    C39    O12     109.470    3.000
+ RAP      C39    C40    H40     108.340    3.000
+ RAP      C39    C40    C41     111.000    3.000
+ RAP      C39    C40    O13     109.470    3.000
+ RAP      H40    C40    C41     108.340    3.000
+ RAP      H40    C40    O13     109.470    3.000
+ RAP      C41    C40    O13     109.470    3.000
+ RAP      C40    C41    H411    109.470    3.000
+ RAP      C40    C41    H412    109.470    3.000
+ RAP      C40    C41    C42     111.000    3.000
+ RAP      H411   C41    H412    107.900    3.000
+ RAP      H411   C41    C42     109.470    3.000
+ RAP      H412   C41    C42     109.470    3.000
+ RAP      C41    C42    H422    109.470    3.000
+ RAP      C41    C42    H421    109.470    3.000
+ RAP      C41    C42    C37     111.000    3.000
+ RAP      H422   C42    H421    107.900    3.000
+ RAP      H422   C42    C37     109.470    3.000
+ RAP      H421   C42    C37     109.470    3.000
+ RAP      C40    O13    HO3     109.470    3.000
+ RAP      C39    O12    C52     111.800    3.000
+ RAP      O12    C52    H523    109.470    3.000
+ RAP      O12    C52    H522    109.470    3.000
+ RAP      O12    C52    H521    109.470    3.000
+ RAP      H523   C52    H522    109.470    3.000
+ RAP      H523   C52    H521    109.470    3.000
+ RAP      H522   C52    H521    109.470    3.000
+ RAP      C34    O1     C1      111.800    3.000
+ RAP      C32    C31    H31     108.810    3.000
+ RAP      C32    C31    C48     109.470    3.000
+ RAP      C32    C31    C30     109.470    3.000
+ RAP      H31    C31    C48     108.340    3.000
+ RAP      H31    C31    C30     108.810    3.000
+ RAP      C48    C31    C30     109.470    3.000
+ RAP      C31    C48    H483    109.470    3.000
+ RAP      C31    C48    H482    109.470    3.000
+ RAP      C31    C48    H481    109.470    3.000
+ RAP      H483   C48    H482    109.470    3.000
+ RAP      H483   C48    H481    109.470    3.000
+ RAP      H482   C48    H481    109.470    3.000
+ RAP      C31    C30    H30     120.000    3.000
+ RAP      C31    C30    C29     120.500    3.000
+ RAP      H30    C30    C29     120.000    3.000
+ RAP      C30    C29    C47     120.000    3.000
+ RAP      C30    C29    C28     120.000    3.000
+ RAP      C47    C29    C28     120.000    3.000
+ RAP      C29    C47    H473    109.470    3.000
+ RAP      C29    C47    H472    109.470    3.000
+ RAP      C29    C47    H471    109.470    3.000
+ RAP      H473   C47    H472    109.470    3.000
+ RAP      H473   C47    H471    109.470    3.000
+ RAP      H472   C47    H471    109.470    3.000
+ RAP      C29    C28    H28     108.810    3.000
+ RAP      C29    C28    O10     109.470    3.000
+ RAP      C29    C28    C27     109.470    3.000
+ RAP      H28    C28    O10     109.470    3.000
+ RAP      H28    C28    C27     108.340    3.000
+ RAP      O10    C28    C27     109.470    3.000
+ RAP      C28    O10    HO1     109.470    3.000
+ RAP      C28    C27    H27     108.340    3.000
+ RAP      C28    C27    O9      109.470    3.000
+ RAP      C28    C27    C26     109.470    3.000
+ RAP      H27    C27    O9      109.470    3.000
+ RAP      H27    C27    C26     108.810    3.000
+ RAP      O9     C27    C26     109.470    3.000
+ RAP      C27    O9     C51     111.800    3.000
+ RAP      O9     C51    H513    109.470    3.000
+ RAP      O9     C51    H512    109.470    3.000
+ RAP      O9     C51    H511    109.470    3.000
+ RAP      H513   C51    H512    109.470    3.000
+ RAP      H513   C51    H511    109.470    3.000
+ RAP      H512   C51    H511    109.470    3.000
+ RAP      C27    C26    O8      120.500    3.000
+ RAP      C27    C26    C25     120.000    3.000
+ RAP      O8     C26    C25     120.500    3.000
+ RAP      C26    C25    H25     108.810    3.000
+ RAP      C26    C25    C46     109.470    3.000
+ RAP      C26    C25    C24     109.470    3.000
+ RAP      H25    C25    C46     108.340    3.000
+ RAP      H25    C25    C24     108.340    3.000
+ RAP      C46    C25    C24     111.000    3.000
+ RAP      C25    C46    H463    109.470    3.000
+ RAP      C25    C46    H462    109.470    3.000
+ RAP      C25    C46    H461    109.470    3.000
+ RAP      H463   C46    H462    109.470    3.000
+ RAP      H463   C46    H461    109.470    3.000
+ RAP      H462   C46    H461    109.470    3.000
+ RAP      C25    C24    H241    109.470    3.000
+ RAP      C25    C24    H242    109.470    3.000
+ RAP      C25    C24    C23     111.000    3.000
+ RAP      H241   C24    H242    107.900    3.000
+ RAP      H241   C24    C23     109.470    3.000
+ RAP      H242   C24    C23     109.470    3.000
+ RAP      C24    C23    H23     108.340    3.000
+ RAP      C24    C23    C45     111.000    3.000
+ RAP      C24    C23    C22     109.470    3.000
+ RAP      H23    C23    C45     108.340    3.000
+ RAP      H23    C23    C22     108.810    3.000
+ RAP      C45    C23    C22     109.470    3.000
+ RAP      C23    C45    H453    109.470    3.000
+ RAP      C23    C45    H452    109.470    3.000
+ RAP      C23    C45    H451    109.470    3.000
+ RAP      H453   C45    H452    109.470    3.000
+ RAP      H453   C45    H451    109.470    3.000
+ RAP      H452   C45    H451    109.470    3.000
+ RAP      C23    C22    H22     120.000    3.000
+ RAP      C23    C22    C21     120.000    3.000
+ RAP      H22    C22    C21     120.000    3.000
+ RAP      C22    C21    H21     120.000    3.000
+ RAP      C22    C21    C20     120.000    3.000
+ RAP      H21    C21    C20     120.000    3.000
+ RAP      C21    C20    H20     120.000    3.000
+ RAP      C21    C20    C19     120.000    3.000
+ RAP      H20    C20    C19     120.000    3.000
+ RAP      C20    C19    H19     120.000    3.000
+ RAP      C20    C19    C18     120.000    3.000
+ RAP      H19    C19    C18     120.000    3.000
+ RAP      C19    C18    H18     120.000    3.000
+ RAP      C19    C18    C17     120.000    3.000
+ RAP      H18    C18    C17     120.000    3.000
+ RAP      C18    C17    C44     120.000    3.000
+ RAP      C18    C17    C16     120.000    3.000
+ RAP      C44    C17    C16     120.000    3.000
+ RAP      C17    C44    H443    109.470    3.000
+ RAP      C17    C44    H442    109.470    3.000
+ RAP      C17    C44    H441    109.470    3.000
+ RAP      H443   C44    H442    109.470    3.000
+ RAP      H443   C44    H441    109.470    3.000
+ RAP      H442   C44    H441    109.470    3.000
+ RAP      C17    C16    H16     108.810    3.000
+ RAP      C17    C16    O7      109.470    3.000
+ RAP      C17    C16    C15     109.470    3.000
+ RAP      H16    C16    O7      109.470    3.000
+ RAP      H16    C16    C15     108.340    3.000
+ RAP      O7     C16    C15     109.470    3.000
+ RAP      C16    O7     C50     111.800    3.000
+ RAP      O7     C50    H503    109.470    3.000
+ RAP      O7     C50    H502    109.470    3.000
+ RAP      O7     C50    H501    109.470    3.000
+ RAP      H503   C50    H502    109.470    3.000
+ RAP      H503   C50    H501    109.470    3.000
+ RAP      H502   C50    H501    109.470    3.000
+ RAP      C16    C15    H151    109.470    3.000
+ RAP      C16    C15    H152    109.470    3.000
+ RAP      C16    C15    C14     111.000    3.000
+ RAP      H151   C15    H152    107.900    3.000
+ RAP      H151   C15    C14     109.470    3.000
+ RAP      H152   C15    C14     109.470    3.000
+ RAP      C15    C14    H14     108.340    3.000
+ RAP      C15    C14    C13     109.470    3.000
+ RAP      C15    C14    O5      109.470    3.000
+ RAP      H14    C14    C13     108.340    3.000
+ RAP      H14    C14    O5      109.470    3.000
+ RAP      C13    C14    O5      109.470    3.000
+ RAP      C14    C13    H131    109.470    3.000
+ RAP      C14    C13    H132    109.470    3.000
+ RAP      C14    C13    C12     111.000    3.000
+ RAP      H131   C13    H132    107.900    3.000
+ RAP      H131   C13    C12     109.470    3.000
+ RAP      H132   C13    C12     109.470    3.000
+ RAP      C13    C12    H121    109.470    3.000
+ RAP      C13    C12    H122    109.470    3.000
+ RAP      C13    C12    C11     111.000    3.000
+ RAP      H121   C12    H122    107.900    3.000
+ RAP      H121   C12    C11     109.470    3.000
+ RAP      H122   C12    C11     109.470    3.000
+ RAP      C12    C11    H11     108.340    3.000
+ RAP      C12    C11    C43     111.000    3.000
+ RAP      C12    C11    C10     111.000    3.000
+ RAP      H11    C11    C43     108.340    3.000
+ RAP      H11    C11    C10     108.340    3.000
+ RAP      C43    C11    C10     111.000    3.000
+ RAP      C11    C43    H433    109.470    3.000
+ RAP      C11    C43    H432    109.470    3.000
+ RAP      C11    C43    H431    109.470    3.000
+ RAP      H433   C43    H432    109.470    3.000
+ RAP      H433   C43    H431    109.470    3.000
+ RAP      H432   C43    H431    109.470    3.000
+ RAP      C14    O5     C10     111.800    3.000
+ RAP      O5     C10    O6      109.470    3.000
+ RAP      O5     C10    C9      109.470    3.000
+ RAP      O5     C10    C11     109.470    3.000
+ RAP      O6     C10    C9      109.470    3.000
+ RAP      O6     C10    C11     109.470    3.000
+ RAP      C9     C10    C11     109.470    3.000
+ RAP      C10    O6     HO6     109.470    3.000
+ RAP      C10    C9     O4      120.500    3.000
+ RAP      C10    C9     C8      120.000    3.000
+ RAP      O4     C9     C8      120.500    3.000
+ RAP      C9     C8     O3      120.500    3.000
+ RAP      C9     C8     N7      116.500    3.000
+ RAP      O3     C8     N7      123.000    3.000
+ RAP      C8     N7     C6      127.000    3.000
+ RAP      C8     N7     C2      121.000    3.000
+ RAP      C6     N7     C2      112.000    3.000
+ RAP      N7     C6     H6_1    109.470    3.000
+ RAP      N7     C6     H6_2    109.470    3.000
+ RAP      N7     C6     C5      105.000    3.000
+ RAP      H6_1   C6     H6_2    107.900    3.000
+ RAP      H6_1   C6     C5      109.470    3.000
+ RAP      H6_2   C6     C5      109.470    3.000
+ RAP      C6     C5     H5_1    109.470    3.000
+ RAP      C6     C5     H5_2    109.470    3.000
+ RAP      C6     C5     C4      111.000    3.000
+ RAP      H5_1   C5     H5_2    107.900    3.000
+ RAP      H5_1   C5     C4      109.470    3.000
+ RAP      H5_2   C5     C4      109.470    3.000
+ RAP      C5     C4     H4_1    109.470    3.000
+ RAP      C5     C4     H4_2    109.470    3.000
+ RAP      C5     C4     C3      111.000    3.000
+ RAP      H4_1   C4     H4_2    107.900    3.000
+ RAP      H4_1   C4     C3      109.470    3.000
+ RAP      H4_2   C4     C3      109.470    3.000
+ RAP      C4     C3     H3_1    109.470    3.000
+ RAP      C4     C3     H3_2    109.470    3.000
+ RAP      C4     C3     C2      111.000    3.000
+ RAP      H3_1   C3     H3_2    107.900    3.000
+ RAP      H3_1   C3     C2      109.470    3.000
+ RAP      H3_2   C3     C2      109.470    3.000
+ RAP      C3     C2     H2      108.340    3.000
+ RAP      C3     C2     C1      109.470    3.000
+ RAP      C3     C2     N7      105.000    3.000
+ RAP      H2     C2     C1      108.810    3.000
+ RAP      H2     C2     N7      109.470    3.000
+ RAP      C1     C2     N7      111.600    3.000
+ RAP      C2     C1     O2      120.500    3.000
+ RAP      C2     C1     O1      120.000    3.000
+ RAP      O2     C1     O1      119.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ RAP      var_1    O11    C32    C33    C34       12.856   20.000   3
+ RAP      var_2    C32    C33    C34    O1      -161.410   20.000   3
+ RAP      var_3    C33    C34    C35    C36     -179.724   20.000   3
+ RAP      var_4    C34    C35    C49    H491     -54.478   20.000   3
+ RAP      var_5    C34    C35    C36    C37     -174.180   20.000   3
+ RAP      var_6    C35    C36    C37    C38       65.759   20.000   3
+ RAP      var_7    C36    C37    C42    C41      180.000   20.000   3
+ RAP      var_8    C36    C37    C38    C39      180.000   20.000   3
+ RAP      var_9    C37    C38    C39    O12      180.000   20.000   3
+ RAP      var_10   C38    C39    C40    O13      180.000   20.000   3
+ RAP      var_11   C39    C40    C41    C42      -60.000   20.000   3
+ RAP      var_12   C40    C41    C42    C37       60.000   20.000   3
+ RAP      var_13   C39    C40    O13    HO3      180.000   20.000   1
+ RAP      var_14   C38    C39    O12    C52     -150.006   20.000   1
+ RAP      var_15   C39    O12    C52    H521     180.000   20.000   1
+ RAP      var_16   C33    C34    O1     C1       128.196   20.000   1
+ RAP      var_17   O11    C32    C31    C30       33.110   20.000   3
+ RAP      var_18   C32    C31    C48    H481     180.000   20.000   3
+ RAP      var_19   C32    C31    C30    C29      -94.438   20.000   1
+ RAP      CONST_1  C31    C30    C29    C28      178.752    0.000   0
+ RAP      var_20   C30    C29    C47    H471       0.020   20.000   1
+ RAP      var_21   C30    C29    C28    C27     -109.520   20.000   3
+ RAP      var_22   C29    C28    O10    HO1      -59.999   20.000   1
+ RAP      var_23   C29    C28    C27    C26      159.938   20.000   3
+ RAP      var_24   C28    C27    O9     C51     -150.000   20.000   1
+ RAP      var_25   C27    O9     C51    H511     180.000   20.000   1
+ RAP      var_26   C28    C27    C26    C25     -175.554   20.000   3
+ RAP      var_27   C27    C26    C25    C24      176.051   20.000   3
+ RAP      var_28   C26    C25    C46    H461      60.002   20.000   3
+ RAP      var_29   C26    C25    C24    C23     -155.062   20.000   3
+ RAP      var_30   C25    C24    C23    C22       71.857   20.000   3
+ RAP      var_31   C24    C23    C45    H451     180.000   20.000   3
+ RAP      var_32   C24    C23    C22    C21     -140.514   20.000   1
+ RAP      CONST_2  C23    C22    C21    C20      179.555    0.000   0
+ RAP      var_33   C22    C21    C20    C19     -177.868   20.000   1
+ RAP      CONST_3  C21    C20    C19    C18      177.136    0.000   0
+ RAP      var_34   C20    C19    C18    C17     -178.970   20.000   1
+ RAP      CONST_4  C19    C18    C17    C16      178.300    0.000   0
+ RAP      var_35   C18    C17    C44    H441     -64.670   20.000   1
+ RAP      var_36   C18    C17    C16    C15     -121.962   20.000   3
+ RAP      var_37   C17    C16    O7     C50      -90.002   20.000   1
+ RAP      var_38   C16    O7     C50    H501     180.000   20.000   1
+ RAP      var_39   C17    C16    C15    C14      151.698   20.000   3
+ RAP      var_40   C16    C15    C14    O5       -74.657   20.000   3
+ RAP      var_41   C15    C14    C13    C12      180.000   20.000   3
+ RAP      var_42   C14    C13    C12    C11       60.000   20.000   3
+ RAP      var_43   C13    C12    C11    C43      180.000   20.000   3
+ RAP      var_44   C12    C11    C43    H431     -60.004   20.000   3
+ RAP      var_45   C15    C14    O5     C10      180.000   20.000   1
+ RAP      var_46   C14    O5     C10    C9       180.000   20.000   1
+ RAP      var_47   O5     C10    C11    C12       60.000   20.000   1
+ RAP      var_48   O5     C10    O6     HO6       59.353   20.000   1
+ RAP      var_49   O5     C10    C9     C8       -84.814   20.000   1
+ RAP      var_50   C10    C9     C8     N7      -154.536   20.000   1
+ RAP      CONST_5  C9     C8     N7     C6         0.000    0.000   0
+ RAP      var_51   C8     N7     C6     C5       120.000   20.000   1
+ RAP      var_52   N7     C6     C5     C4        60.000   20.000   3
+ RAP      var_53   C6     C5     C4     C3       -60.000   20.000   3
+ RAP      var_54   C5     C4     C3     C2        60.000   20.000   3
+ RAP      var_55   C4     C3     C2     C1       180.000   20.000   3
+ RAP      var_56   C3     C2     N7     C8      -120.000   20.000   3
+ RAP      var_57   C3     C2     C1     O2       128.131   20.000   3
+ RAP      var_58   C2     C1     O1     C34      177.042   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ RAP      chir_01  C2     C1     C3     N7        positiv
+ RAP      chir_02  C10    C9     O5     O6        negativ
+ RAP      chir_03  C11    C10    C12    C43       negativ
+ RAP      chir_04  C14    O5     C13    C15       negativ
+ RAP      chir_05  C16    C15    O7     C17       positiv
+ RAP      chir_06  C23    C22    C24    C45       positiv
+ RAP      chir_07  C25    C24    C26    C46       positiv
+ RAP      chir_08  C27    C26    O9     C28       positiv
+ RAP      chir_09  C28    C27    O10    C29       positiv
+ RAP      chir_10  C31    C30    C32    C48       positiv
+ RAP      chir_11  C34    O1     C33    C35       negativ
+ RAP      chir_12  C35    C34    C36    C49       negativ
+ RAP      chir_13  C37    C36    C38    C42       negativ
+ RAP      chir_14  C39    C38    O12    C40       negativ
+ RAP      chir_15  C40    C39    O13    C41       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ RAP      plan-1    C1        0.020
+ RAP      plan-1    O1        0.020
+ RAP      plan-1    O2        0.020
+ RAP      plan-1    C2        0.020
+ RAP      plan-2    N7        0.020
+ RAP      plan-2    C2        0.020
+ RAP      plan-2    C6        0.020
+ RAP      plan-2    C8        0.020
+ RAP      plan-3    C8        0.020
+ RAP      plan-3    N7        0.020
+ RAP      plan-3    O3        0.020
+ RAP      plan-3    C9        0.020
+ RAP      plan-4    C9        0.020
+ RAP      plan-4    C8        0.020
+ RAP      plan-4    O4        0.020
+ RAP      plan-4    C10       0.020
+ RAP      plan-5    C17       0.020
+ RAP      plan-5    C16       0.020
+ RAP      plan-5    C18       0.020
+ RAP      plan-5    C44       0.020
+ RAP      plan-5    C19       0.020
+ RAP      plan-5    H18       0.020
+ RAP      plan-5    H19       0.020
+ RAP      plan-6    C19       0.020
+ RAP      plan-6    C18       0.020
+ RAP      plan-6    C20       0.020
+ RAP      plan-6    H19       0.020
+ RAP      plan-6    C21       0.020
+ RAP      plan-6    H20       0.020
+ RAP      plan-6    H18       0.020
+ RAP      plan-6    H21       0.020
+ RAP      plan-7    C21       0.020
+ RAP      plan-7    C20       0.020
+ RAP      plan-7    C22       0.020
+ RAP      plan-7    H21       0.020
+ RAP      plan-7    C23       0.020
+ RAP      plan-7    H22       0.020
+ RAP      plan-7    H20       0.020
+ RAP      plan-8    C26       0.020
+ RAP      plan-8    C25       0.020
+ RAP      plan-8    O8        0.020
+ RAP      plan-8    C27       0.020
+ RAP      plan-9    C29       0.020
+ RAP      plan-9    C28       0.020
+ RAP      plan-9    C30       0.020
+ RAP      plan-9    C47       0.020
+ RAP      plan-9    C31       0.020
+ RAP      plan-9    H30       0.020
+ RAP      plan-10   C32       0.020
+ RAP      plan-10   C31       0.020
+ RAP      plan-10   O11       0.020
+ RAP      plan-10   C33       0.020

@@ -1,0 +1,437 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+FOK      FOK 'FORSKOLIN                           ' non-polymer        63  29 .
+#
+data_comp_FOK
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ FOK           O5     O    O         0.000      0.141   -0.328    0.041
+ FOK           C21    C    C         0.000      0.781    0.725   -0.001
+ FOK           C22    C    CH3       0.000      2.289    0.590   -0.005
+ FOK           H223   H    H         0.000      2.684    1.024   -0.888
+ FOK           H222   H    H         0.000      2.694    1.086    0.840
+ FOK           H221   H    H         0.000      2.556   -0.436    0.031
+ FOK           O4     O    O2        0.000      0.413    2.148   -0.001
+ FOK           C7     C    CH1       0.000     -0.900    2.591    0.227
+ FOK           H7     H    H         0.000     -1.447    1.739   -0.200
+ FOK           C6     C    CH1       0.000     -1.414    2.518    1.639
+ FOK           H6     H    H         0.000     -1.306    1.456    1.898
+ FOK           O3     O    OH1       0.000     -0.439    3.156    2.444
+ FOK           HO3    H    H         0.000      0.403    2.691    2.354
+ FOK           C5     C    CH1       0.000     -2.968    2.743    1.644
+ FOK           H5     H    H         0.000     -3.296    1.735    1.356
+ FOK           C4     C    CT        0.000     -3.476    2.769    3.092
+ FOK           C18    C    CH3       0.000     -3.311    1.403    3.781
+ FOK           H183   H    H         0.000     -3.861    0.668    3.250
+ FOK           H182   H    H         0.000     -2.286    1.133    3.795
+ FOK           H181   H    H         0.000     -3.672    1.461    4.776
+ FOK           C19    C    CH3       0.000     -2.771    3.788    3.986
+ FOK           H193   H    H         0.000     -1.752    3.518    4.096
+ FOK           H192   H    H         0.000     -2.835    4.750    3.546
+ FOK           H191   H    H         0.000     -3.235    3.805    4.938
+ FOK           C3     C    CH2       0.000     -4.958    3.023    3.134
+ FOK           H3_1   H    H         0.000     -5.217    3.262    4.167
+ FOK           H3_2   H    H         0.000     -5.454    2.095    2.841
+ FOK           C2     C    CH2       0.000     -5.407    4.141    2.230
+ FOK           H2_1   H    H         0.000     -4.959    5.045    2.647
+ FOK           H2_2   H    H         0.000     -6.492    4.187    2.346
+ FOK           C1     C    CH1       0.000     -5.050    4.032    0.724
+ FOK           H1     H    H         0.000     -5.200    5.011    0.248
+ FOK           O2     O    OH1       0.000     -5.872    3.070    0.076
+ FOK           HO2    H    H         0.000     -6.798    3.333    0.158
+ FOK           C8     C    CT        0.000     -1.475    3.687   -0.617
+ FOK           C17    C    CH3       0.000     -0.568    4.889   -0.200
+ FOK           H173   H    H         0.000     -0.932    5.786   -0.636
+ FOK           H172   H    H         0.000     -0.568    4.993    0.857
+ FOK           H171   H    H         0.000      0.428    4.723   -0.531
+ FOK           O1     O    O2        0.000     -0.844    3.739   -1.879
+ FOK           C13    C    CT        0.000     -1.181    4.638   -2.936
+ FOK           C16    C    CH3       0.000     -0.448    5.967   -3.002
+ FOK           H163   H    H         0.000     -0.647    6.433   -3.932
+ FOK           H162   H    H         0.000     -0.780    6.592   -2.215
+ FOK           H161   H    H         0.000      0.593    5.800   -2.906
+ FOK           C14    C    C1        0.000     -0.955    3.960   -4.248
+ FOK           H14    H    H         0.000     -1.191    4.514   -5.141
+ FOK           C15    C    C2        0.000     -0.491    2.741   -4.399
+ FOK           H152   H    H         0.000     -0.242    2.153   -3.534
+ FOK           H151   H    H         0.000     -0.361    2.336   -5.386
+ FOK           C12    C    CH2       0.000     -2.651    4.689   -3.033
+ FOK           H121   H    H         0.000     -2.943    4.013   -3.839
+ FOK           H122   H    H         0.000     -2.920    5.713   -3.302
+ FOK           C11    C    C         0.000     -3.353    4.306   -1.789
+ FOK           O7     O    O         0.000     -4.295    5.059   -1.776
+ FOK           C9     C    CT        0.000     -2.964    3.264   -0.850
+ FOK           O6     O    OH1       0.000     -3.294    2.036   -1.546
+ FOK           HO6    H    H         0.000     -2.832    2.009   -2.396
+ FOK           C10    C    CT        0.000     -3.622    3.571    0.474
+ FOK           C20    C    CH3       0.000     -2.873    4.855    0.511
+ FOK           H203   H    H         0.000     -1.849    4.652    0.676
+ FOK           H202   H    H         0.000     -2.996    5.353   -0.412
+ FOK           H201   H    H         0.000     -3.252    5.453    1.295
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ FOK      O5     n/a    C21    START
+ FOK      C21    O5     O4     .
+ FOK      C22    C21    H221   .
+ FOK      H223   C22    .      .
+ FOK      H222   C22    .      .
+ FOK      H221   C22    .      .
+ FOK      O4     C21    C7     .
+ FOK      C7     O4     C8     .
+ FOK      H7     C7     .      .
+ FOK      C6     C7     C5     .
+ FOK      H6     C6     .      .
+ FOK      O3     C6     HO3    .
+ FOK      HO3    O3     .      .
+ FOK      C5     C6     C4     .
+ FOK      H5     C5     .      .
+ FOK      C4     C5     C3     .
+ FOK      C18    C4     H181   .
+ FOK      H183   C18    .      .
+ FOK      H182   C18    .      .
+ FOK      H181   C18    .      .
+ FOK      C19    C4     H191   .
+ FOK      H193   C19    .      .
+ FOK      H192   C19    .      .
+ FOK      H191   C19    .      .
+ FOK      C3     C4     C2     .
+ FOK      H3_1   C3     .      .
+ FOK      H3_2   C3     .      .
+ FOK      C2     C3     C1     .
+ FOK      H2_1   C2     .      .
+ FOK      H2_2   C2     .      .
+ FOK      C1     C2     O2     .
+ FOK      H1     C1     .      .
+ FOK      O2     C1     HO2    .
+ FOK      HO2    O2     .      .
+ FOK      C8     C7     O1     .
+ FOK      C17    C8     H171   .
+ FOK      H173   C17    .      .
+ FOK      H172   C17    .      .
+ FOK      H171   C17    .      .
+ FOK      O1     C8     C13    .
+ FOK      C13    O1     C12    .
+ FOK      C16    C13    H161   .
+ FOK      H163   C16    .      .
+ FOK      H162   C16    .      .
+ FOK      H161   C16    .      .
+ FOK      C14    C13    C15    .
+ FOK      H14    C14    .      .
+ FOK      C15    C14    H151   .
+ FOK      H152   C15    .      .
+ FOK      H151   C15    .      .
+ FOK      C12    C13    C11    .
+ FOK      H121   C12    .      .
+ FOK      H122   C12    .      .
+ FOK      C11    C12    C9     .
+ FOK      O7     C11    .      .
+ FOK      C9     C11    C10    .
+ FOK      O6     C9     HO6    .
+ FOK      HO6    O6     .      .
+ FOK      C10    C9     C20    .
+ FOK      C20    C10    H201   .
+ FOK      H203   C20    .      .
+ FOK      H202   C20    .      .
+ FOK      H201   C20    .      END
+ FOK      C1     C10    .    ADD
+ FOK      C5     C10    .    ADD
+ FOK      C8     C9     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ FOK      O2     C1        single      1.432    0.020
+ FOK      C1     C2        single      1.524    0.020
+ FOK      C1     C10       single      1.524    0.020
+ FOK      H1     C1        single      1.099    0.020
+ FOK      HO2    O2        single      0.967    0.020
+ FOK      C2     C3        single      1.524    0.020
+ FOK      H2_1   C2        single      1.092    0.020
+ FOK      H2_2   C2        single      1.092    0.020
+ FOK      C3     C4        single      1.524    0.020
+ FOK      H3_1   C3        single      1.092    0.020
+ FOK      H3_2   C3        single      1.092    0.020
+ FOK      C4     C5        single      1.524    0.020
+ FOK      C18    C4        single      1.524    0.020
+ FOK      C19    C4        single      1.524    0.020
+ FOK      C5     C6        single      1.524    0.020
+ FOK      C5     C10       single      1.524    0.020
+ FOK      H5     C5        single      1.099    0.020
+ FOK      O3     C6        single      1.432    0.020
+ FOK      C6     C7        single      1.524    0.020
+ FOK      H6     C6        single      1.099    0.020
+ FOK      HO3    O3        single      0.967    0.020
+ FOK      C7     O4        single      1.426    0.020
+ FOK      C8     C7        single      1.524    0.020
+ FOK      H7     C7        single      1.099    0.020
+ FOK      O4     C21       single      1.454    0.020
+ FOK      O1     C8        single      1.426    0.020
+ FOK      C8     C9        single      1.524    0.020
+ FOK      C17    C8        single      1.524    0.020
+ FOK      C13    O1        single      1.426    0.020
+ FOK      O6     C9        single      1.432    0.020
+ FOK      C10    C9        single      1.524    0.020
+ FOK      C9     C11       single      1.507    0.020
+ FOK      HO6    O6        single      0.967    0.020
+ FOK      C20    C10       single      1.524    0.020
+ FOK      O7     C11       double      1.220    0.020
+ FOK      C11    C12       single      1.510    0.020
+ FOK      C12    C13       single      1.524    0.020
+ FOK      H121   C12       single      1.092    0.020
+ FOK      H122   C12       single      1.092    0.020
+ FOK      C14    C13       single      1.510    0.020
+ FOK      C16    C13       single      1.524    0.020
+ FOK      C15    C14       double      1.320    0.020
+ FOK      H14    C14       single      1.077    0.020
+ FOK      H151   C15       single      1.077    0.020
+ FOK      H152   C15       single      1.077    0.020
+ FOK      H161   C16       single      1.059    0.020
+ FOK      H162   C16       single      1.059    0.020
+ FOK      H163   C16       single      1.059    0.020
+ FOK      H171   C17       single      1.059    0.020
+ FOK      H172   C17       single      1.059    0.020
+ FOK      H173   C17       single      1.059    0.020
+ FOK      H181   C18       single      1.059    0.020
+ FOK      H182   C18       single      1.059    0.020
+ FOK      H183   C18       single      1.059    0.020
+ FOK      H191   C19       single      1.059    0.020
+ FOK      H192   C19       single      1.059    0.020
+ FOK      H193   C19       single      1.059    0.020
+ FOK      H201   C20       single      1.059    0.020
+ FOK      H202   C20       single      1.059    0.020
+ FOK      H203   C20       single      1.059    0.020
+ FOK      C21    O5        double      1.220    0.020
+ FOK      C22    C21       single      1.500    0.020
+ FOK      H221   C22       single      1.059    0.020
+ FOK      H222   C22       single      1.059    0.020
+ FOK      H223   C22       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ FOK      O5     C21    C22     123.000    3.000
+ FOK      O5     C21    O4      119.000    3.000
+ FOK      C22    C21    O4      120.000    3.000
+ FOK      C21    C22    H223    109.470    3.000
+ FOK      C21    C22    H222    109.470    3.000
+ FOK      C21    C22    H221    109.470    3.000
+ FOK      H223   C22    H222    109.470    3.000
+ FOK      H223   C22    H221    109.470    3.000
+ FOK      H222   C22    H221    109.470    3.000
+ FOK      C21    O4     C7      111.800    3.000
+ FOK      O4     C7     H7      109.470    3.000
+ FOK      O4     C7     C6      109.470    3.000
+ FOK      O4     C7     C8      109.470    3.000
+ FOK      H7     C7     C6      108.340    3.000
+ FOK      H7     C7     C8      108.340    3.000
+ FOK      C6     C7     C8      111.000    3.000
+ FOK      C7     C6     H6      108.340    3.000
+ FOK      C7     C6     O3      109.470    3.000
+ FOK      C7     C6     C5      111.000    3.000
+ FOK      H6     C6     O3      109.470    3.000
+ FOK      H6     C6     C5      108.340    3.000
+ FOK      O3     C6     C5      109.470    3.000
+ FOK      C6     O3     HO3     109.470    3.000
+ FOK      C6     C5     H5      108.340    3.000
+ FOK      C6     C5     C4      111.000    3.000
+ FOK      C6     C5     C10     111.000    3.000
+ FOK      H5     C5     C4      108.340    3.000
+ FOK      H5     C5     C10     108.340    3.000
+ FOK      C4     C5     C10     109.500    3.000
+ FOK      C5     C4     C18     111.000    3.000
+ FOK      C5     C4     C19     111.000    3.000
+ FOK      C5     C4     C3      111.000    3.000
+ FOK      C18    C4     C19     111.000    3.000
+ FOK      C18    C4     C3      111.000    3.000
+ FOK      C19    C4     C3      111.000    3.000
+ FOK      C4     C18    H183    109.470    3.000
+ FOK      C4     C18    H182    109.470    3.000
+ FOK      C4     C18    H181    109.470    3.000
+ FOK      H183   C18    H182    109.470    3.000
+ FOK      H183   C18    H181    109.470    3.000
+ FOK      H182   C18    H181    109.470    3.000
+ FOK      C4     C19    H193    109.470    3.000
+ FOK      C4     C19    H192    109.470    3.000
+ FOK      C4     C19    H191    109.470    3.000
+ FOK      H193   C19    H192    109.470    3.000
+ FOK      H193   C19    H191    109.470    3.000
+ FOK      H192   C19    H191    109.470    3.000
+ FOK      C4     C3     H3_1    109.470    3.000
+ FOK      C4     C3     H3_2    109.470    3.000
+ FOK      C4     C3     C2      111.000    3.000
+ FOK      H3_1   C3     H3_2    107.900    3.000
+ FOK      H3_1   C3     C2      109.470    3.000
+ FOK      H3_2   C3     C2      109.470    3.000
+ FOK      C3     C2     H2_1    109.470    3.000
+ FOK      C3     C2     H2_2    109.470    3.000
+ FOK      C3     C2     C1      111.000    3.000
+ FOK      H2_1   C2     H2_2    107.900    3.000
+ FOK      H2_1   C2     C1      109.470    3.000
+ FOK      H2_2   C2     C1      109.470    3.000
+ FOK      C2     C1     H1      108.340    3.000
+ FOK      C2     C1     O2      109.470    3.000
+ FOK      C2     C1     C10     111.000    3.000
+ FOK      H1     C1     O2      109.470    3.000
+ FOK      H1     C1     C10     108.340    3.000
+ FOK      O2     C1     C10     109.470    3.000
+ FOK      C1     O2     HO2     109.470    3.000
+ FOK      C7     C8     C17     111.000    3.000
+ FOK      C7     C8     O1      109.470    3.000
+ FOK      C7     C8     C9      111.000    3.000
+ FOK      C17    C8     O1      109.470    3.000
+ FOK      C17    C8     C9      111.000    3.000
+ FOK      O1     C8     C9      109.470    3.000
+ FOK      C8     C17    H173    109.470    3.000
+ FOK      C8     C17    H172    109.470    3.000
+ FOK      C8     C17    H171    109.470    3.000
+ FOK      H173   C17    H172    109.470    3.000
+ FOK      H173   C17    H171    109.470    3.000
+ FOK      H172   C17    H171    109.470    3.000
+ FOK      C8     O1     C13     120.000    3.000
+ FOK      O1     C13    C16     109.470    3.000
+ FOK      O1     C13    C14     109.470    3.000
+ FOK      O1     C13    C12     109.470    3.000
+ FOK      C16    C13    C14     109.470    3.000
+ FOK      C16    C13    C12     111.000    3.000
+ FOK      C14    C13    C12     109.470    3.000
+ FOK      C13    C16    H163    109.470    3.000
+ FOK      C13    C16    H162    109.470    3.000
+ FOK      C13    C16    H161    109.470    3.000
+ FOK      H163   C16    H162    109.470    3.000
+ FOK      H163   C16    H161    109.470    3.000
+ FOK      H162   C16    H161    109.470    3.000
+ FOK      C13    C14    H14     120.000    3.000
+ FOK      C13    C14    C15     120.000    3.000
+ FOK      H14    C14    C15     120.000    3.000
+ FOK      C14    C15    H152    120.000    3.000
+ FOK      C14    C15    H151    120.000    3.000
+ FOK      H152   C15    H151    120.000    3.000
+ FOK      C13    C12    H121    109.470    3.000
+ FOK      C13    C12    H122    109.470    3.000
+ FOK      C13    C12    C11     109.470    3.000
+ FOK      H121   C12    H122    107.900    3.000
+ FOK      H121   C12    C11     109.470    3.000
+ FOK      H122   C12    C11     109.470    3.000
+ FOK      C12    C11    O7      120.500    3.000
+ FOK      C12    C11    C9      120.000    3.000
+ FOK      O7     C11    C9      120.500    3.000
+ FOK      C11    C9     O6      109.470    3.000
+ FOK      C11    C9     C10     111.000    3.000
+ FOK      C11    C9     C8      111.000    3.000
+ FOK      O6     C9     C10     109.470    3.000
+ FOK      O6     C9     C8      109.470    3.000
+ FOK      C10    C9     C8      111.000    3.000
+ FOK      C9     O6     HO6     109.470    3.000
+ FOK      C9     C10    C20     111.000    3.000
+ FOK      C9     C10    C1      111.000    3.000
+ FOK      C9     C10    C5      111.000    3.000
+ FOK      C1     C10    C5      111.000    3.000
+ FOK      C20    C10    C1      111.000    3.000
+ FOK      C20    C10    C5      111.000    3.000
+ FOK      C10    C20    H203    109.470    3.000
+ FOK      C10    C20    H202    109.470    3.000
+ FOK      C10    C20    H201    109.470    3.000
+ FOK      H203   C20    H202    109.470    3.000
+ FOK      H203   C20    H201    109.470    3.000
+ FOK      H202   C20    H201    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ FOK      var_1    O5     C21    C22    H221      -0.020   20.000   1
+ FOK      var_2    O5     C21    O4     C7         0.000   20.000   1
+ FOK      var_3    C21    O4     C7     C8      -147.977   20.000   1
+ FOK      var_4    O4     C7     C6     C5       180.000   20.000   3
+ FOK      var_5    C7     C6     O3     HO3      -60.003   20.000   1
+ FOK      var_6    C7     C6     C5     C4       180.000   20.000   3
+ FOK      var_7    C6     C5     C10    C9        60.000   20.000   1
+ FOK      var_8    C6     C5     C4     C3       180.000   20.000   1
+ FOK      var_9    C5     C4     C18    H181     180.000   20.000   1
+ FOK      var_10   C5     C4     C19    H191     174.910   20.000   1
+ FOK      var_11   C5     C4     C3     C2       -60.000   20.000   1
+ FOK      var_12   C4     C3     C2     C1        60.000   20.000   3
+ FOK      var_13   C3     C2     C1     O2        60.000   20.000   3
+ FOK      var_14   C2     C1     C10    C9       180.000   20.000   1
+ FOK      var_15   C2     C1     O2     HO2       59.999   20.000   1
+ FOK      var_16   O4     C7     C8     O1        60.000   20.000   1
+ FOK      var_17   C7     C8     C9     C11      180.000   20.000   1
+ FOK      var_18   C7     C8     C17    H171      66.842   20.000   1
+ FOK      var_19   C7     C8     O1     C13      180.000   20.000   1
+ FOK      var_20   C8     O1     C13    C12      -30.000   20.000   1
+ FOK      var_21   O1     C13    C16    H161      48.226   20.000   1
+ FOK      var_22   O1     C13    C14    C15        6.762   20.000   1
+ FOK      CONST_1  C13    C14    C15    H151     180.000    0.000   0
+ FOK      var_23   O1     C13    C12    C11       30.000   20.000   1
+ FOK      CONST_2  C13    C12    C11    C9       -30.000    0.000   0
+ FOK      CONST_3  C12    C11    C9     C10      180.000    0.000   0
+ FOK      var_24   C11    C9     O6     HO6       56.989   20.000   1
+ FOK      var_25   C11    C9     C10    C20      -60.000   20.000   1
+ FOK      var_26   C9     C10    C20    H201     169.595   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ FOK      chir_01  C1     O2     C2     C10       negativ
+ FOK      chir_02  C4     C3     C5     C18       positiv
+ FOK      chir_03  C5     C4     C6     C10       positiv
+ FOK      chir_04  C6     C5     O3     C7        positiv
+ FOK      chir_05  C7     C6     O4     C8        positiv
+ FOK      chir_06  C8     C7     O1     C9        negativ
+ FOK      chir_07  C9     C8     O6     C10       negativ
+ FOK      chir_08  C10    C1     C5     C9        negativ
+ FOK      chir_09  C13    O1     C12    C14       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ FOK      plan-1    C11       0.020
+ FOK      plan-1    C9        0.020
+ FOK      plan-1    O7        0.020
+ FOK      plan-1    C12       0.020
+ FOK      plan-2    C14       0.020
+ FOK      plan-2    C13       0.020
+ FOK      plan-2    C15       0.020
+ FOK      plan-2    H14       0.020
+ FOK      plan-2    H151      0.020
+ FOK      plan-2    H152      0.020
+ FOK      plan-3    C21       0.020
+ FOK      plan-3    O4        0.020
+ FOK      plan-3    O5        0.020
+ FOK      plan-3    C22       0.020

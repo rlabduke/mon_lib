@@ -1,0 +1,1550 @@
+Original distribution:
+  ftp://ftp.ysbl.york.ac.uk/pub/garib/
+    refmac_dictionary.tar.gz
+      date: 2004_06_30
+      size: 2426459
+Update from new file:
+      date: 2004_10_01
+      size: 2429420
+Update from new file 2005_12_07:
+  http://www.ysbl.york.ac.uk/~garib/refmac/data/
+    refmac_dictionary.tar.gz
+      date: 2005_11_18
+      size: 2424553
+
+2008_01_23:
+  All files (1998) with unknown type_energy removed.
+  See file: svn_rm_unknown_type_energy
+
+  All files (6) with missing bond angle definitions removed.
+  See file: svn_rm_missing_bond_angle_definitions
+
+  Files with mismatches compared to ccp4 cvs 2008_01_23_1327
+  and a low number of corresponding PDB entries removed:
+               #PDB entries
+    p/PHB.cif  32
+    l/LAT.cif  28
+    a/ADD.cif  11
+    c/CBZ.cif   1
+
+Basic cleanup:
+  find . -name '*~' -print -exec rm {} \;
+  find . -name '#*' -print -exec rm {} \;
+  find . -name '*.html' -print -exec rm {} \;
+  find . -name '*.bat' -print -exec rm {} \;
+  rm .DS_Store
+  rm mon_lib_ind2.cif mon_lib_ind.cif mon_lib.list comments.ps full_names.list
+  rm list/mon_lib_1.list
+  rm n_dicts.txt p_dicts.txt monomers.py
+  rm ./b/list.lst ./g/all_cifs ./n/all_cifs ./n/NAD_old.cif ./o/OLA_save.cif
+  rm t/RD.cif
+  rm c/CEl.cif
+  rm c/COM_COM.cif c/CON.cif p/PRN.cif
+  libtbx.clean_clutter h/HEC.cif n/NAP.cif n/NIV.cif
+
+Additional file from CCP4 distribution:
+  COPYING
+
+Additional script:
+  dic_cmp.csh
+
+Local patches (output of dic_cmp.csh):
+
+File: list/mon_lib_list.cif
+2795a2796,2818
+> ACE         .        HH31   H1
+> ACE         .        HH32   H2
+> ACE         .        HH33   H3
+> NH2         .        HN1    H1
+> NH2         .        HN2    H2
+> Ar          .        HO3*   H3T
+> Ar          .        HO5*   H5T
+> Cr          .        HO3*   H3T
+> Cr          .        HO5*   H5T
+> Gr          .        HO3*   H3T
+> Gr          .        HO5*   H5T
+> Ir          .        HO3*   H3T
+> Ir          .        HO5*   H5T
+> Ur          .        HO3*   H3T
+> Ur          .        HO5*   H5T
+> Ad          .        HO3*   H3T
+> Ad          .        HO5*   H5T
+> Cd          .        HO3*   H3T
+> Cd          .        HO5*   H5T
+> Gd          .        HO3*   H3T
+> Gd          .        HO5*   H5T
+> Td          .        HO3*   H3T
+> Td          .        HO5*   H5T
+
+File: 2/2MO.cif
+44d43
+< H</pre>
+
+File: a/ADD.cif
+61,74c61,74
+<  ADD           C,     C    CH2       0.000
+<  ADD           H,1    H    HCH2      0.000
+<  ADD           H,2    H    HCH2      0.000
+<  ADD           C1,    C    CR6       0.000
+<  ADD           C2,    C    CR16      0.000
+<  ADD           H2,    H    HCR6      0.000
+<  ADD           C3,    C    CR16      0.000
+<  ADD           H3,    H    HCR6      0.000
+<  ADD           C4,    C    CR16      0.000
+<  ADD           H4,    H    HCR6      0.000
+<  ADD           C5,    C    CR16      0.000
+<  ADD           H5,    H    HCR6      0.000
+<  ADD           C6,    C    CR16      0.000
+<  ADD           H6,    H    HCR6      0.000
+---
+>  ADD           C'     C    CH2       0.000
+>  ADD           H'1    H    HCH2      0.000
+>  ADD           H'2    H    HCH2      0.000
+>  ADD           C1'    C    CR6       0.000
+>  ADD           C2'    C    CR16      0.000
+>  ADD           H2'    H    HCR6      0.000
+>  ADD           C3'    C    CR16      0.000
+>  ADD           H3'    H    HCR6      0.000
+>  ADD           C4'    C    CR16      0.000
+>  ADD           H4'    H    HCR6      0.000
+>  ADD           C5'    C    CR16      0.000
+>  ADD           H5'    H    HCR6      0.000
+>  ADD           C6'    C    CR16      0.000
+>  ADD           H6'    H    HCR6      0.000
+114c114
+<  ADD      C9     C8     C,     .
+---
+>  ADD      C9     C8     C'     .
+121,135c121,135
+<  ADD      C,     C9     C1,    .
+<  ADD      H,1    C,     .      .
+<  ADD      H,2    C,     .      .
+<  ADD      C1,    C,     C2,    .
+<  ADD      C2,    C1,    C3,    .
+<  ADD      H2,    C2,    .      .
+<  ADD      C3,    C2,    C4,    .
+<  ADD      H3,    C3,    .      .
+<  ADD      C4,    C3,    C5,    .
+<  ADD      H4,    C4,    .      .
+<  ADD      C5,    C4,    C6,    .
+<  ADD      H5,    C5,    .      .
+<  ADD      C6,    C5,    H6,    .
+<  ADD      H6,    C6,    .      .
+<  ADD      C1,    C6,    .    ADD
+---
+>  ADD      C'     C9     C1'    .
+>  ADD      H'1    C'     .      .
+>  ADD      H'2    C'     .      .
+>  ADD      C1'    C'     C2'    .
+>  ADD      C2'    C1'    C3'    .
+>  ADD      H2'    C2'    .      .
+>  ADD      C3'    C2'    C4'    .
+>  ADD      H3'    C3'    .      .
+>  ADD      C4'    C3'    C5'    .
+>  ADD      H4'    C4'    .      .
+>  ADD      C5'    C4'    C6'    .
+>  ADD      H5'    C5'    .      .
+>  ADD      C6'    C5'    H6'    .
+>  ADD      H6'    C6'    .      .
+>  ADD      C1'    C6'    .    ADD
+182,196c182,196
+<  ADD      C,     C9        coval       1.524    0.020
+<  ADD      H,1    C,        coval       1.090    0.020
+<  ADD      H,2    C,        coval       1.090    0.020
+<  ADD      C1,    C,        coval       1.511    0.020
+<  ADD      C1,    C6,       coval       1.390    0.020
+<  ADD      C2,    C1,       coval       1.390    0.020
+<  ADD      H2,    C2,       coval       1.090    0.020
+<  ADD      C3,    C2,       coval       1.390    0.020
+<  ADD      H3,    C3,       coval       1.090    0.020
+<  ADD      C4,    C3,       coval       1.390    0.020
+<  ADD      H4,    C4,       coval       1.090    0.020
+<  ADD      C5,    C4,       coval       1.390    0.020
+<  ADD      H5,    C5,       coval       1.090    0.020
+<  ADD      C6,    C5,       coval       1.390    0.020
+<  ADD      H6,    C6,       coval       1.090    0.020
+---
+>  ADD      C'     C9        coval       1.524    0.020
+>  ADD      H'1    C'        coval       1.090    0.020
+>  ADD      H'2    C'        coval       1.090    0.020
+>  ADD      C1'    C'        coval       1.511    0.020
+>  ADD      C1'    C6'       coval       1.390    0.020
+>  ADD      C2'    C1'       coval       1.390    0.020
+>  ADD      H2'    C2'       coval       1.090    0.020
+>  ADD      C3'    C2'       coval       1.390    0.020
+>  ADD      H3'    C3'       coval       1.090    0.020
+>  ADD      C4'    C3'       coval       1.390    0.020
+>  ADD      H4'    C4'       coval       1.090    0.020
+>  ADD      C5'    C4'       coval       1.390    0.020
+>  ADD      H5'    C5'       coval       1.090    0.020
+>  ADD      C6'    C5'       coval       1.390    0.020
+>  ADD      H6'    C6'       coval       1.090    0.020
+268c268
+<  ADD      C8     C9     C,      111.000    3.000
+---
+>  ADD      C8     C9     C'      111.000    3.000
+270,271c270,271
+<  ADD      H9     C9     C,      108.340    3.000
+<  ADD      O9     C9     C,      109.470    3.000
+---
+>  ADD      H9     C9     C'      108.340    3.000
+>  ADD      O9     C9     C'      109.470    3.000
+279,302c279,302
+<  ADD      C9     C,     H,1     109.470    3.000
+<  ADD      C9     C,     H,2     109.470    3.000
+<  ADD      C9     C,     C1,     109.470    3.000
+<  ADD      H,1    C,     H,2     107.900    3.000
+<  ADD      H,1    C,     C1,     109.470    3.000
+<  ADD      H,2    C,     C1,     109.470    3.000
+<  ADD      C,     C1,    C2,     120.000    3.000
+<  ADD      C,     C1,    C6,     120.000    3.000
+<  ADD      C2,    C1,    C6,     120.000    3.000
+<  ADD      C1,    C2,    H2,     120.000    3.000
+<  ADD      C1,    C2,    C3,     120.000    3.000
+<  ADD      H2,    C2,    C3,     120.000    3.000
+<  ADD      C2,    C3,    H3,     120.000    3.000
+<  ADD      C2,    C3,    C4,     120.000    3.000
+<  ADD      H3,    C3,    C4,     120.000    3.000
+<  ADD      C3,    C4,    H4,     120.000    3.000
+<  ADD      C3,    C4,    C5,     120.000    3.000
+<  ADD      H4,    C4,    C5,     120.000    3.000
+<  ADD      C4,    C5,    H5,     120.000    3.000
+<  ADD      C4,    C5,    C6,     120.000    3.000
+<  ADD      H5,    C5,    C6,     120.000    3.000
+<  ADD      C5,    C6,    H6,     120.000    3.000
+<  ADD      C5,    C6,    C1,     120.000    3.000
+<  ADD      H6,    C6,    C1,     120.000    3.000
+---
+>  ADD      C9     C'     H'1     109.470    3.000
+>  ADD      C9     C'     H'2     109.470    3.000
+>  ADD      C9     C'     C1'     109.470    3.000
+>  ADD      H'1    C'     H'2     107.900    3.000
+>  ADD      H'1    C'     C1'     109.470    3.000
+>  ADD      H'2    C'     C1'     109.470    3.000
+>  ADD      C'     C1'    C2'     120.000    3.000
+>  ADD      C'     C1'    C6'     120.000    3.000
+>  ADD      C2'    C1'    C6'     120.000    3.000
+>  ADD      C1'    C2'    H2'     120.000    3.000
+>  ADD      C1'    C2'    C3'     120.000    3.000
+>  ADD      H2'    C2'    C3'     120.000    3.000
+>  ADD      C2'    C3'    H3'     120.000    3.000
+>  ADD      C2'    C3'    C4'     120.000    3.000
+>  ADD      H3'    C3'    C4'     120.000    3.000
+>  ADD      C3'    C4'    H4'     120.000    3.000
+>  ADD      C3'    C4'    C5'     120.000    3.000
+>  ADD      H4'    C4'    C5'     120.000    3.000
+>  ADD      C4'    C5'    H5'     120.000    3.000
+>  ADD      C4'    C5'    C6'     120.000    3.000
+>  ADD      H5'    C5'    C6'     120.000    3.000
+>  ADD      C5'    C6'    H6'     120.000    3.000
+>  ADD      C5'    C6'    C1'     120.000    3.000
+>  ADD      H6'    C6'    C1'     120.000    3.000
+322c322
+<  ADD      var_10   C7     C8     C9     C,       -54.036   20.000   3
+---
+>  ADD      var_10   C7     C8     C9     C'       -54.036   20.000   3
+325,332c325,332
+<  ADD      var_13   C8     C9     C,     C1,      164.129   20.000   3
+<  ADD      var_14   C9     C,     C1,    C2,      110.869   20.000   2
+<  ADD      var_15   C9     C,     C1,    C6,      -69.139   20.000   2
+<  ADD      CONST_1  C,     C1,    C2,    C3,      180.000    0.000   0
+<  ADD      CONST_2  C1,    C2,    C3,    C4,        0.000    0.000   0
+<  ADD      CONST_3  C2,    C3,    C4,    C5,        0.000    0.000   0
+<  ADD      CONST_4  C3,    C4,    C5,    C6,        0.000    0.000   0
+<  ADD      CONST_5  C4,    C5,    C6,    C1,        0.000    0.000   0
+---
+>  ADD      var_13   C8     C9     C'     C1'      164.129   20.000   3
+>  ADD      var_14   C9     C'     C1'    C2'      110.869   20.000   2
+>  ADD      var_15   C9     C'     C1'    C6'      -69.139   20.000   2
+>  ADD      CONST_1  C'     C1'    C2'    C3'      180.000    0.000   0
+>  ADD      CONST_2  C1'    C2'    C3'    C4'        0.000    0.000   0
+>  ADD      CONST_3  C2'    C3'    C4'    C5'        0.000    0.000   0
+>  ADD      CONST_4  C3'    C4'    C5'    C6'        0.000    0.000   0
+>  ADD      CONST_5  C4'    C5'    C6'    C1'        0.000    0.000   0
+342,348c342,348
+<  ADD      plan-2    C1,       0.020
+<  ADD      plan-2    C,        0.020
+<  ADD      plan-2    C2,       0.020
+<  ADD      plan-2    C6,       0.020
+<  ADD      plan-2    C3,       0.020
+<  ADD      plan-2    C4,       0.020
+<  ADD      plan-2    C5,       0.020
+---
+>  ADD      plan-2    C1'       0.020
+>  ADD      plan-2    C'        0.020
+>  ADD      plan-2    C2'       0.020
+>  ADD      plan-2    C6'       0.020
+>  ADD      plan-2    C3'       0.020
+>  ADD      plan-2    C4'       0.020
+>  ADD      plan-2    C5'       0.020
+
+File: b/BCL.cif
+883,887c883,887
+<  BCL      plan-3    NA        0.020
+<  BCL      plan-3    C1A       0.020
+<  BCL      plan-3    C2A       0.020
+<  BCL      plan-3    C3A       0.020
+<  BCL      plan-3    C4A       0.020
+---
+> #BCL      plan-3    NA        0.020
+> #BCL      plan-3    C1A       0.020
+> #BCL      plan-3    C2A       0.020
+> #BCL      plan-3    C3A       0.020
+> #BCL      plan-3    C4A       0.020
+
+File: b/BPT.cif
+111d110
+<  </pre>
+
+File: c/CBZ.cif
+24,26c24,26
+<  CBZ           C1,    C    CH2       0.000
+<  CBZ           H1,1   H    HCH2      0.000
+<  CBZ           H1,2   H    HCH2      0.000
+---
+>  CBZ           C1'    C    CH2       0.000
+>  CBZ           H1'1   H    HCH2      0.000
+>  CBZ           H1'2   H    HCH2      0.000
+46,50c46,50
+<  CBZ      O2     C      C1,    .
+<  CBZ      C1,    O2     C1     .
+<  CBZ      H1,1   C1,    .      .
+<  CBZ      H1,2   C1,    .      .
+<  CBZ      C1     C1,    C2     .
+---
+>  CBZ      O2     C      C1'    .
+>  CBZ      C1'    O2     C1     .
+>  CBZ      H1'1   C1'    .      .
+>  CBZ      H1'2   C1'    .      .
+>  CBZ      C1     C1'    C2     .
+71,74c71,74
+<  CBZ      C1,    O2        coval       1.410    0.020
+<  CBZ      H1,1   C1,       coval       1.090    0.020
+<  CBZ      H1,2   C1,       coval       1.090    0.020
+<  CBZ      C1     C1,       coval       1.511    0.020
+---
+>  CBZ      C1'    O2        coval       1.410    0.020
+>  CBZ      H1'1   C1'       coval       1.090    0.020
+>  CBZ      H1'2   C1'       coval       1.090    0.020
+>  CBZ      C1     C1'       coval       1.511    0.020
+94,102c94,102
+<  CBZ      C      O2     C1,     120.000    3.000
+<  CBZ      O2     C1,    H1,1    109.470    3.000
+<  CBZ      O2     C1,    H1,2    109.470    3.000
+<  CBZ      O2     C1,    C1      109.470    3.000
+<  CBZ      H1,1   C1,    H1,2    107.900    3.000
+<  CBZ      H1,1   C1,    C1      109.470    3.000
+<  CBZ      H1,2   C1,    C1      109.470    3.000
+<  CBZ      C1,    C1     C2      120.000    3.000
+<  CBZ      C1,    C1     C6      120.000    3.000
+---
+>  CBZ      C      O2     C1'     120.000    3.000
+>  CBZ      O2     C1'    H1'1    109.470    3.000
+>  CBZ      O2     C1'    H1'2    109.470    3.000
+>  CBZ      O2     C1'    C1      109.470    3.000
+>  CBZ      H1'1   C1'    H1'2    107.900    3.000
+>  CBZ      H1'1   C1'    C1      109.470    3.000
+>  CBZ      H1'2   C1'    C1      109.470    3.000
+>  CBZ      C1'    C1     C2      120.000    3.000
+>  CBZ      C1'    C1     C6      120.000    3.000
+129,133c129,133
+<  CBZ      var_1    O1     C      O2     C1,      -36.548   20.000   1
+<  CBZ      var_2    C      O2     C1,    C1       -45.422   20.000   1
+<  CBZ      var_3    O2     C1,    C1     C2       -72.236   20.000   2
+<  CBZ      var_4    O2     C1,    C1     C6       101.958   20.000   2
+<  CBZ      CONST_1  C1,    C1     C2     C3       180.000    0.000   0
+---
+>  CBZ      var_1    O1     C      O2     C1'      -36.548   20.000   1
+>  CBZ      var_2    C      O2     C1'    C1       -45.422   20.000   1
+>  CBZ      var_3    O2     C1'    C1     C2       -72.236   20.000   2
+>  CBZ      var_4    O2     C1'    C1     C6       101.958   20.000   2
+>  CBZ      CONST_1  C1'    C1     C2     C3       180.000    0.000   0
+144c144
+<  CBZ      plan-1    C1,       0.020
+---
+>  CBZ      plan-1    C1'       0.020
+
+File: c/CMG.cif
+11c11
+< CM       CM  'CARBOXYMETHYL GROUP BOUND TO CYS B 1' non-polymer         8   4 M
+---
+> CMG      CMG 'CARBOXYMETHYL GROUP BOUND TO CYS B 1' non-polymer         8   4 M
+13c13
+< data_comp_CM
+---
+> data_comp_CMG
+21,28c21,28
+<  CM            C1     C    .         0.000
+<  CM            C2     C    .         0.000
+<  CM            O1     O    .         0.000
+<  CM            O2     O    .         0.000
+<  CM            H21    H    .         0.000
+<  CM            H22    H    .         0.000
+<  CM            H23    H    .         0.000
+<  CM            HO2    H    .         0.000
+---
+>  CMG           C1     C    .         0.000
+>  CMG           C2     C    .         0.000
+>  CMG           O1     O    .         0.000
+>  CMG           O2     O    .         0.000
+>  CMG           H21    H    .         0.000
+>  CMG           H22    H    .         0.000
+>  CMG           H23    H    .         0.000
+>  CMG           HO2    H    .         0.000
+34,40c34,40
+<  CM         C1     C2        single
+<  CM         C1     O1        double
+<  CM         C1     O2        single
+<  CM         C2     H21       single
+<  CM         C2     H22       single
+<  CM         C2     H23       single
+<  CM         O2     HO2       single
+---
+>  CMG        C1     C2        single
+>  CMG        C1     O1        double
+>  CMG        C1     O2        single
+>  CMG        C2     H21       single
+>  CMG        C2     H22       single
+>  CMG        C2     H23       single
+>  CMG        O2     HO2       single
+
+File: c/CSO.cif
+104c104
+<  CSO      hh       CA     CB     SG     OD       180.000   15.000   1
+---
+> #CSO      hh       CA     CB     SG     OD       180.000   15.000   1
+
+File: l/LAT.cif
+21,42c21,42
+<  LAT           C1,    C    CH1       0.000
+<  LAT           H1,    H    HCH1      0.000
+<  LAT           O1,    O    OH1       0.000
+<  LAT           HO1,   H    HOH1      0.000
+<  LAT           C2,    C    CH1       0.000
+<  LAT           H2,    H    HCH1      0.000
+<  LAT           O2,    O    OH1       0.000
+<  LAT           HO2,   H    HOH1      0.000
+<  LAT           C3,    C    CH1       0.000
+<  LAT           H3,    H    HCH1      0.000
+<  LAT           O3,    O    OH1       0.000
+<  LAT           HO3,   H    HOH1      0.000
+<  LAT           C4,    C    CH1       0.000
+<  LAT           H4,    H    HCH1      0.000
+<  LAT           C5,    C    CH1       0.000
+<  LAT           H5,    H    HCH1      0.000
+<  LAT           C6,    C    CH2       0.000
+<  LAT           H6,1   H    HCH2      0.000
+<  LAT           H6,2   H    HCH2      0.000
+<  LAT           O6,    O    OH1       0.000
+<  LAT           HO6,   H    HOH1      0.000
+<  LAT           O5,    O    O2        0.000
+---
+>  LAT           C1'    C    CH1       0.000
+>  LAT           H1'    H    HCH1      0.000
+>  LAT           O1'    O    OH1       0.000
+>  LAT           HO1'   H    HOH1      0.000
+>  LAT           C2'    C    CH1       0.000
+>  LAT           H2'    H    HCH1      0.000
+>  LAT           O2'    O    OH1       0.000
+>  LAT           HO2'   H    HOH1      0.000
+>  LAT           C3'    C    CH1       0.000
+>  LAT           H3'    H    HCH1      0.000
+>  LAT           O3'    O    OH1       0.000
+>  LAT           HO3'   H    HOH1      0.000
+>  LAT           C4'    C    CH1       0.000
+>  LAT           H4'    H    HCH1      0.000
+>  LAT           C5'    C    CH1       0.000
+>  LAT           H5'    H    HCH1      0.000
+>  LAT           C6'    C    CH2       0.000
+>  LAT           H6'1   H    HCH2      0.000
+>  LAT           H6'2   H    HCH2      0.000
+>  LAT           O6'    O    OH1       0.000
+>  LAT           HO6'   H    HOH1      0.000
+>  LAT           O5'    O    O2        0.000
+72,93c72,93
+<  LAT      C1,    n/a    C2,    START
+<  LAT      H1,    C1,    .      .
+<  LAT      O1,    C1,    HO1,   .
+<  LAT      HO1,   O1,    .      .
+<  LAT      C2,    C1,    C3,    .
+<  LAT      H2,    C2,    .      .
+<  LAT      O2,    C2,    HO2,   .
+<  LAT      HO2,   O2,    .      .
+<  LAT      C3,    C2,    C4,    .
+<  LAT      H3,    C3,    .      .
+<  LAT      O3,    C3,    HO3,   .
+<  LAT      HO3,   O3,    .      .
+<  LAT      C4,    C3,    O1     .
+<  LAT      H4,    C4,    .      .
+<  LAT      C5,    C4,    O5,    .
+<  LAT      H5,    C5,    .      .
+<  LAT      C6,    C5,    O6,    .
+<  LAT      H6,1   C6,    .      .
+<  LAT      H6,2   C6,    .      .
+<  LAT      O6,    C6,    HO6,   .
+<  LAT      HO6,   O6,    .      .
+<  LAT      O5,    C5,    .      .
+---
+>  LAT      C1'    n/a    C2'    START
+>  LAT      H1'    C1'    .      .
+>  LAT      O1'    C1'    HO1'   .
+>  LAT      HO1'   O1'    .      .
+>  LAT      C2'    C1'    C3'    .
+>  LAT      H2'    C2'    .      .
+>  LAT      O2'    C2'    HO2'   .
+>  LAT      HO2'   O2'    .      .
+>  LAT      C3'    C2'    C4'    .
+>  LAT      H3'    C3'    .      .
+>  LAT      O3'    C3'    HO3'   .
+>  LAT      HO3'   O3'    .      .
+>  LAT      C4'    C3'    O1     .
+>  LAT      H4'    C4'    .      .
+>  LAT      C5'    C4'    O5'    .
+>  LAT      H5'    C5'    .      .
+>  LAT      C6'    C5'    O6'    .
+>  LAT      H6'1   C6'    .      .
+>  LAT      H6'2   C6'    .      .
+>  LAT      O6'    C6'    HO6'   .
+>  LAT      HO6'   O6'    .      .
+>  LAT      O5'    C5'    .      .
+96c96
+<  LAT      O1     C4,    C1     .
+---
+>  LAT      O1     C4'    C1     .
+117c117
+<  LAT      O5,    C1,    .    ADD
+---
+>  LAT      O5'    C1'    .    ADD
+126,148c126,148
+<  LAT      O1,    C1,       coval       1.410    0.020
+<  LAT      C2,    C1,       coval       1.524    0.020
+<  LAT      O2,    C2,       coval       1.410    0.020
+<  LAT      C3,    C2,       coval       1.524    0.020
+<  LAT      O3,    C3,       coval       1.410    0.020
+<  LAT      C4,    C3,       coval       1.524    0.020
+<  LAT      C5,    C4,       coval       1.524    0.020
+<  LAT      C6,    C5,       coval       1.524    0.020
+<  LAT      O6,    C6,       coval       1.410    0.020
+<  LAT      O5,    C5,       coval       1.410    0.020
+<  LAT      O5,    C1,       coval       1.410    0.020
+<  LAT      H1,    C1,       coval       1.090    0.020
+<  LAT      HO1,   O1,       coval       0.980    0.020
+<  LAT      H2,    C2,       coval       1.090    0.020
+<  LAT      HO2,   O2,       coval       0.980    0.020
+<  LAT      H3,    C3,       coval       1.090    0.020
+<  LAT      HO3,   O3,       coval       0.980    0.020
+<  LAT      H4,    C4,       coval       1.090    0.020
+<  LAT      H5,    C5,       coval       1.090    0.020
+<  LAT      H6,1   C6,       coval       1.090    0.020
+<  LAT      H6,2   C6,       coval       1.090    0.020
+<  LAT      HO6,   O6,       coval       0.980    0.020
+<  LAT      O1     C4,       coval       1.410    0.020
+---
+>  LAT      O1'    C1'       coval       1.410    0.020
+>  LAT      C2'    C1'       coval       1.524    0.020
+>  LAT      O2'    C2'       coval       1.410    0.020
+>  LAT      C3'    C2'       coval       1.524    0.020
+>  LAT      O3'    C3'       coval       1.410    0.020
+>  LAT      C4'    C3'       coval       1.524    0.020
+>  LAT      C5'    C4'       coval       1.524    0.020
+>  LAT      C6'    C5'       coval       1.524    0.020
+>  LAT      O6'    C6'       coval       1.410    0.020
+>  LAT      O5'    C5'       coval       1.410    0.020
+>  LAT      O5'    C1'       coval       1.410    0.020
+>  LAT      H1'    C1'       coval       1.090    0.020
+>  LAT      HO1'   O1'       coval       0.980    0.020
+>  LAT      H2'    C2'       coval       1.090    0.020
+>  LAT      HO2'   O2'       coval       0.980    0.020
+>  LAT      H3'    C3'       coval       1.090    0.020
+>  LAT      HO3'   O3'       coval       0.980    0.020
+>  LAT      H4'    C4'       coval       1.090    0.020
+>  LAT      H5'    C5'       coval       1.090    0.020
+>  LAT      H6'1   C6'       coval       1.090    0.020
+>  LAT      H6'2   C6'       coval       1.090    0.020
+>  LAT      HO6'   O6'       coval       0.980    0.020
+>  LAT      O1     C4'       coval       1.410    0.020
+179,215c179,215
+<  LAT      H1,    C1,    O1,     109.470    3.000
+<  LAT      O1,    C1,    C2,     109.470    3.000
+<  LAT      H1,    C1,    O5,     109.470    3.000
+<  LAT      C2,    C1,    O5,     109.470    3.000
+<  LAT      O1,    C1,    O5,     109.470    3.000
+<  LAT      H1,    C1,    C2,     109.470    3.000
+<  LAT      C1,    O1,    HO1,    109.470    3.000
+<  LAT      C1,    C2,    H2,     108.340    3.000
+<  LAT      C1,    C2,    O2,     109.470    3.000
+<  LAT      C1,    C2,    C3,     111.000    3.000
+<  LAT      H2,    C2,    O2,     109.470    3.000
+<  LAT      O2,    C2,    C3,     109.470    3.000
+<  LAT      C2,    O2,    HO2,    109.470    3.000
+<  LAT      C2,    C3,    H3,     108.340    3.000
+<  LAT      C2,    C3,    O3,     109.470    3.000
+<  LAT      C2,    C3,    C4,     111.000    3.000
+<  LAT      H3,    C3,    O3,     109.470    3.000
+<  LAT      O3,    C3,    C4,     109.470    3.000
+<  LAT      C3,    O3,    HO3,    109.470    3.000
+<  LAT      C3,    C4,    H4,     108.340    3.000
+<  LAT      C3,    C4,    C5,     111.000    3.000
+<  LAT      C4,    C5,    H5,     108.340    3.000
+<  LAT      C4,    C5,    C6,     111.000    3.000
+<  LAT      C4,    C5,    O5,     109.470    3.000
+<  LAT      H5,    C5,    C6,     108.340    3.000
+<  LAT      C6,    C5,    O5,     109.470    3.000
+<  LAT      C5,    C6,    H6,1    109.470    3.000
+<  LAT      C5,    C6,    H6,2    109.470    3.000
+<  LAT      C5,    C6,    O6,     109.470    3.000
+<  LAT      H6,1   C6,    H6,2    107.900    3.000
+<  LAT      H6,2   C6,    O6,     109.470    3.000
+<  LAT      C6,    O6,    HO6,    109.470    3.000
+<  LAT      C5,    O5,    C1,     111.800    3.000
+<  LAT      O1     C4,    C5,     109.470    3.000
+<  LAT      C4,    O1     C1      117.000    3.000
+<  LAT      H4,    C4,    O1      109.470    3.000
+<  LAT      C3,    C4,    O1      109.470    3.000
+---
+>  LAT      H1'    C1'    O1'     109.470    3.000
+>  LAT      O1'    C1'    C2'     109.470    3.000
+>  LAT      H1'    C1'    O5'     109.470    3.000
+>  LAT      C2'    C1'    O5'     109.470    3.000
+>  LAT      O1'    C1'    O5'     109.470    3.000
+>  LAT      H1'    C1'    C2'     109.470    3.000
+>  LAT      C1'    O1'    HO1'    109.470    3.000
+>  LAT      C1'    C2'    H2'     108.340    3.000
+>  LAT      C1'    C2'    O2'     109.470    3.000
+>  LAT      C1'    C2'    C3'     111.000    3.000
+>  LAT      H2'    C2'    O2'     109.470    3.000
+>  LAT      O2'    C2'    C3'     109.470    3.000
+>  LAT      C2'    O2'    HO2'    109.470    3.000
+>  LAT      C2'    C3'    H3'     108.340    3.000
+>  LAT      C2'    C3'    O3'     109.470    3.000
+>  LAT      C2'    C3'    C4'     111.000    3.000
+>  LAT      H3'    C3'    O3'     109.470    3.000
+>  LAT      O3'    C3'    C4'     109.470    3.000
+>  LAT      C3'    O3'    HO3'    109.470    3.000
+>  LAT      C3'    C4'    H4'     108.340    3.000
+>  LAT      C3'    C4'    C5'     111.000    3.000
+>  LAT      C4'    C5'    H5'     108.340    3.000
+>  LAT      C4'    C5'    C6'     111.000    3.000
+>  LAT      C4'    C5'    O5'     109.470    3.000
+>  LAT      H5'    C5'    C6'     108.340    3.000
+>  LAT      C6'    C5'    O5'     109.470    3.000
+>  LAT      C5'    C6'    H6'1    109.470    3.000
+>  LAT      C5'    C6'    H6'2    109.470    3.000
+>  LAT      C5'    C6'    O6'     109.470    3.000
+>  LAT      H6'1   C6'    H6'2    107.900    3.000
+>  LAT      H6'2   C6'    O6'     109.470    3.000
+>  LAT      C6'    O6'    HO6'    109.470    3.000
+>  LAT      C5'    O5'    C1'     111.800    3.000
+>  LAT      O1     C4'    C5'     109.470    3.000
+>  LAT      C4'    O1     C1      117.000    3.000
+>  LAT      H4'    C4'    O1      109.470    3.000
+>  LAT      C3'    C4'    O1      109.470    3.000
+262,273c262,273
+<  LAT      var_1    C1,    C2,    O2,    HO2,     -66.000   20.000   1
+<  LAT      var_2    C1,    C2,    C3,    C4,      -50.095   20.000   3
+<  LAT      var_3    C2,    C3,    O3,    HO3,      64.000   20.000   1
+<  LAT      var_4    C2,    C3,    C4,    O1       173.000   20.000   3
+<  LAT      var_5    C3,    C4,    O1     C1       101.000   20.000   3
+<  LAT      var_6    C3,    C4,    C5,    O5,      -55.000   20.000   3
+<  LAT      var_7    C4,    C5,    C6,    O6,     -167.000   20.000   3
+<  LAT      var_8    C5,    C6,    O6,    HO6,     137.000   20.000   1
+<  LAT      var_9    C4,    C5,    O5,    C1,       56.691   20.000   3
+<  LAT      var_10   C2,    C1,    O1,    HO1,     -69.000   20.000   1
+<  LAT      var_11   C4,    O1     C1     C2      -135.000   20.000   3
+<  LAT      var_12   O1,    C1     C2     C3       -82.000   20.000   3
+---
+>  LAT      var_1    C1'    C2'    O2'    HO2'     -66.000   20.000   1
+>  LAT      var_2    C1'    C2'    C3'    C4'      -50.095   20.000   3
+>  LAT      var_3    C2'    C3'    O3'    HO3'      64.000   20.000   1
+>  LAT      var_4    C2'    C3'    C4'    O1       173.000   20.000   3
+>  LAT      var_5    C3'    C4'    O1     C1       101.000   20.000   3
+>  LAT      var_6    C3'    C4'    C5'    O5'      -55.000   20.000   3
+>  LAT      var_7    C4'    C5'    C6'    O6'     -167.000   20.000   3
+>  LAT      var_8    C5'    C6'    O6'    HO6'     137.000   20.000   1
+>  LAT      var_9    C4'    C5'    O5'    C1'       56.691   20.000   3
+>  LAT      var_10   C2'    C1'    O1'    HO1'     -69.000   20.000   1
+>  LAT      var_11   C4'    O1     C1     C2      -135.000   20.000   3
+>  LAT      var_12   O1'    C1     C2     C3       -82.000   20.000   3
+291,295c291,295
+<  LAT      chir_01  C5,    C4,    O5,    C6,       positiv
+<  LAT      chir_02  C4,    C3,    O1     C5,       positiv
+<  LAT      chir_03  C3,    C2,    O3,    C4,       negativ
+<  LAT      chir_04  C2,    C1,    O2,    C3,       positiv
+<  LAT      chir_05  C1,    O1,    O5,    C2,       negativ
+---
+>  LAT      chir_01  C5'    C4'    O5'    C6'       positiv
+>  LAT      chir_02  C4'    C3'    O1     C5'       positiv
+>  LAT      chir_03  C3'    C2'    O3'    C4'       negativ
+>  LAT      chir_04  C2'    C1'    O2'    C3'       positiv
+>  LAT      chir_05  C1'    O1'    O5'    C2'       negativ
+
+File: m/MAL.cif
+21,42c21,42
+<  MAL           C1,    C    CH1       0.000
+<  MAL           H1,    H    HCH1      0.000
+<  MAL           O1,    C    OH1       0.000
+<  MAL           HO1,   H    HOH1      0.000
+<  MAL           C2,    C    CH1       0.000
+<  MAL           H2,    H    HCH1      0.000
+<  MAL           O2,    O    OH1       0.000
+<  MAL           HO2,   H    HOH1      0.000
+<  MAL           C3,    C    CH1       0.000
+<  MAL           H3,    H    HCH1      0.000
+<  MAL           O3,    O    OH1       0.000
+<  MAL           HO3,   H    HOH1      0.000
+<  MAL           C4,    C    CH1       0.000
+<  MAL           H4,    H    HCH1      0.000
+<  MAL           C5,    C    CH1       0.000
+<  MAL           H5,    H    HCH1      0.000
+<  MAL           C6,    C    CH2       0.000
+<  MAL           H6,1   H    HCH2      0.000
+<  MAL           H6,2   H    HCH2      0.000
+<  MAL           O6,    O    OH1       0.000
+<  MAL           HO6,   H    HOH1      0.000
+<  MAL           O5,    O    O2        0.000
+---
+>  MAL           C1'    C    CH1       0.000
+>  MAL           H1'    H    HCH1      0.000
+>  MAL           O1'    O    OH1       0.000
+>  MAL           HO1'   H    HOH1      0.000
+>  MAL           C2'    C    CH1       0.000
+>  MAL           H2'    H    HCH1      0.000
+>  MAL           O2'    O    OH1       0.000
+>  MAL           HO2'   H    HOH1      0.000
+>  MAL           C3'    C    CH1       0.000
+>  MAL           H3'    H    HCH1      0.000
+>  MAL           O3'    O    OH1       0.000
+>  MAL           HO3'   H    HOH1      0.000
+>  MAL           C4'    C    CH1       0.000
+>  MAL           H4'    H    HCH1      0.000
+>  MAL           C5'    C    CH1       0.000
+>  MAL           H5'    H    HCH1      0.000
+>  MAL           C6'    C    CH2       0.000
+>  MAL           H6'1   H    HCH2      0.000
+>  MAL           H6'2   H    HCH2      0.000
+>  MAL           O6'    O    OH1       0.000
+>  MAL           HO6'   H    HOH1      0.000
+>  MAL           O5'    O    O2        0.000
+45c45
+<  MAL           O1     C    OH1       0.000
+---
+>  MAL           O1     O    OH1       0.000
+72,93c72,93
+<  MAL      C1,    n/a    C2,    START
+<  MAL      H1,    C1,    .      .
+<  MAL      O1,    C1,    HO1,   .
+<  MAL      HO1,   O1,    .      .
+<  MAL      C2,    C1,    C3,    .
+<  MAL      H2,    C2,    .      .
+<  MAL      O2,    C2,    HO2,   .
+<  MAL      HO2,   O2,    .      .
+<  MAL      C3,    C2,    C4,    .
+<  MAL      H3,    C3,    .      .
+<  MAL      O3,    C3,    HO3,   .
+<  MAL      HO3,   O3,    .      .
+<  MAL      C4,    C3,    O1     .
+<  MAL      H4,    C4,    .      .
+<  MAL      C5,    C4,    O5,    .
+<  MAL      H5,    C5,    .      .
+<  MAL      C6,    C5,    O6,    .
+<  MAL      H6,1   C6,    .      .
+<  MAL      H6,2   C6,    .      .
+<  MAL      O6,    C6,    HO6,   .
+<  MAL      HO6,   O6,    .      .
+<  MAL      O5,    C5,    .      .
+---
+>  MAL      C1'    n/a    C2'    START
+>  MAL      H1'    C1'    .      .
+>  MAL      O1'    C1'    HO1'   .
+>  MAL      HO1'   O1'    .      .
+>  MAL      C2'    C1'    C3'    .
+>  MAL      H2'    C2'    .      .
+>  MAL      O2'    C2'    HO2'   .
+>  MAL      HO2'   O2'    .      .
+>  MAL      C3'    C2'    C4'    .
+>  MAL      H3'    C3'    .      .
+>  MAL      O3'    C3'    HO3'   .
+>  MAL      HO3'   O3'    .      .
+>  MAL      C4'    C3'    O1     .
+>  MAL      H4'    C4'    .      .
+>  MAL      C5'    C4'    O5'    .
+>  MAL      H5'    C5'    .      .
+>  MAL      C6'    C5'    O6'    .
+>  MAL      H6'1   C6'    .      .
+>  MAL      H6'2   C6'    .      .
+>  MAL      O6'    C6'    HO6'   .
+>  MAL      HO6'   O6'    .      .
+>  MAL      O5'    C5'    .      .
+96c96
+<  MAL      O1     C4,    C1     .
+---
+>  MAL      O1     C4'    C1     .
+117c117
+<  MAL      O5,    C1,    .    ADD
+---
+>  MAL      O5'    C1'    .    ADD
+126,149c126,149
+<  MAL      O1,    C1,       coval       1.410    0.020
+<  MAL      C2,    C1,       coval       1.524    0.020
+<  MAL      O2,    C2,       coval       1.410    0.020
+<  MAL      C3,    C2,       coval       1.524    0.020
+<  MAL      O3,    C3,       coval       1.410    0.020
+<  MAL      C4,    C3,       coval       1.524    0.020
+<  MAL      C5,    C4,       coval       1.524    0.020
+<  MAL      C6,    C5,       coval       1.524    0.020
+<  MAL      O6,    C6,       coval       1.410    0.020
+<  MAL      O5,    C5,       coval       1.410    0.020
+<  MAL      O5,    C1,       coval       1.410    0.020
+<  MAL      H1,    C1,       coval       1.090    0.020
+<  MAL      HO1,   O1,       coval       0.980    0.020
+<  MAL      H2,    C2,       coval       1.090    0.020
+<  MAL      HO2,   O2,       coval       0.980    0.020
+<  MAL      H3,    C3,       coval       1.090    0.020
+<  MAL      HO3,   O3,       coval       0.980    0.020
+<  MAL      H4,    C4,       coval       1.090    0.020
+<  MAL      H5,    C5,       coval       1.090    0.020
+<  MAL      H6,1   C6,       coval       1.090    0.020
+<  MAL      H6,2   C6,       coval       1.090    0.020
+<  MAL      HO6,   O6,       coval       0.980    0.020
+<  MAL      O1     C4,       coval       1.410    0.020
+<  MAL      C1     O5        coval       1.410    0.020
+---
+>  MAL      O1'    C1'       coval       1.410    0.020
+>  MAL      C2'    C1'       coval       1.524    0.020
+>  MAL      O2'    C2'       coval       1.410    0.020
+>  MAL      C3'    C2'       coval       1.524    0.020
+>  MAL      O3'    C3'       coval       1.410    0.020
+>  MAL      C4'    C3'       coval       1.524    0.020
+>  MAL      C5'    C4'       coval       1.524    0.020
+>  MAL      C6'    C5'       coval       1.524    0.020
+>  MAL      O6'    C6'       coval       1.410    0.020
+>  MAL      O5'    C5'       coval       1.410    0.020
+>  MAL      O5'    C1'       coval       1.410    0.020
+>  MAL      H1'    C1'       coval       1.090    0.020
+>  MAL      HO1'   O1'       coval       0.980    0.020
+>  MAL      H2'    C2'       coval       1.090    0.020
+>  MAL      HO2'   O2'       coval       0.980    0.020
+>  MAL      H3'    C3'       coval       1.090    0.020
+>  MAL      HO3'   O3'       coval       0.980    0.020
+>  MAL      H4'    C4'       coval       1.090    0.020
+>  MAL      H5'    C5'       coval       1.090    0.020
+>  MAL      H6'1   C6'       coval       1.090    0.020
+>  MAL      H6'2   C6'       coval       1.090    0.020
+>  MAL      HO6'   O6'       coval       0.980    0.020
+>  MAL      O1     C4'       coval       1.410    0.020
+> #MAL      C1     O5        coval       1.410    0.020
+180,216c180,216
+<  MAL      H1,    C1,    O1,     109.470    3.000
+<  MAL      O1,    C1,    C2,     109.470    3.000
+<  MAL      H1,    C1,    O5,     109.470    3.000
+<  MAL      C2,    C1,    O5,     109.470    3.000
+<  MAL      O1,    C1,    O5,     109.470    3.000
+<  MAL      H1,    C1,    C2,     109.470    3.000
+<  MAL      C1,    O1,    HO1,    109.470    3.000
+<  MAL      C1,    C2,    H2,     108.340    3.000
+<  MAL      C1,    C2,    O2,     109.470    3.000
+<  MAL      C1,    C2,    C3,     111.000    3.000
+<  MAL      H2,    C2,    O2,     109.470    3.000
+<  MAL      O2,    C2,    C3,     109.470    3.000
+<  MAL      C2,    O2,    HO2,    109.470    3.000
+<  MAL      C2,    C3,    H3,     108.340    3.000
+<  MAL      C2,    C3,    O3,     109.470    3.000
+<  MAL      C2,    C3,    C4,     111.000    3.000
+<  MAL      H3,    C3,    O3,     109.470    3.000
+<  MAL      O3,    C3,    C4,     109.470    3.000
+<  MAL      C3,    O3,    HO3,    109.470    3.000
+<  MAL      C3,    C4,    H4,     108.340    3.000
+<  MAL      C3,    C4,    C5,     111.000    3.000
+<  MAL      C4,    C5,    H5,     108.340    3.000
+<  MAL      C4,    C5,    C6,     111.000    3.000
+<  MAL      C4,    C5,    O5,     109.470    3.000
+<  MAL      H5,    C5,    C6,     108.340    3.000
+<  MAL      C6,    C5,    O5,     109.470    3.000
+<  MAL      C5,    C6,    H6,1    109.470    3.000
+<  MAL      C5,    C6,    H6,2    109.470    3.000
+<  MAL      C5,    C6,    O6,     109.470    3.000
+<  MAL      H6,1   C6,    H6,2    107.900    3.000
+<  MAL      H6,2   C6,    O6,     109.470    3.000
+<  MAL      C6,    O6,    HO6,    109.470    3.000
+<  MAL      C5,    O5,    C1,     111.800    3.000
+<  MAL      O1     C4,    C5,     109.470    3.000
+<  MAL      C4,    O1     C1      117.000    3.000
+<  MAL      H4,    C4,    O1      109.470    3.000
+<  MAL      C3,    C4,    O1      109.470    3.000
+---
+>  MAL      H1'    C1'    O1'     109.470    3.000
+>  MAL      O1'    C1'    C2'     109.470    3.000
+>  MAL      H1'    C1'    O5'     109.470    3.000
+>  MAL      C2'    C1'    O5'     109.470    3.000
+>  MAL      O1'    C1'    O5'     109.470    3.000
+>  MAL      H1'    C1'    C2'     109.470    3.000
+>  MAL      C1'    O1'    HO1'    109.470    3.000
+>  MAL      C1'    C2'    H2'     108.340    3.000
+>  MAL      C1'    C2'    O2'     109.470    3.000
+>  MAL      C1'    C2'    C3'     111.000    3.000
+>  MAL      H2'    C2'    O2'     109.470    3.000
+>  MAL      O2'    C2'    C3'     109.470    3.000
+>  MAL      C2'    O2'    HO2'    109.470    3.000
+>  MAL      C2'    C3'    H3'     108.340    3.000
+>  MAL      C2'    C3'    O3'     109.470    3.000
+>  MAL      C2'    C3'    C4'     111.000    3.000
+>  MAL      H3'    C3'    O3'     109.470    3.000
+>  MAL      O3'    C3'    C4'     109.470    3.000
+>  MAL      C3'    O3'    HO3'    109.470    3.000
+>  MAL      C3'    C4'    H4'     108.340    3.000
+>  MAL      C3'    C4'    C5'     111.000    3.000
+>  MAL      C4'    C5'    H5'     108.340    3.000
+>  MAL      C4'    C5'    C6'     111.000    3.000
+>  MAL      C4'    C5'    O5'     109.470    3.000
+>  MAL      H5'    C5'    C6'     108.340    3.000
+>  MAL      C6'    C5'    O5'     109.470    3.000
+>  MAL      C5'    C6'    H6'1    109.470    3.000
+>  MAL      C5'    C6'    H6'2    109.470    3.000
+>  MAL      C5'    C6'    O6'     109.470    3.000
+>  MAL      H6'1   C6'    H6'2    107.900    3.000
+>  MAL      H6'2   C6'    O6'     109.470    3.000
+>  MAL      C6'    O6'    HO6'    109.470    3.000
+>  MAL      C5'    O5'    C1'     111.800    3.000
+>  MAL      O1     C4'    C5'     109.470    3.000
+>  MAL      C4'    O1     C1      117.000    3.000
+>  MAL      H4'    C4'    O1      109.470    3.000
+>  MAL      C3'    C4'    O1      109.470    3.000
+263,274c263,274
+<  MAL      var_1    C1,    C2,    O2,    HO2,     -66.000   20.000   1
+<  MAL      var_2    C1,    C2,    C3,    C4,      -50.095   20.000   3
+<  MAL      var_3    C2,    C3,    O3,    HO3,      64.000   20.000   1
+<  MAL      var_4    C2,    C3,    C4,    O1       173.000   20.000   3
+<  MAL      var_5    C3,    C4,    O1     C1       101.000   20.000   3
+<  MAL      var_6    C3,    C4,    C5,    O5,      -55.000   20.000   3
+<  MAL      var_7    C4,    C5,    C6,    O6,     -167.000   20.000   3
+<  MAL      var_8    C5,    C6,    O6,    HO6,     137.000   20.000   1
+<  MAL      var_9    C4,    C5,    O5,    C1,       56.691   20.000   3
+<  MAL      var_10   C2,    C1,    O1,    HO1,     -69.000   20.000   1
+<  MAL      var_11   C4,    O1     C1     C2      -135.000   20.000   3
+<  MAL      var_12   O1,    C1     C2     C3       -82.000   20.000   3
+---
+>  MAL      var_1    C1'    C2'    O2'    HO2'     -66.000   20.000   1
+>  MAL      var_2    C1'    C2'    C3'    C4'      -50.095   20.000   3
+>  MAL      var_3    C2'    C3'    O3'    HO3'      64.000   20.000   1
+>  MAL      var_4    C2'    C3'    C4'    O1       173.000   20.000   3
+>  MAL      var_5    C3'    C4'    O1     C1       101.000   20.000   3
+>  MAL      var_6    C3'    C4'    C5'    O5'      -55.000   20.000   3
+>  MAL      var_7    C4'    C5'    C6'    O6'     -167.000   20.000   3
+>  MAL      var_8    C5'    C6'    O6'    HO6'     137.000   20.000   1
+>  MAL      var_9    C4'    C5'    O5'    C1'       56.691   20.000   3
+>  MAL      var_10   C2'    C1'    O1'    HO1'     -69.000   20.000   1
+>  MAL      var_11   C4'    O1     C1     C2      -135.000   20.000   3
+>  MAL      var_12   O1'    C1     C2     C3       -82.000   20.000   3
+292,296c292,296
+<  MAL      chir_01  C5,    C4,    O5,    C6,       positiv
+<  MAL      chir_02  C4,    C3,    O1     C5,       positiv
+<  MAL      chir_03  C3,    C2,    O3,    C4,       negativ
+<  MAL      chir_04  C2,    C1,    O2,    C3,       positiv
+<  MAL      chir_05  C1,    O1,    O5,    C2,       negativ
+---
+>  MAL      chir_01  C5'    C4'    O5'    C6'       positiv
+>  MAL      chir_02  C4'    C3'    O1     C5'       positiv
+>  MAL      chir_03  C3'    C2'    O3'    C4'       negativ
+>  MAL      chir_04  C2'    C1'    O2'    C3'       positiv
+>  MAL      chir_05  C1'    O1'    O5'    C2'       negativ
+
+File: p/PHB.cif
+21,23c21,23
+<  PHB           O1,    O    O         0.000
+<  PHB           C1,    C    C         0.000
+<  PHB           O2,    O    O         0.000
+---
+>  PHB           O1'    O    O         0.000
+>  PHB           C1'    C    C         0.000
+>  PHB           O2'    O    O         0.000
+42,45c42,45
+<  PHB      O1,    n/a    C1,    START
+<  PHB      C1,    O1,    C1     .
+<  PHB      O2,    C1,    .      .
+<  PHB      C1     C1,    C2     .
+---
+>  PHB      O1'    n/a    C1'    START
+>  PHB      C1'    O1'    C1     .
+>  PHB      O2'    C1'    .      .
+>  PHB      C1     C1'    C2     .
+65,67c65,67
+<  PHB      C1,    O1,       coval       1.250    0.020
+<  PHB      O2,    C1,       coval       1.250    0.020
+<  PHB      C1     C1,       coval       1.500    0.020
+---
+>  PHB      C1'    O1'       coval       1.250    0.020
+>  PHB      O2'    C1'       coval       1.250    0.020
+>  PHB      C1     C1'       coval       1.500    0.020
+87,91c87,91
+<  PHB      O1,    C1,    O2,     120.000    3.000
+<  PHB      O1,    C1,    C1      120.000    3.000
+<  PHB      O2,    C1,    C1      120.000    3.000
+<  PHB      C1,    C1     C2      120.000    3.000
+<  PHB      C1,    C1     C6      120.000    3.000
+---
+>  PHB      O1'    C1'    O2'     120.000    3.000
+>  PHB      O1'    C1'    C1      120.000    3.000
+>  PHB      O2'    C1'    C1      120.000    3.000
+>  PHB      C1'    C1     C2      120.000    3.000
+>  PHB      C1'    C1     C6      120.000    3.000
+119,121c119,121
+<  PHB      var_2    O1,    C1,    C1     C2         1.664   20.000   1
+<  PHB      var_3    O1,    C1,    C1     C6      -177.014   20.000   1
+<  PHB      CONST_1  C1,    C1     C2     C3       180.000    0.000   0
+---
+>  PHB      var_2    O1'    C1'    C1     C2         1.664   20.000   1
+>  PHB      var_3    O1'    C1'    C1     C6      -177.014   20.000   1
+>  PHB      CONST_1  C1'    C1     C2     C3       180.000    0.000   0
+132,134c132,134
+<  PHB      plan-1    C1,       0.020
+<  PHB      plan-1    O1,       0.020
+<  PHB      plan-1    O2,       0.020
+---
+>  PHB      plan-1    C1'       0.020
+>  PHB      plan-1    O1'       0.020
+>  PHB      plan-1    O2'       0.020
+137c137
+<  PHB      plan-2    C1,       0.020
+---
+>  PHB      plan-2    C1'       0.020
+
+File: s/STA.cif
+174c174
+<  STA      var_2    CA     CH     CM     C        -89.811   20.000   2
+---
+> #STA      var_2    CA     CH     CM     C        -89.811   20.000   2
+
+File: s/SUC.cif
+21,42c21,42
+<  SUC           O6,    O    OH1       0.000
+<  SUC           HO6,   H    HOH1      0.000
+<  SUC           C6,    C    CH2       0.000
+<  SUC           H6,1   H    HCH2      0.000
+<  SUC           H6,2   H    HCH2      0.000
+<  SUC           C5,    C    CH1       0.000
+<  SUC           H5,    H    HCH1      0.000
+<  SUC           O2,    O    O2        0.000
+<  SUC           C4,    C    CH1       0.000
+<  SUC           H4,    H    HCH1      0.000
+<  SUC           O4,    O    OH1       0.000
+<  SUC           HO4,   H    HOH1      0.000
+<  SUC           C3,    C    CH1       0.000
+<  SUC           H3,    H    HCH1      0.000
+<  SUC           O3,    O    OH1       0.000
+<  SUC           HO3,   H    HOH1      0.000
+<  SUC           C2,    C    CT        0.000
+<  SUC           C1,    C    CH2       0.000
+<  SUC           H1,1   H    HCH2      0.000
+<  SUC           H1,2   H    HCH2      0.000
+<  SUC           O1,    O    OH1       0.000
+<  SUC           HO1,   H    HOH1      0.000
+---
+>  SUC           O6'    O    OH1       0.000
+>  SUC           HO6'   H    HOH1      0.000
+>  SUC           C6'    C    CH2       0.000
+>  SUC           H6'1   H    HCH2      0.000
+>  SUC           H6'2   H    HCH2      0.000
+>  SUC           C5'    C    CH1       0.000
+>  SUC           H5'    H    HCH1      0.000
+>  SUC           O2'    O    O2        0.000
+>  SUC           C4'    C    CH1       0.000
+>  SUC           H4'    H    HCH1      0.000
+>  SUC           O4'    O    OH1       0.000
+>  SUC           HO4'   H    HOH1      0.000
+>  SUC           C3'    C    CH1       0.000
+>  SUC           H3'    H    HCH1      0.000
+>  SUC           O3'    O    OH1       0.000
+>  SUC           HO3'   H    HOH1      0.000
+>  SUC           C2'    C    CT        0.000
+>  SUC           C1'    C    CH2       0.000
+>  SUC           H1'1   H    HCH2      0.000
+>  SUC           H1'2   H    HCH2      0.000
+>  SUC           O1'    O    OH1       0.000
+>  SUC           HO1'   H    HOH1      0.000
+72,94c72,94
+<  SUC      O6,    C6,    HO6,   .
+<  SUC      HO6,   O6,    .      .
+<  SUC      C6,    C5,    O6,    .
+<  SUC      H6,1   C6,    .      .
+<  SUC      H6,2   C6,    .      .
+<  SUC      C5,    C4,    C6,    .
+<  SUC      H5,    C5,    .      .
+<  SUC      O2,    C5,    .      .
+<  SUC      C4,    C3,    C5,    .
+<  SUC      H4,    C4,    .      .
+<  SUC      O4,    C4,    HO4,   .
+<  SUC      HO4,   O4,    .      .
+<  SUC      C3,    C2,    C4,    .
+<  SUC      H3,    C3,    .      .
+<  SUC      O3,    C3,    HO3,   .
+<  SUC      HO3,   O3,    .      .
+<  SUC      C2,    C1,    O1     .
+<  SUC      C1,    n/a    C2,    START
+<  SUC      H1,1   C1,    .      .
+<  SUC      H1,2   C1,    .      .
+<  SUC      O1,    C1,    HO1,   .
+<  SUC      HO1,   O1,    .      .
+<  SUC      O1     C2,    C1     .
+---
+>  SUC      O6'    C6'    HO6'   .
+>  SUC      HO6'   O6'    .      .
+>  SUC      C6'    C5'    O6'    .
+>  SUC      H6'1   C6'    .      .
+>  SUC      H6'2   C6'    .      .
+>  SUC      C5'    C4'    C6'    .
+>  SUC      H5'    C5'    .      .
+>  SUC      O2'    C5'    .      .
+>  SUC      C4'    C3'    C5'    .
+>  SUC      H4'    C4'    .      .
+>  SUC      O4'    C4'    HO4'   .
+>  SUC      HO4'   O4'    .      .
+>  SUC      C3'    C2'    C4'    .
+>  SUC      H3'    C3'    .      .
+>  SUC      O3'    C3'    HO3'   .
+>  SUC      HO3'   O3'    .      .
+>  SUC      C2'    C1'    O1     .
+>  SUC      C1'    n/a    C2'    START
+>  SUC      H1'1   C1'    .      .
+>  SUC      H1'2   C1'    .      .
+>  SUC      O1'    C1'    HO1'   .
+>  SUC      HO1'   O1'    .      .
+>  SUC      O1     C2'    C1     .
+118c118
+<  SUC      C2,    O2,    .    ADD
+---
+>  SUC      C2'    O2'    .    ADD
+126,148c126,148
+<  SUC      HO6,   O6,       coval       0.980    0.020
+<  SUC      C6,    O6,       coval       1.410    0.020
+<  SUC      H6,1   C6,       coval       1.090    0.020
+<  SUC      H6,2   C6,       coval       1.090    0.020
+<  SUC      C5,    C6,       coval       1.524    0.020
+<  SUC      H5,    C5,       coval       1.090    0.020
+<  SUC      O2,    C5,       coval       1.410    0.020
+<  SUC      C4,    C5,       coval       1.524    0.020
+<  SUC      H4,    C4,       coval       1.090    0.020
+<  SUC      O4,    C4,       coval       1.410    0.020
+<  SUC      HO4,   O4,       coval       0.980    0.020
+<  SUC      C3,    C4,       coval       1.524    0.020
+<  SUC      H3,    C3,       coval       1.090    0.020
+<  SUC      O3,    C3,       coval       1.410    0.020
+<  SUC      HO3,   O3,       coval       0.980    0.020
+<  SUC      C2,    C3,       coval       1.524    0.020
+<  SUC      C2,    O2,       coval       1.410    0.020
+<  SUC      C1,    C2,       coval       1.524    0.020
+<  SUC      H1,1   C1,       coval       1.090    0.020
+<  SUC      H1,2   C1,       coval       1.090    0.020
+<  SUC      O1,    C1,       coval       1.410    0.020
+<  SUC      HO1,   O1,       coval       0.980    0.020
+<  SUC      O1     C2,       coval       1.410    0.020
+---
+>  SUC      HO6'   O6'       coval       0.980    0.020
+>  SUC      C6'    O6'       coval       1.410    0.020
+>  SUC      H6'1   C6'       coval       1.090    0.020
+>  SUC      H6'2   C6'       coval       1.090    0.020
+>  SUC      C5'    C6'       coval       1.524    0.020
+>  SUC      H5'    C5'       coval       1.090    0.020
+>  SUC      O2'    C5'       coval       1.410    0.020
+>  SUC      C4'    C5'       coval       1.524    0.020
+>  SUC      H4'    C4'       coval       1.090    0.020
+>  SUC      O4'    C4'       coval       1.410    0.020
+>  SUC      HO4'   O4'       coval       0.980    0.020
+>  SUC      C3'    C4'       coval       1.524    0.020
+>  SUC      H3'    C3'       coval       1.090    0.020
+>  SUC      O3'    C3'       coval       1.410    0.020
+>  SUC      HO3'   O3'       coval       0.980    0.020
+>  SUC      C2'    C3'       coval       1.524    0.020
+>  SUC      C2'    O2'       coval       1.410    0.020
+>  SUC      C1'    C2'       coval       1.524    0.020
+>  SUC      H1'1   C1'       coval       1.090    0.020
+>  SUC      H1'2   C1'       coval       1.090    0.020
+>  SUC      O1'    C1'       coval       1.410    0.020
+>  SUC      HO1'   O1'       coval       0.980    0.020
+>  SUC      O1     C2'       coval       1.410    0.020
+179,220c179,220
+<  SUC      HO6,   O6,    C6,     109.470    3.000
+<  SUC      O6,    C6,    H6,1    109.470    3.000
+<  SUC      O6,    C6,    H6,2    109.470    3.000
+<  SUC      O6,    C6,    C5,     109.470    3.000
+<  SUC      H6,1   C6,    H6,2    107.900    3.000
+<  SUC      H6,1   C6,    C5,     109.470    3.000
+<  SUC      H6,2   C6,    C5,     109.470    3.000
+<  SUC      C6,    C5,    H5,     108.340    3.000
+<  SUC      C6,    C5,    O2,     109.470    3.000
+<  SUC      C6,    C5,    C4,     111.000    3.000
+<  SUC      H5,    C5,    O2,     109.470    3.000
+<  SUC      H5,    C5,    C4,     108.340    3.000
+<  SUC      O2,    C5,    C4,     109.470    3.000
+<  SUC      C5,    O2,    C2,     111.800    3.000
+<  SUC      C5,    C4,    H4,     108.340    3.000
+<  SUC      C5,    C4,    O4,     109.470    3.000
+<  SUC      C5,    C4,    C3,     111.000    3.000
+<  SUC      H4,    C4,    O4,     109.470    3.000
+<  SUC      H4,    C4,    C3,     108.340    3.000
+<  SUC      O4,    C4,    C3,     109.470    3.000
+<  SUC      C4,    O4,    HO4,    109.470    3.000
+<  SUC      C4,    C3,    H3,     108.340    3.000
+<  SUC      C4,    C3,    O3,     109.470    3.000
+<  SUC      C4,    C3,    C2,     111.000    3.000
+<  SUC      H3,    C3,    O3,     109.470    3.000
+<  SUC      H3,    C3,    C2,     108.340    3.000
+<  SUC      O3,    C3,    C2,     109.470    3.000
+<  SUC      C3,    O3,    HO3,    109.470    3.000
+<  SUC      C3,    C2,    C1,     111.000    3.000
+<  SUC      C3,    C2,    O1      109.470    3.000
+<  SUC      C3,    C2,    O2,     109.470    3.000
+<  SUC      C1,    C2,    O1      109.470    3.000
+<  SUC      C1,    C2,    O2,     109.470    3.000
+<  SUC      O1     C2,    O2,     109.500    3.000
+<  SUC      C2,    C1,    H1,1    109.470    3.000
+<  SUC      C2,    C1,    H1,2    109.470    3.000
+<  SUC      C2,    C1,    O1,     109.470    3.000
+<  SUC      H1,1   C1,    H1,2    107.900    3.000
+<  SUC      H1,1   C1,    O1,     109.470    3.000
+<  SUC      H1,2   C1,    O1,     109.470    3.000
+<  SUC      C1,    O1,    HO1,    109.470    3.000
+<  SUC      C2,    O1     C1      111.800    3.000
+---
+>  SUC      HO6'   O6'    C6'     109.470    3.000
+>  SUC      O6'    C6'    H6'1    109.470    3.000
+>  SUC      O6'    C6'    H6'2    109.470    3.000
+>  SUC      O6'    C6'    C5'     109.470    3.000
+>  SUC      H6'1   C6'    H6'2    107.900    3.000
+>  SUC      H6'1   C6'    C5'     109.470    3.000
+>  SUC      H6'2   C6'    C5'     109.470    3.000
+>  SUC      C6'    C5'    H5'     108.340    3.000
+>  SUC      C6'    C5'    O2'     109.470    3.000
+>  SUC      C6'    C5'    C4'     111.000    3.000
+>  SUC      H5'    C5'    O2'     109.470    3.000
+>  SUC      H5'    C5'    C4'     108.340    3.000
+>  SUC      O2'    C5'    C4'     109.470    3.000
+>  SUC      C5'    O2'    C2'     111.800    3.000
+>  SUC      C5'    C4'    H4'     108.340    3.000
+>  SUC      C5'    C4'    O4'     109.470    3.000
+>  SUC      C5'    C4'    C3'     111.000    3.000
+>  SUC      H4'    C4'    O4'     109.470    3.000
+>  SUC      H4'    C4'    C3'     108.340    3.000
+>  SUC      O4'    C4'    C3'     109.470    3.000
+>  SUC      C4'    O4'    HO4'    109.470    3.000
+>  SUC      C4'    C3'    H3'     108.340    3.000
+>  SUC      C4'    C3'    O3'     109.470    3.000
+>  SUC      C4'    C3'    C2'     111.000    3.000
+>  SUC      H3'    C3'    O3'     109.470    3.000
+>  SUC      H3'    C3'    C2'     108.340    3.000
+>  SUC      O3'    C3'    C2'     109.470    3.000
+>  SUC      C3'    O3'    HO3'    109.470    3.000
+>  SUC      C3'    C2'    C1'     111.000    3.000
+>  SUC      C3'    C2'    O1      109.470    3.000
+>  SUC      C3'    C2'    O2'     109.470    3.000
+>  SUC      C1'    C2'    O1      109.470    3.000
+>  SUC      C1'    C2'    O2'     109.470    3.000
+>  SUC      O1     C2'    O2'     109.500    3.000
+>  SUC      C2'    C1'    H1'1    109.470    3.000
+>  SUC      C2'    C1'    H1'2    109.470    3.000
+>  SUC      C2'    C1'    O1'     109.470    3.000
+>  SUC      H1'1   C1'    H1'2    107.900    3.000
+>  SUC      H1'1   C1'    O1'     109.470    3.000
+>  SUC      H1'2   C1'    O1'     109.470    3.000
+>  SUC      C1'    O1'    HO1'    109.470    3.000
+>  SUC      C2'    O1     C1      111.800    3.000
+272,280c272,280
+<  SUC      var_1    C1,    C2,    O1     C1        88.259   20.000   1
+<  SUC      var_2    C1,    C2,    C3,    C4,     -145.680   20.000   3
+<  SUC      var_3    C2,    C3,    C4,    C5,       40.107   20.000   3
+<  SUC      var_4    C3,    C4,    C5,    C6,     -162.000   20.000   3
+<  SUC      var_5    C4,    C5,    C6,    O6,      -13.259   20.000   3
+<  SUC      var_6    C5,    C6,    O6,    HO6,       0.000   20.000   1
+<  SUC      var_7    C3,    C4,    O4,    HO4,       0.000   20.000   1
+<  SUC      var_8    C2,    C3,    O3,    HO3,       0.000   20.000   1
+<  SUC      var_9    C2,    O1     C1     C2      -166.140   20.000   3
+---
+>  SUC      var_1    C1'    C2'    O1     C1        88.259   20.000   1
+>  SUC      var_2    C1'    C2'    C3'    C4'     -145.680   20.000   3
+>  SUC      var_3    C2'    C3'    C4'    C5'       40.107   20.000   3
+>  SUC      var_4    C3'    C4'    C5'    C6'     -162.000   20.000   3
+>  SUC      var_5    C4'    C5'    C6'    O6'      -13.259   20.000   3
+>  SUC      var_6    C5'    C6'    O6'    HO6'       0.000   20.000   1
+>  SUC      var_7    C3'    C4'    O4'    HO4'       0.000   20.000   1
+>  SUC      var_8    C2'    C3'    O3'    HO3'       0.000   20.000   1
+>  SUC      var_9    C2'    O1     C1     C2      -166.140   20.000   3
+304,306c304,306
+<  SUC      chir_06  C3,    C2,    C4,    O3,       positiv
+<  SUC      chir_07  C4,    C3,    C5,    O4,       negativ
+<  SUC      chir_08  C5,    C4,    C6,    O2,       negativ
+---
+>  SUC      chir_06  C3'    C2'    C4'    O3'       positiv
+>  SUC      chir_07  C4'    C3'    C5'    O4'       negativ
+>  SUC      chir_08  C5'    C4'    C6'    O2'       negativ
+
+File: t/TPP.cif
+46,53c46,53
+<  TPP           C7,    C    CH2       0.000
+<  TPP           H7,1   H    HCH2      0.000
+<  TPP           H7,2   H    HCH2      0.000
+<  TPP           C5,    C    CR6       0.000
+<  TPP           C6,    C    CR16      0.000
+<  TPP           H6,    H    HCR6      0.000
+<  TPP           C4,    C    CR6       0.000
+<  TPP           N4,    N    NH2       0.000
+---
+>  TPP           C7'    C    CH2       0.000
+>  TPP           H7'1   H    HCH2      0.000
+>  TPP           H7'2   H    HCH2      0.000
+>  TPP           C5'    C    CR6       0.000
+>  TPP           C6'    C    CR16      0.000
+>  TPP           H6'    H    HCR6      0.000
+>  TPP           C4'    C    CR6       0.000
+>  TPP           N4'    N    NH2       0.000
+56,58c56,58
+<  TPP           N3,    N    NR16      0.000
+<  TPP           C2,    C    CR6       0.000
+<  TPP           N1,    N    NR16      0.000
+---
+>  TPP           N3'    N    NR16      0.000
+>  TPP           C2'    C    CR6       0.000
+>  TPP           N1'    N    NR16      0.000
+93,107c93,107
+<  TPP      N3     C2     C7,    .
+<  TPP      C7,    N3     C5,    .
+<  TPP      H7,1   C7,    .      .
+<  TPP      H7,2   C7,    .      .
+<  TPP      C5,    C7,    C4,    .
+<  TPP      C6,    C5,    H6,    .
+<  TPP      H6,    C6,    .      .
+<  TPP      C4,    C5,    N3,    .
+<  TPP      N4,    C4,    HN41   .
+<  TPP      HN42   N4,    .      .
+<  TPP      HN41   N4,    .      .
+<  TPP      N3,    C4,    C2,    .
+<  TPP      C2,    N3,    CM2    .
+<  TPP      N1,    C2,    .      .
+<  TPP      CM2    C2,    HM21   .
+---
+>  TPP      N3     C2     C7'    .
+>  TPP      C7'    N3     C5'    .
+>  TPP      H7'1   C7'    .      .
+>  TPP      H7'2   C7'    .      .
+>  TPP      C5'    C7'    C4'    .
+>  TPP      C6'    C5'    H6'    .
+>  TPP      H6'    C6'    .      .
+>  TPP      C4'    C5'    N3'    .
+>  TPP      N4'    C4'    HN41   .
+>  TPP      HN42   N4'    .      .
+>  TPP      HN41   N4'    .      .
+>  TPP      N3'    C4'    C2'    .
+>  TPP      C2'    N3'    CM2    .
+>  TPP      N1'    C2'    .      .
+>  TPP      CM2    C2'    HM21   .
+111c111
+<  TPP      N1,    C6,    .    ADD
+---
+>  TPP      N1'    C6'    .    ADD
+145,159c145,159
+<  TPP      C7,    N3        coval       1.440    0.020
+<  TPP      H7,1   C7,       coval       1.090    0.020
+<  TPP      H7,2   C7,       coval       1.090    0.020
+<  TPP      C5,    C7,       coval       1.511    0.020
+<  TPP      C6,    C5,       coval       1.390    0.020
+<  TPP      H6,    C6,       coval       1.090    0.020
+<  TPP      C4,    C5,       coval       1.390    0.020
+<  TPP      N4,    C4,       coval       1.330    0.020
+<  TPP      HN42   N4,       coval       1.015    0.020
+<  TPP      HN41   N4,       coval       1.015    0.020
+<  TPP      N3,    C4,       coval       1.380    0.020
+<  TPP      C2,    N3,       coval       1.380    0.020
+<  TPP      N1,    C2,       coval       1.380    0.020
+<  TPP      N1,    C6,       coval       1.380    0.020
+<  TPP      CM2    C2,       coval       1.500    0.020
+---
+>  TPP      C7'    N3        coval       1.440    0.020
+>  TPP      H7'1   C7'       coval       1.090    0.020
+>  TPP      H7'2   C7'       coval       1.090    0.020
+>  TPP      C5'    C7'       coval       1.511    0.020
+>  TPP      C6'    C5'       coval       1.390    0.020
+>  TPP      H6'    C6'       coval       1.090    0.020
+>  TPP      C4'    C5'       coval       1.390    0.020
+>  TPP      N4'    C4'       coval       1.330    0.020
+>  TPP      HN42   N4'       coval       1.015    0.020
+>  TPP      HN41   N4'       coval       1.015    0.020
+>  TPP      N3'    C4'       coval       1.380    0.020
+>  TPP      C2'    N3'       coval       1.380    0.020
+>  TPP      N1'    C2'       coval       1.380    0.020
+>  TPP      N1'    C6'       coval       1.380    0.020
+>  TPP      CM2    C2'       coval       1.500    0.020
+212c212
+<  TPP      C2     N3     C7,     126.000    3.000
+---
+>  TPP      C2     N3     C7'     126.000    3.000
+214,240c214,240
+<  TPP      C7,    N3     C4      126.000    3.000
+<  TPP      N3     C7,    H7,1    109.500    3.000
+<  TPP      N3     C7,    H7,2    109.500    3.000
+<  TPP      N3     C7,    C5,     109.500    3.000
+<  TPP      H7,1   C7,    H7,2    107.900    3.000
+<  TPP      H7,1   C7,    C5,     109.470    3.000
+<  TPP      H7,2   C7,    C5,     109.470    3.000
+<  TPP      C7,    C5,    C6,     120.000    3.000
+<  TPP      C7,    C5,    C4,     120.000    3.000
+<  TPP      C6,    C5,    C4,     120.000    3.000
+<  TPP      C5,    C6,    H6,     120.000    3.000
+<  TPP      C5,    C6,    N1,     120.000    3.000
+<  TPP      H6,    C6,    N1,     120.000    3.000
+<  TPP      C5,    C4,    N4,     120.000    3.000
+<  TPP      C5,    C4,    N3,     120.000    3.000
+<  TPP      N4,    C4,    N3,     120.000    3.000
+<  TPP      C4,    N4,    HN42    120.000    3.000
+<  TPP      C4,    N4,    HN41    120.000    3.000
+<  TPP      HN42   N4,    HN41    120.000    3.000
+<  TPP      C4,    N3,    C2,     120.000    3.000
+<  TPP      N3,    C2,    N1,     120.000    3.000
+<  TPP      N3,    C2,    CM2     120.000    3.000
+<  TPP      N1,    C2,    CM2     120.000    3.000
+<  TPP      C2,    N1,    C6,     120.000    3.000
+<  TPP      C2,    CM2    HM23    109.470    3.000
+<  TPP      C2,    CM2    HM22    109.470    3.000
+<  TPP      C2,    CM2    HM21    109.470    3.000
+---
+>  TPP      C7'    N3     C4      126.000    3.000
+>  TPP      N3     C7'    H7'1    109.500    3.000
+>  TPP      N3     C7'    H7'2    109.500    3.000
+>  TPP      N3     C7'    C5'     109.500    3.000
+>  TPP      H7'1   C7'    H7'2    107.900    3.000
+>  TPP      H7'1   C7'    C5'     109.470    3.000
+>  TPP      H7'2   C7'    C5'     109.470    3.000
+>  TPP      C7'    C5'    C6'     120.000    3.000
+>  TPP      C7'    C5'    C4'     120.000    3.000
+>  TPP      C6'    C5'    C4'     120.000    3.000
+>  TPP      C5'    C6'    H6'     120.000    3.000
+>  TPP      C5'    C6'    N1'     120.000    3.000
+>  TPP      H6'    C6'    N1'     120.000    3.000
+>  TPP      C5'    C4'    N4'     120.000    3.000
+>  TPP      C5'    C4'    N3'     120.000    3.000
+>  TPP      N4'    C4'    N3'     120.000    3.000
+>  TPP      C4'    N4'    HN42    120.000    3.000
+>  TPP      C4'    N4'    HN41    120.000    3.000
+>  TPP      HN42   N4'    HN41    120.000    3.000
+>  TPP      C4'    N3'    C2'     120.000    3.000
+>  TPP      N3'    C2'    N1'     120.000    3.000
+>  TPP      N3'    C2'    CM2     120.000    3.000
+>  TPP      N1'    C2'    CM2     120.000    3.000
+>  TPP      C2'    N1'    C6'     120.000    3.000
+>  TPP      C2'    CM2    HM23    109.470    3.000
+>  TPP      C2'    CM2    HM22    109.470    3.000
+>  TPP      C2'    CM2    HM21    109.470    3.000
+265c265
+<  TPP      CONST_4  S1     C2     N3     C7,      180.000    0.000   0
+---
+>  TPP      CONST_4  S1     C2     N3     C7'      180.000    0.000   0
+267,275c267,275
+<  TPP      var_12   C2     N3     C7,    C5,       87.081   20.000   1
+<  TPP      var_13   N3     C7,    C5,    C4,      -64.106   20.000   2
+<  TPP      CONST_6  C7,    C5,    C6,    N1,      180.000    0.000   0
+<  TPP      CONST_7  C7,    C5,    C4,    N3,      180.000    0.000   0
+<  TPP      var_14   C5,    C4,    N4,    HN41       0.000   20.000   1
+<  TPP      CONST_8  C5,    C4,    N3,    C2,        0.000    0.000   0
+<  TPP      CONST_9  C4,    N3,    C2,    CM2      180.000    0.000   0
+<  TPP      CONST_10 N3,    C2,    N1,    C6,        0.000    0.000   0
+<  TPP      var_15   N3,    C2,    CM2    HM21      60.000   20.000   1
+---
+>  TPP      var_12   C2     N3     C7'    C5'       87.081   20.000   1
+>  TPP      var_13   N3     C7'    C5'    C4'      -64.106   20.000   2
+>  TPP      CONST_6  C7'    C5'    C6'    N1'      180.000    0.000   0
+>  TPP      CONST_7  C7'    C5'    C4'    N3'      180.000    0.000   0
+>  TPP      var_14   C5'    C4'    N4'    HN41       0.000   20.000   1
+>  TPP      CONST_8  C5'    C4'    N3'    C2'        0.000    0.000   0
+>  TPP      CONST_9  C4'    N3'    C2'    CM2      180.000    0.000   0
+>  TPP      CONST_10 N3'    C2'    N1'    C6'        0.000    0.000   0
+>  TPP      var_15   N3'    C2'    CM2    HM21      60.000   20.000   1
+281,282c281,282
+<  TPP      plan-1    C2,       0.020
+<  TPP      plan-1    N1,       0.020
+---
+>  TPP      plan-1    C2'       0.020
+>  TPP      plan-1    N1'       0.020
+284,288c284,288
+<  TPP      plan-1    N3,       0.020
+<  TPP      plan-1    C4,       0.020
+<  TPP      plan-1    C5,       0.020
+<  TPP      plan-1    C6,       0.020
+<  TPP      plan-1    C7,       0.020
+---
+>  TPP      plan-1    N3'       0.020
+>  TPP      plan-1    C4'       0.020
+>  TPP      plan-1    C5'       0.020
+>  TPP      plan-1    C6'       0.020
+>  TPP      plan-1    C7'       0.020
+290c290
+<  TPP      plan-1    N4,       0.020
+---
+>  TPP      plan-1    N4'       0.020
+292c292
+<  TPP      plan-2    C7,       0.020
+---
+>  TPP      plan-2    C7'       0.020
+298c298
+<  TPP      plan-2    C7,       0.020
+---
+>  TPP      plan-2    C7'       0.020
+
+File: u/UPG.cif
+193c193
+<  UPG      HOB2   O2B       single      0.967    0.020
+---
+> #UPG      HOB2   O2B       single      0.967    0.020
+
+File: v/V7O.cif
+23,48c23,48
+< V7O  ' V1' V  0     -5.3616   0.7480  -0.0978
+< V7O  ' V2' V  0     -5.7613  -1.7888   0.3216
+< V7O  ' V3' V  0     -2.7903   0.3542  -0.0289
+< V7O  ' V4' V  0      0.1532   0.4441  -0.2661
+< V7O  ' V5' V  0      3.0886   0.6714  -0.5100
+< V7O  ' V6' V  0      6.2889  -1.1388  -0.6647
+< V7O  ' V7' V  0      5.0404   0.2390   1.1558
+< V7O  ' O1' O  0     -6.3607   0.8742   1.1242
+< V7O  ' O2' O  0     -4.4719   2.0548  -0.1893
+< V7O  ' O3' O  0     -6.1865   0.5762  -1.4385
+< V7O  ' O4' O  0     -4.2758  -0.7173   0.1464
+< V7O  ' O5' O  0     -6.0042  -2.9780  -0.6955
+< V7O  ' O6' O  0     -6.7969  -1.5218   1.4894
+< V7O  ' O7' O  0     -2.6991   1.3368   1.2096
+< V7O  ' O8' O  0     -2.9023   1.1975  -1.3645
+< V7O  ' O9' O  0     -1.2806  -0.6958  -0.0912
+< V7O  ' O10' O  0      0.2019   1.4254   0.9759
+< V7O  ' O11' O  0     -0.0013   1.2861  -1.5983
+< V7O  ' O12' O  0      1.7098  -0.5344  -0.3360
+< V7O  ' O13' O  0      2.8919   1.5100  -1.8388
+< V7O  ' O14' O  0      4.6888  -0.2337  -0.5874
+< V7O  ' O15' O  0      6.3048  -2.6958  -0.9531
+< V7O  ' O16' O  0      7.6502  -0.3608  -0.4429
+< V7O  ' O17' O  0      5.8960   1.5712   1.1791
+< V7O  ' O18' O  0      3.6760   0.4744   1.9243
+< V7O  ' O19' O  0      5.8517  -0.9219   1.8641
+---
+> V7O    V1  V  0     -5.3616   0.7480  -0.0978
+> V7O    V2  V  0     -5.7613  -1.7888   0.3216
+> V7O    V3  V  0     -2.7903   0.3542  -0.0289
+> V7O    V4  V  0      0.1532   0.4441  -0.2661
+> V7O    V5  V  0      3.0886   0.6714  -0.5100
+> V7O    V6  V  0      6.2889  -1.1388  -0.6647
+> V7O    V7  V  0      5.0404   0.2390   1.1558
+> V7O    O1  O  0     -6.3607   0.8742   1.1242
+> V7O    O2  O  0     -4.4719   2.0548  -0.1893
+> V7O    O3  O  0     -6.1865   0.5762  -1.4385
+> V7O    O4  O  0     -4.2758  -0.7173   0.1464
+> V7O    O5  O  0     -6.0042  -2.9780  -0.6955
+> V7O    O6  O  0     -6.7969  -1.5218   1.4894
+> V7O    O7  O  0     -2.6991   1.3368   1.2096
+> V7O    O8  O  0     -2.9023   1.1975  -1.3645
+> V7O    O9  O  0     -1.2806  -0.6958  -0.0912
+> V7O    O10  O  0      0.2019   1.4254   0.9759
+> V7O    O11  O  0     -0.0013   1.2861  -1.5983
+> V7O    O12  O  0      1.7098  -0.5344  -0.3360
+> V7O    O13  O  0      2.8919   1.5100  -1.8388
+> V7O    O14  O  0      4.6888  -0.2337  -0.5874
+> V7O    O15  O  0      6.3048  -2.6958  -0.9531
+> V7O    O16  O  0      7.6502  -0.3608  -0.4429
+> V7O    O17  O  0      5.8960   1.5712   1.1791
+> V7O    O18  O  0      3.6760   0.4744   1.9243
+> V7O    O19  O  0      5.8517  -0.9219   1.8641
+

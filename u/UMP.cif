@@ -1,0 +1,244 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+UMP      .   '2*-DEOXYURIDINE 5*-MONOPHOSPHATE    ' non-polymer        33  20 .
+#
+data_comp_UMP
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ UMP           O1P    O    OP        0.000
+ UMP           P      P    P         0.000
+ UMP           O2P    O    OP        0.000
+ UMP           O3P    O    OP        0.000
+ UMP           O5*    O    O2        0.000
+ UMP           C5*    C    CH2       0.000
+ UMP           H5*1   H    HCH2      0.000
+ UMP           H5*2   H    HCH2      0.000
+ UMP           C4*    C    CH1       0.000
+ UMP           H4*    H    HCH1      0.000
+ UMP           O4*    O    O2        0.000
+ UMP           C3*    C    CH1       0.000
+ UMP           H3*    H    HCH1      0.000
+ UMP           O3*    O    OH1       0.000
+ UMP           HO3*   H    HOH1      0.000
+ UMP           C2*    C    CH2       0.000
+ UMP           H2*1   H    HCH2      0.000
+ UMP           H2*2   H    HCH2      0.000
+ UMP           C1*    C    CH1       0.000
+ UMP           H1*    H    HCH1      0.000
+ UMP           N1     N    NR6       0.000
+ UMP           C2     C    CR6       0.000
+ UMP           O2     O    O         0.000
+ UMP           N3     N    NR16      0.000
+ UMP           HN3    H    HNR6      0.000
+ UMP           C4     C    CR6       0.000
+ UMP           O4     O    O         0.000
+ UMP           C5     C    CR16      0.000
+ UMP           H5     H    HCR6      0.000
+ UMP           C6     C    CR16      0.000
+ UMP           H6     H    HCR6      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ UMP      O1P    n/a    P      START
+ UMP      P      O1P    O5*    .
+ UMP      O2P    P      .      .
+ UMP      O3P    P      .      .
+ UMP      O5*    P      C5*    .
+ UMP      C5*    O5*    C4*    .
+ UMP      H5*1   C5*    .      .
+ UMP      H5*2   C5*    .      .
+ UMP      C4*    C5*    C3*    .
+ UMP      H4*    C4*    .      .
+ UMP      O4*    C4*    .      .
+ UMP      C3*    C4*    C2*    .
+ UMP      H3*    C3*    .      .
+ UMP      O3*    C3*    HO3*   .
+ UMP      HO3*   O3*    .      .
+ UMP      C2*    C3*    C1*    .
+ UMP      H2*1   C2*    .      .
+ UMP      H2*2   C2*    .      .
+ UMP      C1*    C2*    N1     .
+ UMP      H1*    C1*    .      .
+ UMP      N1     C1*    C2     .
+ UMP      C2     N1     N3     .
+ UMP      O2     C2     .      .
+ UMP      N3     C2     C4     .
+ UMP      HN3    N3     .      .
+ UMP      C4     N3     C5     .
+ UMP      O4     C4     .      .
+ UMP      C5     C4     C6     .
+ UMP      H5     C5     .      .
+ UMP      C6     C5     H6     .
+ UMP      H6     C6     .      END
+ UMP      O4*    C1*    .    ADD
+ UMP      C6     N1     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ UMP      P      O1P       coval       1.510    0.020
+ UMP      O2P    P         coval       1.510    0.020
+ UMP      O3P    P         coval       1.510    0.020
+ UMP      O5*    P         coval       1.610    0.020
+ UMP      C5*    O5*       coval       1.410    0.020
+ UMP      H5*1   C5*       coval       1.090    0.020
+ UMP      H5*2   C5*       coval       1.090    0.020
+ UMP      C4*    C5*       coval       1.524    0.020
+ UMP      H4*    C4*       coval       1.090    0.020
+ UMP      O4*    C4*       coval       1.410    0.020
+ UMP      C3*    C4*       coval       1.524    0.020
+ UMP      H3*    C3*       coval       1.090    0.020
+ UMP      O3*    C3*       coval       1.410    0.020
+ UMP      HO3*   O3*       coval       0.980    0.020
+ UMP      C2*    C3*       coval       1.524    0.020
+ UMP      H2*1   C2*       coval       1.090    0.020
+ UMP      H2*2   C2*       coval       1.090    0.020
+ UMP      C1*    C2*       coval       1.524    0.020
+ UMP      C1*    O4*       coval       1.410    0.020
+ UMP      H1*    C1*       coval       1.090    0.020
+ UMP      N1     C1*       coval       1.475    0.020
+ UMP      N1     C6        coval       1.365    0.020
+ UMP      C2     N1        coval       1.380    0.020
+ UMP      O2     C2        coval       1.230    0.020
+ UMP      N3     C2        coval       1.380    0.020
+ UMP      HN3    N3        coval       1.040    0.020
+ UMP      C4     N3        coval       1.380    0.020
+ UMP      O4     C4        coval       1.230    0.020
+ UMP      C5     C4        coval       1.390    0.020
+ UMP      H5     C5        coval       1.090    0.020
+ UMP      C6     C5        coval       1.390    0.020
+ UMP      H6     C6        coval       1.090    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ UMP      O1P    P      O2P     109.500    3.000
+ UMP      O1P    P      O3P     109.500    3.000
+ UMP      O1P    P      O5*     108.200    3.000
+ UMP      O2P    P      O3P     109.500    3.000
+ UMP      O2P    P      O5*     109.500    3.000
+ UMP      O3P    P      O5*     109.500    3.000
+ UMP      P      O5*    C5*     120.500    3.000
+ UMP      O5*    C5*    H5*1    109.470    3.000
+ UMP      O5*    C5*    H5*2    109.470    3.000
+ UMP      O5*    C5*    C4*     109.470    3.000
+ UMP      H5*1   C5*    H5*2    107.900    3.000
+ UMP      H5*1   C5*    C4*     109.470    3.000
+ UMP      H5*2   C5*    C4*     109.470    3.000
+ UMP      C5*    C4*    H4*     108.340    3.000
+ UMP      C5*    C4*    O4*     109.470    3.000
+ UMP      C5*    C4*    C3*     111.000    3.000
+ UMP      H4*    C4*    O4*     109.470    3.000
+ UMP      H4*    C4*    C3*     108.340    3.000
+ UMP      O4*    C4*    C3*     109.470    3.000
+ UMP      C4*    O4*    C1*     111.800    3.000
+ UMP      C4*    C3*    H3*     108.340    3.000
+ UMP      C4*    C3*    O3*     109.470    3.000
+ UMP      C4*    C3*    C2*     111.000    3.000
+ UMP      H3*    C3*    O3*     109.470    3.000
+ UMP      H3*    C3*    C2*     108.340    3.000
+ UMP      O3*    C3*    C2*     109.470    3.000
+ UMP      C3*    O3*    HO3*    109.470    3.000
+ UMP      C3*    C2*    H2*1    109.470    3.000
+ UMP      C3*    C2*    H2*2    109.470    3.000
+ UMP      C3*    C2*    C1*     111.000    3.000
+ UMP      H2*1   C2*    H2*2    107.900    3.000
+ UMP      H2*1   C2*    C1*     109.470    3.000
+ UMP      H2*2   C2*    C1*     109.470    3.000
+ UMP      C2*    C1*    H1*     108.340    3.000
+ UMP      C2*    C1*    N1      109.470    3.000
+ UMP      C2*    C1*    O4*     109.470    3.000
+ UMP      H1*    C1*    N1      109.470    3.000
+ UMP      H1*    C1*    O4*     109.470    3.000
+ UMP      N1     C1*    O4*     109.470    3.000
+ UMP      C1*    N1     C2      120.000    3.000
+ UMP      C1*    N1     C6      120.000    3.000
+ UMP      C2     N1     C6      120.000    3.000
+ UMP      N1     C2     O2      120.000    3.000
+ UMP      N1     C2     N3      120.000    3.000
+ UMP      O2     C2     N3      120.000    3.000
+ UMP      C2     N3     HN3     120.000    3.000
+ UMP      C2     N3     C4      120.000    3.000
+ UMP      HN3    N3     C4      120.000    3.000
+ UMP      N3     C4     O4      120.000    3.000
+ UMP      N3     C4     C5      120.000    3.000
+ UMP      O4     C4     C5      120.000    3.000
+ UMP      C4     C5     H5      120.000    3.000
+ UMP      C4     C5     C6      120.000    3.000
+ UMP      H5     C5     C6      120.000    3.000
+ UMP      C5     C6     H6      120.000    3.000
+ UMP      C5     C6     N1      120.000    3.000
+ UMP      H6     C6     N1      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ UMP      var_3    O1P    P      O5*    C5*      174.889   20.000   1
+ UMP      var_4    P      O5*    C5*    C4*      128.122   20.000   1
+ UMP      var_5    O5*    C5*    C4*    C3*      -62.783   20.000   3
+ UMP      var_6    C5*    C4*    O4*    C1*      112.733   20.000   1
+ UMP      var_7    C5*    C4*    C3*    C2*      -92.387   20.000   3
+ UMP      var_8    C4*    C3*    O3*    HO3*       0.000   20.000   1
+ UMP      var_9    C4*    C3*    C2*    C1*      -35.595   20.000   3
+ UMP      var_10   C3*    C2*    C1*    N1       158.891   20.000   3
+ UMP      var_11   C3*    C2*    C1*    O4*       22.075   20.000   3
+ UMP      var_12   C2*    C1*    N1     C2        57.701   20.000   1
+ UMP      var_13   C2*    C1*    N1     C6      -100.668   20.000   1
+ UMP      CONST_1  C1*    N1     C2     N3       180.000    0.000   0
+ UMP      CONST_2  N1     C2     N3     C4         0.000    0.000   0
+ UMP      CONST_3  C2     N3     C4     C5         0.000    0.000   0
+ UMP      CONST_4  N3     C4     C5     C6         0.000    0.000   0
+ UMP      CONST_5  C4     C5     C6     N1         0.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ UMP      chir_01  C1*    N1     C2*    O4*       negativ
+ UMP      chir_02  C3*    C2*    C4*    O3*       negativ
+ UMP      chir_03  C4*    C3*    O4*    C5*       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ UMP      plan      N1        0.020
+ UMP      plan      C2        0.020
+ UMP      plan      O2        0.020
+ UMP      plan      N3        0.020
+ UMP      plan      C4        0.020
+ UMP      plan      O4        0.020
+ UMP      plan      C5        0.020
+ UMP      plan      C6        0.020
+ UMP      plan      C1*       0.020

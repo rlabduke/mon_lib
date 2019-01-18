@@ -1,0 +1,124 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+IVA      IVA 'Isovaleric_acid                     ' polymer            15   6 .
+#
+data_comp_IVA
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ IVA           CA     C    CH2       0.000
+ IVA           HA1    H    HCH2      0.000
+ IVA           HA2    H    HCH2      0.000
+ IVA           CB     C    CH1       0.000
+ IVA           HB     H    HCH1      0.000
+ IVA           CG1    C    CH3       0.000
+ IVA           HG11   H    HCH3      0.000
+ IVA           HG12   H    HCH3      0.000
+ IVA           HG13   H    HCH3      0.000
+ IVA           CG2    C    CH3       0.000
+ IVA           HG21   H    HCH3      0.000
+ IVA           HG22   H    HCH3      0.000
+ IVA           HG23   H    HCH3      0.000
+ IVA           C      C    C         0.000
+ IVA           O      O    O         0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ IVA      CA     n/a    C      START
+ IVA      HA1    CA     .      .
+ IVA      HA2    CA     .      .
+ IVA      CB     CA     CG2    .
+ IVA      HB     CB     .      .
+ IVA      CG1    CB     HG13   .
+ IVA      HG11   CG1    .      .
+ IVA      HG12   CG1    .      .
+ IVA      HG13   CG1    .      .
+ IVA      CG2    CB     HG23   .
+ IVA      HG21   CG2    .      .
+ IVA      HG22   CG2    .      .
+ IVA      HG23   CG2    .      .
+ IVA      C      CA     .      END
+ IVA      O      C      .      .
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ IVA      CB     CA        coval       1.524    0.020
+ IVA      CG1    CB        coval       1.524    0.020
+ IVA      CG2    CB        coval       1.524    0.020
+ IVA      C      CA        coval       1.510    0.020
+ IVA      O      C         coval       1.230    0.020
+ IVA      HA1    CA        coval       1.090    0.020
+ IVA      HA2    CA        coval       1.090    0.020
+ IVA      HB     CB        coval       1.090    0.020
+ IVA      HG11   CG1       coval       1.090    0.020
+ IVA      HG12   CG1       coval       1.090    0.020
+ IVA      HG13   CG1       coval       1.090    0.020
+ IVA      HG21   CG2       coval       1.090    0.020
+ IVA      HG22   CG2       coval       1.090    0.020
+ IVA      HG23   CG2       coval       1.090    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ IVA      HA1    CA     HA2     107.900    3.000
+ IVA      HA2    CA     CB      109.470    3.000
+ IVA      CB     CA     C       109.470    3.000
+ IVA      CA     CB     HB      108.340    3.000
+ IVA      CA     CB     CG1     111.000    3.000
+ IVA      CA     CB     CG2     111.000    3.000
+ IVA      HB     CB     CG1     108.340    3.000
+ IVA      CG1    CB     CG2     111.000    3.000
+ IVA      CB     CG1    HG11    109.470    3.000
+ IVA      CB     CG1    HG12    109.470    3.000
+ IVA      CB     CG1    HG13    109.470    3.000
+ IVA      HG11   CG1    HG12    109.470    3.000
+ IVA      HG12   CG1    HG13    109.470    3.000
+ IVA      CB     CG2    HG21    109.470    3.000
+ IVA      CB     CG2    HG22    109.470    3.000
+ IVA      CB     CG2    HG23    109.470    3.000
+ IVA      HG21   CG2    HG22    109.470    3.000
+ IVA      HG22   CG2    HG23    109.470    3.000
+ IVA      CA     C      O       120.500    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ IVA      var_1    CA     CB     CG1    HG13      60.000   20.000   1
+ IVA      var_2    CA     CB     CG2    HG23      60.000   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ IVA      chir_01  CB     CA     CG1    CG2       negativ

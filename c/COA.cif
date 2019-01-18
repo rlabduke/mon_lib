@@ -1,0 +1,515 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+COA      .   'COENZYME A                          ' non-polymer        84  48 .
+#
+data_comp_COA
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ COA           PO5    O    O         0.000
+ COA           PC5    C    C         0.000
+ COA           PN4    N    NH1       0.000
+ COA           HN4    H    HNH1      0.000
+ COA           PC3    C    CH2       0.000
+ COA           H31    H    HCH2      0.000
+ COA           H32    H    HCH2      0.000
+ COA           PC2    C    CH2       0.000
+ COA           H21    H    HCH2      0.000
+ COA           H22    H    HCH2      0.000
+ COA           PS1    S    S         0.000
+ COA           HS1    H    HS        0.000
+ COA           PC6    C    CH2       0.000
+ COA           H61    H    HCH2      0.000
+ COA           H62    H    HCH2      0.000
+ COA           PC7    C    CH2       0.000
+ COA           H71    H    HCH2      0.000
+ COA           H72    H    HCH2      0.000
+ COA           PN8    N    NH1       0.000
+ COA           HN8    H    HNH1      0.000
+ COA           PC9    C    C         0.000
+ COA           PO9    O    O         0.000
+ COA           PC10   C    CH1       0.000
+ COA           H10    H    HCH1      0.000
+ COA           PO10   O    OH1       0.000
+ COA           HO1    H    HOH1      0.000
+ COA           PC11   C    CT        0.000
+ COA           PC13   C    CH3       0.000
+ COA           H133   H    HCH3      0.000
+ COA           H132   H    HCH3      0.000
+ COA           H131   H    HCH3      0.000
+ COA           PC14   C    CH3       0.000
+ COA           H143   H    HCH3      0.000
+ COA           H142   H    HCH3      0.000
+ COA           H141   H    HCH3      0.000
+ COA           PC12   C    CH2       0.000
+ COA           H121   H    HCH2      0.000
+ COA           H122   H    HCH2      0.000
+ COA           AO6    O    O2        0.000
+ COA           AP2    P    P         0.000
+ COA           AO4    O    OP        0.000
+ COA           AO5    O    OP        0.000
+ COA           AO3    O    O2        0.000
+ COA           AP1    P    P         0.000
+ COA           AO1    O    OP        0.000
+ COA           AO2    O    OP        0.000
+ COA           AO5*   O    O2        0.000
+ COA           AC5*   C    CH2       0.000
+ COA           AH51   H    HCH2      0.000
+ COA           AH52   H    HCH2      0.000
+ COA           AC4*   C    CH1       0.000
+ COA           AO4*   O    O2        0.000
+ COA           AH4*   H    HCH1      0.000
+ COA           AC3*   C    CH1       0.000
+ COA           AH3*   H    HCH1      0.000
+ COA           AO3*   O    O2        0.000
+ COA           AP3*   P    P         0.000
+ COA           AO9    O    OP        0.000
+ COA           AO8    O    OP        0.000
+ COA           AO7    O    OP        0.000
+ COA           AC2*   C    CH1       0.000
+ COA           AH2*   H    HCH1      0.000
+ COA           AO2*   O    OH1       0.000
+ COA           AHO2   H    HOH1      0.000
+ COA           AC1*   C    CH1       0.000
+ COA           AH1*   H    HCH1      0.000
+ COA           AN9    N    NR5       0.000
+ COA           AC8    C    CR15      0.000
+ COA           AH8    H    HCR5      0.000
+ COA           AC4    C    CR56      0.000
+ COA           AN3    N    NR16      0.000
+ COA           AC2    C    CR16      0.000
+ COA           AH2    H    HCR6      0.000
+ COA           AN1    N    NR16      0.000
+ COA           AC5    C    CR56      0.000
+ COA           AN7    N    NR15      0.000
+ COA           AC6    C    CR6       0.000
+ COA           AN6    N    NH2       0.000
+ COA           AH62   H    HNH2      0.000
+ COA           AH61   H    HNH2      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ COA      PO5    n/a    PC5    START
+ COA      PC5    PO5    PC6    .
+ COA      PN4    PC5    PC3    .
+ COA      HN4    PN4    .      .
+ COA      PC3    PN4    PC2    .
+ COA      H31    PC3    .      .
+ COA      H32    PC3    .      .
+ COA      PC2    PC3    PS1    .
+ COA      H21    PC2    .      .
+ COA      H22    PC2    .      .
+ COA      PS1    PC2    HS1    .
+ COA      HS1    PS1    .      .
+ COA      PC6    PC5    PC7    .
+ COA      H61    PC6    .      .
+ COA      H62    PC6    .      .
+ COA      PC7    PC6    PN8    .
+ COA      H71    PC7    .      .
+ COA      H72    PC7    .      .
+ COA      PN8    PC7    PC9    .
+ COA      HN8    PN8    .      .
+ COA      PC9    PN8    PC10   .
+ COA      PO9    PC9    .      .
+ COA      PC10   PC9    PC11   .
+ COA      H10    PC10   .      .
+ COA      PO10   PC10   HO1    .
+ COA      HO1    PO10   .      .
+ COA      PC11   PC10   PC12   .
+ COA      PC13   PC11   H131   .
+ COA      H133   PC13   .      .
+ COA      H132   PC13   .      .
+ COA      H131   PC13   .      .
+ COA      PC14   PC11   H141   .
+ COA      H143   PC14   .      .
+ COA      H142   PC14   .      .
+ COA      H141   PC14   .      .
+ COA      PC12   PC11   AO6    .
+ COA      H121   PC12   .      .
+ COA      H122   PC12   .      .
+ COA      AO6    PC12   AP2    .
+ COA      AP2    AO6    AO3    .
+ COA      AO4    AP2    .      .
+ COA      AO5    AP2    .      .
+ COA      AO3    AP2    AP1    .
+ COA      AP1    AO3    AO5*   .
+ COA      AO1    AP1    .      .
+ COA      AO2    AP1    .      .
+ COA      AO5*   AP1    AC5*   .
+ COA      AC5*   AO5*   AC4*   .
+ COA      AH51   AC5*   .      .
+ COA      AH52   AC5*   .      .
+ COA      AC4*   AC5*   AC3*   .
+ COA      AO4*   AC4*   .      .
+ COA      AH4*   AC4*   .      .
+ COA      AC3*   AC4*   AC2*   .
+ COA      AH3*   AC3*   .      .
+ COA      AO3*   AC3*   AP3*   .
+ COA      AP3*   AO3*   AO7    .
+ COA      AO9    AP3*   .      .
+ COA      AO8    AP3*   .      .
+ COA      AO7    AP3*   .      .
+ COA      AC2*   AC3*   AC1*   .
+ COA      AH2*   AC2*   .      .
+ COA      AO2*   AC2*   AHO2   .
+ COA      AHO2   AO2*   .      .
+ COA      AC1*   AC2*   AN9    .
+ COA      AH1*   AC1*   .      .
+ COA      AN9    AC1*   AC4    .
+ COA      AC8    AN9    AH8    .
+ COA      AH8    AC8    .      .
+ COA      AC4    AN9    AC5    .
+ COA      AN3    AC4    AC2    .
+ COA      AC2    AN3    AN1    .
+ COA      AH2    AC2    .      .
+ COA      AN1    AC2    .      .
+ COA      AC5    AC4    AC6    .
+ COA      AN7    AC5    .      .
+ COA      AC6    AC5    AN6    .
+ COA      AN6    AC6    AH61   .
+ COA      AH62   AN6    .      .
+ COA      AH61   AN6    .      END
+ COA      AN1    AC6    .    ADD
+ COA      AN7    AC8    .    ADD
+ COA      AC1*   AO4*   .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ COA      PC5    PO5       coval       1.240    0.020
+ COA      PN4    PC5       coval       1.330    0.020
+ COA      HN4    PN4       coval       1.010    0.020
+ COA      PC3    PN4       coval       1.450    0.020
+ COA      H31    PC3       coval       1.090    0.020
+ COA      H32    PC3       coval       1.090    0.020
+ COA      PC2    PC3       coval       1.524    0.020
+ COA      H21    PC2       coval       1.090    0.020
+ COA      H22    PC2       coval       1.090    0.020
+ COA      PS1    PC2       coval       1.810    0.020
+ COA      HS1    PS1       coval       0.960    0.020
+ COA      PC6    PC5       coval       1.510    0.020
+ COA      H61    PC6       coval       1.090    0.020
+ COA      H62    PC6       coval       1.090    0.020
+ COA      PC7    PC6       coval       1.524    0.020
+ COA      H71    PC7       coval       1.090    0.020
+ COA      H72    PC7       coval       1.090    0.020
+ COA      PN8    PC7       coval       1.450    0.020
+ COA      HN8    PN8       coval       1.010    0.020
+ COA      PC9    PN8       coval       1.330    0.020
+ COA      PO9    PC9       coval       1.410    0.020
+ COA      PC10   PC9       coval       1.500    0.020
+ COA      H10    PC10      coval       1.090    0.020
+ COA      PO10   PC10      coval       1.410    0.020
+ COA      HO1    PO10      coval       0.980    0.020
+ COA      PC11   PC10      coval       1.524    0.020
+ COA      PC13   PC11      coval       1.524    0.020
+ COA      H133   PC13      coval       1.090    0.020
+ COA      H132   PC13      coval       1.090    0.020
+ COA      H131   PC13      coval       1.090    0.020
+ COA      PC14   PC11      coval       1.524    0.020
+ COA      H143   PC14      coval       1.090    0.020
+ COA      H142   PC14      coval       1.090    0.020
+ COA      H141   PC14      coval       1.090    0.020
+ COA      PC12   PC11      coval       1.524    0.020
+ COA      H121   PC12      coval       1.090    0.020
+ COA      H122   PC12      coval       1.090    0.020
+ COA      AO6    PC12      coval       1.410    0.020
+ COA      AP2    AO6       coval       1.610    0.020
+ COA      AO4    AP2       coval       1.510    0.020
+ COA      AO5    AP2       coval       1.510    0.020
+ COA      AO3    AP2       coval       1.610    0.020
+ COA      AP1    AO3       coval       1.610    0.020
+ COA      AO1    AP1       coval       1.510    0.020
+ COA      AO2    AP1       coval       1.510    0.020
+ COA      AO5*   AP1       coval       1.610    0.020
+ COA      AC5*   AO5*      coval       1.410    0.020
+ COA      AH51   AC5*      coval       1.090    0.020
+ COA      AH52   AC5*      coval       1.090    0.020
+ COA      AC4*   AC5*      coval       1.524    0.020
+ COA      AO4*   AC4*      coval       1.410    0.020
+ COA      AH4*   AC4*      coval       1.090    0.020
+ COA      AC3*   AC4*      coval       1.524    0.020
+ COA      AH3*   AC3*      coval       1.090    0.020
+ COA      AO3*   AC3*      coval       1.410    0.020
+ COA      AP3*   AO3*      coval       1.610    0.020
+ COA      AO9    AP3*      coval       1.510    0.020
+ COA      AO8    AP3*      coval       1.510    0.020
+ COA      AO7    AP3*      coval       1.510    0.020
+ COA      AC2*   AC3*      coval       1.524    0.020
+ COA      AH2*   AC2*      coval       1.090    0.020
+ COA      AO2*   AC2*      coval       1.410    0.020
+ COA      AHO2   AO2*      coval       0.980    0.020
+ COA      AC1*   AC2*      coval       1.524    0.020
+ COA      AC1*   AO4*      coval       1.410    0.020
+ COA      AH1*   AC1*      coval       1.090    0.020
+ COA      AN9    AC1*      coval       1.475    0.020
+ COA      AC8    AN9       coval       1.370    0.020
+ COA      AH8    AC8       coval       1.090    0.020
+ COA      AC4    AN9       coval       1.375    0.020
+ COA      AN3    AC4       coval       1.355    0.020
+ COA      AC2    AN3       coval       1.380    0.020
+ COA      AH2    AC2       coval       1.090    0.020
+ COA      AN1    AC2       coval       1.380    0.020
+ COA      AN1    AC6       coval       1.380    0.020
+ COA      AC5    AC4       coval       1.390    0.020
+ COA      AN7    AC5       coval       1.350    0.020
+ COA      AN7    AC8       coval       1.350    0.020
+ COA      AC6    AC5       coval       1.390    0.020
+ COA      AN6    AC6       coval       1.330    0.020
+ COA      AH62   AN6       coval       1.015    0.020
+ COA      AH61   AN6       coval       1.015    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ COA      PO5    PC5    PN4     123.000    3.000
+ COA      PO5    PC5    PC6     120.500    3.000
+ COA      PN4    PC5    PC6     116.500    3.000
+ COA      PC5    PN4    HN4     120.000    3.000
+ COA      PC5    PN4    PC3     121.500    3.000
+ COA      HN4    PN4    PC3     118.500    3.000
+ COA      PN4    PC3    H31     109.470    3.000
+ COA      PN4    PC3    H32     109.470    3.000
+ COA      PN4    PC3    PC2     112.000    3.000
+ COA      H31    PC3    H32     107.900    3.000
+ COA      H31    PC3    PC2     109.470    3.000
+ COA      H32    PC3    PC2     109.470    3.000
+ COA      PC3    PC2    H21     109.470    3.000
+ COA      PC3    PC2    H22     109.470    3.000
+ COA      PC3    PC2    PS1     112.500    3.000
+ COA      H21    PC2    H22     107.900    3.000
+ COA      H21    PC2    PS1     109.470    3.000
+ COA      H22    PC2    PS1     109.470    3.000
+ COA      PC2    PS1    HS1      90.000    3.000
+ COA      PC5    PC6    H61     109.470    3.000
+ COA      PC5    PC6    H62     109.470    3.000
+ COA      PC5    PC6    PC7     109.470    3.000
+ COA      H61    PC6    H62     107.900    3.000
+ COA      H61    PC6    PC7     109.470    3.000
+ COA      H62    PC6    PC7     109.470    3.000
+ COA      PC6    PC7    H71     109.470    3.000
+ COA      PC6    PC7    H72     109.470    3.000
+ COA      PC6    PC7    PN8     112.000    3.000
+ COA      H71    PC7    H72     107.900    3.000
+ COA      H71    PC7    PN8     109.470    3.000
+ COA      H72    PC7    PN8     109.470    3.000
+ COA      PC7    PN8    HN8     118.500    3.000
+ COA      PC7    PN8    PC9     121.500    3.000
+ COA      HN8    PN8    PC9     120.000    3.000
+ COA      PN8    PC9    PO9     123.000    3.000
+ COA      PN8    PC9    PC10    116.500    3.000
+ COA      PO9    PC9    PC10    120.500    3.000
+ COA      PC9    PC10   H10     108.810    3.000
+ COA      PC9    PC10   PO10    109.470    3.000
+ COA      PC9    PC10   PC11    109.470    3.000
+ COA      H10    PC10   PO10    109.470    3.000
+ COA      H10    PC10   PC11    108.340    3.000
+ COA      PO10   PC10   PC11    109.470    3.000
+ COA      PC10   PO10   HO1     109.470    3.000
+ COA      PC10   PC11   PC13    111.000    3.000
+ COA      PC10   PC11   PC14    111.000    3.000
+ COA      PC10   PC11   PC12    111.000    3.000
+ COA      PC13   PC11   PC14    111.000    3.000
+ COA      PC13   PC11   PC12    111.000    3.000
+ COA      PC14   PC11   PC12    111.000    3.000
+ COA      PC11   PC13   H133    109.470    3.000
+ COA      PC11   PC13   H132    109.470    3.000
+ COA      PC11   PC13   H131    109.470    3.000
+ COA      H133   PC13   H132    109.470    3.000
+ COA      H133   PC13   H131    109.470    3.000
+ COA      H132   PC13   H131    109.470    3.000
+ COA      PC11   PC14   H143    109.470    3.000
+ COA      PC11   PC14   H142    109.470    3.000
+ COA      PC11   PC14   H141    109.470    3.000
+ COA      H143   PC14   H142    109.470    3.000
+ COA      H143   PC14   H141    109.470    3.000
+ COA      H142   PC14   H141    109.470    3.000
+ COA      PC11   PC12   H121    109.470    3.000
+ COA      PC11   PC12   H122    109.470    3.000
+ COA      PC11   PC12   AO6     109.500    3.000
+ COA      H121   PC12   H122    107.900    3.000
+ COA      H121   PC12   AO6     109.470    3.000
+ COA      H122   PC12   AO6     109.470    3.000
+ COA      PC12   AO6    AP2     120.500    3.000
+ COA      AO6    AP2    AO4     108.200    3.000
+ COA      AO6    AP2    AO5     109.500    3.000
+ COA      AO6    AP2    AO3     102.600    3.000
+ COA      AO4    AP2    AO5     109.500    3.000
+ COA      AO4    AP2    AO3     108.200    3.000
+ COA      AO5    AP2    AO3     109.500    3.000
+ COA      AP2    AO3    AP1     120.500    3.000
+ COA      AO3    AP1    AO1     108.200    3.000
+ COA      AO3    AP1    AO2     109.500    3.000
+ COA      AO3    AP1    AO5*    102.600    3.000
+ COA      AO1    AP1    AO2     109.500    3.000
+ COA      AO1    AP1    AO5*    108.200    3.000
+ COA      AO2    AP1    AO5*    109.500    3.000
+ COA      AP1    AO5*   AC5*    120.500    3.000
+ COA      AO5*   AC5*   AH51    109.470    3.000
+ COA      AO5*   AC5*   AH52    109.470    3.000
+ COA      AO5*   AC5*   AC4*    109.470    3.000
+ COA      AH51   AC5*   AH52    107.900    3.000
+ COA      AH51   AC5*   AC4*    109.470    3.000
+ COA      AH52   AC5*   AC4*    109.470    3.000
+ COA      AC5*   AC4*   AO4*    109.470    3.000
+ COA      AC5*   AC4*   AH4*    108.340    3.000
+ COA      AC5*   AC4*   AC3*    111.000    3.000
+ COA      AO4*   AC4*   AH4*    109.470    3.000
+ COA      AO4*   AC4*   AC3*    109.470    3.000
+ COA      AH4*   AC4*   AC3*    108.340    3.000
+ COA      AC4*   AO4*   AC1*    111.800    3.000
+ COA      AC4*   AC3*   AH3*    108.340    3.000
+ COA      AC4*   AC3*   AO3*    109.470    3.000
+ COA      AC4*   AC3*   AC2*    111.000    3.000
+ COA      AH3*   AC3*   AO3*    109.470    3.000
+ COA      AH3*   AC3*   AC2*    108.340    3.000
+ COA      AO3*   AC3*   AC2*    109.470    3.000
+ COA      AC3*   AO3*   AP3*    120.500    3.000
+ COA      AO3*   AP3*   AO9     109.500    3.000
+ COA      AO3*   AP3*   AO8     109.500    3.000
+ COA      AO3*   AP3*   AO7     108.200    3.000
+ COA      AO9    AP3*   AO8     109.500    3.000
+ COA      AO9    AP3*   AO7     109.500    3.000
+ COA      AO8    AP3*   AO7     109.500    3.000
+ COA      AC3*   AC2*   AH2*    108.340    3.000
+ COA      AC3*   AC2*   AO2*    109.470    3.000
+ COA      AC3*   AC2*   AC1*    111.000    3.000
+ COA      AH2*   AC2*   AO2*    109.470    3.000
+ COA      AH2*   AC2*   AC1*    108.340    3.000
+ COA      AO2*   AC2*   AC1*    109.470    3.000
+ COA      AC2*   AO2*   AHO2    109.470    3.000
+ COA      AC2*   AC1*   AH1*    108.340    3.000
+ COA      AC2*   AC1*   AN9     109.470    3.000
+ COA      AC2*   AC1*   AO4*    109.470    3.000
+ COA      AH1*   AC1*   AN9     109.470    3.000
+ COA      AH1*   AC1*   AO4*    109.470    3.000
+ COA      AN9    AC1*   AO4*    109.470    3.000
+ COA      AC1*   AN9    AC8     126.000    3.000
+ COA      AC1*   AN9    AC4     126.000    3.000
+ COA      AC8    AN9    AC4     108.000    3.000
+ COA      AN9    AC8    AH8     126.000    3.000
+ COA      AN9    AC8    AN7     108.000    3.000
+ COA      AH8    AC8    AN7     126.000    3.000
+ COA      AN9    AC4    AN3     132.000    3.000
+ COA      AN9    AC4    AC5     108.000    3.000
+ COA      AN3    AC4    AC5     120.000    3.000
+ COA      AC4    AN3    AC2     120.000    3.000
+ COA      AN3    AC2    AH2     120.000    3.000
+ COA      AN3    AC2    AN1     120.000    3.000
+ COA      AH2    AC2    AN1     120.000    3.000
+ COA      AC2    AN1    AC6     120.000    3.000
+ COA      AC4    AC5    AN7     108.000    3.000
+ COA      AC4    AC5    AC6     120.000    3.000
+ COA      AN7    AC5    AC6     132.000    3.000
+ COA      AC5    AN7    AC8     108.000    3.000
+ COA      AC5    AC6    AN6     120.000    3.000
+ COA      AC5    AC6    AN1     120.000    3.000
+ COA      AN6    AC6    AN1     120.000    3.000
+ COA      AC6    AN6    AH62    120.000    3.000
+ COA      AC6    AN6    AH61    120.000    3.000
+ COA      AH62   AN6    AH61    120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ COA      CONST_1  PO5    PC5    PN4    PC3        0.000    0.000   0
+ COA      var_1    PC5    PN4    PC3    PC2      117.912   20.000   3
+ COA      var_2    PN4    PC3    PC2    PS1      -92.415   20.000   3
+ COA      var_3    PC3    PC2    PS1    HS1        0.000   20.000   3
+ COA      var_4    PO5    PC5    PC6    PC7     -120.237   20.000   3
+ COA      var_5    PC5    PC6    PC7    PN8      -45.811   20.000   3
+ COA      var_6    PC6    PC7    PN8    PC9     -113.691   20.000   3
+ COA      CONST_2  PC7    PN8    PC9    PC10     180.000    0.000   0
+ COA      var_7    PN8    PC9    PC10   PC11      73.009   20.000   3
+ COA      var_8    PC9    PC10   PO10   HO1        0.000   20.000   1
+ COA      var_9    PC9    PC10   PC11   PC12     177.716   20.000   1
+ COA      var_10   PC10   PC11   PC13   H131       0.000   20.000   1
+ COA      var_11   PC10   PC11   PC14   H141       0.000   20.000   1
+ COA      var_12   PC10   PC11   PC12   AO6       68.497   20.000   1
+ COA      var_13   PC11   PC12   AO6    AP2      121.056   20.000   1
+ COA      var_14   PC12   AO6    AP2    AO3       81.620   20.000   1
+ COA      var_16   AO6    AP2    AO3    AP1      -47.022   20.000   1
+ COA      var_17   AP2    AO3    AP1    AO5*     -39.159   20.000   1
+ COA      var_19   AO3    AP1    AO5*   AC5*     -68.059   20.000   1
+ COA      var_20   AP1    AO5*   AC5*   AC4*    -111.678   20.000   1
+ COA      var_21   AO5*   AC5*   AC4*   AC3*      36.775   20.000   3
+ COA      var_22   AC5*   AC4*   AO4*   AC1*     118.387   20.000   1
+ COA      var_23   AC5*   AC4*   AC3*   AC2*    -103.746   20.000   3
+ COA      var_24   AC4*   AC3*   AO3*   AP3*    -169.052   20.000   1
+ COA      var_25   AC3*   AO3*   AP3*   AO7      163.461   20.000   1
+ COA      var_28   AC4*   AC3*   AC2*   AC1*     -21.229   20.000   3
+ COA      var_29   AC3*   AC2*   AO2*   AHO2       0.000   20.000   1
+ COA      var_30   AC3*   AC2*   AC1*   AN9      132.754   20.000   3
+ COA      var_31   AC3*   AC2*   AC1*   AO4*      18.528   20.000   3
+ COA      var_32   AC2*   AC1*   AN9    AC4      175.222   20.000   1
+ COA      CONST_3  AC1*   AN9    AC8    AN7      180.000    0.000   0
+ COA      CONST_4  AC1*   AN9    AC4    AC5      180.000    0.000   0
+ COA      CONST_5  AN9    AC4    AN3    AC2      180.000    0.000   0
+ COA      CONST_6  AC4    AN3    AC2    AN1        0.000    0.000   0
+ COA      CONST_7  AN3    AC2    AN1    AC6        0.000    0.000   0
+ COA      CONST_8  AN9    AC4    AC5    AC6      180.000    0.000   0
+ COA      CONST_9  AC4    AC5    AN7    AC8        0.000    0.000   0
+ COA      CONST_10 AC4    AC5    AC6    AN6      180.000    0.000   0
+ COA      CONST_11 AC4    AC5    AC6    AN1        0.000    0.000   0
+ COA      var_33   AC5    AC6    AN6    AH61       0.000   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ COA      chir_01  AC1*   AN9    AC2*   AO4*      negativ
+ COA      chir_02  AC2*   AC1*   AO2*   AC3*      positiv
+ COA      chir_03  AC3*   AC2*   AO3*   AC4*      positiv
+ COA      chir_04  AC4*   AC3*   AO4*   AC5*      positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ COA      plan-1    AC4       0.020
+ COA      plan-1    AN3       0.020
+ COA      plan-1    AC5       0.020
+ COA      plan-1    AN9       0.020
+ COA      plan-1    AN1       0.020
+ COA      plan-1    AC2       0.020
+ COA      plan-1    AC6       0.020
+ COA      plan-1    AN7       0.020
+ COA      plan-1    AC8       0.020
+ COA      plan-2    PC9       0.020
+ COA      plan-2    PC10      0.020
+ COA      plan-2    PO9       0.020
+ COA      plan-2    PN8       0.020
+ COA      plan-3    PC5       0.020
+ COA      plan-3    PC6       0.020
+ COA      plan-3    PO5       0.020
+ COA      plan-3    PN4       0.020

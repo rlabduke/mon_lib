@@ -1,0 +1,221 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+C3X      C3X '2,3-EPOXYPROPYL-BETA-D-XYLOSIDE     ' non-polymer        28  14 .
+#
+data_comp_C3X
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ C3X           C1     C    CH1       0.000      0.106   -0.001   -0.226
+ C3X           H1     H    H         0.000      0.377   -0.080    0.837
+ C3X           O1     O    O2        0.000      0.358   -1.354   -0.556
+ C3X           'C1''  C    CH2       0.000     -0.319   -2.436    0.152
+ C3X           'H1'1' H    H         0.000     -1.391   -2.426   -0.060
+ C3X           'H1'2' H    H         0.000     -0.162   -2.352    1.229
+ C3X           'C2''  C    CH1       0.000      0.297   -3.762   -0.361
+ C3X           'H2''  H    H         0.000      1.345   -3.986   -0.114
+ C3X           'O''   O    O2        0.000     -0.105   -3.701   -1.808
+ C3X           'C3''  C    CH2       0.000     -0.595   -4.911   -1.027
+ C3X           'H3'2' H    H         0.000     -0.074   -5.868   -0.954
+ C3X           'H3'1' H    H         0.000     -1.552   -4.979   -0.505
+ C3X           C2     C    CH1       0.000      1.076    1.122   -0.566
+ C3X           H2     H    H         0.000      1.506    1.074   -1.577
+ C3X           O2     O    OH1       0.000      2.037    0.951    0.522
+ C3X           HO2    H    H         0.000      2.428    0.065    0.479
+ C3X           C3     C    CH1       0.000      0.450    2.497   -0.181
+ C3X           H3     H    H         0.000      0.811    2.765    0.821
+ C3X           O3     O    OH1       0.000      0.985    3.433   -1.103
+ C3X           HO3    H    H         0.000      0.628    4.310   -0.911
+ C3X           C4     C    CH1       0.000     -1.076    2.580   -0.168
+ C3X           H4     H    H         0.000     -1.403    2.304   -1.181
+ C3X           O4     O    OH1       0.000     -1.639    3.864    0.091
+ C3X           HO4    H    H         0.000     -2.604    3.801    0.075
+ C3X           C5     C    CH2       0.000     -1.623    1.505    0.756
+ C3X           H5_2   H    H         0.000     -2.707    1.522    0.885
+ C3X           H5_1   H    H         0.000     -1.142    1.458    1.736
+ C3X           O5     O    O2        0.000     -1.248    0.348   -0.020
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ C3X      C1     n/a    C2     START
+ C3X      H1     C1     .      .
+ C3X      O1     C1     'C1''  .
+ C3X      'C1''  O1     'C2''  .
+ C3X      'H1'1' 'C1''  .      .
+ C3X      'H1'2' 'C1''  .      .
+ C3X      'C2''  'C1''  'O''   .
+ C3X      'H2''  'C2''  .      .
+ C3X      'O''   'C2''  'C3''  .
+ C3X      'C3''  'O''   'H3'1' .
+ C3X      'H3'2' 'C3''  .      .
+ C3X      'H3'1' 'C3''  .      .
+ C3X      C2     C1     C3     .
+ C3X      H2     C2     .      .
+ C3X      O2     C2     HO2    .
+ C3X      HO2    O2     .      .
+ C3X      C3     C2     C4     .
+ C3X      H3     C3     .      .
+ C3X      O3     C3     HO3    .
+ C3X      HO3    O3     .      .
+ C3X      C4     C3     C5     .
+ C3X      H4     C4     .      .
+ C3X      O4     C4     .      .
+ C3X      HO4    O4     .      .
+ C3X      C5     C4     O5     .
+ C3X      H5_2   C5     .      .
+ C3X      H5_1   C5     .      .
+ C3X      O5     C5     .      END
+ C3X      C1     O5     .    ADD
+ C3X      'C2''  'C3''  .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ C3X      C2     C1        single      1.524    0.020
+ C3X      O1     C1        single      1.426    0.020
+ C3X      C1     O5        single      1.426    0.020
+ C3X      H1     C1        single      1.099    0.020
+ C3X      C3     C2        single      1.524    0.020
+ C3X      O2     C2        single      1.432    0.020
+ C3X      H2     C2        single      1.099    0.020
+ C3X      C4     C3        single      1.524    0.020
+ C3X      O3     C3        single      1.432    0.020
+ C3X      H3     C3        single      1.099    0.020
+ C3X      C5     C4        single      1.524    0.020
+ C3X      O4     C4        single      1.432    0.020
+ C3X      H4     C4        single      1.099    0.020
+ C3X      O5     C5        single      1.426    0.020
+ C3X      H5_1   C5        single      1.092    0.020
+ C3X      H5_2   C5        single      1.092    0.020
+ C3X      'C1''  O1        single      1.426    0.020
+ C3X      HO2    O2        single      0.967    0.020
+ C3X      HO3    O3        single      0.967    0.020
+ C3X      HO4    O4        single      0.967    0.020
+ C3X      'C2''  'C1''     single      1.524    0.020
+ C3X      'H1'1' 'C1''     single      1.092    0.020
+ C3X      'H1'2' 'C1''     single      1.092    0.020
+ C3X      'C2''  'C3''     single      1.524    0.020
+ C3X      'O''   'C2''     single      1.426    0.020
+ C3X      'H2''  'C2''     single      1.099    0.020
+ C3X      'C3''  'O''      single      1.426    0.020
+ C3X      'H3'1' 'C3''     single      1.092    0.020
+ C3X      'H3'2' 'C3''     single      1.092    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ C3X      H1     C1     O1      109.470    3.000
+ C3X      H1     C1     C2      108.340    3.000
+ C3X      O1     C1     C2      109.470    3.000
+ C3X      H1     C1     O5      109.470    3.000
+ C3X      O1     C1     O5      109.470    3.000
+ C3X      C2     C1     O5      109.470    3.000
+ C3X      C1     O1     'C1''   111.800    3.000
+ C3X      O1     'C1''  'H1'1'  109.470    3.000
+ C3X      O1     'C1''  'H1'2'  109.470    3.000
+ C3X      O1     'C1''  'C2''   109.470    3.000
+ C3X      'H1'1' 'C1''  'H1'2'  107.900    3.000
+ C3X      'H1'1' 'C1''  'C2''   109.470    3.000
+ C3X      'H1'2' 'C1''  'C2''   109.470    3.000
+ C3X      'C1''  'C2''  'H2''   108.340    3.000
+ C3X      'C1''  'C2''  'O''    109.470    3.000
+ C3X      'C1''  'C2''  'C3''   109.470    3.000
+ C3X      'H2''  'C2''  'O''    109.470    3.000
+ C3X      'H2''  'C2''  'C3''   108.340    3.000
+ C3X      'O''   'C2''  'C3''   109.470    3.000
+ C3X      'C2''  'O''   'C3''   111.800    3.000
+ C3X      'O''   'C3''  'H3'2'  109.470    3.000
+ C3X      'O''   'C3''  'H3'1'  109.470    3.000
+ C3X      'O''   'C3''  'C2''   109.470    3.000
+ C3X      'H3'2' 'C3''  'H3'1'  107.900    3.000
+ C3X      'H3'2' 'C3''  'C2''   109.470    3.000
+ C3X      'H3'1' 'C3''  'C2''   109.470    3.000
+ C3X      C1     C2     H2      108.340    3.000
+ C3X      C1     C2     O2      109.470    3.000
+ C3X      C1     C2     C3      111.000    3.000
+ C3X      H2     C2     O2      109.470    3.000
+ C3X      H2     C2     C3      108.340    3.000
+ C3X      O2     C2     C3      109.470    3.000
+ C3X      C2     O2     HO2     109.470    3.000
+ C3X      C2     C3     H3      108.340    3.000
+ C3X      C2     C3     O3      109.470    3.000
+ C3X      C2     C3     C4      111.000    3.000
+ C3X      H3     C3     O3      109.470    3.000
+ C3X      H3     C3     C4      108.340    3.000
+ C3X      O3     C3     C4      109.470    3.000
+ C3X      C3     O3     HO3     109.470    3.000
+ C3X      C3     C4     H4      108.340    3.000
+ C3X      C3     C4     O4      109.470    3.000
+ C3X      C3     C4     C5      111.000    3.000
+ C3X      H4     C4     O4      109.470    3.000
+ C3X      H4     C4     C5      108.340    3.000
+ C3X      O4     C4     C5      109.470    3.000
+ C3X      C4     O4     HO4     109.470    3.000
+ C3X      C4     C5     H5_2    109.470    3.000
+ C3X      C4     C5     H5_1    109.470    3.000
+ C3X      C4     C5     O5      109.470    3.000
+ C3X      H5_2   C5     H5_1    107.900    3.000
+ C3X      H5_2   C5     O5      109.470    3.000
+ C3X      H5_1   C5     O5      109.470    3.000
+ C3X      C5     O5     C1      111.800    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ C3X      var_1    C2     C1     O1     'C1''    179.696   20.000   1
+ C3X      var_2    C1     O1     'C1''  'C2''   -179.980   20.000   1
+ C3X      var_3    O1     'C1''  'C2''  'O''    -112.530   20.000   3
+ C3X      var_4    'C1''  'C2''  'C3''  'O''     106.868   20.000   3
+ C3X      var_5    'C1''  'C2''  'O''   'C3''   -106.868   20.000   1
+ C3X      var_6    O1     C1     C2     C3       180.000   20.000   3
+ C3X      var_7    C1     C2     O2     HO2       60.004   20.000   1
+ C3X      var_8    C1     C2     C3     C4       -60.000   20.000   3
+ C3X      var_9    C2     C3     O3     HO3      180.000   20.000   1
+ C3X      var_10   C2     C3     C4     C5        60.000   20.000   3
+ C3X      var_11   C3     C4     C5     O5       -60.000   20.000   3
+ C3X      var_12   C4     C5     O5     C1        60.000   20.000   1
+ C3X      var_13   C5     O5     C1     C2       -60.000   20.000   1
+ C3X      var_1    C3     C4     O4     HO4      180.000   20.000   1
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ C3X      chir_01  C1     C2     O1     O5        positiv
+ C3X      chir_02  C2     C1     C3     O2        negativ
+ C3X      chir_03  C3     C2     C4     O3        positiv
+ C3X      chir_04  C4     C3     C5     O4        negativ
+ C3X      chir_05  'C2''  'C1''  'C3''  'O''      negativ

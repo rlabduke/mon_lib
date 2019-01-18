@@ -1,0 +1,481 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+NAD      .   'NICOTINAMIDE-ADENINE-DINUCLEOTIDE   ' non-polymer        71  44 .
+#
+data_comp_NAD
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+ NAD           NO7    O    O         0.000
+ NAD           NC7    C    C         0.000
+ NAD           NN7    N    NH2       0.000
+ NAD           NH72   H    HNH2      0.000
+ NAD           NH71   H    HNH2      0.000
+ NAD           NC3    C    CR6       0.000
+ NAD           NC4    C    CR16      0.000
+ NAD           NH4    H    HCR6      0.000
+ NAD           NC5    C    CR16      0.000
+ NAD           NH5    H    HCR6      0.000
+ NAD           NC6    C    CR16      0.000
+ NAD           NH6    H    HCR6      0.000
+ NAD           NC2    C    CR16      0.000
+ NAD           NH2    H    HCR6      0.000
+ NAD           NN1    N    NR6       0.000
+ NAD           NC1*   C    CH1       0.000
+ NAD           NH1*   H    HCH1      0.000
+ NAD           NC2*   C    CH1       0.000
+ NAD           NH2*   H    HCH1      0.000
+ NAD           NO2*   O    OH1       0.000
+ NAD           NHO2   H    HOH1      0.000
+ NAD           NC3*   C    CH1       0.000
+ NAD           NH3*   H    HCH1      0.000
+ NAD           NO3*   O    OH1       0.000
+ NAD           NHO3   H    HOH1      0.000
+ NAD           NO4*   O    O2        0.000
+ NAD           NC4*   C    CH1       0.000
+ NAD           NH4*   H    HCH1      0.000
+ NAD           NC5*   C    CH2       0.000
+ NAD           NH51   H    HCH2      0.000
+ NAD           NH52   H    HCH2      0.000
+ NAD           NO5*   O    O2        0.000
+ NAD           NP     P    P         0.000
+ NAD           NO1    O    OP        0.000
+ NAD           NO2    O    OP        0.000
+ NAD           O3     O    O2        0.000
+ NAD           AP     P    P         0.000
+ NAD           AO1    O    OP        0.000
+ NAD           AO2    O    OP       0.000
+ NAD           AO5*   O    O2        0.000
+ NAD           AC5*   C    CH2       0.000
+ NAD           AH51   H    HCH2      0.000
+ NAD           AH52   H    HCH2      0.000
+ NAD           AC4*   C    CH1       0.000
+ NAD           AH4*   H    HCH1      0.000
+ NAD           AO4*   O    O2        0.000
+ NAD           AC1*   C    CH1       0.000
+ NAD           AH1*   H    HCH1      0.000
+ NAD           AC2*   C    CH1       0.000
+ NAD           AH2*   H    HCH1      0.000
+ NAD           AO2*   O    OH1       0.000
+ NAD           AHO2   H    HOH1      0.000
+ NAD           AC3*   C    CH1       0.000
+ NAD           AH3*   H    HCH1      0.000
+ NAD           AO3*   O    OH1       0.000
+ NAD           AHO3   H    HOH1      0.000
+ NAD           AN9    N    NR5       0.000
+ NAD           AC8    C    CR15      0.000
+ NAD           AH8    H    HCR5      0.000
+ NAD           AN7    N    NR15      0.000
+ NAD           AC5    C    CR56      0.000
+ NAD           AC6    C    CR6       0.000
+ NAD           AN6    N    NH2       0.000
+ NAD           AH62   H    HNH2      0.000
+ NAD           AH61   H    HNH2      0.000
+ NAD           AC4    C    CR56      0.000
+ NAD           AN3    N    NR16      0.000
+ NAD           AC2    C    CR16      0.000
+ NAD           AH2    H    HCR6      0.000
+ NAD           AN1    N    NR16      0.000
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ NAD      NO7    n/a    NC7    START
+ NAD      NC7    NO7    NC3    .
+ NAD      NN7    NC7    NH71   .
+ NAD      NH72   NN7    .      .
+ NAD      NH71   NN7    .      .
+ NAD      NC3    NC7    NC2    .
+ NAD      NC4    NC3    NC5    .
+ NAD      NH4    NC4    .      .
+ NAD      NC5    NC4    NC6    .
+ NAD      NH5    NC5    .      .
+ NAD      NC6    NC5    NH6    .
+ NAD      NH6    NC6    .      .
+ NAD      NC2    NC3    NN1    .
+ NAD      NH2    NC2    .      .
+ NAD      NN1    NC2    NC1*   .
+ NAD      NC1*   NN1    NO4*   .
+ NAD      NH1*   NC1*   .      .
+ NAD      NC2*   NC1*   NC3*   .
+ NAD      NH2*   NC2*   .      .
+ NAD      NO2*   NC2*   NHO2   .
+ NAD      NHO2   NO2*   .      .
+ NAD      NC3*   NC2*   NO3*   .
+ NAD      NH3*   NC3*   .      .
+ NAD      NO3*   NC3*   NHO3   .
+ NAD      NHO3   NO3*   .      .
+ NAD      NO4*   NC1*   NC4*   .
+ NAD      NC4*   NO4*   NC5*   .
+ NAD      NH4*   NC4*   .      .
+ NAD      NC5*   NC4*   NO5*   .
+ NAD      NH51   NC5*   .      .
+ NAD      NH52   NC5*   .      .
+ NAD      NO5*   NC5*   NP     .
+ NAD      NP     NO5*   O3     .
+ NAD      NO1    NP     .      .
+ NAD      NO2    NP     .      .
+ NAD      O3     NP     AP     .
+ NAD      AP     O3     AO5*   .
+ NAD      AO1    AP     .      .
+ NAD      AO2    AP     .      .
+ NAD      AO5*   AP     AC5*   .
+ NAD      AC5*   AO5*   AC4*   .
+ NAD      AH51   AC5*   .      .
+ NAD      AH52   AC5*   .      .
+ NAD      AC4*   AC5*   AO4*   .
+ NAD      AH4*   AC4*   .      .
+ NAD      AO4*   AC4*   AC1*   .
+ NAD      AC1*   AO4*   AN9    .
+ NAD      AH1*   AC1*   .      .
+ NAD      AC2*   AC1*   AC3*   .
+ NAD      AH2*   AC2*   .      .
+ NAD      AO2*   AC2*   AHO2   .
+ NAD      AHO2   AO2*   .      .
+ NAD      AC3*   AC2*   AO3*   .
+ NAD      AH3*   AC3*   .      .
+ NAD      AO3*   AC3*   AHO3   .
+ NAD      AHO3   AO3*   .      .
+ NAD      AN9    AC1*   AC8    .
+ NAD      AC8    AN9    AN7    .
+ NAD      AH8    AC8    .      .
+ NAD      AN7    AC8    AC5    .
+ NAD      AC5    AN7    AC4    .
+ NAD      AC6    AC5    AN6    .
+ NAD      AN6    AC6    AH61   .
+ NAD      AH62   AN6    .      .
+ NAD      AH61   AN6    .      .
+ NAD      AC4    AC5    AN3    .
+ NAD      AN3    AC4    AC2    .
+ NAD      AC2    AN3    AN1    .
+ NAD      AH2    AC2    .      .
+ NAD      AN1    AC2    .      END
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ NAD      NC7    NO7       coval       1.410    0.020
+ NAD      NN7    NC7       coval       1.332    0.020
+ NAD      NH72   NN7       coval       1.015    0.020
+ NAD      NH71   NN7       coval       1.015    0.020
+ NAD      NC3    NC7       coval       1.500    0.020
+ NAD      NC4    NC3       coval       1.390    0.020
+ NAD      NH4    NC4       coval       1.090    0.020
+ NAD      NC5    NC4       coval       1.390    0.020
+ NAD      NH5    NC5       coval       1.090    0.020
+ NAD      NC6    NC5       coval       1.390    0.020
+ NAD      NH6    NC6       coval       1.090    0.020
+ NAD      NC2    NC3       coval       1.390    0.020
+ NAD      NH2    NC2       coval       1.090    0.020
+ NAD      NN1    NC2       coval       1.365    0.020
+ NAD      NN1    NC6       coval       1.365    0.020
+ NAD      NC1*   NN1       coval       1.475    0.020
+ NAD      NH1*   NC1*      coval       1.090    0.020
+ NAD      NC2*   NC1*      coval       1.524    0.020
+ NAD      NH2*   NC2*      coval       1.090    0.020
+ NAD      NO2*   NC2*      coval       1.410    0.020
+ NAD      NHO2   NO2*      coval       0.980    0.020
+ NAD      NC3*   NC2*      coval       1.524    0.020
+ NAD      NH3*   NC3*      coval       1.090    0.020
+ NAD      NO3*   NC3*      coval       1.410    0.020
+ NAD      NHO3   NO3*      coval       0.980    0.020
+ NAD      NO4*   NC1*      coval       1.410    0.020
+ NAD      NC4*   NO4*      coval       1.410    0.020
+ NAD      NC4*   NC3*      coval       1.524    0.020
+ NAD      NH4*   NC4*      coval       1.090    0.020
+ NAD      NC5*   NC4*      coval       1.524    0.020
+ NAD      NH51   NC5*      coval       1.090    0.020
+ NAD      NH52   NC5*      coval       1.090    0.020
+ NAD      NO5*   NC5*      coval       1.410    0.020
+ NAD      NP     NO5*      coval       1.610    0.020
+ NAD      NO1    NP        coval       1.480    0.020
+ NAD      NO2    NP        coval       1.480    0.020
+ NAD      O3     NP        coval       1.610    0.020
+ NAD      AP     O3        coval       1.610    0.020
+ NAD      AO1    AP        coval       1.480    0.020
+ NAD      AO2    AP        coval       1.480    0.020
+ NAD      AO5*   AP        coval       1.610    0.020
+ NAD      AC5*   AO5*      coval       1.410    0.020
+ NAD      AH51   AC5*      coval       1.090    0.020
+ NAD      AH52   AC5*      coval       1.090    0.020
+ NAD      AC4*   AC5*      coval       1.524    0.020
+ NAD      AC4*   AC3*      coval       1.524    0.020
+ NAD      AH4*   AC4*      coval       1.090    0.020
+ NAD      AO4*   AC4*      coval       1.410    0.020
+ NAD      AC1*   AO4*      coval       1.410    0.020
+ NAD      AH1*   AC1*      coval       1.090    0.020
+ NAD      AC2*   AC1*      coval       1.524    0.020
+ NAD      AH2*   AC2*      coval       1.090    0.020
+ NAD      AO2*   AC2*      coval       1.410    0.020
+ NAD      AHO2   AO2*      coval       0.980    0.020
+ NAD      AC3*   AC2*      coval       1.524    0.020
+ NAD      AH3*   AC3*      coval       1.090    0.020
+ NAD      AO3*   AC3*      coval       1.410    0.020
+ NAD      AHO3   AO3*      coval       0.980    0.020
+ NAD      AN9    AC1*      coval       1.475    0.020
+ NAD      AN9    AC4       coval       1.375    0.020
+ NAD      AC8    AN9       coval       1.370    0.020
+ NAD      AH8    AC8       coval       1.090    0.020
+ NAD      AN7    AC8       coval       1.350    0.020
+ NAD      AC5    AN7       coval       1.350    0.020
+ NAD      AC6    AC5       coval       1.390    0.020
+ NAD      AC6    AN1       coval       1.380    0.020
+ NAD      AN6    AC6       coval       1.330    0.020
+ NAD      AH62   AN6       coval       1.015    0.020
+ NAD      AH61   AN6       coval       1.015    0.020
+ NAD      AC4    AC5       coval       1.390    0.020
+ NAD      AN3    AC4       coval       1.355    0.020
+ NAD      AC2    AN3       coval       1.380    0.020
+ NAD      AH2    AC2       coval       1.090    0.020
+ NAD      AN1    AC2       coval       1.380    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ NAD      NO7    NC7    NN7     123.000    3.000
+ NAD      NO7    NC7    NC3     120.500    3.000
+ NAD      NN7    NC7    NC3     120.000    3.000
+ NAD      NC7    NN7    NH72    120.000    3.000
+ NAD      NC7    NN7    NH71    120.000    3.000
+ NAD      NH72   NN7    NH71    120.000    3.000
+ NAD      NC7    NC3    NC4     120.000    3.000
+ NAD      NC7    NC3    NC2     120.000    3.000
+ NAD      NC4    NC3    NC2     120.000    3.000
+ NAD      NC3    NC4    NH4     120.000    3.000
+ NAD      NC3    NC4    NC5     120.000    3.000
+ NAD      NH4    NC4    NC5     120.000    3.000
+ NAD      NC4    NC5    NH5     120.000    3.000
+ NAD      NC4    NC5    NC6     120.000    3.000
+ NAD      NH5    NC5    NC6     120.000    3.000
+ NAD      NC5    NC6    NH6     120.000    3.000
+ NAD      NC5    NC6    NN1     120.000    3.000
+ NAD      NH6    NC6    NN1     120.000    3.000
+ NAD      NC3    NC2    NH2     120.000    3.000
+ NAD      NC3    NC2    NN1     120.000    3.000
+ NAD      NH2    NC2    NN1     120.000    3.000
+ NAD      NC2    NN1    NC1*    120.000    3.000
+ NAD      NC2    NN1    NC6     120.000    3.000
+ NAD      NC1*   NN1    NC6     120.000    3.000
+ NAD      NN1    NC1*   NH1*    109.470    3.000
+ NAD      NN1    NC1*   NC2*    109.470    3.000
+ NAD      NN1    NC1*   NO4*    109.470    3.000
+ NAD      NH1*   NC1*   NC2*    108.340    3.000
+ NAD      NH1*   NC1*   NO4*    109.470    3.000
+ NAD      NC2*   NC1*   NO4*    109.470    3.000
+ NAD      NC1*   NC2*   NH2*    108.340    3.000
+ NAD      NC1*   NC2*   NO2*    109.470    3.000
+ NAD      NC1*   NC2*   NC3*    111.000    3.000
+ NAD      NH2*   NC2*   NO2*    109.470    3.000
+ NAD      NH2*   NC2*   NC3*    108.340    3.000
+ NAD      NO2*   NC2*   NC3*    109.470    3.000
+ NAD      NC2*   NO2*   NHO2    109.470    3.000
+ NAD      NC2*   NC3*   NH3*    108.340    3.000
+ NAD      NC2*   NC3*   NO3*    109.470    3.000
+ NAD      NC2*   NC3*   NC4*    111.000    3.000
+ NAD      NH3*   NC3*   NO3*    109.470    3.000
+ NAD      NH3*   NC3*   NC4*    108.340    3.000
+ NAD      NO3*   NC3*   NC4*    109.470    3.000
+ NAD      NC3*   NO3*   NHO3    109.470    3.000
+ NAD      NC1*   NO4*   NC4*    111.800    3.000
+ NAD      NO4*   NC4*   NH4*    109.470    3.000
+ NAD      NO4*   NC4*   NC5*    109.470    3.000
+ NAD      NO4*   NC4*   NC3*    109.470    3.000
+ NAD      NH4*   NC4*   NC5*    108.340    3.000
+ NAD      NH4*   NC4*   NC3*    108.340    3.000
+ NAD      NC5*   NC4*   NC3*    111.000    3.000
+ NAD      NC4*   NC5*   NH51    109.470    3.000
+ NAD      NC4*   NC5*   NH52    109.470    3.000
+ NAD      NC4*   NC5*   NO5*    109.470    3.000
+ NAD      NH51   NC5*   NH52    107.900    3.000
+ NAD      NH51   NC5*   NO5*    109.470    3.000
+ NAD      NH52   NC5*   NO5*    109.470    3.000
+ NAD      NC5*   NO5*   NP      120.500    3.000
+ NAD      NO5*   NP     NO1     108.200    3.000
+ NAD      NO5*   NP     NO2     108.200    3.000
+ NAD      NO5*   NP     O3      102.600    3.000
+ NAD      NO1    NP     NO2     119.900    3.000
+ NAD      NO1    NP     O3      108.200    3.000
+ NAD      NO2    NP     O3      108.200    3.000
+ NAD      NP     O3     AP      120.500    3.000
+ NAD      O3     AP     AO1     108.200    3.000
+ NAD      O3     AP     AO2     109.500    3.000
+ NAD      O3     AP     AO5*    102.600    3.000
+ NAD      AO1    AP     AO2     109.500    3.000
+ NAD      AO1    AP     AO5*    108.200    3.000
+ NAD      AO2    AP     AO5*    109.500    3.000
+ NAD      AP     AO5*   AC5*    120.500    3.000
+ NAD      AO5*   AC5*   AH51    109.470    3.000
+ NAD      AO5*   AC5*   AH52    109.470    3.000
+ NAD      AO5*   AC5*   AC4*    109.470    3.000
+ NAD      AH51   AC5*   AH52    107.900    3.000
+ NAD      AH51   AC5*   AC4*    109.470    3.000
+ NAD      AH52   AC5*   AC4*    109.470    3.000
+ NAD      AC5*   AC4*   AH4*    108.340    3.000
+ NAD      AC5*   AC4*   AO4*    109.470    3.000
+ NAD      AC5*   AC4*   AC3*    111.000    3.000
+ NAD      AH4*   AC4*   AO4*    109.470    3.000
+ NAD      AH4*   AC4*   AC3*    108.340    3.000
+ NAD      AO4*   AC4*   AC3*    109.470    3.000
+ NAD      AC4*   AO4*   AC1*    111.800    3.000
+ NAD      AO4*   AC1*   AH1*    109.470    3.000
+ NAD      AO4*   AC1*   AC2*    109.470    3.000
+ NAD      AO4*   AC1*   AN9     109.470    3.000
+ NAD      AH1*   AC1*   AC2*    108.340    3.000
+ NAD      AH1*   AC1*   AN9     109.470    3.000
+ NAD      AC2*   AC1*   AN9     109.470    3.000
+ NAD      AC1*   AC2*   AH2*    108.340    3.000
+ NAD      AC1*   AC2*   AO2*    109.470    3.000
+ NAD      AC1*   AC2*   AC3*    111.000    3.000
+ NAD      AH2*   AC2*   AO2*    109.470    3.000
+ NAD      AH2*   AC2*   AC3*    108.340    3.000
+ NAD      AO2*   AC2*   AC3*    109.470    3.000
+ NAD      AC2*   AO2*   AHO2    109.470    3.000
+ NAD      AC2*   AC3*   AH3*    108.340    3.000
+ NAD      AC2*   AC3*   AO3*    109.470    3.000
+ NAD      AC2*   AC3*   AC4*    111.000    3.000
+ NAD      AH3*   AC3*   AO3*    109.470    3.000
+ NAD      AH3*   AC3*   AC4*    108.340    3.000
+ NAD      AO3*   AC3*   AC4*    109.470    3.000
+ NAD      AC3*   AO3*   AHO3    109.470    3.000
+ NAD      AC1*   AN9    AC8     126.000    3.000
+ NAD      AC1*   AN9    AC4     126.000    3.000
+ NAD      AC8    AN9    AC4     108.000    3.000
+ NAD      AN9    AC8    AH8     126.000    3.000
+ NAD      AN9    AC8    AN7     108.000    3.000
+ NAD      AH8    AC8    AN7     126.000    3.000
+ NAD      AC8    AN7    AC5     108.000    3.000
+ NAD      AN7    AC5    AC6     132.000    3.000
+ NAD      AN7    AC5    AC4     108.000    3.000
+ NAD      AC6    AC5    AC4     120.000    3.000
+ NAD      AC5    AC6    AN6     120.000    3.000
+ NAD      AC5    AC6    AN1     120.000    3.000
+ NAD      AN6    AC6    AN1     120.000    3.000
+ NAD      AC6    AN6    AH62    120.000    3.000
+ NAD      AC6    AN6    AH61    120.000    3.000
+ NAD      AH62   AN6    AH61    120.000    3.000
+ NAD      AC5    AC4    AN3     120.000    3.000
+ NAD      AC5    AC4    AN9     108.000    3.000
+ NAD      AN3    AC4    AN9     132.000    3.000
+ NAD      AC4    AN3    AC2     120.000    3.000
+ NAD      AN3    AC2    AH2     120.000    3.000
+ NAD      AN3    AC2    AN1     120.000    3.000
+ NAD      AH2    AC2    AN1     120.000    3.000
+ NAD      AC2    AN1    AC6     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ NAD      CONST_1  NO7    NC7    NN7    NH71     180.000    0.000   0
+ NAD      var_1    NO7    NC7    NC3    NC2     -169.234   20.000   1
+ NAD      CONST_2  NC7    NC3    NC4    NC5      180.000    0.000   0
+ NAD      CONST_3  NC3    NC4    NC5    NC6        0.000    0.000   0
+ NAD      CONST_4  NC4    NC5    NC6    NN1        0.000    0.000   0
+ NAD      CONST_5  NC7    NC3    NC2    NN1      180.000    0.000   0
+ NAD      CONST_6  NC3    NC2    NN1    NC1*     180.000    0.000   0
+ NAD      CONST_7  NC3    NC2    NN1    NC6        0.000    0.000   0
+ NAD      var_2    NC2    NN1    NC1*   NO4*    -101.864   20.000   1
+ NAD      var_3    NN1    NC1*   NC2*   NC3*     170.678   20.000   3
+ NAD      var_4    NC1*   NC2*   NO2*   NHO2       0.000   20.000   1
+ NAD      var_5    NC1*   NC2*   NC3*   NO3*      85.599   20.000   3
+ NAD      var_6    NC1*   NC2*   NC3*   NC4*     -30.607   20.000   3
+ NAD      var_7    NC2*   NC3*   NO3*   NHO3       0.000   20.000   1
+ NAD      var_8    NN1    NC1*   NO4*   NC4*    -160.456   20.000   1
+ NAD      var_9    NC1*   NO4*   NC4*   NC5*     134.250   20.000   1
+ NAD      var_10   NC1*   NO4*   NC4*   NC3*      10.175   20.000   1
+ NAD      var_11   NO4*   NC4*   NC5*   NO5*     -64.739   20.000   3
+ NAD      var_12   NC4*   NC5*   NO5*   NP       170.696   20.000   1
+ NAD      var_13   NC5*   NO5*   NP     O3        68.497   20.000   1
+ NAD      var_14   NO5*   NP     O3     AP      -172.620   20.000   1
+ NAD      var_15   NP     O3     AP     AO5*      98.283   20.000   1
+ NAD      var_17   O3     AP     AO5*   AC5*      54.179   20.000   1
+ NAD      var_18   AP     AO5*   AC5*   AC4*     163.997   20.000   1
+ NAD      var_19   AO5*   AC5*   AC4*   AO4*    -173.571   20.000   3
+ NAD      var_20   AO5*   AC5*   AC4*   AC3*     -63.785   20.000   3
+ NAD      var_21   AC5*   AC4*   AO4*   AC1*     141.336   20.000   1
+ NAD      var_22   AC4*   AO4*   AC1*   AN9     -172.888   20.000   1
+ NAD      var_23   AO4*   AC1*   AC2*   AC3*      34.107   20.000   3
+ NAD      var_24   AC1*   AC2*   AO2*   AHO2       0.000   20.000   1
+ NAD      var_25   AC1*   AC2*   AC3*   AO3*     104.621   20.000   3
+ NAD      var_26   AC1*   AC2*   AC3*   AC4*     -15.399   20.000   3
+ NAD      var_27   AC2*   AC3*   AO3*   AHO3       0.000   20.000   1
+ NAD      var_28   AO4*   AC1*   AN9    AC8       77.458   20.000   1
+ NAD      var_29   AO4*   AC1*   AN9    AC4     -100.378   20.000   1
+ NAD      CONST_8  AC1*   AN9    AC8    AN7      180.000    0.000   0
+ NAD      CONST_9  AN9    AC8    AN7    AC5        0.000    0.000   0
+ NAD      CONST_10 AC8    AN7    AC5    AC4        0.000    0.000   0
+ NAD      CONST_11 AN7    AC5    AC6    AN6        0.000    0.000   0
+ NAD      CONST_12 AN7    AC5    AC6    AN1      180.000    0.000   0
+ NAD      var_30   AC5    AC6    AN6    AH61       0.000   20.000   1
+ NAD      CONST_13 AN7    AC5    AC4    AN3      180.000    0.000   0
+ NAD      CONST_14 AN7    AC5    AC4    AN9        0.000    0.000   0
+ NAD      CONST_15 AC5    AC4    AN3    AC2        0.000    0.000   0
+ NAD      CONST_16 AC4    AN3    AC2    AN1        0.000    0.000   0
+ NAD      CONST_17 AN3    AC2    AN1    AC6        0.000    0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ NAD      chir_01  AC4*   AC5*   AO4*   AC3*      negativ
+ NAD      chir_02  AC3*   AC4*   AO3*   AC2*      negativ
+ NAD      chir_03  AC2*   AC3*   AO2*   AC1*      negativ
+ NAD      chir_04  AC1*   AO4*   AC2*   AN9       positiv
+ NAD      chir_05  NC4*   NC5*   NO4*   NC3*      negativ
+ NAD      chir_06  NC3*   NC4*   NO3*   NC2*      negativ
+ NAD      chir_07  NC2*   NC3*   NO2*   NC1*      negativ
+ NAD      chir_08  NC1*   NO4*   NC2*   NN1       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ NAD      plan-1    AN9       0.020
+ NAD      plan-1    AC1*      0.020
+ NAD      plan-1    AC8       0.020
+ NAD      plan-1    AC4       0.020
+ NAD      plan-1    AN7       0.020
+ NAD      plan-1    AC5       0.020
+ NAD      plan-1    AC6       0.020
+ NAD      plan-1    AN1       0.020
+ NAD      plan-1    AC2       0.020
+ NAD      plan-1    AN3       0.020
+ NAD      plan-2    NN1       0.020
+ NAD      plan-2    NC1*      0.020
+ NAD      plan-2    NC2       0.020
+ NAD      plan-2    NC6       0.020
+ NAD      plan-2    NC3       0.020
+ NAD      plan-2    NC4       0.020
+ NAD      plan-2    NC5       0.020
+ NAD      plan-3    NC7       0.020
+ NAD      plan-3    NC3       0.020
+ NAD      plan-3    NO7       0.020
+ NAD      plan-3    NN7       0.020
