@@ -3386,7 +3386,7 @@ _chem_link_bond.atom_id_2
 _chem_link_bond.type
 _chem_link_bond.value_dist
 _chem_link_bond.value_dist_esd
- PCIS     1 C       2 N         single       1.341    0.016
+ PCIS     1 C       2 N         single       1.338    0.019
 loop_
 _chem_link_angle.link_id
 _chem_link_angle.atom_1_comp_id
@@ -3397,10 +3397,10 @@ _chem_link_angle.atom_3_comp_id
 _chem_link_angle.atom_id_3
 _chem_link_angle.value_angle
 _chem_link_angle.value_angle_esd
- PCIS     1 O       1 C       2 N       123.000    1.600
- PCIS     1 CA      1 C       2 N       116.900    1.500
- PCIS     1 C       2 N       2 CD      125.000    4.100
- PCIS     1 C       2 N       2 CA      122.600    5.000
+ PCIS     1 O       1 C       2 N       121.100    1.900
+ PCIS     1 CA      1 C       2 N       117.100    2.800
+ PCIS     1 C       2 N       2 CD      120.600    2.200
+ PCIS     1 C       2 N       2 CA      127.000    2.400
 loop_
 _chem_link_tor.link_id
 _chem_link_tor.id
@@ -4943,7 +4943,7 @@ _chem_link_bond.type
 _chem_link_bond.value_dist
 _chem_link_bond.value_dist_esd
  BR-C5    1 BR      2 C5        single       1.820    0.020
-# 
+#
 data_link_ILG_CD-N
 #
 loop_
@@ -4994,16 +4994,16 @@ _chem_mod_atom.new_type_symbol
 _chem_mod_atom.new_type_energy
 _chem_mod_atom.new_partial_charge
  AA-STAND      change   N      N      .    NH1    -0.204
- AA-STAND      delete   H      .      .    .        . 
- AA-STAND      delete   HN     .      .    .        . 
- AA-STAND      delete   H1     .      .    .        . 
- AA-STAND      delete   H2     .      .    .        . 
- AA-STAND      delete   H3     .      .    .        . 
- AA-STAND      delete   HN1    .      .    .        . 
- AA-STAND      delete   HN2    .      .    .        . 
- AA-STAND      delete   HN3    .      .    .        . 
- AA-STAND      delete   OXT    .      .    .        . 
- AA-STAND      delete   HXT    .      .    .        . 
+ AA-STAND      delete   H      .      .    .        .
+ AA-STAND      delete   HN     .      .    .        .
+ AA-STAND      delete   H1     .      .    .        .
+ AA-STAND      delete   H2     .      .    .        .
+ AA-STAND      delete   H3     .      .    .        .
+ AA-STAND      delete   HN1    .      .    .        .
+ AA-STAND      delete   HN2    .      .    .        .
+ AA-STAND      delete   HN3    .      .    .        .
+ AA-STAND      delete   OXT    .      .    .        .
+ AA-STAND      delete   HXT    .      .    .        .
  AA-STAND      add      .      H      H    HNH1    0.204
  AA-STAND      change   C      C      .    C       0.318
  AA-STAND      change   O      O      .    O      -0.422
@@ -5051,16 +5051,16 @@ _chem_mod_atom.new_type_symbol
 _chem_mod_atom.new_type_energy
 _chem_mod_atom.new_partial_charge
  AA-STPRO      change   N      N      .    N      -0.048
- AA-STPRO      delete   H      .      .    .        . 
- AA-STPRO      delete   HN     .      .    .        . 
- AA-STPRO      delete   H1     .      .    .        . 
- AA-STPRO      delete   H2     .      .    .        . 
- AA-STPRO      delete   H3     .      .    .        . 
- AA-STPRO      delete   HN1    .      .    .        . 
- AA-STPRO      delete   HN2    .      .    .        . 
- AA-STPRO      delete   HN3    .      .    .        . 
- AA-STPRO      delete   OXT    .      .    .        . 
- AA-STPRO      delete   HXT    .      .    .        . 
+ AA-STPRO      delete   H      .      .    .        .
+ AA-STPRO      delete   HN     .      .    .        .
+ AA-STPRO      delete   H1     .      .    .        .
+ AA-STPRO      delete   H2     .      .    .        .
+ AA-STPRO      delete   H3     .      .    .        .
+ AA-STPRO      delete   HN1    .      .    .        .
+ AA-STPRO      delete   HN2    .      .    .        .
+ AA-STPRO      delete   HN3    .      .    .        .
+ AA-STPRO      delete   OXT    .      .    .        .
+ AA-STPRO      delete   HXT    .      .    .        .
  AA-STPRO      change   C      C      .    C       0.318
  AA-STPRO      change   O      O      .    O      -0.422
 loop_
